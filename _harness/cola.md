@@ -57,7 +57,7 @@ Equipos (D-014): **CL-1 → PC-A**; **AG-1, AG-2, CX-1, CX-2 → PC-B**.
 
 ## Ola 2 · Cuantificación
 - [ ] T-302 | CL-1 | Generadores v01 por capítulo (02–07) | depende: T-102…T-106, T-204 | estado: pendiente
-  > Datos de Revit ya disponibles; espera catalogo_v01.json (T-204) y la respuesta a P-011.
+  > Datos de Revit ya disponibles; espera catalogo_v01.json (T-204) y la revisión de AG-1 sobre doble conteo muros/paneles (P-011, ya confirmado el origen).
 - [ ] T-303 | CL-1 | Generadores v01 de instalaciones (08–10) y sin Revit (01, 14) | depende: T-106, T-107, T-204 | estado: pendiente
 - [ ] T-304 | CL-1 | `Generadores/Generadores_v01.xlsx` impresión Carta | depende: T-302, T-303 | estado: pendiente
 - [ ] T-206 | AG-2 | Cerrar precios faltantes de las claves con cantidad; `catalogo_v02.json` si v01 ya fue aprobado | depende: T-205, T-302 | estado: pendiente

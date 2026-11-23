@@ -67,6 +67,21 @@ def asegurar_indice_tabulador() -> None:
     mod20.procesar_tabulador_cdmx()
 
 
+def _inferir_tipo_insumo(codigo: str, unidad: str, descripcion: str) -> str:
+    cod = codigo.upper()
+    u = unidad.lower()
+    desc = descripcion.upper()
+    if cod.startswith("%") or "HERRAMIENTA" in desc:
+        return "herramienta"
+    if cod.startswith("MO") or u == "jor" or "CUADRILLA" in desc:
+        return "mano_obra"
+    if cod.startswith("EQ") or u in {"hr", "hor"}:
+        return "equipo"
+    if cod.startswith(("10401-", "14202-", "10301-", "14301-", "BA00")):
+        return "basico"
+    return "material"
+
+
 def construir_conceptos() -> list[Concepto]:
     mod_01_06 = _cargar_modulo("cap01_06", ROOT / "Scripts" / "21_catalogo_cap01_06.py")
     mod_07_14 = _cargar_modulo("cap07_14", ROOT / "Scripts" / "22_catalogo_cap07_14.py")
@@ -77,16 +92,19 @@ def construir_conceptos() -> list[Concepto]:
         apu_items: list[InsumoAPU] = []
         for ins in item.get("apu", []):
             cant = round(float(ins["cantidad"]), 6)
-            pu = round(float(ins["precio_unitario"]), 4)
+            pu = round(float(ins.get("precio", ins.get("precio_unitario", 0.0))), 4)
             imp = round(cant * pu, 2)
             u_norm = normalizar_unidad(str(ins["unidad"]))
+            u_str = str(u_norm) if u_norm is not None else str(ins["unidad"]).lower()
+            tipo_ins = ins.get("tipo") or _inferir_tipo_insumo(str(ins["codigo"]), u_str, str(ins["descripcion"]))
             apu_items.append(
                 InsumoAPU(
                     codigo=str(ins["codigo"]),
                     descripcion=str(ins["descripcion"]),
-                    unidad=u_norm if u_norm is not None else Unidad.PZA,
+                    tipo=tipo_ins,
+                    unidad=u_str,
                     cantidad=cant,
-                    precio_unitario=pu,
+                    precio=pu,
                     importe=imp,
                     fuente=str(ins["fuente"]),
                 )
@@ -102,9 +120,9 @@ def construir_conceptos() -> list[Concepto]:
             MapeoRevit(
                 modelo=m.get("modelo"),
                 categoria=m["categoria"],
-                filtro_tipo=m["filtro_tipo"],
+                filtro_tipo=m.get("filtro_tipo"),
                 campo_cantidad=m["campo_cantidad"],
-                nota=m.get("nota"),
+                factor=float(m.get("factor", 1.0)),
             )
             for m in item.get("mapeo_revit", [])
         ]
@@ -121,7 +139,6 @@ def construir_conceptos() -> list[Concepto]:
                 concepto=item["concepto"],
                 unidad=u_concepto,
                 precio_unitario=pu_concepto,
-                moneda="MXN",
                 fuente_tipo=ft,
                 fuente_ref=item["fuente_ref"],
                 fecha_fuente=item["fecha_fuente"],
@@ -138,8 +155,8 @@ def generar_resumen_md(cat: CatalogoPrecios) -> str:
     lineas = [
         "# Resumen del Catálogo de Conceptos y Precios Unitarios (`catalogo_v01`)",
         "",
-        f"- **Proyecto:** {cat.proyecto}",
-        f"- **Versión:** `{cat.version}` · **Fecha:** `{cat.fecha}` · **Agente:** `{cat.agente}`",
+        f"- **Alcance:** {cat.alcance}",
+        f"- **Versión:** `{cat.version}` · **Fecha:** `{cat.fecha}` · **Agente:** `AG-2`",
         f"- **Total de conceptos:** **{cat.resumen.total_conceptos}**",
         f"- **Conceptos con precio (Costo Directo MXN):** **{cat.resumen.con_precio}**",
         f"- **Conceptos sin precio (`sin_precio`):** **{len(cat.resumen.sin_precio)}** ({', '.join(cat.resumen.sin_precio) if cat.resumen.sin_precio else 'ninguno'})",
@@ -165,7 +182,7 @@ def generar_resumen_md(cat: CatalogoPrecios) -> str:
     ])
     for c in cat.conceptos:
         if c.fuente_tipo == FuenteTipo.SUPUESTO:
-            lineas.append(f"| `{c.clave}` | `{c.unidad.value}` | ${c.precio_unitario:,.2f} | {c.justificacion} |")
+            lineas.append(f"| `{c.clave}` | `{c.unidad}` | ${c.precio_unitario:,.2f} | {c.justificacion} |")
 
     lineas.extend([
         "",
@@ -178,7 +195,7 @@ def generar_resumen_md(cat: CatalogoPrecios) -> str:
         rev = "Sin cant. Revit" if c.sin_cantidad_revit else ", ".join(f"{m.categoria}:{m.campo_cantidad}" for m in c.mapeo_revit)
         desc_corta = c.concepto[:110] + ("..." if len(c.concepto) > 110 else "")
         lineas.append(
-            f"| `{c.clave}` | `{c.capitulo}` | `{c.unidad.value}` | ${c.precio_unitario:,.2f} | `{c.fuente_tipo.value}` | `{rev}` | {desc_corta} |"
+            f"| `{c.clave}` | `{c.capitulo}` | `{c.unidad}` | ${c.precio_unitario:,.2f} | `{c.fuente_tipo.value}` | `{rev}` | {desc_corta} |"
         )
     return "\n".join(lineas) + "\n"
 
@@ -228,12 +245,12 @@ def exportar_excel(cat: CatalogoPrecios, ruta_xlsx: Path) -> bool:
             c.capitulo,
             c.subcapitulo,
             c.concepto,
-            c.unidad.value,
+            str(c.unidad),
             c.precio_unitario,
-            c.moneda,
-            c.fuente_tipo.value,
-            c.fuente_ref,
-            c.fecha_fuente,
+            "MXN",
+            c.fuente_tipo.value if c.fuente_tipo else "",
+            c.fuente_ref or "",
+            c.fecha_fuente or "",
             "SÍ" if c.sin_cantidad_revit else "NO",
             mapeo_str,
             c.justificacion or "",
@@ -251,8 +268,8 @@ def exportar_excel(cat: CatalogoPrecios, ruta_xlsx: Path) -> bool:
     ws.column_dimensions["M"].width = 50
 
     ws_apu = wb.create_sheet(title="Matrices_APU")
-    ws_apu.append(["Clave Concepto", "Código Insumo", "Descripción Insumo", "Unidad", "Cantidad", "P.U. (MXN)", "Importe (MXN)", "Fuente"])
-    for col_idx in range(1, 9):
+    ws_apu.append(["Clave Concepto", "Código Insumo", "Descripción Insumo", "Tipo", "Unidad", "Cantidad", "P.U. (MXN)", "Importe (MXN)", "Fuente"])
+    for col_idx in range(1, 10):
         cell = ws_apu.cell(row=1, column=col_idx)
         cell.fill = header_fill
         cell.font = header_font
@@ -263,9 +280,10 @@ def exportar_excel(cat: CatalogoPrecios, ruta_xlsx: Path) -> bool:
                 c.clave,
                 ins.codigo,
                 ins.descripcion,
-                ins.unidad.value,
+                ins.tipo,
+                ins.unidad,
                 ins.cantidad,
-                ins.precio_unitario,
+                ins.precio,
                 ins.importe,
                 ins.fuente,
             ])
@@ -286,7 +304,7 @@ def main() -> int:
     if cap_11_12:
         raise ValueError(f"Violación D-016: conceptos en capítulos 11 o 12: {cap_11_12}")
 
-    sin_precio = [c.clave for c in conceptos if c.precio_unitario <= 0]
+    sin_precio = [c.clave for c in conceptos if c.precio_unitario is None or c.precio_unitario <= 0]
     supuestos = [c.clave for c in conceptos if c.fuente_tipo == FuenteTipo.SUPUESTO]
     resumen = ResumenCatalogo(
         total_conceptos=len(conceptos),
@@ -298,8 +316,7 @@ def main() -> int:
     catalogo = CatalogoPrecios(
         version="v01",
         fecha="23-11-2026",
-        agente="AG-2",
-        proyecto="Centro Comunitario de Desarrollo Integral 'Casa de los Chichimecas' - Edificio de Educación (ED)",
+        alcance="Edificio de educación (vínculos del modelo federado)",
         resumen=resumen,
         conceptos=conceptos,
     )
