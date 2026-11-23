@@ -219,8 +219,12 @@ def main() -> None:
     catalog=json.loads(CATALOG.read_text(encoding="utf-8")); idx=json.loads(INDEX.read_text(encoding="utf-8"))
     structure=next((x for x in idx["vinculos"] if x.get("modelo")=="Edificio de educacion"),None)
     if not structure: raise SystemExit("No está vínculo Edificio de educacion en indice.json")
-    # Recuento funcional adoptado: niveles principales indicados por el usuario; se excluyen dalas auxiliares y cubiertas.
-    levels_count=4
+    # Cuatro bandas funcionales del vínculo estructural: +5.30, +8.80, +12.30 y cubierta (+13.80/+14.80 agrupadas); excluir dalas auxiliares.
+    level_elevations=[round(float(x["elevacion_m"]),2) for x in structure["niveles"] if "auxiliar" not in x["nombre"].lower()]
+    floor_bands=sum(any(abs(e-target)<=0.05 for e in level_elevations) for target in (5.30,8.80,12.30))
+    roof_band=any(any(abs(e-target)<=0.05 for e in level_elevations) for target in (13.80,14.80))
+    levels_count=floor_bands+int(roof_band)
+    if levels_count!=4: raise SystemExit(f"Índice Revit no confirma 4 bandas principales; detectadas {levels_count}: {level_elevations}")
     rows=build_activities(catalog,levels_count)
     compute_cpm(rows)
     for a in rows: a.pop("_holgura_meses",None); a.pop("capitulo"); a.pop("subcapitulo"); a.pop("duracion_meses"); a.pop("justificacion")

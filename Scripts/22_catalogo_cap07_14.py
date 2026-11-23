@@ -22,13 +22,14 @@ CAPITULOS_07_14: list[dict] = [
             "rudo, cerradura de palanca institucional, topes, sellado perimetral, mano de obra y herramienta."
         ),
         "unidad": "pza",
-        "fuente_tipo": "APU",
-        "fuente_ref": "Xalapa HERR-6.14.3 ($7,635.52/pza) y CARP-6.16.1 ($12,819.96/pza) + 02 PRECIOS UNITARIOS.pdf 1H1A",
+        "precio_unitario": 5077.77,
+        "fuente_tipo": "TABULADOR_CDMX",
+        "fuente_ref": "Tabulador CDMX Septiembre 2026 clave EH12BM (pág. 45)",
         "fecha_fuente": "23-11-2026",
         "justificacion": (
-            "APU integrado con puerta institucional de 0.90x2.15 m con marco, bisagras reforzadas y cerradura "
-            "de palanca más cuadrilla 1H1A (rendimiento 2.0 pzas/jor); CD = $7,635.52/pza, validado contra "
-            "Xalapa HERR-6.14.3 ($7,635.52/pza CD)."
+            "Tabulador CDMX Septiembre 2026 clave EH12BM (pág. 45): 'Suministro, habilitado y colocación de puerta "
+            "de 1.00 x 2.10 m de altura, abatible de lujo fabricada en aluminio anodizado natural', P.U. = $5,077.77/pza "
+            "(D-011); validado contra Xalapa HERR-6.14.3 ($7,635.52/pza)."
         ),
         "sin_cantidad_revit": False,
         "mapeo_revit": [

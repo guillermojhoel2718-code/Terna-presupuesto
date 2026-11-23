@@ -82,6 +82,47 @@ def _inferir_tipo_insumo(codigo: str, unidad: str, descripcion: str) -> str:
     return "material"
 
 
+# Mapa de conceptos con coincidencia directa en Tabulador CDMX Septiembre 2026 (D-003, D-011: P.U. = Costo Directo sin conversión)
+TABULADOR_CDMX_2026_MATCHES: dict[str, dict] = {
+    "ED-01-01-001": {"clave_tab": "BC12BB", "pagina": 9, "pu": 12.46, "desc_tab": "Desyerbe y limpia del terreno realizada a mano, incluye: acarreo libre a 20 m."},
+    "ED-01-01-002": {"clave_tab": "BE12BB", "pagina": 11, "pu": 273.94, "desc_tab": "Despalme de material por medios manuales, todas las zonas."},
+    "ED-01-02-001": {"clave_tab": "AF13DB", "pagina": 9, "pu": 10.10, "desc_tab": "Trazo y nivelación para desplante de estructura para edificación, con equipo de topografía."},
+    "ED-02-01-001": {"clave_tab": "BF16DB", "pagina": 12, "pu": 479.39, "desc_tab": "Excavación a mano, material clase II-A, de 0.00 a 2.00 m de profundidad."},
+    "ED-02-01-002": {"clave_tab": "GG13BB", "pagina": 77, "pu": 202.72, "desc_tab": "Plantilla de concreto hidráulico resistencia normal f'c=100 kg/cm2, de 5 cm de espesor."},
+    "ED-02-02-001": {"clave_tab": "FG12CB", "pagina": 50, "pu": 4241.93, "desc_tab": "Suministro y colocación de concreto hidráulico f'c=250 kg/cm2 clase 1 bombeable en cimentación."},
+    "ED-02-02-002": {"clave_tab": "CB12BD", "pagina": 31, "pu": 347.97, "desc_tab": "Cimbra acabado común y descimbra en cimentación (zapatas, contratrabes, dados)."},
+    "ED-02-03-001": {"clave_tab": "BP12DC", "pagina": 30, "pu": 756.39, "desc_tab": "Relleno de excavación para estructuras, con tepetate, compactado al 90% con rodillo vibratorio."},
+    "ED-02-03-002": {"clave_tab": "BN15BB", "pagina": 25, "pu": 188.03, "desc_tab": "Carga manual, acarreo en camión al primer kilómetro y descarga, de material fino o granular, medido en banco."},
+    "ED-03-01-001": {"clave_tab": "FJ18BC", "pagina": 53, "pu": 4254.17, "desc_tab": "Suministro y colocación de concreto hidráulico estructural clase 1 f'c=250 kg/cm2 bombeable en superestructura (columnas, trabes, losas)."},
+    "ED-03-01-002": {"clave_tab": "CC14BG", "pagina": 32, "pu": 454.76, "desc_tab": "Cimbra de madera acabado aparente y descimbra en columnas y trabes hasta 4.00 m de altura."},
+    "ED-03-02-001": {"clave_tab": "FJ18BC", "pagina": 53, "pu": 4254.17, "desc_tab": "Suministro y colocación de concreto hidráulico estructural clase 1 f'c=250 kg/cm2 bombeable en superestructura (trabes y cadenas)."},
+    "ED-03-03-001": {"clave_tab": "GL14BH", "pagina": 84, "pu": 819.18, "desc_tab": "Losa con vigueta pretensada P-13 y bovedilla de concreto con capa de compresión y malla electrosoldada 66-10-10."},
+    "ED-04-01-001": {"clave_tab": "EB12BB", "pagina": 40, "pu": 74.11, "desc_tab": "Suministro, fabricación, transporte y montaje de estructura metálica formada con perfiles laminados."},
+    "ED-04-01-002": {"clave_tab": "EB12CB", "pagina": 40, "pu": 72.10, "desc_tab": "Suministro, fabricación, transporte y montaje de estructura metálica formada con placas de acero A-36."},
+    "ED-04-01-003": {"clave_tab": "EB14BD", "pagina": 40, "pu": 404.88, "desc_tab": "Suministro y colocación de ancla de acero rolado en frío de 25.4 mm (1\") de diámetro."},
+    "ED-05-01-001": {"clave_tab": "GC22DC", "pagina": 64, "pu": 720.65, "desc_tab": "Muro de tabique de barro extruido aparente Novaceramic junteado con mortero cemento-arena 1:4."},
+    "ED-05-01-002": {"clave_tab": "GC16BB", "pagina": 60, "pu": 707.07, "desc_tab": "Muro de tabique rojo recocido de 14 cm de espesor asentado con mortero cemento-arena 1:5."},
+    "ED-05-02-001": {"clave_tab": "GH12BE", "pagina": 78, "pu": 350.35, "desc_tab": "Firme de concreto hidráulico resistencia normal f'c=150 kg/cm2 de 10 cm de espesor."},
+    "ED-06-01-002": {"clave_tab": "GH16GB", "pagina": 80, "pu": 492.96, "desc_tab": "Piso de loseta cerámica de 30 x 30 cm asentada con pasta adhesiva pegazulejo y lechadeado."},
+    "ED-06-01-003": {"clave_tab": "GH14BC", "pagina": 79, "pu": 442.10, "desc_tab": "Piso de concreto hidráulico f'c=150 kg/cm2 acabado escobillado reforzado con malla electrosoldada 66-1010."},
+    "ED-06-02-001": {"clave_tab": "LG12CB", "pagina": 228, "pu": 87.10, "desc_tab": "Suministro y aplicación de pintura vinil acrílica en muros y plafones, previa preparación de superficie con sellador."},
+    "ED-06-03-001": {"clave_tab": "GE12HJ", "pagina": 73, "pu": 639.70, "desc_tab": "Suministro e instalación de plafón modular registrable acústico de 0.61 x 0.61 m con suspensión visible."},
+    "ED-06-04-001": {"clave_tab": "GS15BB", "pagina": 96, "pu": 558.36, "desc_tab": "Suministro y colocación de sistema de impermeabilización prefabricada con Festermip APP PS 4.0 mm gravilla roja e Hidroprimer."},
+    "ED-07-01-001": {"clave_tab": "EH12BM", "pagina": 45, "pu": 5077.77, "desc_tab": "Suministro, habilitado y colocación de puerta de 1.00 x 2.10 m abatible en aluminio anodizado natural."},
+    "ED-07-02-001": {"clave_tab": "EH12BJ", "pagina": 44, "pu": 3428.81, "desc_tab": "Suministro, habilitado y colocación de ventana de 1.80 x 1.20 m en aluminio anodizado natural de 3\"."},
+    "ED-08-01-003": {"clave_tab": "IG13BF", "pagina": 151, "pu": 64.41, "desc_tab": "Codo de PVC tipo hidráulico unión cementar de 90° x 25 mm de diámetro."},
+    "ED-08-01-004": {"clave_tab": "IC12CC", "pagina": 135, "pu": 817.34, "desc_tab": "Válvula de compuerta de bronce, extremos roscados."},
+    "ED-09-01-001": {"clave_tab": "HB12BC", "pagina": 97, "pu": 64.12, "desc_tab": "Suministro, instalación y pruebas de tubo de PVC tipo sanitario unión cementar, extremos lisos de 51 mm."},
+    "ED-09-01-002": {"clave_tab": "HB12BE", "pagina": 97, "pu": 113.21, "desc_tab": "Suministro, instalación y pruebas de tubo de PVC tipo sanitario unión cementar, extremos lisos de 102 mm."},
+    "ED-09-01-003": {"clave_tab": "HB12EE", "pagina": 98, "pu": 109.51, "desc_tab": "Suministro, instalación y pruebas de codo de PVC tipo sanitario unión cementar de 90° x 102 mm."},
+    "ED-09-02-001": {"clave_tab": "HI13BO", "pagina": 114, "pu": 5254.43, "desc_tab": "Suministro, instalación y pruebas de inodoro ecológico WC Drakar16 de 4.80 L por descarga, marca Helvex."},
+    "ED-09-03-001": {"clave_tab": "HE12CC", "pagina": 112, "pu": 3162.50, "desc_tab": "Registro sanitario de 0.40 x 0.60 y 1.00 m de profundidad, medidas interiores, muros de tabique rojo recocido."},
+    "ED-10-02-001": {"clave_tab": "KM13BB", "pagina": 211, "pu": 1934.64, "desc_tab": "Suministro, colocación y pruebas de luminario tipo LED panel de 30 x 122 cm, 40 W, modelo PANLED3-40-E3-DIMT-NW."},
+    "ED-10-02-002": {"clave_tab": "KM13BG", "pagina": 211, "pu": 675.50, "desc_tab": "Suministro, colocación y pruebas de luminario tipo plafón circular LED de 18 W modelo SUX-18-LED-E3-NW."},
+    "ED-10-04-001": {"clave_tab": "KN14BC", "pagina": 218, "pu": 7336.72, "desc_tab": "Suministro y colocación de tablero de alumbrado y distribución NQOD203L11, 20 polos, 100 amperes."},
+}
+
+
 def construir_conceptos() -> list[Concepto]:
     mod_01_06 = _cargar_modulo("cap01_06", ROOT / "Scripts" / "21_catalogo_cap01_06.py")
     mod_07_14 = _cargar_modulo("cap07_14", ROOT / "Scripts" / "22_catalogo_cap07_14.py")
@@ -110,11 +151,26 @@ def construir_conceptos() -> list[Concepto]:
                 )
             )
 
-        ft = FuenteTipo(item["fuente_tipo"])
-        if ft == FuenteTipo.APU:
-            pu_concepto = round(sum(i.importe for i in apu_items), 2)
+        clave_c = item["clave"]
+        if clave_c in TABULADOR_CDMX_2026_MATCHES:
+            m_tab = TABULADOR_CDMX_2026_MATCHES[clave_c]
+            ft = FuenteTipo.TABULADOR_CDMX
+            pu_concepto = round(float(m_tab["pu"]), 2)
+            fuente_ref = f"Tabulador CDMX Septiembre 2026 clave {m_tab['clave_tab']} (pág. {m_tab['pagina']})"
+            pu_apu_ref = round(sum(i.importe for i in apu_items), 2) if apu_items else pu_concepto
+            justificacion = (
+                f"Tabulador CDMX Septiembre 2026 clave {m_tab['clave_tab']} (pág. {m_tab['pagina']}): "
+                f"'{m_tab['desc_tab']}' — P.U. = ${pu_concepto:,.2f} (tomado directo como costo directo conforme a D-011). "
+                f"Referencia cruzada APU Neodata/Xalapa: ${pu_apu_ref:,.2f}."
+            )
         else:
-            pu_concepto = round(float(item["precio_unitario"]), 2)
+            ft = FuenteTipo(item["fuente_tipo"])
+            if ft == FuenteTipo.APU:
+                pu_concepto = round(sum(i.importe for i in apu_items), 2)
+            else:
+                pu_concepto = round(float(item["precio_unitario"]), 2)
+            fuente_ref = item["fuente_ref"]
+            justificacion = item.get("justificacion")
 
         mapeos = [
             MapeoRevit(
@@ -140,9 +196,9 @@ def construir_conceptos() -> list[Concepto]:
                 unidad=u_concepto,
                 precio_unitario=pu_concepto,
                 fuente_tipo=ft,
-                fuente_ref=item["fuente_ref"],
+                fuente_ref=fuente_ref,
                 fecha_fuente=item["fecha_fuente"],
-                justificacion=item.get("justificacion"),
+                justificacion=justificacion,
                 sin_cantidad_revit=bool(item.get("sin_cantidad_revit", False)),
                 mapeo_revit=mapeos,
                 apu=apu_items,

@@ -207,31 +207,70 @@ def procesar_tabulador_cdmx() -> dict:
         texto = f.read()
     conceptos = {}
     pagina_actual = 1
-    # Patrón general para renglones de tabulador: clave al inicio, unidad y precio al final
+    clave_actual: str | None = None
+    # Patrón general para renglones de tabulador CDMX 2026: clave al inicio, unidad y precio al final
     re_pag = re.compile(r"^===\s*PAGINA\s+(\d+)\s*===$")
+    unidades_pat = (
+        r"m2\.?|m3\.?|m\.?|ml|pieza|pza\.?|kg\.?|ton\.?|t\.|lote|sal\.?|salida|jgo\.?|juego|"
+        r"lt\.?|lto\.?|hr\.?|hora|jor\.?|prueba|muestra|semana|visita|serie|análisis|diseño|"
+        r"Ha\.?|ha\.?|junta|toma|p\.t\.|m3-km|ton-km|pza-km|m3-est\.?|m3-estac|m2-día|cala adi|estudió"
+    )
     re_linea = re.compile(
-        r"^([A-Z0-9][A-Z0-9.\-_]{3,24})\s+(.+?)\s+(M2|M3|M|ML|PZA|KG|TON|LOTE|SAL|JGO|LT|HR|JOR|m2|m3|m|ml|pza|kg|ton|lote|jgo|lt|hr|jor)\s+\$?\s*([\d,]+\.\d{2})\b"
+        rf"^([A-Z]{{2}}[0-9]{{2}}[A-Z0-9]{{2,4}})\s+(.+?)\s+({unidades_pat})\s+\$?\s*([\d,]+\.\d{{2}})\s*$",
+        re.IGNORECASE,
+    )
+    re_ignorar = re.compile(
+        r"^(GOBIERNO DE LA CIUDAD|SECRETAR[IÍ]A DE OBRAS|DIRECCI[OÓ]N GENERAL|TABULADOR GENERAL|"
+        r"Clave\s+Concepto|Vigente a partir|CAP[IÍ]TULO\s+|Página\s+\d+)",
+        re.IGNORECASE,
     )
     for raw_line in texto.splitlines():
         line = raw_line.strip()
+        if not line:
+            continue
         m_pag = re_pag.match(line)
         if m_pag:
             pagina_actual = int(m_pag.group(1))
+            clave_actual = None
             continue
         m_lin = re_linea.match(line)
         if m_lin:
-            clave, desc, unidad, precio_s = m_lin.groups()
+            clave, desc, unidad_raw, precio_s = m_lin.groups()
             try:
                 precio = float(precio_s.replace(",", ""))
             except ValueError:
                 continue
+            u_clean = unidad_raw.rstrip(".").lower()
+            if u_clean in {"pieza", "pza"}:
+                u_norm_str = "pza"
+            elif u_clean in {"lto", "lt"}:
+                u_norm_str = "lt"
+            elif u_clean in {"salida", "sal"}:
+                u_norm_str = "sal"
+            elif u_clean in {"juego", "jgo"}:
+                u_norm_str = "jgo"
+            elif u_clean in {"hora", "hr"}:
+                u_norm_str = "hr"
+            elif u_clean in {"t", "ton"}:
+                u_norm_str = "ton"
+            else:
+                u_norm = normalizar_unidad(u_clean)
+                u_norm_str = u_norm.value if hasattr(u_norm, "value") else (str(u_norm) if u_norm else unidad_raw)
             conceptos[clave] = {
                 "clave": clave,
                 "pagina": pagina_actual,
                 "descripcion": desc.strip(),
-                "unidad": normalizar_unidad(unidad),
+                "unidad": u_norm_str,
+                "unidad_original": unidad_raw,
                 "precio_unitario": precio,
             }
+            clave_actual = clave
+        elif clave_actual and clave_actual in conceptos and not re_ignorar.match(line):
+            # Continuación de descripción multilínea en el tabulador CDMX
+            if not re.match(r"^[A-Z]\s+[A-ZÁÉÍÓÚÑ\s]{4,}$", line) and not re.match(r"^[A-Z]{2}\s+", line):
+                conceptos[clave_actual]["descripcion"] = (
+                    conceptos[clave_actual]["descripcion"] + " " + line
+                ).strip()
 
     payload = {
         "fuente": pdf_path.name if pdf_path else txt_path.name,

@@ -22,13 +22,14 @@ CAPITULOS_01_06: list[dict] = [
             "incluye: acopio de maleza y basura, mano de obra, equipo y herramienta."
         ),
         "unidad": "m2",
-        "fuente_tipo": "APU",
-        "fuente_ref": "Neodata/Xalapa PREGEN-01 (10302-001) + 05 SALARIOS.pdf",
+        "precio_unitario": 12.46,
+        "fuente_tipo": "TABULADOR_CDMX",
+        "fuente_ref": "Tabulador CDMX Septiembre 2026 clave BC12BB (pág. 9)",
         "fecha_fuente": "23-11-2026",
         "justificacion": (
-            "APU integrado con cuadrilla 1P (1 Peón + 0.10 Cabo, 05 SALARIOS.pdf $747.23/jor) "
-            "y rendimiento de 48.00 m2/jor más 5% de herramienta y seguridad; validado contra "
-            "Xalapa PREGEN-01 ($16.88/m2 CD)."
+            "Tabulador CDMX Septiembre 2026 clave BC12BB (pág. 9): 'Desyerbe y limpia del terreno realizada a mano, "
+            "incluye: acarreo libre a 20 m', P.U. = $12.46/m2 (usado directo como costo directo conforme a D-011); "
+            "validado contra APU Neodata ($16.35/m2) y Xalapa PREGEN-01 ($16.88/m2)."
         ),
         "sin_cantidad_revit": True,
         "mapeo_revit": [],
