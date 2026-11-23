@@ -47,3 +47,10 @@ openpyxl **no calcula fórmulas**. Opciones (verificar cuál existe en la máqui
 - LibreOffice `soffice --headless --convert-to xlsx` para forzar recálculo.
 
 Conservar el `.xlsm` (macros) con `keep_vba=True` si se edita con openpyxl.
+
+## 5. IVA (D-020)
+
+- Tasa **16 %** (`iva_tasa = 0.16`). Se calcula sobre el subtotal = precio de venta sin IVA (`AW215` de la hoja sobrecosto) y se muestra en renglón aparte: SUBTOTAL, IVA 16 %, TOTAL.
+- No se mezcla con el factor de sobrecosto ni con los P.U. del renglón.
+- `presupuesto_vNN.json`: `iva = subtotal × iva_tasa`, `total = subtotal + iva` (lo valida el schema).
+- La leyenda "MÁS EL I.V.A. CORRESPONDIENTE" de la plantilla se sustituye por el desglose; el total en letra va con IVA incluido.
