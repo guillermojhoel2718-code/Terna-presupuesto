@@ -26,7 +26,7 @@ Encabezado con **proyecto, fecha, versión y responsable** (CLAUDE.md §8). Fech
 
 | Entregable | Base | Orientación | Notas |
 |---|---|---|---|
-| `Generadores_vNN.xlsx` | `plantilla_base_archivo _de_generadores.xlsx` (hojas PRE, CIM, EST con formato "HOJA DE CUANTIFICACIÓN CALCULADORA") | Horizontal | La plantilla trae datos de **otro proyecto** (hospital 34 camas, Tepotzotlán, nombre de alumno): limpiar todo. Una hoja por capítulo, un bloque por clave. Columna de referencia Revit (modelo + IDs) agregada a la derecha dentro del área de impresión. Clave de la plantilla `="URG-"&…` se reemplaza por la clave `ED-CC-SS-NNN` |
+| `Generadores_vNN.xlsx` | Generado por `Scripts/30_generadores_desde_revit.py` con el formato de bloque de `plantilla_base_archivo _de_generadores.xlsx` (D-018) | Horizontal | La plantilla trae datos de **otro proyecto** (hospital 34 camas, Tepotzotlán, nombre de alumno): limpiar todo. Una hoja por capítulo, un bloque por clave. Columna de referencia Revit (modelo + IDs) agregada a la derecha dentro del área de impresión. Clave de la plantilla `="URG-"&…` se reemplaza por la clave `ED-CC-SS-NNN` |
 | `Presupuesto_vNN.xlsm` | `Taller Terminal_Presupuesto.xlsm` | Vertical | Ver SPEC_06. Si se pide `.xlsx`, guardar también sin macros |
 | `Calendario_vNN.xlsx` | Nuevo (referencia visual `12 PROGRAMA DE OBRA.pdf`) | Horizontal | Columnas: clave, concepto, frente, importe, 12 meses (barra con relleno + % y monto mensual), fila de avance financiero mensual y acumulado. Ruta crítica en color distinto |
 

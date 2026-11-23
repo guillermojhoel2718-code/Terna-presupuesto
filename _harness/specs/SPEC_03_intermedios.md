@@ -31,6 +31,8 @@ py Scripts/schemas/validar.py <tipo> <archivo.json>
 ## 3. Generadores (CL-1)
 
 - Un `Generador` por clave del catálogo. Cada renglón cita `element_ids` y `archivo_intermedio` o, si no hay Revit, `fuente: MEMORIA:p.NN` o `SUPUESTO:<motivo>`.
+- Partidas sin Revit (`sin_cantidad_revit`, p. ej. limpieza): renglones capturados por CL-1 en `_harness/intermedios/generadores/manual.json` (`{"generadores": [Generador…]}`), cada uno con fuente `MEMORIA:p.NN` o `SUPUESTO:<motivo>`.
+- `reporte_vNN.md` acompaña cada versión: claves sin cantidad, posibles dobles conteos, elementos Revit sin asignar y avisos de unidad.
 - `cantidad_total = Σ parcial` (lo valida el schema). Sin factores de desperdicio en la cantidad: el desperdicio va en el APU.
 
 ## 4. Presupuesto (CX-1)

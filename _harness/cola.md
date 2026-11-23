@@ -35,7 +35,8 @@ Equipos (D-014): **CL-1 → PC-A**; **AG-1, AG-2, CX-1, CX-2 → PC-B**.
 - [ ] T-501 | CX-2 | Estructura de actividades por capítulo/frente (SPEC_02 §3), duraciones y predecesoras; inicio enero 2027 (D-012) | depende: — | estado: pendiente
 - [ ] T-502 | CX-2 | Script `50_calendario_12_meses.py` + plantilla Excel horizontal Carta; `calendario_v01.json` estructura (sin importes) | depende: T-501 | estado: pendiente
 ### CL-1 · Generadores (preparación) y QA
-- [ ] T-301 | CL-1 | Limpiar plantilla de generadores y script `30_generadores_desde_revit.py` (aplica `mapeo_revit` a intermedios Revit) | depende: — | estado: pendiente
+- [ ] T-301 | CL-1 | Limpiar plantilla de generadores y script `30_generadores_desde_revit.py` (aplica `mapeo_revit` a intermedios Revit) | depende: — | estado: aprobada
+  > 23-11-2026 CL-1: probado con datos sintéticos (Σ JSON = totales recalculados en Excel, Carta horizontal 1 pág. de ancho, idempotente). Formato generado por script; ver D-018.
 - [ ] T-901 | CL-1 | Revisar cada entrega de Ola 1 contra schema y fuente; aprobar/rechazar | depende: tareas de Ola 1 | estado: pendiente
 
 ## Ola 2 · Cuantificación
