@@ -1,0 +1,5436 @@
+{
+  "modelo": "Edificio de educacion",
+  "ruta_modelo": "../Archivos revit/Estructura_2027/00_ Edificio de educacion/Edificio de educacion.rvt",
+  "categoria": "StructuralColumns",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/12_extraer_estructura.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 217,
+  "elementos": [
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 436086,
+      "unique_id": "2698d095-aa0c-4470-8f89-080f6bd25a12-0006a776",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.04,
+        "volumen_m3": 0.2925,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 436194,
+      "unique_id": "2698d095-aa0c-4470-8f89-080f6bd25a12-0006a7e2",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.1525,
+        "volumen_m3": 0.30375,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 436203,
+      "unique_id": "2698d095-aa0c-4470-8f89-080f6bd25a12-0006a7eb",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.04,
+        "volumen_m3": 0.2925,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 436212,
+      "unique_id": "2698d095-aa0c-4470-8f89-080f6bd25a12-0006a7f4",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.1525,
+        "volumen_m3": 0.30375,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 436280,
+      "unique_id": "2698d095-aa0c-4470-8f89-080f6bd25a12-0006a838",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.04,
+        "volumen_m3": 0.2925,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 436281,
+      "unique_id": "2698d095-aa0c-4470-8f89-080f6bd25a12-0006a839",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.1525,
+        "volumen_m3": 0.30375,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 436282,
+      "unique_id": "2698d095-aa0c-4470-8f89-080f6bd25a12-0006a83a",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.04,
+        "volumen_m3": 0.2925,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 436283,
+      "unique_id": "2698d095-aa0c-4470-8f89-080f6bd25a12-0006a83b",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.1525,
+        "volumen_m3": 0.30375,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 436339,
+      "unique_id": "2698d095-aa0c-4470-8f89-080f6bd25a12-0006a873",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.04,
+        "volumen_m3": 0.2925,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 436397,
+      "unique_id": "2698d095-aa0c-4470-8f89-080f6bd25a12-0006a8ad",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.04,
+        "volumen_m3": 0.2925,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 436478,
+      "unique_id": "2698d095-aa0c-4470-8f89-080f6bd25a12-0006a8fe",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.1375,
+        "volumen_m3": 0.29925,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 438356,
+      "unique_id": "41935e59-6a5b-4400-9c0c-463c992876dc-0006b054",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.19,
+        "volumen_m3": 0.315,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 438357,
+      "unique_id": "41935e59-6a5b-4400-9c0c-463c992876dc-0006b055",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.19,
+        "volumen_m3": 0.315,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 438358,
+      "unique_id": "41935e59-6a5b-4400-9c0c-463c992876dc-0006b056",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.19,
+        "volumen_m3": 0.315,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 438359,
+      "unique_id": "41935e59-6a5b-4400-9c0c-463c992876dc-0006b057",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.19,
+        "volumen_m3": 0.315,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 438360,
+      "unique_id": "41935e59-6a5b-4400-9c0c-463c992876dc-0006b058",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.19,
+        "volumen_m3": 0.315,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 438361,
+      "unique_id": "41935e59-6a5b-4400-9c0c-463c992876dc-0006b059",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.19,
+        "volumen_m3": 0.315,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 438362,
+      "unique_id": "41935e59-6a5b-4400-9c0c-463c992876dc-0006b05a",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.19,
+        "volumen_m3": 0.315,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 438363,
+      "unique_id": "41935e59-6a5b-4400-9c0c-463c992876dc-0006b05b",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.19,
+        "volumen_m3": 0.315,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 438364,
+      "unique_id": "41935e59-6a5b-4400-9c0c-463c992876dc-0006b05c",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.19,
+        "volumen_m3": 0.315,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 438366,
+      "unique_id": "41935e59-6a5b-4400-9c0c-463c992876dc-0006b05e",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.19,
+        "volumen_m3": 0.315,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 471461,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000731a5",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.9605,
+        "volumen_m3": 0.0615,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 471462,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000731a6",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.061875,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 471463,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000731a7",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 471464,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000731a8",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.06165,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 471514,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000731da",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 471515,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000731db",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 471516,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000731dc",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 471517,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000731dd",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472075,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-0007340b",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472076,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-0007340c",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472077,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-0007340d",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472078,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-0007340e",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472712,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-00073688",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472713,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-00073689",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472714,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-0007368a",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472715,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-0007368b",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472746,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000736aa",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472747,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000736ab",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472748,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000736ac",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472749,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000736ad",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472783,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000736cf",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472825,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000736f9",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.04,
+        "volumen_m3": 0.2925,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472826,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000736fa",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x20 cm_confinamiento para muros 2",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472849,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-00073711",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.04,
+        "volumen_m3": 0.2925,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472850,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-00073712",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.9405,
+        "volumen_m3": 0.0603,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472925,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-0007375d",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 472997,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000737a5",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.9405,
+        "volumen_m3": 0.0603,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 473263,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000738af",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 473264,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000738b0",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.9405,
+        "volumen_m3": 0.0603,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 473265,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000738b1",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 473266,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000738b2",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 473327,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000738ef",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 473328,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-000738f0",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 473350,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-00073906",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 473351,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-00073907",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.9405,
+        "volumen_m3": 0.0603,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 473382,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-00073926",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.933036,
+        "volumen_m3": 0.059836,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 473383,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-00073927",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.06165,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 473410,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-00073942",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.932995,
+        "volumen_m3": 0.05985,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 473411,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-00073943",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.06165,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 473474,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-00073982",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.932999,
+        "volumen_m3": 0.05985,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 473475,
+      "unique_id": "03c5a829-2c0d-465e-bc3c-58856478e8fa-00073983",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.06165,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474571,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073dcb",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.19,
+        "volumen_m3": 0.315,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474572,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073dcc",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.19,
+        "volumen_m3": 0.315,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474573,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073dcd",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.19,
+        "volumen_m3": 0.315,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474637,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073e0d",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474682,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073e3a",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474683,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073e3b",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474684,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073e3c",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474685,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073e3d",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474719,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073e5f",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474720,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073e60",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474721,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073e61",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474722,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073e62",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474752,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073e80",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474753,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073e81",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474754,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073e82",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474755,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073e83",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474789,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073ea5",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474790,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073ea6",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474791,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073ea7",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474792,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073ea8",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474818,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073ec2",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474819,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073ec3",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474820,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073ec4",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474821,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073ec5",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474856,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073ee8",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474857,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073ee9",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474858,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073eea",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474859,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073eeb",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474900,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073f14",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474901,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073f15",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474902,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073f16",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474903,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073f17",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474943,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073f3f",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474944,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073f40",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474965,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073f55",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474966,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073f56",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474986,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073f6a",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 474987,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073f6b",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 475028,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073f94",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 475043,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073fa3",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 475057,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073fb1",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 475072,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073fc0",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 475086,
+      "unique_id": "8393cc44-7637-42d4-acd0-6647ac7fe402-00073fce",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 491911,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-00078187",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492038,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-00078206",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492056,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-00078218",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492059,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007821b",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492091,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007823b",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492101,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-00078245",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492107,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007824b",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492113,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-00078251",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492119,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-00078257",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492125,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007825d",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492131,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-00078263",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492450,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-000783a2",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492451,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-000783a3",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492452,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-000783a4",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492529,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-000783f1",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492544,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-00078400",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8955,
+        "volumen_m3": 0.0585,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492547,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-00078403",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.948,
+        "volumen_m3": 0.06075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492771,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-000784e3",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492773,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-000784e5",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492858,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007853a",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492861,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007853d",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492864,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-00078540",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 492886,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-00078556",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 493771,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-000788cb",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 499645,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-00079fbd",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.1375,
+        "volumen_m3": 0.29925,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 499725,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a00d",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 500984,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a4f8",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501036,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a52c",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501038,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a52e",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501124,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a584",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501188,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a5c4",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501296,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a630",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501309,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a63d",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501322,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a64a",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501331,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a653",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501342,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a65e",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501353,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a669",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501393,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a691",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501403,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a69b",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501405,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a69d",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501407,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a69f",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501409,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6a1",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501411,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6a3",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501413,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6a5",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501415,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6a7",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501417,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6a9",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501440,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6c0",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501442,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6c2",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501444,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6c4",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501446,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6c6",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501448,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6c8",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501450,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6ca",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501452,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6cc",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501454,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6ce",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8394,
+        "volumen_m3": 0.0486,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501475,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6e3",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501477,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6e5",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501479,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6e7",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501481,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6e9",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501483,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6eb",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501485,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6ed",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501487,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6ef",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501489,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a6f1",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501532,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a71c",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 501545,
+      "unique_id": "407620e3-bb2d-4b29-ab09-0b5ea8cb34c5-0007a729",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 502506,
+      "unique_id": "1884153c-f358-476c-ae4d-7d38939f8f62-0007aaea",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 502568,
+      "unique_id": "1884153c-f358-476c-ae4d-7d38939f8f62-0007ab28",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.7944,
+        "volumen_m3": 0.0468,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 502724,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007abc4",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 502899,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007ac73",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 502957,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007acad",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 502970,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007acba",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503042,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007ad02",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503264,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007ade0",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503333,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007ae25",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503391,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007ae5f",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503451,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007ae9b",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503482,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007aeba",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503484,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007aebc",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503495,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007aec7",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503497,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007aec9",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503510,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007aed6",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503512,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007aed8",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503573,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007af15",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503575,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007af17",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503586,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007af22",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503588,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007af24",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503599,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007af2f",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503601,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007af31",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503612,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007af3c",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503614,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007af3e",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503640,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007af58",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503642,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007af5a",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503671,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007af77",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503673,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007af79",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503686,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007af86",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503688,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007af88",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503699,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007af93",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503701,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007af95",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503714,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007afa2",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503716,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007afa4",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503727,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007afaf",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503729,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007afb1",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503792,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007aff0",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503794,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007aff2",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503803,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007affb",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 503805,
+      "unique_id": "8faf48f6-4ac7-4001-80a6-64a2aa82c3a7-0007affd",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 508999,
+      "unique_id": "73beac10-347d-4c60-91bd-69d0ddee0adc-0007c447",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.19,
+        "volumen_m3": 0.315,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 531390,
+      "unique_id": "2d4de061-8f60-45a5-809b-c5c3251696af-00081bbe",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.1525,
+        "volumen_m3": 0.30375,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 531429,
+      "unique_id": "2d4de061-8f60-45a5-809b-c5c3251696af-00081be5",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.092501,
+        "volumen_m3": 0.29475,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 531432,
+      "unique_id": "2d4de061-8f60-45a5-809b-c5c3251696af-00081be8",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Columna de 30 x 30_Para claros largos",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 2.118749,
+        "volumen_m3": 0.298687,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "C-1",
+        "h": "0.30",
+        "b": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 535728,
+      "unique_id": "924767cc-5af4-45b6-bfd5-694790016d33-00082cb0",
+      "categoria": "StructuralColumns",
+      "familia": "Pilar rectangular hormigón",
+      "tipo": "Castillo de 12x15 cm_confinamiento para muros",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.963,
+        "volumen_m3": 0.063,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K1",
+        "h": "0.15",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 535774,
+      "unique_id": "924767cc-5af4-45b6-bfd5-694790016d33-00082cde",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 536672,
+      "unique_id": "fc4f7bd4-e0fd-4129-bb3f-2364fb5f2864-00083060",
+      "categoria": "StructuralColumns",
+      "familia": "Zona de castillo ahogado",
+      "tipo": "Zona de varilla interna de muro",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.5,
+        "area_m2": 0.8544,
+        "volumen_m3": 0.0504,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "Assembly Code": "K2",
+        "h": "0.12",
+        "b": "0.12"
+      },
+      "parametros_instancia": {}
+    }
+  ]
+}

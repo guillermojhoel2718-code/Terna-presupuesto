@@ -1,0 +1,116 @@
+{
+  "modelo": "Proyecto electrico_corregido",
+  "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+  "categoria": "CableTrayFittings",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/17_extraer_electrico.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 4,
+  "elementos": [
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3188979,
+      "unique_id": "6282b413-efb1-4133-9e98-c8fabe22ab21-0030a8f3",
+      "categoria": "CableTrayFittings",
+      "familia": "Ladder Horizontal Bend",
+      "tipo": "Standard · CableTrayConduit · 250 mmx75 mm-250 mmx75 mm",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": null,
+        "volumen_m3": 0.003358,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Classification Number": "23.80.30.17.17"
+      },
+      "parametros_instancia": {
+        "System Classification": "CableTrayConduit",
+        "Size": "250 mmx75 mm-250 mmx75 mm"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3189077,
+      "unique_id": "6282b413-efb1-4133-9e98-c8fabe22ab21-0030a955",
+      "categoria": "CableTrayFittings",
+      "familia": "Ladder Horizontal Bend",
+      "tipo": "Standard · CableTrayConduit · 250 mmx75 mm-250 mmx75 mm",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": null,
+        "volumen_m3": 0.015324,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Classification Number": "23.80.30.17.17"
+      },
+      "parametros_instancia": {
+        "System Classification": "CableTrayConduit",
+        "Size": "250 mmx75 mm-250 mmx75 mm"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3189101,
+      "unique_id": "6282b413-efb1-4133-9e98-c8fabe22ab21-0030a96d",
+      "categoria": "CableTrayFittings",
+      "familia": "Ladder Horizontal Bend",
+      "tipo": "Standard · CableTrayConduit · 250 mmx75 mm-250 mmx75 mm",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": null,
+        "volumen_m3": 0.01565,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Classification Number": "23.80.30.17.17"
+      },
+      "parametros_instancia": {
+        "System Classification": "CableTrayConduit",
+        "Size": "250 mmx75 mm-250 mmx75 mm"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3262676,
+      "unique_id": "29c4af7d-22cc-4392-8b5e-3ddf09d8708e-0031c8d4",
+      "categoria": "CableTrayFittings",
+      "familia": "Ladder Vertical Inside Bend",
+      "tipo": "Standard · CableTrayConduit · 250 mmx75 mm-250 mmx75 mm",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": null,
+        "volumen_m3": 0.013073,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Classification Number": "23.80.30.17.17"
+      },
+      "parametros_instancia": {
+        "System Classification": "CableTrayConduit",
+        "Size": "250 mmx75 mm-250 mmx75 mm"
+      }
+    }
+  ]
+}

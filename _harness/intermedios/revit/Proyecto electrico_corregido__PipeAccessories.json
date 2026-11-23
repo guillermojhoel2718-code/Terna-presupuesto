@@ -1,0 +1,150 @@
+{
+  "modelo": "Proyecto electrico_corregido",
+  "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+  "categoria": "PipeAccessories",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/17_extraer_electrico.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 3,
+  "elementos": [
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147049,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300529",
+      "categoria": "PipeAccessories",
+      "familia": "M_Válvula de retención - 10-100 mm - Con rosca",
+      "tipo": "Valvula control 1/2'' · SISTEMA HIDRO FRIA · 15 mmø-15 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.004623,
+        "volumen_m3": 1.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Loss Method": 0,
+        "K Coefficient": "0,32",
+        "Classification Number": "23.65.55.14.21",
+        "Material de válvula": "<By Category>",
+        "Radio nominal": "8 mm",
+        "Diámetro nominal": "17 mm",
+        "Grosor de cubierta": "0,01",
+        "Altura de recubrimiento": "0,04",
+        "Diámetro de recubrimiento": "0,04",
+        "Longitud de cuerpo": "0,06",
+        "Diámetro de cuerpo": "0,01",
+        "Longitud de adaptador": "0,01",
+        "Diámetro de adaptador": "0,02",
+        "Longitud 1": "0,00",
+        "Altura 1": "0,01",
+        "Radio de recubrimiento": "0,02",
+        "Radio de cuerpo": "0,01",
+        "Radio de adaptador": "0,01",
+        "Anchura de símbolo": "0,02",
+        "Anchura 1": "0,00",
+        "Longitud 2": "0,01"
+      },
+      "parametros_instancia": {
+        "System Type": "SISTEMA HIDRO FRIA",
+        "Size": "15 mmø-15 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147064,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300538",
+      "categoria": "PipeAccessories",
+      "familia": "M_Válvula de retención - 10-100 mm - Con rosca",
+      "tipo": "Valvula control 1/2'' · SISTEMA HIDRO CALIENTE · 15 mmø-15 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.004623,
+        "volumen_m3": 1.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Loss Method": 0,
+        "K Coefficient": "0,32",
+        "Classification Number": "23.65.55.14.21",
+        "Material de válvula": "<By Category>",
+        "Radio nominal": "8 mm",
+        "Diámetro nominal": "17 mm",
+        "Grosor de cubierta": "0,01",
+        "Altura de recubrimiento": "0,04",
+        "Diámetro de recubrimiento": "0,04",
+        "Longitud de cuerpo": "0,06",
+        "Diámetro de cuerpo": "0,01",
+        "Longitud de adaptador": "0,01",
+        "Diámetro de adaptador": "0,02",
+        "Longitud 1": "0,00",
+        "Altura 1": "0,01",
+        "Radio de recubrimiento": "0,02",
+        "Radio de cuerpo": "0,01",
+        "Radio de adaptador": "0,01",
+        "Anchura de símbolo": "0,02",
+        "Anchura 1": "0,00",
+        "Longitud 2": "0,01"
+      },
+      "parametros_instancia": {
+        "System Type": "SISTEMA HIDRO CALIENTE",
+        "Size": "15 mmø-15 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147105,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300561",
+      "categoria": "PipeAccessories",
+      "familia": "M_Válvula de retención - 10-100 mm - Con rosca",
+      "tipo": "Valvula control 1/2'' · SISTEMA GAS · 15 mmø-15 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.004623,
+        "volumen_m3": 1.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Loss Method": 0,
+        "K Coefficient": "0,32",
+        "Classification Number": "23.65.55.14.21",
+        "Material de válvula": "<By Category>",
+        "Radio nominal": "8 mm",
+        "Diámetro nominal": "17 mm",
+        "Grosor de cubierta": "0,01",
+        "Altura de recubrimiento": "0,04",
+        "Diámetro de recubrimiento": "0,04",
+        "Longitud de cuerpo": "0,06",
+        "Diámetro de cuerpo": "0,01",
+        "Longitud de adaptador": "0,01",
+        "Diámetro de adaptador": "0,02",
+        "Longitud 1": "0,00",
+        "Altura 1": "0,01",
+        "Radio de recubrimiento": "0,02",
+        "Radio de cuerpo": "0,01",
+        "Radio de adaptador": "0,01",
+        "Anchura de símbolo": "0,02",
+        "Anchura 1": "0,00",
+        "Longitud 2": "0,01"
+      },
+      "parametros_instancia": {
+        "System Type": "SISTEMA GAS",
+        "Size": "15 mmø-15 mmø"
+      }
+    }
+  ]
+}

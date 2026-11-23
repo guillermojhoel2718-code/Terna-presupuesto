@@ -1,0 +1,40 @@
+{
+  "modelo": "Proyecto electrico_corregido",
+  "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+  "categoria": "MechanicalEquipment",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/17_extraer_electrico.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 1,
+  "elementos": [
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147114,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-0030056a",
+      "categoria": "MechanicalEquipment",
+      "familia": "CENTRAL INCENDIOS",
+      "tipo": "Tipo 1",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.139172,
+        "volumen_m3": 0.005902,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Classification Number": "23.45.00.00",
+        "Altura de calefon": "0,65",
+        "Diam Abastecimiento": "0,02",
+        "Diam Entrante": "0,02",
+        "MAT MEDIDOR": "Plastic -GREEN",
+        "MAT CRISTAL": "C-BLANCO"
+      },
+      "parametros_instancia": {}
+    }
+  ]
+}

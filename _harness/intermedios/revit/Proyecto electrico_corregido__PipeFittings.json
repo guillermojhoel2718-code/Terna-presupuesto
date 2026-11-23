@@ -1,0 +1,279 @@
+{
+  "modelo": "Proyecto electrico_corregido",
+  "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+  "categoria": "PipeFittings",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/17_extraer_electrico.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 9,
+  "elementos": [
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147047,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300527",
+      "categoria": "PipeFittings",
+      "familia": "M_Codo - Genérico",
+      "tipo": "CODO Fusion · SISTEMA HIDRO FRIA · 12 mmø-12 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": null,
+        "volumen_m3": 4e-06,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Loss Method": "K Coefficient from Table",
+        "K Coefficient Table": "Regular 45, 90 and 180 Elbow",
+        "Classification Number": "23.60.30.11.14",
+        "Nombre de tabla de consulta": "M_Pipe Fitting - Generic"
+      },
+      "parametros_instancia": {
+        "System Type": "SISTEMA HIDRO FRIA",
+        "Size": "12 mmø-12 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147054,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-0030052e",
+      "categoria": "PipeFittings",
+      "familia": "REDUCCION HDPE PE 100 PN6",
+      "tipo": "REDUCCION Fusion · SISTEMA HIDRO FRIA · 15 mmø-12 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.000465,
+        "volumen_m3": 1e-06,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Loss Method": "K Coefficient from Table",
+        "K Coefficient Table": "Reductor/Acoplamiento/Unión/Aumentador",
+        "Classification Number": "23.60.30.11.14",
+        "Nombre de tabla de consulta": "M_Pipe Fitting - Generic",
+        "MAT-REDUCCION": "PLASTICO PVC -politileno-"
+      },
+      "parametros_instancia": {
+        "System Type": "SISTEMA HIDRO FRIA",
+        "Size": "15 mmø-12 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147056,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300530",
+      "categoria": "PipeFittings",
+      "familia": "REDUCCION HDPE PE 100 PN6",
+      "tipo": "REDUCCION Fusion · SISTEMA HIDRO FRIA · 15 mmø-12 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.000465,
+        "volumen_m3": 1e-06,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Loss Method": "K Coefficient from Table",
+        "K Coefficient Table": "Reductor/Acoplamiento/Unión/Aumentador",
+        "Classification Number": "23.60.30.11.14",
+        "Nombre de tabla de consulta": "M_Pipe Fitting - Generic",
+        "MAT-REDUCCION": "PLASTICO PVC -politileno-"
+      },
+      "parametros_instancia": {
+        "System Type": "SISTEMA HIDRO FRIA",
+        "Size": "15 mmø-12 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147062,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300536",
+      "categoria": "PipeFittings",
+      "familia": "M_Codo - Genérico",
+      "tipo": "CODO Fusion · SISTEMA HIDRO CALIENTE · 12 mmø-12 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": null,
+        "volumen_m3": 4e-06,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Loss Method": "K Coefficient from Table",
+        "K Coefficient Table": "Regular 45, 90 and 180 Elbow",
+        "Classification Number": "23.60.30.11.14",
+        "Nombre de tabla de consulta": "M_Pipe Fitting - Generic"
+      },
+      "parametros_instancia": {
+        "System Type": "SISTEMA HIDRO CALIENTE",
+        "Size": "12 mmø-12 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147067,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-0030053b",
+      "categoria": "PipeFittings",
+      "familia": "REDUCCION HDPE PE 100 PN6",
+      "tipo": "REDUCCION Fusion · SISTEMA HIDRO CALIENTE · 15 mmø-12 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.000465,
+        "volumen_m3": 1e-06,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Loss Method": "K Coefficient from Table",
+        "K Coefficient Table": "Reductor/Acoplamiento/Unión/Aumentador",
+        "Classification Number": "23.60.30.11.14",
+        "Nombre de tabla de consulta": "M_Pipe Fitting - Generic",
+        "MAT-REDUCCION": "PLASTICO PVC -politileno-"
+      },
+      "parametros_instancia": {
+        "System Type": "SISTEMA HIDRO CALIENTE",
+        "Size": "15 mmø-12 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147069,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-0030053d",
+      "categoria": "PipeFittings",
+      "familia": "REDUCCION HDPE PE 100 PN6",
+      "tipo": "REDUCCION Fusion · SISTEMA HIDRO CALIENTE · 15 mmø-12 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.000465,
+        "volumen_m3": 1e-06,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Loss Method": "K Coefficient from Table",
+        "K Coefficient Table": "Reductor/Acoplamiento/Unión/Aumentador",
+        "Classification Number": "23.60.30.11.14",
+        "Nombre de tabla de consulta": "M_Pipe Fitting - Generic",
+        "MAT-REDUCCION": "PLASTICO PVC -politileno-"
+      },
+      "parametros_instancia": {
+        "System Type": "SISTEMA HIDRO CALIENTE",
+        "Size": "15 mmø-12 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147103,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-0030055f",
+      "categoria": "PipeFittings",
+      "familia": "M_Codo - Genérico",
+      "tipo": "CODO Fusion · SISTEMA GAS · 20 mmø-20 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": null,
+        "volumen_m3": 1.1e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Loss Method": "K Coefficient from Table",
+        "K Coefficient Table": "Regular 45, 90 and 180 Elbow",
+        "Classification Number": "23.60.30.11.14",
+        "Nombre de tabla de consulta": "M_Pipe Fitting - Generic"
+      },
+      "parametros_instancia": {
+        "System Type": "SISTEMA GAS",
+        "Size": "20 mmø-20 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147108,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300564",
+      "categoria": "PipeFittings",
+      "familia": "REDUCCION HDPE PE 100 PN6",
+      "tipo": "REDUCCION METALICA · SISTEMA GAS · 20 mmø-15 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.000797,
+        "volumen_m3": 3e-06,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Loss Method": "K Coefficient from Table",
+        "K Coefficient Table": "Reductor/Acoplamiento/Unión/Aumentador",
+        "Classification Number": "23.60.30.11.14",
+        "Nombre de tabla de consulta": "M_Pipe Fitting - Generic",
+        "MAT-REDUCCION": "UNION DE TUBERIAS"
+      },
+      "parametros_instancia": {
+        "System Type": "SISTEMA GAS",
+        "Size": "20 mmø-15 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147110,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300566",
+      "categoria": "PipeFittings",
+      "familia": "REDUCCION HDPE PE 100 PN6",
+      "tipo": "REDUCCION METALICA · SISTEMA GAS · 20 mmø-15 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.000797,
+        "volumen_m3": 3e-06,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Loss Method": "K Coefficient from Table",
+        "K Coefficient Table": "Reductor/Acoplamiento/Unión/Aumentador",
+        "Classification Number": "23.60.30.11.14",
+        "Nombre de tabla de consulta": "M_Pipe Fitting - Generic",
+        "MAT-REDUCCION": "UNION DE TUBERIAS"
+      },
+      "parametros_instancia": {
+        "System Type": "SISTEMA GAS",
+        "Size": "20 mmø-15 mmø"
+      }
+    }
+  ]
+}

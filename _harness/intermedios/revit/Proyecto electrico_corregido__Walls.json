@@ -1,0 +1,1203 @@
+{
+  "modelo": "Proyecto electrico_corregido",
+  "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+  "categoria": "Walls",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/17_extraer_electrico.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 41,
+  "elementos": [
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132931,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce03",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 19.670421,
+        "area_m2": 69.108974,
+        "volumen_m3": 10.366346,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132932,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce04",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 25.5,
+        "area_m2": 89.25,
+        "volumen_m3": 13.385837,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132933,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce05",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 6.000001,
+        "area_m2": 21.000005,
+        "volumen_m3": 3.150001,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132934,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce06",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 25.5,
+        "area_m2": 88.725,
+        "volumen_m3": 13.306256,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132935,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce07",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 6.000001,
+        "area_m2": 20.475005,
+        "volumen_m3": 3.071251,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132936,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce08",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 25.5,
+        "area_m2": 89.25,
+        "volumen_m3": 13.385422,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132937,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce09",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 6.000001,
+        "area_m2": 21.000005,
+        "volumen_m3": 3.150001,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132938,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce0a",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 25.5,
+        "area_m2": 88.725,
+        "volumen_m3": 13.306672,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132939,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce0b",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 6.000001,
+        "area_m2": 20.475005,
+        "volumen_m3": 3.071251,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132940,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce0c",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 16.075764,
+        "area_m2": 56.527674,
+        "volumen_m3": 8.477904,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132941,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce0d",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 16.0,
+        "area_m2": 56.000001,
+        "volumen_m3": 8.4,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132942,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce0e",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 12.400766,
+        "area_m2": 43.40268,
+        "volumen_m3": 6.509155,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132943,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce0f",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 16.0,
+        "area_m2": 55.475001,
+        "volumen_m3": 8.320834,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132944,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce10",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 1.13,
+        "area_m2": 3.6925,
+        "volumen_m3": 0.553875,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132945,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce11",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 4.42,
+        "area_m2": 15.196743,
+        "volumen_m3": 2.280294,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132946,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce12",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 6.0,
+        "area_m2": 21.524999,
+        "volumen_m3": 3.22875,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132947,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce13",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 4.84,
+        "area_m2": 16.6775,
+        "volumen_m3": 2.501625,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132948,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce14",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 1.875,
+        "area_m2": 6.3,
+        "volumen_m3": 0.945,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132949,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce15",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 4.75,
+        "area_m2": 16.625,
+        "volumen_m3": 2.49375,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132950,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce16",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 2.025,
+        "area_m2": 6.805499,
+        "volumen_m3": 1.020825,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132951,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce17",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 19.595394,
+        "area_m2": 68.84638,
+        "volumen_m3": 10.326957,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132952,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce18",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 25.5,
+        "area_m2": 89.25,
+        "volumen_m3": 13.385837,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132953,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce19",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 6.000001,
+        "area_m2": 21.000005,
+        "volumen_m3": 3.150001,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132954,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce1a",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 25.5,
+        "area_m2": 88.725,
+        "volumen_m3": 13.306256,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132955,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce1b",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 6.000001,
+        "area_m2": 20.475005,
+        "volumen_m3": 3.071251,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132956,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce1c",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 25.5,
+        "area_m2": 89.25,
+        "volumen_m3": 13.385006,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132957,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce1d",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 5.925101,
+        "area_m2": 20.737854,
+        "volumen_m3": 3.110678,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132958,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce1e",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 25.5,
+        "area_m2": 88.725,
+        "volumen_m3": 13.30688,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132959,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce1f",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 5.925041,
+        "area_m2": 20.212645,
+        "volumen_m3": 3.031897,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132960,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce20",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 16.075764,
+        "area_m2": 56.527674,
+        "volumen_m3": 8.477696,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132961,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce21",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 24.25,
+        "area_m2": 84.875,
+        "volumen_m3": 12.728548,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132962,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce22",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 10.075765,
+        "area_m2": 35.527676,
+        "volumen_m3": 5.328944,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132963,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce23",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 16.0,
+        "area_m2": 55.475001,
+        "volumen_m3": 8.32125,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132964,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce24",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 6.0,
+        "area_m2": 20.999999,
+        "volumen_m3": 3.149584,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132965,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce25",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 8.25,
+        "area_m2": 28.349999,
+        "volumen_m3": 4.252292,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132966,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce26",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 4.0,
+        "area_m2": 13.999999,
+        "volumen_m3": 2.099584,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132967,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fce27",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 8.80",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 6.0,
+        "area_m2": 20.474999,
+        "volumen_m3": 3.07125,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3146974,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-003004de",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 1.475,
+        "area_m2": 4.661,
+        "volumen_m3": 0.695575,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3146980,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-003004e4",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 1.88,
+        "area_m2": 3.72875,
+        "volumen_m3": 0.454412,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147024,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300510",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 1.475,
+        "area_m2": 3.94316,
+        "volumen_m3": 0.583169,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3194586,
+      "unique_id": "5e72c21b-b968-4ce7-b320-30f4ff95917b-0030beda",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "MURO 0.15",
+      "nivel": "NPT 5.30",
+      "material_principal": "Ladrillo de cerámica hueco doble",
+      "cantidades": {
+        "longitud_m": 7.980766,
+        "area_m2": 27.648666,
+        "volumen_m3": 4.148864,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Ladrillo de cerámica hueco doble",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Wrapping at Inserts": "Do not wrap",
+        "Wrapping at Ends": "Interior",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Interior",
+        "Width": "0,15"
+      },
+      "parametros_instancia": {
+        "Comments": "C-07 | Contactos Taller 1 Sur"
+      }
+    }
+  ]
+}

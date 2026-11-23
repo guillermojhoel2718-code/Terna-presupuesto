@@ -1,0 +1,167 @@
+{
+  "modelo": "Proyecto electrico_corregido",
+  "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+  "categoria": "CableTrays",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/17_extraer_electrico.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 5,
+  "elementos": [
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147096,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300558",
+      "categoria": "CableTrays",
+      "familia": "Cable Tray with Fittings",
+      "tipo": "Bandejas 25 x 5 Cm. 2 · 250 mmx75 mm",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.902928,
+        "area_m2": null,
+        "volumen_m3": 0.01693,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Bend Radius Multiplier": "1",
+        "Horizontal Bend": "Ladder Horizontal Bend: Standard",
+        "Vertical Outside Bend": "Ladder Vertical Inside Bend: Standard",
+        "Vertical Inside Bend": "Ladder Vertical Inside Bend: Standard",
+        "Union": "Ladder Union: Standard",
+        "Transition": "Ladder Reducer: Standard",
+        "Cross": "Ladder Horizontal Cross: 12\" Radius",
+        "Tee": "Ladder Horizontal Tee: 12\" Radius"
+      },
+      "parametros_instancia": {
+        "Size": "250 mmx75 mm"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3188918,
+      "unique_id": "6282b413-efb1-4133-9e98-c8fabe22ab21-0030a8b6",
+      "categoria": "CableTrays",
+      "familia": "Cable Tray with Fittings",
+      "tipo": "Bandejas 25 x 5 Cm. 2 · 250 mmx75 mm",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 1.30441,
+        "area_m2": null,
+        "volumen_m3": 0.024458,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Bend Radius Multiplier": "1",
+        "Horizontal Bend": "Ladder Horizontal Bend: Standard",
+        "Vertical Outside Bend": "Ladder Vertical Inside Bend: Standard",
+        "Vertical Inside Bend": "Ladder Vertical Inside Bend: Standard",
+        "Union": "Ladder Union: Standard",
+        "Transition": "Ladder Reducer: Standard",
+        "Cross": "Ladder Horizontal Cross: 12\" Radius",
+        "Tee": "Ladder Horizontal Tee: 12\" Radius"
+      },
+      "parametros_instancia": {
+        "Size": "250 mmx75 mm"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3188965,
+      "unique_id": "6282b413-efb1-4133-9e98-c8fabe22ab21-0030a8e5",
+      "categoria": "CableTrays",
+      "familia": "Cable Tray with Fittings",
+      "tipo": "Bandejas 25 x 5 Cm. 2 · 250 mmx75 mm",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 26.09788,
+        "area_m2": null,
+        "volumen_m3": 0.489335,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Bend Radius Multiplier": "1",
+        "Horizontal Bend": "Ladder Horizontal Bend: Standard",
+        "Vertical Outside Bend": "Ladder Vertical Inside Bend: Standard",
+        "Vertical Inside Bend": "Ladder Vertical Inside Bend: Standard",
+        "Union": "Ladder Union: Standard",
+        "Transition": "Ladder Reducer: Standard",
+        "Cross": "Ladder Horizontal Cross: 12\" Radius",
+        "Tee": "Ladder Horizontal Tee: 12\" Radius"
+      },
+      "parametros_instancia": {
+        "Size": "250 mmx75 mm"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3188975,
+      "unique_id": "6282b413-efb1-4133-9e98-c8fabe22ab21-0030a8ef",
+      "categoria": "CableTrays",
+      "familia": "Cable Tray with Fittings",
+      "tipo": "Bandejas 25 x 5 Cm. 2 · 250 mmx75 mm",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.302466,
+        "area_m2": null,
+        "volumen_m3": 0.005671,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Bend Radius Multiplier": "1",
+        "Horizontal Bend": "Ladder Horizontal Bend: Standard",
+        "Vertical Outside Bend": "Ladder Vertical Inside Bend: Standard",
+        "Vertical Inside Bend": "Ladder Vertical Inside Bend: Standard",
+        "Union": "Ladder Union: Standard",
+        "Transition": "Ladder Reducer: Standard",
+        "Cross": "Ladder Horizontal Cross: 12\" Radius",
+        "Tee": "Ladder Horizontal Tee: 12\" Radius"
+      },
+      "parametros_instancia": {
+        "Size": "250 mmx75 mm"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3189074,
+      "unique_id": "6282b413-efb1-4133-9e98-c8fabe22ab21-0030a952",
+      "categoria": "CableTrays",
+      "familia": "Cable Tray with Fittings",
+      "tipo": "Bandejas 25 x 5 Cm. 2 · 250 mmx75 mm",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.990428,
+        "area_m2": null,
+        "volumen_m3": 0.074821,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Bend Radius Multiplier": "1",
+        "Horizontal Bend": "Ladder Horizontal Bend: Standard",
+        "Vertical Outside Bend": "Ladder Vertical Inside Bend: Standard",
+        "Vertical Inside Bend": "Ladder Vertical Inside Bend: Standard",
+        "Union": "Ladder Union: Standard",
+        "Transition": "Ladder Reducer: Standard",
+        "Cross": "Ladder Horizontal Cross: 12\" Radius",
+        "Tee": "Ladder Horizontal Tee: 12\" Radius"
+      },
+      "parametros_instancia": {
+        "Size": "250 mmx75 mm"
+      }
+    }
+  ]
+}

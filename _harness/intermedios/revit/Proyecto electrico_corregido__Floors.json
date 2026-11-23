@@ -1,0 +1,43 @@
+{
+  "modelo": "Proyecto electrico_corregido",
+  "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+  "categoria": "Floors",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/17_extraer_electrico.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 1,
+  "elementos": [
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3159382,
+      "unique_id": "96e0169e-76a5-41bb-b04e-36a1a269d7cc-00303556",
+      "categoria": "Floors",
+      "familia": "Floor",
+      "tipo": "PISO DORMITORIOS",
+      "nivel": "NPT 5.30",
+      "material_principal": "VIGUETAS # 12",
+      "cantidades": {
+        "longitud_m": 30.942332,
+        "area_m2": 42.430668,
+        "volumen_m3": 8.486134,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "S.5",
+        "Structural Material": "VIGUETAS # 12",
+        "Roughness": "1",
+        "Absorptance": "0,1",
+        "Thermal Mass": "211,55 kJ/(m²·K)",
+        "Thermal Resistance (R)": "0,1338 (m²·K)/W",
+        "Thermal Transmittance (U)": "7,4714 W/(m²·K)",
+        "Coarse Scale Fill Color": 0,
+        "Default Thickness": "0,20",
+        "Function": "Interior"
+      },
+      "parametros_instancia": {}
+    }
+  ]
+}

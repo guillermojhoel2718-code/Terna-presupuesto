@@ -1,0 +1,59 @@
+{
+  "modelo": "Proyecto electrico_corregido",
+  "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+  "categoria": "Doors",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/17_extraer_electrico.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 1,
+  "elementos": [
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3146988,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-003004ec",
+      "categoria": "Doors",
+      "familia": "Puerta corredera simple en muro",
+      "tipo": "82.5 x 203 cm",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 3.013812,
+        "volumen_m3": 0.127009,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Pu.3.1",
+        "Define Thermal Properties by": "Schematic Type",
+        "Construction Type Id": "MPUERTA",
+        "Analytic Construction": "Metal",
+        "Visual Light Transmittance": "0",
+        "Solar Heat Gain Coefficient": "0",
+        "Thermal Resistance (R)": "0,2701 (m²·K)/W",
+        "Thermal Transmittance (U)": "3,7021 W/(m²·K)",
+        "Type Mark": "23",
+        "Wall Closure": "By host",
+        "Width": "0,83",
+        "Height": "2,03",
+        "Operation": "CorrederaIzquierda",
+        "Function": "Interior",
+        "Tapajuntas largo": "0,10",
+        "Longitud de hueco": "0,86",
+        "Grosor de hueco": "0,07",
+        "Extremo grueso": "0,05",
+        "Anchura de cubrejuntas": "0,89",
+        "Altura de tapajuntas": "2,06",
+        "eje": "Yes",
+        "Cubrejuntas": "MADERA -DF-",
+        "Panel": "MADERA -DF-",
+        "Marco": "MADERA -DF-"
+      },
+      "parametros_instancia": {
+        "Mark": "28"
+      }
+    }
+  ]
+}

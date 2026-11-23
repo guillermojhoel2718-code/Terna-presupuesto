@@ -1,0 +1,3316 @@
+{
+  "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027",
+  "ruta_modelo": "../Archivos revit/Herrería y Cancelería_2027/TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+  "categoria": "Walls",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/15_extraer_canceleria.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 110,
+  "elementos": [
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 407948,
+      "unique_id": "79cdb798-4a81-4a78-af0e-f118ffb1fefa-0006398c",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 12.251946,
+        "area_m2": 23.797086,
+        "volumen_m3": 3.569563,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 407949,
+      "unique_id": "79cdb798-4a81-4a78-af0e-f118ffb1fefa-0006398d",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 5.990378,
+        "area_m2": 12.579794,
+        "volumen_m3": 1.886969,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 489163,
+      "unique_id": "79cdb798-4a81-4a78-af0e-f118ffb1fefa-000776cb",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.014999,
+        "area_m2": 12.631498,
+        "volumen_m3": 1.894725,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 583338,
+      "unique_id": "fa5a5630-8571-4ccc-b91c-0125d1b75e1c-0008e6aa",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 12.75583,
+        "area_m2": 16.665242,
+        "volumen_m3": 2.499786,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 583381,
+      "unique_id": "fa5a5630-8571-4ccc-b91c-0125d1b75e1c-0008e6d5",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 25.493884,
+        "area_m2": 34.802869,
+        "volumen_m3": 5.22043,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 583413,
+      "unique_id": "fa5a5630-8571-4ccc-b91c-0125d1b75e1c-0008e6f5",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Madera",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Madera 19, tablas",
+      "cantidades": {
+        "longitud_m": 6.014998,
+        "area_m2": 5.225571,
+        "volumen_m3": 0.052256,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Madera 19, tablas",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Both",
+        "Coarse Scale Fill Color": 12632256,
+        "Coarse Scale Fill Pattern": "<Solid fill>",
+        "Function": "Interior",
+        "Width": "0.01",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 583424,
+      "unique_id": "fa5a5630-8571-4ccc-b91c-0125d1b75e1c-0008e700",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 12.765001,
+        "area_m2": 1.3622,
+        "volumen_m3": 0.20433,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 583559,
+      "unique_id": "fa5a5630-8571-4ccc-b91c-0125d1b75e1c-0008e787",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.014998,
+        "area_m2": 12.631496,
+        "volumen_m3": 1.894724,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 583568,
+      "unique_id": "fa5a5630-8571-4ccc-b91c-0125d1b75e1c-0008e790",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Madera",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Madera 19, tablas",
+      "cantidades": {
+        "longitud_m": 6.014999,
+        "area_m2": 5.225571,
+        "volumen_m3": 0.052256,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Madera 19, tablas",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Both",
+        "Coarse Scale Fill Color": 12632256,
+        "Coarse Scale Fill Pattern": "<Solid fill>",
+        "Function": "Interior",
+        "Width": "0.01",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 583649,
+      "unique_id": "fa5a5630-8571-4ccc-b91c-0125d1b75e1c-0008e7e1",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.224999,
+        "area_m2": 8.549998,
+        "volumen_m3": 1.2825,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 583679,
+      "unique_id": "fa5a5630-8571-4ccc-b91c-0125d1b75e1c-0008e7ff",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.005001,
+        "area_m2": 12.60817,
+        "volumen_m3": 1.891225,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 583691,
+      "unique_id": "fa5a5630-8571-4ccc-b91c-0125d1b75e1c-0008e80b",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 12.756803,
+        "area_m2": 35.393811,
+        "volumen_m3": 5.309072,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 583804,
+      "unique_id": "fa5a5630-8571-4ccc-b91c-0125d1b75e1c-0008e87c",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 12.743196,
+        "area_m2": 16.337511,
+        "volumen_m3": 2.450627,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 583846,
+      "unique_id": "fa5a5630-8571-4ccc-b91c-0125d1b75e1c-0008e8a6",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 12.743196,
+        "area_m2": 35.661187,
+        "volumen_m3": 5.349178,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 588610,
+      "unique_id": "50793948-5eec-4989-9338-2b4748af472f-0008fb42",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.014999,
+        "area_m2": 12.914996,
+        "volumen_m3": 1.937249,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 588954,
+      "unique_id": "4d0e067b-468c-4120-aea3-48abaaacc736-0008fc9a",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.225,
+        "area_m2": 8.234999,
+        "volumen_m3": 1.23525,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 588998,
+      "unique_id": "4d0e067b-468c-4120-aea3-48abaaacc736-0008fcc6",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Madera",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Madera 19, tablas",
+      "cantidades": {
+        "longitud_m": 5.999999,
+        "area_m2": 5.212331,
+        "volumen_m3": 0.052123,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Madera 19, tablas",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Both",
+        "Coarse Scale Fill Color": 12632256,
+        "Coarse Scale Fill Pattern": "<Solid fill>",
+        "Function": "Interior",
+        "Width": "0.01",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 589054,
+      "unique_id": "4d0e067b-468c-4120-aea3-48abaaacc736-0008fcfe",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 12.45,
+        "area_m2": 16.023,
+        "volumen_m3": 2.40345,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 589077,
+      "unique_id": "4d0e067b-468c-4120-aea3-48abaaacc736-0008fd15",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.014998,
+        "area_m2": 12.305974,
+        "volumen_m3": 1.845896,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 589086,
+      "unique_id": "4d0e067b-468c-4120-aea3-48abaaacc736-0008fd1e",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Madera",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Madera 19, tablas",
+      "cantidades": {
+        "longitud_m": 6.009988,
+        "area_m2": 5.221149,
+        "volumen_m3": 0.052211,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "Madera 19, tablas",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Both",
+        "Coarse Scale Fill Color": 12632256,
+        "Coarse Scale Fill Pattern": "<Solid fill>",
+        "Function": "Interior",
+        "Width": "0.01",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 589142,
+      "unique_id": "4d0e067b-468c-4120-aea3-48abaaacc736-0008fd56",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.224999,
+        "area_m2": 8.549998,
+        "volumen_m3": 1.2825,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 589144,
+      "unique_id": "4d0e067b-468c-4120-aea3-48abaaacc736-0008fd58",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.005001,
+        "area_m2": 12.608174,
+        "volumen_m3": 1.891226,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 589156,
+      "unique_id": "4d0e067b-468c-4120-aea3-48abaaacc736-0008fd64",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.224999,
+        "area_m2": 8.549999,
+        "volumen_m3": 1.2825,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 589243,
+      "unique_id": "4d0e067b-468c-4120-aea3-48abaaacc736-0008fdbb",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.218196,
+        "area_m2": 8.220712,
+        "volumen_m3": 1.233107,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 589246,
+      "unique_id": "4d0e067b-468c-4120-aea3-48abaaacc736-0008fdbe",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.218197,
+        "area_m2": 8.535712,
+        "volumen_m3": 1.280357,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 632630,
+      "unique_id": "8dc934de-9635-45a5-b490-f97c79773c94-0009a736",
+      "categoria": "Walls",
+      "familia": "Curtain Wall",
+      "tipo": "T01_VENTANAS",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 49.7,
+        "area_m2": 115.024793,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Adjust for Mullion Size": "Yes",
+        "Spacing": "1.80",
+        "Layout": "Maximum Spacing",
+        "Join Condition": "Border and Horizontal Grid Continuous",
+        "Border 2 Type": "Rectangular Mullion : 50 x 150mm",
+        "Border 1 Type": "Rectangular Mullion : 50 x 150mm",
+        "Interior Type": "Rectangular Mullion : 50 x 150mm",
+        "Curtain Panel": "System Panel : Glazed",
+        "Automatically Embed": "Yes",
+        "Function": "Exterior",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 633332,
+      "unique_id": "8dc934de-9635-45a5-b490-f97c79773c94-0009a9f4",
+      "categoria": "Walls",
+      "familia": "Curtain Wall",
+      "tipo": "T01_VENTANAS",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 49.89864,
+        "area_m2": 74.84796,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Adjust for Mullion Size": "Yes",
+        "Spacing": "1.80",
+        "Layout": "Maximum Spacing",
+        "Join Condition": "Border and Horizontal Grid Continuous",
+        "Border 2 Type": "Rectangular Mullion : 50 x 150mm",
+        "Border 1 Type": "Rectangular Mullion : 50 x 150mm",
+        "Interior Type": "Rectangular Mullion : 50 x 150mm",
+        "Curtain Panel": "System Panel : Glazed",
+        "Automatically Embed": "Yes",
+        "Function": "Exterior",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 680794,
+      "unique_id": "e3528cff-09a5-46d6-a309-fda6faee24c0-000a635a",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 16.096334,
+        "area_m2": 33.959802,
+        "volumen_m3": 5.09397,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 680849,
+      "unique_id": "e3528cff-09a5-46d6-a309-fda6faee24c0-000a6391",
+      "categoria": "Walls",
+      "familia": "Curtain Wall",
+      "tipo": "T01_VENTANAS",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 6.085764,
+        "area_m2": 5.477187,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Adjust for Mullion Size": "Yes",
+        "Spacing": "1.80",
+        "Layout": "Maximum Spacing",
+        "Join Condition": "Border and Horizontal Grid Continuous",
+        "Border 2 Type": "Rectangular Mullion : 50 x 150mm",
+        "Border 1 Type": "Rectangular Mullion : 50 x 150mm",
+        "Interior Type": "Rectangular Mullion : 50 x 150mm",
+        "Curtain Panel": "System Panel : Glazed",
+        "Automatically Embed": "Yes",
+        "Function": "Exterior",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 710365,
+      "unique_id": "a97833c5-c462-432e-bb05-b2f2eca18780-000ad6dd",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 5.840001,
+        "area_m2": 12.1065,
+        "volumen_m3": 1.815975,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 710492,
+      "unique_id": "a97833c5-c462-432e-bb05-b2f2eca18780-000ad75c",
+      "categoria": "Walls",
+      "familia": "Curtain Wall",
+      "tipo": "Muro cortina_001",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 16.063665,
+        "area_m2": 53.562029,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Adjust for Mullion Size": "No",
+        "Join Condition": "Not Defined",
+        "Automatically Embed": "No",
+        "Function": "Exterior",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 710646,
+      "unique_id": "a97833c5-c462-432e-bb05-b2f2eca18780-000ad7f6",
+      "categoria": "Walls",
+      "familia": "Curtain Wall",
+      "tipo": "Muro cortina - simple",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.58,
+        "area_m2": 11.814,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Mc.4",
+        "Adjust for Mullion Size": "Yes",
+        "Spacing": "0.40",
+        "Layout": "Maximum Spacing",
+        "Join Condition": "Not Defined",
+        "Curtain Panel": "Wall Panel - ornamental : Wall Panel - ornamental",
+        "Automatically Embed": "No",
+        "Function": "Exterior",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 776773,
+      "unique_id": "a97833c5-c462-432e-bb05-b2f2eca18780-000bda45",
+      "categoria": "Walls",
+      "familia": "Curtain Wall",
+      "tipo": "Muro cortina - simple",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.52,
+        "area_m2": 11.737312,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Mc.4",
+        "Adjust for Mullion Size": "Yes",
+        "Spacing": "0.40",
+        "Layout": "Maximum Spacing",
+        "Join Condition": "Not Defined",
+        "Curtain Panel": "Wall Panel - ornamental : Wall Panel - ornamental",
+        "Automatically Embed": "No",
+        "Function": "Exterior",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 780564,
+      "unique_id": "7b23ca40-9071-411a-9a58-79fb3ad1d47d-000be914",
+      "categoria": "Walls",
+      "familia": "Curtain Wall",
+      "tipo": "Muro cortina_001",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 15.925,
+        "area_m2": 53.34875,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Adjust for Mullion Size": "No",
+        "Join Condition": "Not Defined",
+        "Automatically Embed": "No",
+        "Function": "Exterior",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 819355,
+      "unique_id": "81daf7d8-6107-44c8-b81e-5d1a0909a534-000c809b",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 4.75966,
+        "area_m2": 10.310285,
+        "volumen_m3": 1.546543,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 819501,
+      "unique_id": "81daf7d8-6107-44c8-b81e-5d1a0909a534-000c812d",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 4.759303,
+        "area_m2": 9.994537,
+        "volumen_m3": 1.499181,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 821888,
+      "unique_id": "78abee7c-4502-4dcf-b766-6949892e7786-000c8a80",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 2.055,
+        "area_m2": 4.122431,
+        "volumen_m3": 0.618365,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 822417,
+      "unique_id": "78abee7c-4502-4dcf-b766-6949892e7786-000c8c91",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 1.9325,
+        "area_m2": 4.21575,
+        "volumen_m3": 0.632363,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 825140,
+      "unique_id": "999afc90-0958-4122-a4f0-44099f613ada-000c9734",
+      "categoria": "Walls",
+      "familia": "Curtain Wall",
+      "tipo": "T01_VENTANAS",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 5.965002,
+        "area_m2": 6.764697,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Adjust for Mullion Size": "Yes",
+        "Spacing": "1.80",
+        "Layout": "Maximum Spacing",
+        "Join Condition": "Border and Horizontal Grid Continuous",
+        "Border 2 Type": "Rectangular Mullion : 50 x 150mm",
+        "Border 1 Type": "Rectangular Mullion : 50 x 150mm",
+        "Interior Type": "Rectangular Mullion : 50 x 150mm",
+        "Curtain Panel": "System Panel : Glazed",
+        "Automatically Embed": "Yes",
+        "Function": "Exterior",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 828427,
+      "unique_id": "6638cc8f-f2a1-4a87-b3e7-b659a8beec0f-000ca40b",
+      "categoria": "Walls",
+      "familia": "Curtain Wall",
+      "tipo": "T01_VENTANAS",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 6.12,
+        "area_m2": 7.028851,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Adjust for Mullion Size": "Yes",
+        "Spacing": "1.80",
+        "Layout": "Maximum Spacing",
+        "Join Condition": "Border and Horizontal Grid Continuous",
+        "Border 2 Type": "Rectangular Mullion : 50 x 150mm",
+        "Border 1 Type": "Rectangular Mullion : 50 x 150mm",
+        "Interior Type": "Rectangular Mullion : 50 x 150mm",
+        "Curtain Panel": "System Panel : Glazed",
+        "Automatically Embed": "Yes",
+        "Function": "Exterior",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 828709,
+      "unique_id": "6638cc8f-f2a1-4a87-b3e7-b659a8beec0f-000ca525",
+      "categoria": "Walls",
+      "familia": "Curtain Wall",
+      "tipo": "T01_VENTANAS",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.96,
+        "area_m2": 2.666912,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Adjust for Mullion Size": "Yes",
+        "Spacing": "1.80",
+        "Layout": "Maximum Spacing",
+        "Join Condition": "Border and Horizontal Grid Continuous",
+        "Border 2 Type": "Rectangular Mullion : 50 x 150mm",
+        "Border 1 Type": "Rectangular Mullion : 50 x 150mm",
+        "Interior Type": "Rectangular Mullion : 50 x 150mm",
+        "Curtain Panel": "System Panel : Glazed",
+        "Automatically Embed": "Yes",
+        "Function": "Exterior",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1146422,
+      "unique_id": "d6d3dcf7-6d9c-4f9b-b797-5344b0ca16dc-00117e36",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Muro 100 mm AAC COM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "*Cemento pulido",
+      "cantidades": {
+        "longitud_m": 7.998436,
+        "area_m2": 3.199374,
+        "volumen_m3": 0.639875,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "*Cemento pulido",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.20",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1146423,
+      "unique_id": "d6d3dcf7-6d9c-4f9b-b797-5344b0ca16dc-00117e37",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Muro 100 mm AAC COM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "*Cemento pulido",
+      "cantidades": {
+        "longitud_m": 1.024471,
+        "area_m2": 0.409789,
+        "volumen_m3": 0.081958,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "*Cemento pulido",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.20",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1146424,
+      "unique_id": "d6d3dcf7-6d9c-4f9b-b797-5344b0ca16dc-00117e38",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Muro 100 mm AAC COM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "*Cemento pulido",
+      "cantidades": {
+        "longitud_m": 8.1,
+        "area_m2": 3.28,
+        "volumen_m3": 0.656,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "*Cemento pulido",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.20",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1146499,
+      "unique_id": "d6d3dcf7-6d9c-4f9b-b797-5344b0ca16dc-00117e83",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Muro 100 mm AAC COM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "*Cemento pulido",
+      "cantidades": {
+        "longitud_m": 1.024471,
+        "area_m2": 0.329789,
+        "volumen_m3": 0.065958,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "*Cemento pulido",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.20",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1186943,
+      "unique_id": "0d826f88-544b-4a95-9a13-bc8693d59c0a-00121c7f",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 5.84,
+        "area_m2": 12.1065,
+        "volumen_m3": 1.815975,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1187315,
+      "unique_id": "0d826f88-544b-4a95-9a13-bc8693d59c0a-00121df3",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.014998,
+        "area_m2": 12.335826,
+        "volumen_m3": 1.850374,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1187539,
+      "unique_id": "0d826f88-544b-4a95-9a13-bc8693d59c0a-00121ed3",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 5.990378,
+        "area_m2": 12.579794,
+        "volumen_m3": 1.886969,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1188703,
+      "unique_id": "0d826f88-544b-4a95-9a13-bc8693d59c0a-0012235f",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 5.99,
+        "area_m2": 12.264,
+        "volumen_m3": 1.8396,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1190131,
+      "unique_id": "0d826f88-544b-4a95-9a13-bc8693d59c0a-001228f3",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 5.845018,
+        "area_m2": 5.481517,
+        "volumen_m3": 0.822228,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1190617,
+      "unique_id": "0d826f88-544b-4a95-9a13-bc8693d59c0a-00122ad9",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.260165,
+        "area_m2": 13.146346,
+        "volumen_m3": 1.971952,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1191511,
+      "unique_id": "fdad41b5-5107-4c7a-a3a8-f61e6819740f-00122e57",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.110165,
+        "area_m2": 12.831346,
+        "volumen_m3": 1.924702,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1191570,
+      "unique_id": "fdad41b5-5107-4c7a-a3a8-f61e6819740f-00122e92",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.095164,
+        "area_m2": 5.790406,
+        "volumen_m3": 0.868561,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1191960,
+      "unique_id": "fdad41b5-5107-4c7a-a3a8-f61e6819740f-00123018",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 02",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 5.770019,
+        "area_m2": 5.552768,
+        "volumen_m3": 0.832915,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1191961,
+      "unique_id": "fdad41b5-5107-4c7a-a3a8-f61e6819740f-00123019",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 02",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.260165,
+        "area_m2": 5.634148,
+        "volumen_m3": 0.845122,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1192184,
+      "unique_id": "fdad41b5-5107-4c7a-a3a8-f61e6819740f-001230f8",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 16.096334,
+        "area_m2": 15.362768,
+        "volumen_m3": 2.304415,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1192397,
+      "unique_id": "fdad41b5-5107-4c7a-a3a8-f61e6819740f-001231cd",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 4.75966,
+        "area_m2": 4.664177,
+        "volumen_m3": 0.699626,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1195372,
+      "unique_id": "fdad41b5-5107-4c7a-a3a8-f61e6819740f-00123d6c",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 5.999999,
+        "area_m2": 12.914997,
+        "volumen_m3": 1.93725,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1197603,
+      "unique_id": "897bceee-4f26-4222-b53b-a8db96972f5f-00124623",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 18.975,
+        "area_m2": 25.650001,
+        "volumen_m3": 3.8475,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1197922,
+      "unique_id": "897bceee-4f26-4222-b53b-a8db96972f5f-00124762",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 25.493884,
+        "area_m2": 24.07669,
+        "volumen_m3": 3.611503,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1198010,
+      "unique_id": "897bceee-4f26-4222-b53b-a8db96972f5f-001247ba",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 02",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 25.487081,
+        "area_m2": 24.355227,
+        "volumen_m3": 3.653284,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1198647,
+      "unique_id": "fae1c21f-7170-4ffe-87e5-308a3b54a66b-00124a37",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 5.999997,
+        "area_m2": 5.842498,
+        "volumen_m3": 0.876375,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1199477,
+      "unique_id": "fae1c21f-7170-4ffe-87e5-308a3b54a66b-00124d75",
+      "categoria": "Walls",
+      "familia": "Curtain Wall",
+      "tipo": "Muro cortina - simple",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 4.004998,
+        "area_m2": 7.882245,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Mc.4",
+        "Adjust for Mullion Size": "Yes",
+        "Spacing": "0.40",
+        "Layout": "Maximum Spacing",
+        "Join Condition": "Not Defined",
+        "Curtain Panel": "Wall Panel - ornamental : Wall Panel - ornamental",
+        "Automatically Embed": "No",
+        "Function": "Exterior",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1200173,
+      "unique_id": "fae1c21f-7170-4ffe-87e5-308a3b54a66b-0012502d",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.003892,
+        "area_m2": 12.293173,
+        "volumen_m3": 1.843976,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1200241,
+      "unique_id": "fae1c21f-7170-4ffe-87e5-308a3b54a66b-00125071",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 02",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.014999,
+        "area_m2": 5.642999,
+        "volumen_m3": 0.84645,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1200317,
+      "unique_id": "fae1c21f-7170-4ffe-87e5-308a3b54a66b-001250bd",
+      "categoria": "Walls",
+      "familia": "Curtain Wall",
+      "tipo": "Muro cortina - simple",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.989999,
+        "area_m2": 7.851497,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Mc.4",
+        "Adjust for Mullion Size": "Yes",
+        "Spacing": "0.40",
+        "Layout": "Maximum Spacing",
+        "Join Condition": "Not Defined",
+        "Curtain Panel": "Wall Panel - ornamental : Wall Panel - ornamental",
+        "Automatically Embed": "No",
+        "Function": "Exterior",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1200423,
+      "unique_id": "fae1c21f-7170-4ffe-87e5-308a3b54a66b-00125127",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.003892,
+        "area_m2": 12.293173,
+        "volumen_m3": 1.843976,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1201813,
+      "unique_id": "fae1c21f-7170-4ffe-87e5-308a3b54a66b-00125695",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 5.850003,
+        "area_m2": 12.127506,
+        "volumen_m3": 1.819126,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1202153,
+      "unique_id": "fae1c21f-7170-4ffe-87e5-308a3b54a66b-001257e9",
+      "categoria": "Walls",
+      "familia": "Curtain Wall",
+      "tipo": "T01_VENTANAS",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 5.995017,
+        "area_m2": 5.328015,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Adjust for Mullion Size": "Yes",
+        "Spacing": "1.80",
+        "Layout": "Maximum Spacing",
+        "Join Condition": "Border and Horizontal Grid Continuous",
+        "Border 2 Type": "Rectangular Mullion : 50 x 150mm",
+        "Border 1 Type": "Rectangular Mullion : 50 x 150mm",
+        "Interior Type": "Rectangular Mullion : 50 x 150mm",
+        "Curtain Panel": "System Panel : Glazed",
+        "Automatically Embed": "Yes",
+        "Function": "Exterior",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1202397,
+      "unique_id": "fae1c21f-7170-4ffe-87e5-308a3b54a66b-001258dd",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 5.850002,
+        "area_m2": 12.127505,
+        "volumen_m3": 1.819126,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1203658,
+      "unique_id": "2cddf831-e5f0-40a0-bd6d-587ff065912a-00125dca",
+      "categoria": "Walls",
+      "familia": "Curtain Wall",
+      "tipo": "Muro cortina - simple",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.57,
+        "area_m2": 7.3185,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Mc.4",
+        "Adjust for Mullion Size": "Yes",
+        "Spacing": "0.40",
+        "Layout": "Maximum Spacing",
+        "Join Condition": "Not Defined",
+        "Curtain Panel": "Wall Panel - ornamental : Wall Panel - ornamental",
+        "Automatically Embed": "No",
+        "Function": "Exterior",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1204372,
+      "unique_id": "2cddf831-e5f0-40a0-bd6d-587ff065912a-00126094",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.003891,
+        "area_m2": 5.403502,
+        "volumen_m3": 0.810525,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1204420,
+      "unique_id": "2cddf831-e5f0-40a0-bd6d-587ff065912a-001260c4",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 02",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.003894,
+        "area_m2": 5.403504,
+        "volumen_m3": 0.810526,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1306036,
+      "unique_id": "1ea4d6dc-695b-4138-94be-621559bfca37-0013edb4",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.003894,
+        "area_m2": 12.293178,
+        "volumen_m3": 1.843977,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1306889,
+      "unique_id": "5de7a9e9-1840-4d04-95b2-550db1e96be3-0013f109",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.003892,
+        "area_m2": 5.703697,
+        "volumen_m3": 0.855555,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1307110,
+      "unique_id": "5de7a9e9-1840-4d04-95b2-550db1e96be3-0013f1e6",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 12.743196,
+        "area_m2": 12.743196,
+        "volumen_m3": 1.911479,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1307314,
+      "unique_id": "5de7a9e9-1840-4d04-95b2-550db1e96be3-0013f2b2",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.005,
+        "area_m2": 12.610501,
+        "volumen_m3": 1.891575,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1307396,
+      "unique_id": "5de7a9e9-1840-4d04-95b2-550db1e96be3-0013f304",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 02",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.005,
+        "area_m2": 5.56225,
+        "volumen_m3": 0.834338,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1327101,
+      "unique_id": "11d4ce76-a500-493c-a07f-a0ff0b9fab5e-00143ffd",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 02",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 24.266946,
+        "area_m2": 23.053598,
+        "volumen_m3": 3.45804,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1333350,
+      "unique_id": "e0fd5ec2-16ac-4886-adf9-d5da4c5c17be-00145866",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.005001,
+        "area_m2": 5.853892,
+        "volumen_m3": 0.878084,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1333803,
+      "unique_id": "e0fd5ec2-16ac-4886-adf9-d5da4c5c17be-00145a2b",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 25.493884,
+        "area_m2": 22.809495,
+        "volumen_m3": 3.421424,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1333957,
+      "unique_id": "e0fd5ec2-16ac-4886-adf9-d5da4c5c17be-00145ac5",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 25.499999,
+        "area_m2": 22.949999,
+        "volumen_m3": 3.4425,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1340868,
+      "unique_id": "2b65cad3-23b1-4d49-85a1-2c17a17bda15-001475c4",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 12.756803,
+        "area_m2": 12.756803,
+        "volumen_m3": 1.91352,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1350369,
+      "unique_id": "58919f6c-3d18-4d23-aaa6-cf010cf6f93d-00149ae1",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.23,
+        "area_m2": 8.560499,
+        "volumen_m3": 1.284075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1350683,
+      "unique_id": "58919f6c-3d18-4d23-aaa6-cf010cf6f93d-00149c1b",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.231804,
+        "area_m2": 8.249289,
+        "volumen_m3": 1.237393,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1350942,
+      "unique_id": "58919f6c-3d18-4d23-aaa6-cf010cf6f93d-00149d1e",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.231804,
+        "area_m2": 7.487289,
+        "volumen_m3": 1.123093,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1356699,
+      "unique_id": "d5ed3f0e-4d9f-4839-9f70-fe468488b5b5-0014b39b",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 12.254303,
+        "area_m2": 18.709085,
+        "volumen_m3": 2.806363,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1356771,
+      "unique_id": "d5ed3f0e-4d9f-4839-9f70-fe468488b5b5-0014b3e3",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 02",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.014999,
+        "area_m2": 5.939999,
+        "volumen_m3": 0.891,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1356851,
+      "unique_id": "d5ed3f0e-4d9f-4839-9f70-fe468488b5b5-0014b433",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.014999,
+        "area_m2": 12.658496,
+        "volumen_m3": 1.898774,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1357645,
+      "unique_id": "d5ed3f0e-4d9f-4839-9f70-fe468488b5b5-0014b74d",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 12.658054,
+        "area_m2": 16.613627,
+        "volumen_m3": 2.492044,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1358566,
+      "unique_id": "d5ed3f0e-4d9f-4839-9f70-fe468488b5b5-0014bae6",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.231804,
+        "area_m2": 7.487289,
+        "volumen_m3": 1.123093,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1360030,
+      "unique_id": "ce0dca84-51e6-4f48-831c-df6d54c93ab9-0014c09e",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.23,
+        "area_m2": 7.798499,
+        "volumen_m3": 1.169775,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1360541,
+      "unique_id": "ce0dca84-51e6-4f48-831c-df6d54c93ab9-0014c29d",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.219858,
+        "area_m2": 7.462201,
+        "volumen_m3": 1.11933,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1360777,
+      "unique_id": "ce0dca84-51e6-4f48-831c-df6d54c93ab9-0014c389",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.085011,
+        "area_m2": 12.778523,
+        "volumen_m3": 1.916778,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1360942,
+      "unique_id": "ce0dca84-51e6-4f48-831c-df6d54c93ab9-0014c42e",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.08,
+        "area_m2": 12.768,
+        "volumen_m3": 1.9152,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1361076,
+      "unique_id": "ce0dca84-51e6-4f48-831c-df6d54c93ab9-0014c4b4",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.219858,
+        "area_m2": 8.224201,
+        "volumen_m3": 1.23363,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1361541,
+      "unique_id": "ce0dca84-51e6-4f48-831c-df6d54c93ab9-0014c685",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 0.975013,
+        "area_m2": 2.047528,
+        "volumen_m3": 0.307129,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1361623,
+      "unique_id": "ce0dca84-51e6-4f48-831c-df6d54c93ab9-0014c6d7",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 0.975013,
+        "area_m2": 0.926263,
+        "volumen_m3": 0.138939,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1362042,
+      "unique_id": "ce0dca84-51e6-4f48-831c-df6d54c93ab9-0014c87a",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 02",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.224999,
+        "area_m2": 5.534999,
+        "volumen_m3": 0.83025,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1362171,
+      "unique_id": "666d85c2-0d0d-4a20-a6d4-de9a69d1585b-0014c8fb",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 02",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.231804,
+        "area_m2": 5.608624,
+        "volumen_m3": 0.841294,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1362322,
+      "unique_id": "666d85c2-0d0d-4a20-a6d4-de9a69d1585b-0014c992",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 02",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 12.743196,
+        "area_m2": 12.177286,
+        "volumen_m3": 1.826593,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1377611,
+      "unique_id": "a5bc1525-8d8c-493a-b43e-c2ad01555776-0015054b",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 12.015,
+        "area_m2": 18.198316,
+        "volumen_m3": 2.729747,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1377998,
+      "unique_id": "a5bc1525-8d8c-493a-b43e-c2ad01555776-001506ce",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 5.990364,
+        "area_m2": 5.619596,
+        "volumen_m3": 0.842939,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1378229,
+      "unique_id": "a5bc1525-8d8c-493a-b43e-c2ad01555776-001507b5",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 02",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 5.915378,
+        "area_m2": 5.619609,
+        "volumen_m3": 0.842941,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1378356,
+      "unique_id": "a5bc1525-8d8c-493a-b43e-c2ad01555776-00150834",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 5.990378,
+        "area_m2": 5.619596,
+        "volumen_m3": 0.842939,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1379742,
+      "unique_id": "89192f97-11ba-4975-a85d-1e61825ff172-00150d9e",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 02",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 12.251946,
+        "area_m2": 25.571586,
+        "volumen_m3": 3.835738,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1420085,
+      "unique_id": "d446cfd3-ca69-4a20-a3af-6505507ac6e2-0015ab35",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 6.245013,
+        "area_m2": 9.271528,
+        "volumen_m3": 1.390729,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1432684,
+      "unique_id": "a32ccbea-9fe2-41b3-849d-89a7757ccdee-0015dc6c",
+      "categoria": "Walls",
+      "familia": "Curtain Wall",
+      "tipo": "T01_VENTANAS",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 6.025,
+        "area_m2": 7.65891,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Adjust for Mullion Size": "Yes",
+        "Spacing": "1.80",
+        "Layout": "Maximum Spacing",
+        "Join Condition": "Border and Horizontal Grid Continuous",
+        "Border 2 Type": "Rectangular Mullion : 50 x 150mm",
+        "Border 1 Type": "Rectangular Mullion : 50 x 150mm",
+        "Interior Type": "Rectangular Mullion : 50 x 150mm",
+        "Curtain Panel": "System Panel : Glazed",
+        "Automatically Embed": "Yes",
+        "Function": "Exterior",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1448235,
+      "unique_id": "c891c959-37d7-433f-b0c5-3c4c79ad8109-0016192b",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Dala Int 01",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 1.46,
+        "area_m2": 1.387,
+        "volumen_m3": 0.20805,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1448301,
+      "unique_id": "c891c959-37d7-433f-b0c5-3c4c79ad8109-0016196d",
+      "categoria": "Walls",
+      "familia": "Basic Wall",
+      "tipo": "Ladrillo cara vista 15 CM",
+      "nivel": "Nivel - Azotea",
+      "material_principal": "Ladrillo",
+      "cantidades": {
+        "longitud_m": 1.78,
+        "area_m2": 2.225,
+        "volumen_m3": 0.33375,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "Md.1",
+        "Structural Material": "Ladrillo",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Wrapping at Inserts": "Do not wrap",
+        "Coarse Scale Fill Color": 0,
+        "Function": "Exterior",
+        "Width": "0.15",
+        "ExpectedLife": 0
+      },
+      "parametros_instancia": {}
+    }
+  ]
+}

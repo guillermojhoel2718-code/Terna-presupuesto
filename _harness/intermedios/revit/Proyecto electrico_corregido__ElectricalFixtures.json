@@ -1,0 +1,4763 @@
+{
+  "modelo": "Proyecto electrico_corregido",
+  "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+  "categoria": "ElectricalFixtures",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/17_extraer_electrico.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 121,
+  "elementos": [
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3133846,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd196",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 5",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3134008,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd238",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 5",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3134074,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd27a",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 5",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3134249,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd329",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 4",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3134442,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd3ea",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 4",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3134484,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd414",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 4",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3135138,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd6a2",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-10 | Contactos Taller 6 y Servicios PB | Room 6",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3135426,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd7c2",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-08 | Contactos Talleres 2 y 3 | Room 2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3135466,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd7ea",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-08 | Contactos Talleres 2 y 3 | Room 2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3135506,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd812",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-08 | Contactos Talleres 2 y 3 | Room 2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3135538,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd832",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-08 | Contactos Talleres 2 y 3 | Room 2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3135581,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd85d",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-08 | Contactos Talleres 2 y 3 | Room 2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3135622,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd886",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-06 | Contactos Taller 1 Norte | Room 1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3135658,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd8aa",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-06 | Contactos Taller 1 Norte | aproximado por aparato mÃ¡s cercano"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3135712,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd8e0",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-06 | Contactos Taller 1 Norte | aproximado por aparato mÃ¡s cercano"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3135752,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd908",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-07 | Contactos Taller 1 Sur | Room 1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3135786,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd92a",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-07 | Contactos Taller 1 Sur"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3135816,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd948",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-08 | Contactos Talleres 2 y 3 | Room 2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3135858,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd972",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-07 | Contactos Taller 1 Sur"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3135898,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fd99a",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-07 | Contactos Taller 1 Sur"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3136016,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fda10",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-07 | Contactos Taller 1 Sur | Room 1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3136115,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fda73",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-07 | Contactos Taller 1 Sur | Room 1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3136152,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fda98",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-07 | Contactos Taller 1 Sur | Room 1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3136192,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fdac0",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-06 | Contactos Taller 1 Norte | aproximado por aparato mÃ¡s cercano"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3136231,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fdae7",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-06 | Contactos Taller 1 Norte | aproximado por aparato mÃ¡s cercano"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3136268,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fdb0c",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-06 | Contactos Taller 1 Norte | Room 1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3136327,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fdb47",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-06 | Contactos Taller 1 Norte | Room 1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3136365,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fdb6d",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-06 | Contactos Taller 1 Norte | aproximado por aparato mÃ¡s cercano"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3136403,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fdb93",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-06 | Contactos Taller 1 Norte | aproximado por aparato mÃ¡s cercano"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3136441,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fdbb9",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-07 | Contactos Taller 1 Sur | Room 1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3136485,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fdbe5",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-07 | Contactos Taller 1 Sur"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147132,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-0030057c",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "T2 - C7",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-01",
+        "Whatt's Vateos": "875,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "875 VA",
+        "Amperajes": "7 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-10 | Contactos Taller 6 y Servicios PB | Room 8"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168739,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059e3",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 9"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168740,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059e4",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 9"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168741,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059e5",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 9"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168742,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059e6",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 9"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168743,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059e7",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 9"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168744,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059e8",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 9"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168745,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059e9",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 9"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168746,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059ea",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 9"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168747,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059eb",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 9"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168748,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059ec",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 12"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168749,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059ed",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 12"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168750,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059ee",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 12"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168751,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059ef",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 12"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168752,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059f0",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 12"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168753,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059f1",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 12"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168754,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059f2",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 12"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168755,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059f3",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 12"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168756,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059f4",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 12"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168759,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059f7",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 11"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168760,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059f8",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 11"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168761,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059f9",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 11"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168762,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059fa",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 11"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168763,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059fb",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 11"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168764,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059fc",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 11"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168765,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059fd",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 11"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168766,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059fe",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 10"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168767,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-003059ff",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 10"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168768,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-00305a00",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 10"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168769,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-00305a01",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 10"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168770,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-00305a02",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 10"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168771,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-00305a03",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 10"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168772,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-00305a04",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 10"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168773,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-00305a05",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 10"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168774,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-00305a06",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-18 | Contactos Aulas 9 y 10 | Room 10"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3168784,
+      "unique_id": "eea2268e-c36f-48ba-a709-a5df5aa2e384-00305a10",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-21 | Contactos Biblioteca y Pasillo PA | Room 14"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3185897,
+      "unique_id": "0fcc845b-9d7f-43ad-a9f1-e8a3389ad1ec-00309ce9",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 5",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3185898,
+      "unique_id": "0fcc845b-9d7f-43ad-a9f1-e8a3389ad1ec-00309cea",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 5",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3185899,
+      "unique_id": "0fcc845b-9d7f-43ad-a9f1-e8a3389ad1ec-00309ceb",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 4",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3185900,
+      "unique_id": "0fcc845b-9d7f-43ad-a9f1-e8a3389ad1ec-00309cec",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 4",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3185966,
+      "unique_id": "0fcc845b-9d7f-43ad-a9f1-e8a3389ad1ec-00309d2e",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 5",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3185967,
+      "unique_id": "0fcc845b-9d7f-43ad-a9f1-e8a3389ad1ec-00309d2f",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 5",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3185968,
+      "unique_id": "0fcc845b-9d7f-43ad-a9f1-e8a3389ad1ec-00309d30",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 4",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3185969,
+      "unique_id": "0fcc845b-9d7f-43ad-a9f1-e8a3389ad1ec-00309d31",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 4",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187475,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a313",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 5",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187476,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a314",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 5",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187477,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a315",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 4",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187478,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a316",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-09 | Contactos Talleres 4 y 5 | Room 4",
+        "Mark": "1"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187824,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a470",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-10 | Contactos Taller 6 y Servicios PB | Room 8",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187825,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a471",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-10 | Contactos Taller 6 y Servicios PB | Room 8",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187826,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a472",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-10 | Contactos Taller 6 y Servicios PB | Room 8",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187827,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a473",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-08 | Contactos Talleres 2 y 3 | Room 3",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187828,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a474",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-08 | Contactos Talleres 2 y 3 | Room 3",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187877,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a4a5",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-10 | Contactos Taller 6 y Servicios PB | Room 6",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187878,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a4a6",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-10 | Contactos Taller 6 y Servicios PB | Room 8",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187879,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a4a7",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-10 | Contactos Taller 6 y Servicios PB | Room 8",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187880,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a4a8",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-08 | Contactos Talleres 2 y 3 | Room 3",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187906,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a4c2",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-10 | Contactos Taller 6 y Servicios PB | Room 6",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187907,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a4c3",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-10 | Contactos Taller 6 y Servicios PB | Room 6",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187908,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a4c4",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-08 | Contactos Talleres 2 y 3 | Room 3",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187909,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a4c5",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-08 | Contactos Talleres 2 y 3 | Room 3",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187963,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a4fb",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-10 | Contactos Taller 6 y Servicios PB | Room 6",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187964,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a4fc",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-10 | Contactos Taller 6 y Servicios PB | Room 6",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187965,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a4fd",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-08 | Contactos Talleres 2 y 3 | Room 3",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3187966,
+      "unique_id": "6c0fd50e-89f6-45de-a166-a0b20b21506d-0030a4fe",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-08 | Contactos Talleres 2 y 3 | Room 3",
+        "Mark": "2"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3224347,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-0031331b",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-21 | Contactos Biblioteca y Pasillo PA | Room 14"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3224403,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-00313353",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-21 | Contactos Biblioteca y Pasillo PA | Room 14"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3224466,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-00313392",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-21 | Contactos Biblioteca y Pasillo PA | Room 14"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3224467,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-00313393",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-21 | Contactos Biblioteca y Pasillo PA | Room 14"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3224859,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-0031351b",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-21 | Contactos Biblioteca y Pasillo PA | Room 14"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3224876,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-0031352c",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-21 | Contactos Biblioteca y Pasillo PA | Room 14"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3224881,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-00313531",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "PA_NIVEL5|CONTACTO|C24"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3225500,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-0031379c",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-21 | Contactos Biblioteca y Pasillo PA | Room 14"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3225508,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-003137a4",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-21 | Contactos Biblioteca y Pasillo PA | Room 14"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3225678,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-0031384e",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-20 | Contactos CÃ³mputo Regulado | Room 13"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3225679,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-0031384f",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-20 | Contactos CÃ³mputo Regulado | Room 13"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3225687,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-00313857",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-20 | Contactos CÃ³mputo Regulado | Room 13"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3225688,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-00313858",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-20 | Contactos CÃ³mputo Regulado | Room 13"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3225718,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-00313876",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3225882,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-0031391a",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3225906,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-00313932",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-20 | Contactos CÃ³mputo Regulado | Room 13"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3225911,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-00313937",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-20 | Contactos CÃ³mputo Regulado | Room 13"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3225916,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-0031393c",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-20 | Contactos CÃ³mputo Regulado | Room 13"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3225943,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-00313957",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-20 | Contactos CÃ³mputo Regulado | Room 13"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3225980,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-0031397c",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-20 | Contactos CÃ³mputo Regulado | Room 13"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3226130,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-00313a12",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 11"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3226208,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-00313a60",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 11"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3226291,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-00313ab3",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-19 | Contactos Aulas 11 y 12 | Room 12"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3226484,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-00313b74",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-21 | Contactos Biblioteca y Pasillo PA | Room 15"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3226524,
+      "unique_id": "bf11400f-fb76-4aed-9772-0237a8dac0b1-00313b9c",
+      "categoria": "ElectricalFixtures",
+      "familia": "TOMACORRIENTE gral",
+      "tipo": "C2-T2",
+      "nivel": "NPT 8.80",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.08311,
+        "volumen_m3": 0.00023,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Type Mark": "C-02",
+        "Whatt's Vateos": "350,00 W",
+        "Voltajes": "127,00 V",
+        "Clasificacion Cargas": "Potencia",
+        "Dispositivo": "2",
+        "Potencia Aparente FASE 1": "350 VA",
+        "Amperajes": "3 VA",
+        "SIGLAS": "2",
+        "Diam Tubos": "0,02",
+        "Toma Simple": "No",
+        "Toma Doble": "Yes",
+        "1 T Simple": "No",
+        "2 T Doble": "Yes",
+        "3 T Triple": "No",
+        "Toma Triple": "No"
+      },
+      "parametros_instancia": {
+        "Comments": "C-21 | Contactos Biblioteca y Pasillo PA | Room 15"
+      }
+    }
+  ]
+}

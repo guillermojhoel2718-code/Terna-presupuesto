@@ -1,0 +1,185 @@
+{
+  "modelo": "Instalaciones",
+  "ruta_modelo": "../Archivos revit/Instalacion IHS_2027/Instalaciones.rvt",
+  "categoria": "MechanicalEquipment",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/16_extraer_ihs.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 6,
+  "elementos": [
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 517236,
+      "unique_id": "092edb40-9951-48dc-a6b1-7cf3c6e8cdf4-0007e474",
+      "categoria": "MechanicalEquipment",
+      "familia": "FIT 125-080-250 MANC",
+      "tipo": "125-080-250 MANC,RT216",
+      "nivel": "N.P.T +5.30",
+      "material_principal": "Aço - Franklin Electric - Verde",
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.562719,
+        "volumen_m3": 0.025433,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "15000",
+        "Model": "125-080-250 MANC,RT216",
+        "Manufacturer": "Franklin Electric",
+        "URL": "https://franklin-electric.com/",
+        "Description": "Motobombas para líquidos com sólidos em suspensão.",
+        "Classification Number": "23.70.50.11",
+        "Assembly Description": "Distribution Systems",
+        "Assembly Code": "D3040",
+        "Product data url": "https://bimobject.com/motobombas/product/Bombas-Normalizadas-Serie-FIT",
+        "Edition number": "1",
+        "Product Guid": "899334a4-0a4c-4ac2-94af-1e8b198efecc",
+        "Material do Produto": "Aço - Franklin Electric - Verde",
+        "Frequência": "60 Hz",
+        "Sucção": "127.00 mm",
+        "Descarga": "76.20 mm",
+        "Diâmetro do Rotor": "0.22",
+        "Fase": "1",
+        "Voltagem": "0 V",
+        "Amperagem Máxima": "0 A",
+        "Apparent Load": "0 VA",
+        "Comprimento do Cabo (NA)": "0.00",
+        "Pressão Máxima": "0.0 Pa",
+        "Modelos": "87131656-00",
+        "Código do Produto": "87131656-00",
+        "Tipo": "1"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 545931,
+      "unique_id": "8913d4cf-6f9a-488e-8b88-9c43195af434-0008548b",
+      "categoria": "MechanicalEquipment",
+      "familia": "Cisterna Rotplas",
+      "tipo": "ROTOPLAS 1100 LTS",
+      "nivel": "N.P.T +5.30",
+      "material_principal": "PLASTICOS ROTOPLAS",
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 13.87043,
+        "volumen_m3": 5.742611,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Classification Number": "23.75.70.11.14",
+        "Height 1": "0.51",
+        "In-Line Expansion Tank Material": "<By Category>",
+        "Height 2": "0.25",
+        "Half Height 1": "0.25",
+        "Material Tinaco": "PLASTICOS ROTOPLAS",
+        "Material Tuberia": "<By Category>",
+        "Nombre": "Yes",
+        "RADIO": "1.10",
+        "ALTURA": "1.45",
+        "Flujo": "0.0 L/s",
+        "DIAMETRO": "2.20"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 598479,
+      "unique_id": "a8d53348-fd2e-4d95-9040-46fae747c743-000921cf",
+      "categoria": "MechanicalEquipment",
+      "familia": "CISTERNA",
+      "tipo": "Cisterna de almacenamiento subterráneo de concreto armado con capacidad total de 76,000 litros, dividido en dos compartimentos independientes mediante muro divisorio de concreto, Cisterna 1 para Agua Potable (20,000 L) y Cisterna 2 para Agua Pluvial (56,000 L)",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 125.91044,
+        "volumen_m3": 20.495587,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Description": "sistema de almacenamiento subterráneo de concreto armado con capacidad total de 76,000 litros, dividido en dos compartimentos independientes mediante muro divisorio de concreto: Cisterna 1 para Agua Potable (20,000 L) y Cisterna 2 para Agua Pluvial (56,000 L).",
+        "Default Elevation": "1.22"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 601546,
+      "unique_id": "17af4867-59ee-4226-9bb0-a587eda5d014-00092dca",
+      "categoria": "MechanicalEquipment",
+      "familia": "CISTERNA",
+      "tipo": "Cisterna de almacenamiento subterráneo de concreto armado con capacidad total de 76,000 litros, dividido en dos compartimentos independientes mediante muro divisorio de concreto, Cisterna 1 para Agua Potable (20,000 L) y Cisterna 2 para Agua Pluvial (56,000 L)",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 125.91044,
+        "volumen_m3": 20.495587,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Description": "sistema de almacenamiento subterráneo de concreto armado con capacidad total de 76,000 litros, dividido en dos compartimentos independientes mediante muro divisorio de concreto: Cisterna 1 para Agua Potable (20,000 L) y Cisterna 2 para Agua Pluvial (56,000 L).",
+        "Default Elevation": "1.22"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 609795,
+      "unique_id": "8d51096f-f1e8-4933-96ee-c35da90c2fec-00094e03",
+      "categoria": "MechanicalEquipment",
+      "familia": "CISTERNA",
+      "tipo": "Cisterna de almacenamiento subterráneo de concreto armado con capacidad total de 76,000 litros, dividido en dos compartimentos independientes mediante muro divisorio de concreto, Cisterna 1 para Agua Potable (20,000 L) y Cisterna 2 para Agua Pluvial (56,000 L)",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 125.91044,
+        "volumen_m3": 20.495587,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Description": "sistema de almacenamiento subterráneo de concreto armado con capacidad total de 76,000 litros, dividido en dos compartimentos independientes mediante muro divisorio de concreto: Cisterna 1 para Agua Potable (20,000 L) y Cisterna 2 para Agua Pluvial (56,000 L).",
+        "Default Elevation": "1.22"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 614530,
+      "unique_id": "1903ae37-cc25-4f7d-8a2d-2ce64ba359ee-00096082",
+      "categoria": "MechanicalEquipment",
+      "familia": "CISTERNA",
+      "tipo": "Cisterna de almacenamiento subterráneo de concreto armado con capacidad total de 76,000 litros, dividido en dos compartimentos independientes mediante muro divisorio de concreto, Cisterna 1 para Agua Potable (20,000 L) y Cisterna 2 para Agua Pluvial (56,000 L)",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 125.91044,
+        "volumen_m3": 20.495587,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Description": "sistema de almacenamiento subterráneo de concreto armado con capacidad total de 76,000 litros, dividido en dos compartimentos independientes mediante muro divisorio de concreto: Cisterna 1 para Agua Potable (20,000 L) y Cisterna 2 para Agua Pluvial (56,000 L).",
+        "Default Elevation": "1.22"
+      },
+      "parametros_instancia": {}
+    }
+  ]
+}

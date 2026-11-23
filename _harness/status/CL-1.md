@@ -1,5 +1,5 @@
 # CL-1 · Estado
-Última actualización: 23-11-2026 · Equipo: PC-A · Rama git: pc-a/cl-1
+Última actualización: 23-11-2026 (tras primer ciclo de PC-B) · Equipo: PC-A · Rama git: pc-a/cl-1
 Tarea actual: T-901 (revisiones) en espera de entregas de PC-B
 
 ## Tareas
@@ -7,6 +7,7 @@ Tarea actual: T-901 (revisiones) en espera de entregas de PC-B
 |---|---|---|---|
 | T-000 | aprobada | specs, schemas, harness | OK |
 | T-301 | aprobada | Scripts/30_generadores_desde_revit.py | prueba sintética OK (JSON = Excel recalculado) |
+| T-901 (ciclo 1) | en curso | revit/ (59 OK schema), calendario_v01.json (OK schema, observaciones), insumos_norm.json | ver cola.md |
 | T-302 | pendiente | — | espera T-102…T-106 (AG-1) y T-204 (AG-2) |
 
 ## Hecho

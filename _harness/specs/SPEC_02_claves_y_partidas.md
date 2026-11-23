@@ -26,7 +26,7 @@ Derivados de la memoria (§4–§10) y de los vínculos del federado.
 | 02 | Cimentación (excavación, plantilla, zapatas corridas, dados, dalas de desplante, rellenos) | Estructura_2027 | Structural Foundations, Structural Framing |
 | 03 | Estructura de concreto y mampostería confinada (castillos, dalas, cerramientos, losa vigueta-bovedilla, capa de compresión) | Estructura_2027 | Structural Columns, Structural Framing, Floors |
 | 04 | Estructura metálica y cubierta (cerchas, correas, arriostres, placas base, panel sándwich, canalones) | Estructura_2027 / Arq | Structural Framing (acero), Roofs, Gutters |
-| 05 | Albañilería (muros de mampostería, firmes, chaflanes, pretiles) | TT-ED-EDU-ARQ-MOB (D-017) | Walls |
+| 05 | Albañilería (muros de mampostería, firmes, chaflanes, pretiles) | Edificio de educacion.rvt y Cancelería (D-019; ARQ-MOB no tiene muros) | Walls |
 | 06 | Acabados (pisos, muros, plafones) | Acabados_2027 | Floors (acabado), Walls (acabado), Ceilings |
 | 07 | Herrería y cancelería | Herrería y Cancelería_2027 | Windows, Doors, Curtain Panels, Railings |
 | 08 | Instalación hidráulica y pluvial | Instalacion IHS_2027 | Pipes, Pipe Fittings, Plumbing Fixtures |

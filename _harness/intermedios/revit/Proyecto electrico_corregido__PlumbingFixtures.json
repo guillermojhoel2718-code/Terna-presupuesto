@@ -1,0 +1,36 @@
+{
+  "modelo": "Proyecto electrico_corregido",
+  "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+  "categoria": "PlumbingFixtures",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/17_extraer_electrico.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 1,
+  "elementos": [
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147042,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300522",
+      "categoria": "PlumbingFixtures",
+      "familia": "CALEFON agua caliente",
+      "tipo": "CALEFON agua caliente",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.426213,
+        "volumen_m3": 0.041791,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Classification Number": "23.45.00.00",
+        "MAT CALEFON": "PLASTICO TUBERIAS"
+      },
+      "parametros_instancia": {}
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "modelo": "Proyecto electrico_corregido",
+  "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+  "categoria": "Ceilings",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/17_extraer_electrico.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 2,
+  "elementos": [
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132491,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fcc4b",
+      "categoria": "Ceilings",
+      "familia": "Compound Ceiling",
+      "tipo": "ACT - Techos Armstrong - 24\" x 48\" -",
+      "nivel": "NPT 8.80",
+      "material_principal": "ACT - Armstrong Ceilings - 24\" x 48\" - METALWORKS Mesh Torsion Spring - Woven Square Weave - Sq Lay-In 15/16\" x 1/4\" - 1Cell - 5433W24L48D01BL Tech Black",
+      "cantidades": {
+        "longitud_m": 239.581541,
+        "area_m2": 502.895295,
+        "volumen_m3": 15.086859,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Roughness": "3",
+        "Absorptance": "0,7",
+        "Thermal Mass": "11,66 kJ/(m²·K)",
+        "Thermal Resistance (R)": "0,5263 (m²·K)/W",
+        "Thermal Transmittance (U)": "1,9000 W/(m²·K)",
+        "Thickness": "0,03",
+        "Coarse Scale Fill Color": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3132520,
+      "unique_id": "bf51d5e5-4629-4069-a657-b6e03be17d08-002fcc68",
+      "categoria": "Ceilings",
+      "familia": "Compound Ceiling",
+      "tipo": "ACT - Techos Armstrong - 24\" x 48\" -",
+      "nivel": "NPT 5.30",
+      "material_principal": "ACT - Armstrong Ceilings - 24\" x 48\" - METALWORKS Mesh Torsion Spring - Woven Square Weave - Sq Lay-In 15/16\" x 1/4\" - 1Cell - 5433W24L48D01BL Tech Black",
+      "cantidades": {
+        "longitud_m": 249.45307,
+        "area_m2": 515.489212,
+        "volumen_m3": 15.464676,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Roughness": "3",
+        "Absorptance": "0,7",
+        "Thermal Mass": "11,66 kJ/(m²·K)",
+        "Thermal Resistance (R)": "0,5263 (m²·K)/W",
+        "Thermal Transmittance (U)": "1,9000 W/(m²·K)",
+        "Thickness": "0,03",
+        "Coarse Scale Fill Color": 0
+      },
+      "parametros_instancia": {}
+    }
+  ]
+}

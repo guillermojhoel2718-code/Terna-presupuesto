@@ -1,0 +1,221 @@
+{
+  "modelo": "Instalaciones",
+  "ruta_modelo": "../Archivos revit/Instalacion IHS_2027/Instalaciones.rvt",
+  "categoria": "FlexPipes",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/16_extraer_ihs.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 8,
+  "elementos": [
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 536134,
+      "unique_id": "3c23ba34-e8dc-4761-b041-9257aded0bff-00082e46",
+      "categoria": "FlexPipes",
+      "familia": "Flex Pipe Round",
+      "tipo": "Flex - Round · Domestic_Cold_Water · 9.53 mmø",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.267571,
+        "area_m2": null,
+        "volumen_m3": 1.9e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Roughness": "0.046 mm",
+        "Preferred Junction Type": "Tee"
+      },
+      "parametros_instancia": {
+        "System Type": "Domestic_Cold_Water",
+        "Size": "9.53 mmø",
+        "Mark": "99"
+      }
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 536241,
+      "unique_id": "3c23ba34-e8dc-4761-b041-9257aded0bff-00082eb1",
+      "categoria": "FlexPipes",
+      "familia": "Flex Pipe Round",
+      "tipo": "Flex - Round · Domestic_Cold_Water · 9.53 mmø",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.343061,
+        "area_m2": null,
+        "volumen_m3": 2.4e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Roughness": "0.046 mm",
+        "Preferred Junction Type": "Tee"
+      },
+      "parametros_instancia": {
+        "System Type": "Domestic_Cold_Water",
+        "Size": "9.53 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 536274,
+      "unique_id": "3c23ba34-e8dc-4761-b041-9257aded0bff-00082ed2",
+      "categoria": "FlexPipes",
+      "familia": "Flex Pipe Round",
+      "tipo": "Flex - Round · Domestic_Cold_Water · 9.53 mmø",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.295147,
+        "area_m2": null,
+        "volumen_m3": 2.1e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Roughness": "0.046 mm",
+        "Preferred Junction Type": "Tee"
+      },
+      "parametros_instancia": {
+        "System Type": "Domestic_Cold_Water",
+        "Size": "9.53 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 537056,
+      "unique_id": "3c23ba34-e8dc-4761-b041-9257aded0bff-000831e0",
+      "categoria": "FlexPipes",
+      "familia": "Flex Pipe Round",
+      "tipo": "Flex - Round · Domestic_Cold_Water · 9.53 mmø",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.374717,
+        "area_m2": null,
+        "volumen_m3": 2.7e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Roughness": "0.046 mm",
+        "Preferred Junction Type": "Tee"
+      },
+      "parametros_instancia": {
+        "System Type": "Domestic_Cold_Water",
+        "Size": "9.53 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 537706,
+      "unique_id": "3c23ba34-e8dc-4761-b041-9257aded0bff-0008346a",
+      "categoria": "FlexPipes",
+      "familia": "Flex Pipe Round",
+      "tipo": "Flex - Round · Domestic_Cold_Water · 9.53 mmø",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.301878,
+        "area_m2": null,
+        "volumen_m3": 2.1e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Roughness": "0.046 mm",
+        "Preferred Junction Type": "Tee"
+      },
+      "parametros_instancia": {
+        "System Type": "Domestic_Cold_Water",
+        "Size": "9.53 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 581304,
+      "unique_id": "2ddc5725-8611-470f-88df-d48e1e776eed-0008deb8",
+      "categoria": "FlexPipes",
+      "familia": "Flex Pipe Round",
+      "tipo": "Flex - Round · Sanitary · 50.80 mmø",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.407333,
+        "area_m2": null,
+        "volumen_m3": 0.000756,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Roughness": "0.046 mm",
+        "Preferred Junction Type": "Tee"
+      },
+      "parametros_instancia": {
+        "System Type": "Sanitary",
+        "Size": "50.80 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 581346,
+      "unique_id": "2ddc5725-8611-470f-88df-d48e1e776eed-0008dee2",
+      "categoria": "FlexPipes",
+      "familia": "Flex Pipe Round",
+      "tipo": "Flex - Round · Sanitary · 50.80 mmø",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.415316,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Roughness": "0.046 mm",
+        "Preferred Junction Type": "Tee"
+      },
+      "parametros_instancia": {
+        "System Type": "Sanitary",
+        "Size": "50.80 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 581357,
+      "unique_id": "2ddc5725-8611-470f-88df-d48e1e776eed-0008deed",
+      "categoria": "FlexPipes",
+      "familia": "Flex Pipe Round",
+      "tipo": "Flex - Round · Sanitary · 50.80 mmø",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.41474,
+        "area_m2": null,
+        "volumen_m3": 0.000839,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Roughness": "0.046 mm",
+        "Preferred Junction Type": "Tee"
+      },
+      "parametros_instancia": {
+        "System Type": "Sanitary",
+        "Size": "50.80 mmø"
+      }
+    }
+  ]
+}

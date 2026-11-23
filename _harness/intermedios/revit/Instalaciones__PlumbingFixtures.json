@@ -1,0 +1,492 @@
+{
+  "modelo": "Instalaciones",
+  "ruta_modelo": "../Archivos revit/Instalacion IHS_2027/Instalaciones.rvt",
+  "categoria": "PlumbingFixtures",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/16_extraer_ihs.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 17,
+  "elementos": [
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 476542,
+      "unique_id": "ef9ad670-ff8e-4594-a53d-b2d530a2c68c-0007457e",
+      "categoria": "PlumbingFixtures",
+      "familia": "CAJA DE REGISTOREGISTRO 40X 60",
+      "tipo": "CAJA DE REGISTRO 1",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.932026,
+        "volumen_m3": 0.146094,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Description": "Registro sanitario de albañilería de 40 × 60 x 60 cm, medidas interiores libres, construido con muros de tabique rojo recocido asentado con mortero",
+        "DIAMETRO DE ENTRADA": "0.10",
+        "DIAMETRO DE SALIDA": "0.10"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 478661,
+      "unique_id": "ef9ad670-ff8e-4594-a53d-b2d530a2c68c-00074dc5",
+      "categoria": "PlumbingFixtures",
+      "familia": "CAJA DE REGISTOREGISTRO 40X 60",
+      "tipo": "CAJA DE REGISTRO 1",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.932026,
+        "volumen_m3": 0.146094,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Description": "Registro sanitario de albañilería de 40 × 60 x 60 cm, medidas interiores libres, construido con muros de tabique rojo recocido asentado con mortero",
+        "DIAMETRO DE ENTRADA": "0.10",
+        "DIAMETRO DE SALIDA": "0.10"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 479739,
+      "unique_id": "ef9ad670-ff8e-4594-a53d-b2d530a2c68c-000751fb",
+      "categoria": "PlumbingFixtures",
+      "familia": "CAJA DE REGISTOREGISTRO 40X 60  L ",
+      "tipo": "CAJA DE REGISTRO 1",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.92127,
+        "volumen_m3": 0.145018,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Description": "Registro sanitario de albañilería de 40 × 60 x 60 cm, medidas interiores libres, construido con muros de tabique rojo recocido asentado con mortero",
+        "DIAMETRO DE ENTRADA": "0.10",
+        "DIAMETRO DE SALIDA": "0.10"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 485909,
+      "unique_id": "7e0f92b7-9447-461b-acd6-3deafb858de7-00076a15",
+      "categoria": "PlumbingFixtures",
+      "familia": "CAJA DE REGISTOREGISTRO 40X 60",
+      "tipo": "CAJA DE REGISTRO 1",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.932026,
+        "volumen_m3": 0.146094,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Description": "Registro sanitario de albañilería de 40 × 60 x 60 cm, medidas interiores libres, construido con muros de tabique rojo recocido asentado con mortero",
+        "DIAMETRO DE ENTRADA": "0.10",
+        "DIAMETRO DE SALIDA": "0.10"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 519152,
+      "unique_id": "092edb40-9951-48dc-a6b1-7cf3c6e8cdf4-0007ebf0",
+      "categoria": "PlumbingFixtures",
+      "familia": "CAJA DE REGISTOREGISTRO 40X 60",
+      "tipo": "CAJA DE REGISTRO 1",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.932026,
+        "volumen_m3": 0.146094,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Description": "Registro sanitario de albañilería de 40 × 60 x 60 cm, medidas interiores libres, construido con muros de tabique rojo recocido asentado con mortero",
+        "DIAMETRO DE ENTRADA": "0.10",
+        "DIAMETRO DE SALIDA": "0.10"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 520525,
+      "unique_id": "3764ab77-4cb0-4e79-8fec-0e2644fb6cc7-0007f14d",
+      "categoria": "PlumbingFixtures",
+      "familia": "Biodigestor Autolimpiable",
+      "tipo": "TOL-7000L",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 15.855967,
+        "volumen_m3": 7.303652,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Type Image": "BIODI 3000L Y 7000L.jpg",
+        "Manufacturer": "Grupo Rotoplas S.A.B. de C.V.",
+        "URL": "http://www.rotoplas.com.mx/",
+        "Description": "Biodigestor autolimpiable de 7,000 L de polietileno de alta densidad (PEAD) \"Ver plano de Detalle de Biodigestor\"",
+        "SAP": "520003",
+        "C": "0.26",
+        "B": "2.40",
+        "F": "0.49",
+        "A": "2.44",
+        "a1": "2.13",
+        "a2": "1.07",
+        "a3": "0.10",
+        "RADIO F": "0.25",
+        "L MANIJA TAPA": "0.48",
+        "ANG HOMBROS": "78.00°",
+        "ANCHO HOMBROS": "0.13",
+        "DISTANCIA J": "1.25",
+        "DIAMETRO J": "0.05",
+        "DIAMETRO F": "0.10",
+        "DIAMETRO H": "0.05",
+        "DISTANCIA F": "1.25",
+        "DISTANCIA H": "1.25",
+        "Desarrollador": "http://www.rzm.mx/"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 572358,
+      "unique_id": "3c8570f4-4c86-46cf-9dd1-f1bc80dc69d1-0008bbc6",
+      "categoria": "PlumbingFixtures",
+      "familia": "CAJA DE REGISTOREGISTRO 40 X 60 X 60 CM",
+      "tipo": "CAJA DE REGISTRO 1",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.932026,
+        "volumen_m3": 0.146094,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "DIAMETRO DE ENTRADA": "0.10",
+        "DIAMETRO DE SALIDA": "0.10"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 573396,
+      "unique_id": "3c8570f4-4c86-46cf-9dd1-f1bc80dc69d1-0008bfd4",
+      "categoria": "PlumbingFixtures",
+      "familia": "CAJA DE REGISTOREGISTRO 40 X 60 X 60 CM",
+      "tipo": "CAJA DE REGISTRO 1",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.932026,
+        "volumen_m3": 0.146094,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "DIAMETRO DE ENTRADA": "0.10",
+        "DIAMETRO DE SALIDA": "0.10"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 573666,
+      "unique_id": "3c8570f4-4c86-46cf-9dd1-f1bc80dc69d1-0008c0e2",
+      "categoria": "PlumbingFixtures",
+      "familia": "CAJA DE REGISTOREGISTRO 40 X 60 X 60 CM",
+      "tipo": "CAJA DE REGISTRO 1",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.932026,
+        "volumen_m3": 0.146094,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "DIAMETRO DE ENTRADA": "0.10",
+        "DIAMETRO DE SALIDA": "0.10"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 573743,
+      "unique_id": "3c8570f4-4c86-46cf-9dd1-f1bc80dc69d1-0008c12f",
+      "categoria": "PlumbingFixtures",
+      "familia": "Biodigestor Autolimpiable",
+      "tipo": "TOL-7000L",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 15.855967,
+        "volumen_m3": 7.303652,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Type Image": "BIODI 3000L Y 7000L.jpg",
+        "Manufacturer": "Grupo Rotoplas S.A.B. de C.V.",
+        "URL": "http://www.rotoplas.com.mx/",
+        "Description": "Biodigestor autolimpiable de 7,000 L de polietileno de alta densidad (PEAD) \"Ver plano de Detalle de Biodigestor\"",
+        "SAP": "520003",
+        "C": "0.26",
+        "B": "2.40",
+        "F": "0.49",
+        "A": "2.44",
+        "a1": "2.13",
+        "a2": "1.07",
+        "a3": "0.10",
+        "RADIO F": "0.25",
+        "L MANIJA TAPA": "0.48",
+        "ANG HOMBROS": "78.00°",
+        "ANCHO HOMBROS": "0.13",
+        "DISTANCIA J": "1.25",
+        "DIAMETRO J": "0.05",
+        "DIAMETRO F": "0.10",
+        "DIAMETRO H": "0.05",
+        "DISTANCIA F": "1.25",
+        "DISTANCIA H": "1.25",
+        "Desarrollador": "http://www.rzm.mx/"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 577128,
+      "unique_id": "2ddc5725-8611-470f-88df-d48e1e776eed-0008ce68",
+      "categoria": "PlumbingFixtures",
+      "familia": "CAJA DE REGISTOREGISTRO T 40 X 60 X 60 CM",
+      "tipo": "CAJA DE REGISTRO 1",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.973997,
+        "volumen_m3": 0.147149,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "DIAMETRO DE ENTRADA": "0.10",
+        "DIAMETRO DE SALIDA": "0.10"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 604613,
+      "unique_id": "7eaf0e04-c7c8-42d7-bcc3-64ce087f6aea-000939c5",
+      "categoria": "PlumbingFixtures",
+      "familia": "CAJA DE REGISTOREGISTRO 40X 60",
+      "tipo": "CAJA DE REGISTRO 1",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.932026,
+        "volumen_m3": 0.146094,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Description": "Registro sanitario de albañilería de 40 × 60 x 60 cm, medidas interiores libres, construido con muros de tabique rojo recocido asentado con mortero",
+        "DIAMETRO DE ENTRADA": "0.10",
+        "DIAMETRO DE SALIDA": "0.10"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 606257,
+      "unique_id": "7eaf0e04-c7c8-42d7-bcc3-64ce087f6aea-00094031",
+      "categoria": "PlumbingFixtures",
+      "familia": "CAJA DE REGISTOREGISTRO 40X 60  L ",
+      "tipo": "CAJA DE REGISTRO 1",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.92127,
+        "volumen_m3": 0.145018,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Description": "Registro sanitario de albañilería de 40 × 60 x 60 cm, medidas interiores libres, construido con muros de tabique rojo recocido asentado con mortero",
+        "DIAMETRO DE ENTRADA": "0.10",
+        "DIAMETRO DE SALIDA": "0.10"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 607509,
+      "unique_id": "734c1169-3130-4b91-a949-6054c688dec1-00094515",
+      "categoria": "PlumbingFixtures",
+      "familia": "CAJA DE REGISTOREGISTRO T 40 X 60 X 60 CM",
+      "tipo": "CAJA DE REGISTRO 1",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.973997,
+        "volumen_m3": 0.147149,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "DIAMETRO DE ENTRADA": "0.10",
+        "DIAMETRO DE SALIDA": "0.10"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 607901,
+      "unique_id": "734c1169-3130-4b91-a949-6054c688dec1-0009469d",
+      "categoria": "PlumbingFixtures",
+      "familia": "CAJA DE REGISTOREGISTRO 40X 60",
+      "tipo": "CAJA DE REGISTRO 1",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.932026,
+        "volumen_m3": 0.146094,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Description": "Registro sanitario de albañilería de 40 × 60 x 60 cm, medidas interiores libres, construido con muros de tabique rojo recocido asentado con mortero",
+        "DIAMETRO DE ENTRADA": "0.10",
+        "DIAMETRO DE SALIDA": "0.10"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 609794,
+      "unique_id": "8d51096f-f1e8-4933-96ee-c35da90c2fec-00094e02",
+      "categoria": "PlumbingFixtures",
+      "familia": "Biodigestor Autolimpiable",
+      "tipo": "TOL-7000L",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 15.855967,
+        "volumen_m3": 7.303652,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Type Image": "BIODI 3000L Y 7000L.jpg",
+        "Manufacturer": "Grupo Rotoplas S.A.B. de C.V.",
+        "URL": "http://www.rotoplas.com.mx/",
+        "Description": "Biodigestor autolimpiable de 7,000 L de polietileno de alta densidad (PEAD) \"Ver plano de Detalle de Biodigestor\"",
+        "SAP": "520003",
+        "C": "0.26",
+        "B": "2.40",
+        "F": "0.49",
+        "A": "2.44",
+        "a1": "2.13",
+        "a2": "1.07",
+        "a3": "0.10",
+        "RADIO F": "0.25",
+        "L MANIJA TAPA": "0.48",
+        "ANG HOMBROS": "78.00°",
+        "ANCHO HOMBROS": "0.13",
+        "DISTANCIA J": "1.25",
+        "DIAMETRO J": "0.05",
+        "DIAMETRO F": "0.10",
+        "DIAMETRO H": "0.05",
+        "DISTANCIA F": "1.25",
+        "DISTANCIA H": "1.25",
+        "Desarrollador": "http://www.rzm.mx/"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 635786,
+      "unique_id": "c90ef1e4-e249-49a2-99d7-fd6af998be6b-0009b38a",
+      "categoria": "PlumbingFixtures",
+      "familia": "CAJA DE REGISTOREGISTRO 40X 60  L ",
+      "tipo": "CAJA DE REGISTRO 1",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.92127,
+        "volumen_m3": 0.145018,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Description": "Registro sanitario de albañilería de 40 × 60 x 60 cm, medidas interiores libres, construido con muros de tabique rojo recocido asentado con mortero",
+        "DIAMETRO DE ENTRADA": "0.10",
+        "DIAMETRO DE SALIDA": "0.10"
+      },
+      "parametros_instancia": {}
+    }
+  ]
+}

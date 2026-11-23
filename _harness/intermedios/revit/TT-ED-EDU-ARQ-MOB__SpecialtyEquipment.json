@@ -1,0 +1,963 @@
+{
+  "modelo": "TT-ED-EDU-ARQ-MOB",
+  "ruta_modelo": "../Archivos revit/TT-ED-EDU-ARQ-MOB.rvt",
+  "categoria": "SpecialtyEquipment",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/13_extraer_arq_mob.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 35,
+  "elementos": [
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262312,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400a8",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Projection_Screen-Draper_Inc.-Ropewalker",
+      "tipo": "NOT A TYPE - LOAD TYPE CATALOG",
+      "nivel": null,
+      "material_principal": "Paint - Draper - White",
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 12.155099,
+        "volumen_m3": 0.056515,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Model": "RopeWalker",
+        "Manufacturer": "Draper Inc.",
+        "URL": "http://www.draperinc.com",
+        "Description": "Projection Screen",
+        "Classification Number": "23.85.10.14.31",
+        "Default Elevation": "-0.50",
+        "Product data url": "https://bimobject.com/draper/product/ropewalker",
+        "Edition number": "1",
+        "Product Guid": "7af1fda0-d57a-46e0-a32e-a66a0de140d0",
+        "Manufacturer Contact": "1-800-238-7999",
+        "Image Length Constraint": "2.00",
+        "Image Height Constraint": "1.80",
+        "Screen": "2.18",
+        "Voltage": "115 V",
+        "Number of Poles": "1",
+        "Frequency": "60 Hz",
+        "Apparent Load": "132 VA",
+        "Case Material": "Paint - Draper - White",
+        "Version": "2016 - v1.0.a",
+        "Image Area": "126” x 168”",
+        "Image Height": "1.80",
+        "Image Length": "2.00",
+        "Projection Screen Material": "Fabric - Draper - XH1500E - Argent White",
+        "Screen Drop": "2.10",
+        "Width": "0.24",
+        "Product Documentation Link": "https://www.draperinc.com/DocumentDownload.aspx?path=ProjectionScreens/Submittals&file=Ropewalker_Sub.pdf",
+        "Product Name": "Ropewalker Electric Projection Screen",
+        "Product Page URL": "https://www.draperinc.com/projectionscreens/productdetail/984/ropewalker",
+        "Length": "2.50"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262318,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400ae",
+      "categoria": "SpecialtyEquipment",
+      "familia": "MAC",
+      "tipo": "MAC",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.974403,
+        "volumen_m3": 0.012736,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262319,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400af",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Apple iMac teclado y mouse",
+      "tipo": "Apple iMac teclado y mouse",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.073703,
+        "volumen_m3": 0.000323,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262320,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400b0",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Computer-Tower",
+      "tipo": "Tower",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.473731,
+        "volumen_m3": 0.046493,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "11680",
+        "Model": "Generic",
+        "Manufacturer": "Generic",
+        "Description": "Desktop PC Tower",
+        "Assembly Code": "E1010800",
+        "Equipment Color": "Plastic - ABS, Grey",
+        "Equipment Accent Color": "Plastic - ABS, Silver",
+        "Video_Graphics": "PCI Express 512MB",
+        "Audio": "5.1",
+        "Processor": "2.4GHz Quad Core",
+        "Specification": "http://www.arcat.com/divs/sec/sec11680.shtml",
+        "Product Data": "http://www.arcat.com/divs/sec/sec11680.shtml",
+        "Green Building-LEED": "http://www.arcat.com/green/green_building.shtml",
+        "Construction Details": "http://www.arcat.com/divs/sec/sec11680.shtml",
+        "Drawn By": "Robert S. Weygant. CSI, CDT, SCIP",
+        "Copyright": "2008, ARCAT, Inc.",
+        "Warranty Duration (Years)": "2",
+        "Maintenance Schedule (Months)": "6",
+        "Expected Lifespan (Years)": "10",
+        "Manufacturer Phone": "(203) 929-9444",
+        "Manufacturer Fax": "(203) 939-2444",
+        "Manufacturer Email": "bim@arcat.com",
+        "Manufacturer Address": "1077 Bridgeport Ave, Shelton, CT  06484",
+        "Manufacturer Website": "http://www.arcat.com/",
+        "Product Properties": "http://www.arcat.com/bim/bim_info.pl?fn=Computer-Monitor"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262341,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400c5",
+      "categoria": "SpecialtyEquipment",
+      "familia": "MAC",
+      "tipo": "MAC",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.974403,
+        "volumen_m3": 0.012736,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262342,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400c6",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Apple iMac teclado y mouse",
+      "tipo": "Apple iMac teclado y mouse",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.073703,
+        "volumen_m3": 0.000323,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262343,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400c7",
+      "categoria": "SpecialtyEquipment",
+      "familia": "MAC",
+      "tipo": "MAC",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.974403,
+        "volumen_m3": 0.012736,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262344,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400c8",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Apple iMac teclado y mouse",
+      "tipo": "Apple iMac teclado y mouse",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.073703,
+        "volumen_m3": 0.000323,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262345,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400c9",
+      "categoria": "SpecialtyEquipment",
+      "familia": "MAC",
+      "tipo": "MAC",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.974403,
+        "volumen_m3": 0.012736,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262346,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400ca",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Apple iMac teclado y mouse",
+      "tipo": "Apple iMac teclado y mouse",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.073703,
+        "volumen_m3": 0.000323,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262347,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400cb",
+      "categoria": "SpecialtyEquipment",
+      "familia": "MAC",
+      "tipo": "MAC",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.974403,
+        "volumen_m3": 0.012736,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262348,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400cc",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Apple iMac teclado y mouse",
+      "tipo": "Apple iMac teclado y mouse",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.073703,
+        "volumen_m3": 0.000323,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262349,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400cd",
+      "categoria": "SpecialtyEquipment",
+      "familia": "MAC",
+      "tipo": "MAC",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.974403,
+        "volumen_m3": 0.012736,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262350,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400ce",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Apple iMac teclado y mouse",
+      "tipo": "Apple iMac teclado y mouse",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.073703,
+        "volumen_m3": 0.000323,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262356,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400d4",
+      "categoria": "SpecialtyEquipment",
+      "familia": "MAC",
+      "tipo": "MAC",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.974403,
+        "volumen_m3": 0.012736,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262357,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400d5",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Apple iMac teclado y mouse",
+      "tipo": "Apple iMac teclado y mouse",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.073703,
+        "volumen_m3": 0.000323,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262358,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400d6",
+      "categoria": "SpecialtyEquipment",
+      "familia": "MAC",
+      "tipo": "MAC",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.974403,
+        "volumen_m3": 0.012736,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262359,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400d7",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Apple iMac teclado y mouse",
+      "tipo": "Apple iMac teclado y mouse",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.073703,
+        "volumen_m3": 0.000323,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262360,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400d8",
+      "categoria": "SpecialtyEquipment",
+      "familia": "MAC",
+      "tipo": "MAC",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.974403,
+        "volumen_m3": 0.012736,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262361,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400d9",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Apple iMac teclado y mouse",
+      "tipo": "Apple iMac teclado y mouse",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.073703,
+        "volumen_m3": 0.000323,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262362,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400da",
+      "categoria": "SpecialtyEquipment",
+      "familia": "MAC",
+      "tipo": "MAC",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.974403,
+        "volumen_m3": 0.012736,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262363,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400db",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Apple iMac teclado y mouse",
+      "tipo": "Apple iMac teclado y mouse",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.073703,
+        "volumen_m3": 0.000323,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262364,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400dc",
+      "categoria": "SpecialtyEquipment",
+      "familia": "MAC",
+      "tipo": "MAC",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.974403,
+        "volumen_m3": 0.012736,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262365,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400dd",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Apple iMac teclado y mouse",
+      "tipo": "Apple iMac teclado y mouse",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.073703,
+        "volumen_m3": 0.000323,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262371,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400e3",
+      "categoria": "SpecialtyEquipment",
+      "familia": "MAC",
+      "tipo": "MAC",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.974403,
+        "volumen_m3": 0.012736,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262372,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400e4",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Apple iMac teclado y mouse",
+      "tipo": "Apple iMac teclado y mouse",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.073703,
+        "volumen_m3": 0.000323,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262373,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400e5",
+      "categoria": "SpecialtyEquipment",
+      "familia": "MAC",
+      "tipo": "MAC",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.974403,
+        "volumen_m3": 0.012736,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262374,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400e6",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Apple iMac teclado y mouse",
+      "tipo": "Apple iMac teclado y mouse",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.073703,
+        "volumen_m3": 0.000323,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262375,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400e7",
+      "categoria": "SpecialtyEquipment",
+      "familia": "MAC",
+      "tipo": "MAC",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.974403,
+        "volumen_m3": 0.012736,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262376,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400e8",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Apple iMac teclado y mouse",
+      "tipo": "Apple iMac teclado y mouse",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.073703,
+        "volumen_m3": 0.000323,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262377,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400e9",
+      "categoria": "SpecialtyEquipment",
+      "familia": "MAC",
+      "tipo": "MAC",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.974403,
+        "volumen_m3": 0.012736,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262378,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400ea",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Apple iMac teclado y mouse",
+      "tipo": "Apple iMac teclado y mouse",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.073703,
+        "volumen_m3": 0.000323,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262383,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400ef",
+      "categoria": "SpecialtyEquipment",
+      "familia": "MAC",
+      "tipo": "MAC",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.974403,
+        "volumen_m3": 0.012736,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262384,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400f0",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Apple iMac teclado y mouse",
+      "tipo": "Apple iMac teclado y mouse",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.073703,
+        "volumen_m3": 0.000323,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "http://www.bimstop.com\r\nhttp://www.bimstop.com",
+        "URL": "\r\nFind more great Revit families at http://www.bimstop.com",
+        "Description": "\r\nFind more great Revit families at http://www.bimstop.com"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "element_id": 262388,
+      "unique_id": "0e3acd69-c45a-4556-904f-ac3b0c702f8c-000400f4",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Impressora",
+      "tipo": "Printer",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 4.593787,
+        "volumen_m3": 0.154206,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0.00",
+        "Keynote": "11680",
+        "Model": "Generic",
+        "Manufacturer": "Generic",
+        "Description": "Printer",
+        "Assembly Code": "E1010800",
+        "Equipment Color": "Plastic - ABS, Grey",
+        "Buttons": "Plastic - Polycarbonate, Black",
+        "Equipment Accent Color": "Plastic - ABS, White",
+        "Refresh Rate_Hz": "60",
+        "Resolution": "600x600",
+        "Connection": "{Parallel}{USB}{RJ-45}",
+        "Display Type": "Flat Panel LCD",
+        "Volume - Pgs/Month": "85000",
+        "Print Speed - Color/BW": "25/10",
+        "RAM - MB": "256",
+        "Toner ID": "98",
+        "Color": "{BW}{RGB}{CMYK}",
+        "Specification": "http://www.arcat.com/divs/sec/sec11680.shtml",
+        "Product Data": "http://www.arcat.com/divs/sec/sec11680.shtml",
+        "Green Building-LEED": "http://www.arcat.com/green/green_building.shtml",
+        "Construction Details": "http://www.arcat.com/divs/sec/sec11680.shtml",
+        "Drawn By": "Robert S. Weygant. CSI, CDT, SCIP",
+        "Copyright": "2008, ARCAT, Inc.",
+        "Warranty Duration (Years)": "1",
+        "Maintenance Schedule (Months)": "0",
+        "Expected Lifespan (Years)": "10",
+        "Manufacturer Phone": "(203) 929-9444",
+        "Manufacturer Fax": "(203) 939-2444",
+        "Manufacturer Email": "bim@arcat.com",
+        "Manufacturer Address": "1077 Bridgeport Ave, Shelton, CT  06484",
+        "Manufacturer Website": "http://www.arcat.com/",
+        "Product Properties": "http://www.arcat.com/bim/bim_info.pl?fn=Printer-Copier"
+      },
+      "parametros_instancia": {}
+    }
+  ]
+}

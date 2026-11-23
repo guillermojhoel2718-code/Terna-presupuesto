@@ -1,0 +1,376 @@
+{
+  "modelo": "Edificio de educacion",
+  "ruta_modelo": "../Archivos revit/Estructura_2027/00_ Edificio de educacion/Edificio de educacion.rvt",
+  "categoria": "Floors",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/12_extraer_estructura.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 13,
+  "elementos": [
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 366372,
+      "unique_id": "7a5758d9-0bba-4782-9b84-9371f4871750-00059724",
+      "categoria": "Floors",
+      "familia": "Floor",
+      "tipo": "Suelo de vigueta y bovedilla e=0.25",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 36.499999,
+        "area_m2": 73.499998,
+        "volumen_m3": 18.375,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Coarse Scale Fill Color": 0,
+        "Default Thickness": "0.25",
+        "Function": "Interior",
+        "Edition number": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 366393,
+      "unique_id": "7a5758d9-0bba-4782-9b84-9371f4871750-00059739",
+      "categoria": "Floors",
+      "familia": "Floor",
+      "tipo": "Suelo de vigueta y bovedilla e=0.25",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 37.500003,
+        "area_m2": 76.500014,
+        "volumen_m3": 19.125004,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Coarse Scale Fill Color": 0,
+        "Default Thickness": "0.25",
+        "Function": "Interior",
+        "Edition number": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 366400,
+      "unique_id": "7a5758d9-0bba-4782-9b84-9371f4871750-00059740",
+      "categoria": "Floors",
+      "familia": "Floor",
+      "tipo": "Suelo de vigueta y bovedilla e=0.25",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 37.500001,
+        "area_m2": 76.500008,
+        "volumen_m3": 19.125002,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Coarse Scale Fill Color": 0,
+        "Default Thickness": "0.25",
+        "Function": "Interior",
+        "Edition number": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 366421,
+      "unique_id": "7a5758d9-0bba-4782-9b84-9371f4871750-00059755",
+      "categoria": "Floors",
+      "familia": "Floor",
+      "tipo": "Suelo de vigueta y bovedilla e=0.25",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 37.500003,
+        "area_m2": 76.500008,
+        "volumen_m3": 19.125002,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Coarse Scale Fill Color": 0,
+        "Default Thickness": "0.25",
+        "Function": "Interior",
+        "Edition number": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 366500,
+      "unique_id": "7a5758d9-0bba-4782-9b84-9371f4871750-000597a4",
+      "categoria": "Floors",
+      "familia": "Floor",
+      "tipo": "Suelo de vigueta y bovedilla e=0.25",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 53.719908,
+        "area_m2": 29.77623,
+        "volumen_m3": 7.444058,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Coarse Scale Fill Color": 0,
+        "Default Thickness": "0.25",
+        "Function": "Interior",
+        "Edition number": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 366509,
+      "unique_id": "7a5758d9-0bba-4782-9b84-9371f4871750-000597ad",
+      "categoria": "Floors",
+      "familia": "Floor",
+      "tipo": "Suelo de vigueta y bovedilla e=0.25",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 53.62,
+        "area_m2": 33.163,
+        "volumen_m3": 8.29075,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Coarse Scale Fill Color": 0,
+        "Default Thickness": "0.25",
+        "Function": "Interior",
+        "Edition number": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 366551,
+      "unique_id": "7a5758d9-0bba-4782-9b84-9371f4871750-000597d7",
+      "categoria": "Floors",
+      "familia": "Floor",
+      "tipo": "Suelo de vigueta y bovedilla e=0.25",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 64.27153,
+        "area_m2": 234.176786,
+        "volumen_m3": 58.544197,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Coarse Scale Fill Color": 0,
+        "Default Thickness": "0.25",
+        "Function": "Interior",
+        "Edition number": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 516170,
+      "unique_id": "3cc7070d-d4d6-4172-9590-efbe47aecba9-0007e04a",
+      "categoria": "Floors",
+      "familia": "Floor",
+      "tipo": "Firme estructural e=10 cm",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 164.325888,
+        "area_m2": 804.094629,
+        "volumen_m3": 80.409463,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Coarse Scale Fill Color": 0,
+        "Default Thickness": "0.10",
+        "Function": "Interior",
+        "Edition number": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 521028,
+      "unique_id": "60479aea-dc78-4e79-94c8-580b7d3fc6ed-0007f344",
+      "categoria": "Floors",
+      "familia": "Floor",
+      "tipo": "Suelo de vigueta y bovedilla e=0.25",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 37.500001,
+        "area_m2": 76.500008,
+        "volumen_m3": 19.000349,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Coarse Scale Fill Color": 0,
+        "Default Thickness": "0.25",
+        "Function": "Interior",
+        "Edition number": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 532622,
+      "unique_id": "1d82edbd-7887-4ce0-8ee3-18af23a42110-0008208e",
+      "categoria": "Floors",
+      "familia": "Floor",
+      "tipo": "Suelo de vigueta y bovedilla e=0.25",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 24.621506,
+        "area_m2": 33.246311,
+        "volumen_m3": 8.311578,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Coarse Scale Fill Color": 0,
+        "Default Thickness": "0.25",
+        "Function": "Interior",
+        "Edition number": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 533974,
+      "unique_id": "cd1eaec5-17d6-4893-84b2-0d20d9e9775e-000825d6",
+      "categoria": "Floors",
+      "familia": "Floor",
+      "tipo": "Suelo de vigueta y bovedilla e=0.25",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 31.219998,
+        "area_m2": 31.802996,
+        "volumen_m3": 7.950749,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Coarse Scale Fill Color": 0,
+        "Default Thickness": "0.25",
+        "Function": "Interior",
+        "Edition number": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 560921,
+      "unique_id": "5ec1f1c6-fd4e-4ed3-ace4-5eac1bf5fb17-00088f19",
+      "categoria": "Floors",
+      "familia": "Floor",
+      "tipo": "Plantilla de concreto e=5cm",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 164.325888,
+        "area_m2": 804.195348,
+        "volumen_m3": 40.209767,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Coarse Scale Fill Color": 0,
+        "Default Thickness": "0.05",
+        "Function": "Interior",
+        "Edition number": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 646276,
+      "unique_id": "018b2b09-b685-44d9-9e6d-77eea65d13cf-0009dc84",
+      "categoria": "Floors",
+      "familia": "Floor",
+      "tipo": "Capa de compresion f'c= 250 kg/cm² de 5cm",
+      "nivel": "N.P.T.",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 14.980655,
+        "area_m2": 11.44893,
+        "volumen_m3": 2.862203,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Coarse Scale Fill Color": 0,
+        "Default Thickness": "0.25",
+        "Function": "Interior",
+        "Edition number": 0
+      },
+      "parametros_instancia": {}
+    }
+  ]
+}

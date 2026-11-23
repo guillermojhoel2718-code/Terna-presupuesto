@@ -1,0 +1,53 @@
+{
+  "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027",
+  "ruta_modelo": "../Archivos revit/Herrería y Cancelería_2027/TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+  "categoria": "Stairs",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/15_extraer_canceleria.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 1,
+  "elementos": [
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 596394,
+      "unique_id": "bf8cbf51-6f2a-481c-864a-3eb43c35183b-000919aa",
+      "categoria": "Stairs",
+      "familia": "Assembled Stair",
+      "tipo": "Escalera Metalica - C=17.5 H=28 cm",
+      "nivel": "Nivel - Planta Baja",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Middle Support": "No",
+        "Left Lateral Offset": "0.00",
+        "Right Lateral Offset": "0.00",
+        "Cut Mark Type": "Zig-zag único",
+        "Right Support": "Stringer (Closed)",
+        "Left Support": "Stringer (Closed)",
+        "Middle Support Number": "0",
+        "Minimum Run Width": "1.00",
+        "Middle Support Type": "<None>",
+        "Left Support Type": "ZANCA - CANAL C ESTRUCTURAL CPS DE 12\"",
+        "Right Support Type": "ZANCA - CANAL C ESTRUCTURAL CPS DE 12\"",
+        "Landing Type": "Grosor 200 mm",
+        "Run Type": "PELDAÑOS DE CONCRETO F´C250KKG/CM2 DE 5 CM DE ESPESOR",
+        "Keynote": "E.1",
+        "Description": "Escalera soportada por un canal C estructural CPS de 12\", con un recubrimiento primario anticorrosivo y acabado en pintura negro mate Flash Coat marca Comex. Peldaños formados por charolas metálicas con marcos de ángulo de acero estructural de 2\" x 1/8\" y refuerzo interno de malla electrosoldada 6-6/10-10, rellenadas con una capa de concreto vaciado de 5 cm de espesor y resistencia f'c=250kg/cm2. \n\nSistema de barandal con pasamanos de tubo redondo de 2\" calibre 16 con acabado negro mate, sostenido por postes verticales de acero inoxidable T304 de 1 1/2\" con acabado pulido distribuidos cada 30 cm, complementado por un guarda-cuerpos de cables horizontales de acero inoxidable de 1/8\" T316, con acabado pulido.",
+        "Minimum Tread Depth": "0.28",
+        "Maximum Riser Height": "0.18",
+        "Function": "Interior"
+      },
+      "parametros_instancia": {
+        "Comments": "Escalera soportada por un canal C estructural CPS de 12\", el cual cuenta con un recubrimiento primario anticorrosivo y acabado en pintura negro mate Flash Coat marca Comex. Los peldaños están formados por charolas metálicas con marcos de ángulo de acero estructural de 2\" x 1/8\" y refuerzo interno de malla electrosoldada 6-6/10-10, rellenadas con una capa de concreto vaciado de 5 cm de espesor y resistencia f'c=250kg/cm2. Por último, el sistema de barandal incluye un pasamanos de tubo redondo de 2\" calibre 16 con el mismo acabado negro mate de la estructura, sostenido por postes verticales de acero inoxidable T304 de 1 1/2\" con acabado pulido distribuidos cada 30 cm, complementado por un guarda-cuerpos de cables horizontales de acero inoxidable de 1/8\" T316, igualmente con acabado pulido."
+      }
+    }
+  ]
+}

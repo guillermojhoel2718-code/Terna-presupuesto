@@ -1,0 +1,42 @@
+{
+  "modelo": "Instalaciones",
+  "ruta_modelo": "../Archivos revit/Instalacion IHS_2027/Instalaciones.rvt",
+  "categoria": "SpecialtyEquipment",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/16_extraer_ihs.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 1,
+  "elementos": [
+    {
+      "modelo_origen": "Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "element_id": 551234,
+      "unique_id": "1caf12f7-8c81-4e8b-bf47-18f368d40771-00086942",
+      "categoria": "SpecialtyEquipment",
+      "familia": "Sanitary_Screens-Dividers_Stern-Engineering_Urinal-Partition-RV23",
+      "tipo": "Sanitary_Screens-Dividers_Stern-Engineering_Urinal-partition",
+      "nivel": "N.P.T +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 1.127538,
+        "volumen_m3": 0.043174,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Model": "Urinal partition",
+        "Manufacturer": "Stern Engineering",
+        "URL": "https://sternfaucets.us/",
+        "Description": "HPL Wall Mounted Urinal Partition",
+        "Classification Number": "23.25.40.14.14",
+        "Default Elevation": "1.22",
+        "Product data url": "https://bimobject.com/stern-engineering/product/touchless-wc-cubicles",
+        "Version": "1",
+        "Date Created": "2023/10/20"
+      },
+      "parametros_instancia": {}
+    }
+  ]
+}

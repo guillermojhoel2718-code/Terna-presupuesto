@@ -1,0 +1,1125 @@
+{
+  "modelo": "Proyecto electrico_corregido",
+  "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+  "categoria": "DataDevices",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/17_extraer_electrico.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 29,
+  "elementos": [
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3137874,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-002fe152",
+      "categoria": "DataDevices",
+      "familia": "ROUTER LAN Device_Control-Network_Communication-AMX-NXA_WAP1000",
+      "tipo": "ROUTER LAN MODEM ADSL",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.108041,
+        "volumen_m3": 0.000936,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "1,22",
+        "Whatt's Vateos": "20,00 W",
+        "Voltajes": "65,00 V",
+        "Carga Aparente": "5 VA",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "0 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "86"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3137909,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-002fe175",
+      "categoria": "DataDevices",
+      "familia": "ROUTER LAN Device_Control-Network_Communication-AMX-NXA_WAP1000",
+      "tipo": "ROUTER LAN MODEM ADSL",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.108041,
+        "volumen_m3": 0.000936,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "1,22",
+        "Whatt's Vateos": "20,00 W",
+        "Voltajes": "65,00 V",
+        "Carga Aparente": "5 VA",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "0 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "87"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3138815,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-002fe4ff",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "88"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3138828,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-002fe50c",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "89"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3139118,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-002fe62e",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "90"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3139332,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-002fe704",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "91"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3139894,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-002fe936",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "93"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3140233,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-002fea89",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "94"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3148640,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300b60",
+      "categoria": "DataDevices",
+      "familia": "Sensor de Movimiento HOME SMART",
+      "tipo": "Automatizador H Smart - Sensor Agua -",
+      "nivel": "NPT 5.30",
+      "material_principal": "High Impact ABS plastic",
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.102549,
+        "volumen_m3": 0.002632,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "n/a",
+        "Type IFC Predefined Type": "UNDEFINED",
+        "Export Type to IFC As": "IfcElectricAppliance",
+        "Model": "n/a",
+        "Manufacturer": "n/a",
+        "Type Comments": "n/a",
+        "URL": "n/a",
+        "Description": "Provides enhanced signal processing, 360° x 7.5 m (24 ft) pattern, mounts to surfaces, or mounts semi-flush into a ceiling. White housing.",
+        "Classification Number": "23.85.30.14",
+        "Assembly Code": "E1010",
+        "Default Elevation": "0,00",
+        "Cost": "0,00",
+        "Whatt's Vateos": "2,00 W",
+        "Voltajes": "55,00 V",
+        "ManufacturerURL": "www.boschsecurity.com",
+        "ProductInformation": "http://resource.boschsecurity.us/documents/DS936_Series_Data_sheet_enUS_2628645131.pdf",
+        "Version": "1",
+        "Material": "High Impact ABS plastic",
+        "ModelNumber": "4.998.800.224",
+        "ArchitectsAndEngineersSpecs": "http://resource.boschsecurity.us/documents/DS936_Series_A_E_Specification_enUS_2628660619.pdf",
+        "Disclaimer": "http://resource.boschsecurity.com/information/BIM/Disclaimer.pdf",
+        "InstallationManual": "http://resource.boschsecurity.us/documents/DS936_Series_Installation_Manual_enUS_2628657547.pdf",
+        "MaterialRALColour": "n/a",
+        "PlanningTools": "n/a",
+        "RevitCategory": "SecurityDevices",
+        "Uniclass2015": "Ss_75_40_75_40:IntruderDetectionAndAlarmSystems",
+        "IfcExportAs": "IfcElectricAppliance",
+        "IfcExportType": "UNDEFINED",
+        "Product data url": "https://bimobject.com/boschsecuritysystems/product/intrusion-detectors-ceiling",
+        "Clasificacion Cargas": "Other",
+        "Potencia Aparente FASE 1": "2 VA",
+        "Amperajes": "0 VA",
+        "Height": "0,11",
+        "Width": "0,06",
+        "Depth": "0,04",
+        "BodyMaterial": "Xtech_Bosch_ABS_White"
+      },
+      "parametros_instancia": {
+        "Mark": "99"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3148655,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300b6f",
+      "categoria": "DataDevices",
+      "familia": "Sensor de Movimiento HOME SMART",
+      "tipo": "Automatizador H Smart - Sensor Agua -",
+      "nivel": "NPT 5.30",
+      "material_principal": "High Impact ABS plastic",
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.102549,
+        "volumen_m3": 0.002632,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "n/a",
+        "Type IFC Predefined Type": "UNDEFINED",
+        "Export Type to IFC As": "IfcElectricAppliance",
+        "Model": "n/a",
+        "Manufacturer": "n/a",
+        "Type Comments": "n/a",
+        "URL": "n/a",
+        "Description": "Provides enhanced signal processing, 360° x 7.5 m (24 ft) pattern, mounts to surfaces, or mounts semi-flush into a ceiling. White housing.",
+        "Classification Number": "23.85.30.14",
+        "Assembly Code": "E1010",
+        "Default Elevation": "0,00",
+        "Cost": "0,00",
+        "Whatt's Vateos": "2,00 W",
+        "Voltajes": "55,00 V",
+        "ManufacturerURL": "www.boschsecurity.com",
+        "ProductInformation": "http://resource.boschsecurity.us/documents/DS936_Series_Data_sheet_enUS_2628645131.pdf",
+        "Version": "1",
+        "Material": "High Impact ABS plastic",
+        "ModelNumber": "4.998.800.224",
+        "ArchitectsAndEngineersSpecs": "http://resource.boschsecurity.us/documents/DS936_Series_A_E_Specification_enUS_2628660619.pdf",
+        "Disclaimer": "http://resource.boschsecurity.com/information/BIM/Disclaimer.pdf",
+        "InstallationManual": "http://resource.boschsecurity.us/documents/DS936_Series_Installation_Manual_enUS_2628657547.pdf",
+        "MaterialRALColour": "n/a",
+        "PlanningTools": "n/a",
+        "RevitCategory": "SecurityDevices",
+        "Uniclass2015": "Ss_75_40_75_40:IntruderDetectionAndAlarmSystems",
+        "IfcExportAs": "IfcElectricAppliance",
+        "IfcExportType": "UNDEFINED",
+        "Product data url": "https://bimobject.com/boschsecuritysystems/product/intrusion-detectors-ceiling",
+        "Clasificacion Cargas": "Other",
+        "Potencia Aparente FASE 1": "2 VA",
+        "Amperajes": "0 VA",
+        "Height": "0,11",
+        "Width": "0,06",
+        "Depth": "0,04",
+        "BodyMaterial": "Xtech_Bosch_ABS_White"
+      },
+      "parametros_instancia": {
+        "Mark": "100"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3148769,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300be1",
+      "categoria": "DataDevices",
+      "familia": "Sensor de Movimiento HOME SMART",
+      "tipo": "Automatizador H Smart - Sensor Agua -",
+      "nivel": "NPT 5.30",
+      "material_principal": "High Impact ABS plastic",
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.102549,
+        "volumen_m3": 0.002632,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "n/a",
+        "Type IFC Predefined Type": "UNDEFINED",
+        "Export Type to IFC As": "IfcElectricAppliance",
+        "Model": "n/a",
+        "Manufacturer": "n/a",
+        "Type Comments": "n/a",
+        "URL": "n/a",
+        "Description": "Provides enhanced signal processing, 360° x 7.5 m (24 ft) pattern, mounts to surfaces, or mounts semi-flush into a ceiling. White housing.",
+        "Classification Number": "23.85.30.14",
+        "Assembly Code": "E1010",
+        "Default Elevation": "0,00",
+        "Cost": "0,00",
+        "Whatt's Vateos": "2,00 W",
+        "Voltajes": "55,00 V",
+        "ManufacturerURL": "www.boschsecurity.com",
+        "ProductInformation": "http://resource.boschsecurity.us/documents/DS936_Series_Data_sheet_enUS_2628645131.pdf",
+        "Version": "1",
+        "Material": "High Impact ABS plastic",
+        "ModelNumber": "4.998.800.224",
+        "ArchitectsAndEngineersSpecs": "http://resource.boschsecurity.us/documents/DS936_Series_A_E_Specification_enUS_2628660619.pdf",
+        "Disclaimer": "http://resource.boschsecurity.com/information/BIM/Disclaimer.pdf",
+        "InstallationManual": "http://resource.boschsecurity.us/documents/DS936_Series_Installation_Manual_enUS_2628657547.pdf",
+        "MaterialRALColour": "n/a",
+        "PlanningTools": "n/a",
+        "RevitCategory": "SecurityDevices",
+        "Uniclass2015": "Ss_75_40_75_40:IntruderDetectionAndAlarmSystems",
+        "IfcExportAs": "IfcElectricAppliance",
+        "IfcExportType": "UNDEFINED",
+        "Product data url": "https://bimobject.com/boschsecuritysystems/product/intrusion-detectors-ceiling",
+        "Clasificacion Cargas": "Other",
+        "Potencia Aparente FASE 1": "2 VA",
+        "Amperajes": "0 VA",
+        "Height": "0,11",
+        "Width": "0,06",
+        "Depth": "0,04",
+        "BodyMaterial": "Xtech_Bosch_ABS_White"
+      },
+      "parametros_instancia": {
+        "Mark": "101"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3149001,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300cc9",
+      "categoria": "DataDevices",
+      "familia": "Sensor de Movimiento HOME SMART",
+      "tipo": "Automatizador H Smart - Sensor Agua -",
+      "nivel": "NPT 5.30",
+      "material_principal": "High Impact ABS plastic",
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.102549,
+        "volumen_m3": 0.002632,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "n/a",
+        "Type IFC Predefined Type": "UNDEFINED",
+        "Export Type to IFC As": "IfcElectricAppliance",
+        "Model": "n/a",
+        "Manufacturer": "n/a",
+        "Type Comments": "n/a",
+        "URL": "n/a",
+        "Description": "Provides enhanced signal processing, 360° x 7.5 m (24 ft) pattern, mounts to surfaces, or mounts semi-flush into a ceiling. White housing.",
+        "Classification Number": "23.85.30.14",
+        "Assembly Code": "E1010",
+        "Default Elevation": "0,00",
+        "Cost": "0,00",
+        "Whatt's Vateos": "2,00 W",
+        "Voltajes": "55,00 V",
+        "ManufacturerURL": "www.boschsecurity.com",
+        "ProductInformation": "http://resource.boschsecurity.us/documents/DS936_Series_Data_sheet_enUS_2628645131.pdf",
+        "Version": "1",
+        "Material": "High Impact ABS plastic",
+        "ModelNumber": "4.998.800.224",
+        "ArchitectsAndEngineersSpecs": "http://resource.boschsecurity.us/documents/DS936_Series_A_E_Specification_enUS_2628660619.pdf",
+        "Disclaimer": "http://resource.boschsecurity.com/information/BIM/Disclaimer.pdf",
+        "InstallationManual": "http://resource.boschsecurity.us/documents/DS936_Series_Installation_Manual_enUS_2628657547.pdf",
+        "MaterialRALColour": "n/a",
+        "PlanningTools": "n/a",
+        "RevitCategory": "SecurityDevices",
+        "Uniclass2015": "Ss_75_40_75_40:IntruderDetectionAndAlarmSystems",
+        "IfcExportAs": "IfcElectricAppliance",
+        "IfcExportType": "UNDEFINED",
+        "Product data url": "https://bimobject.com/boschsecuritysystems/product/intrusion-detectors-ceiling",
+        "Clasificacion Cargas": "Other",
+        "Potencia Aparente FASE 1": "2 VA",
+        "Amperajes": "0 VA",
+        "Height": "0,11",
+        "Width": "0,06",
+        "Depth": "0,04",
+        "BodyMaterial": "Xtech_Bosch_ABS_White"
+      },
+      "parametros_instancia": {
+        "Mark": "102"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3149176,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300d78",
+      "categoria": "DataDevices",
+      "familia": "Sensor de Movimiento HOME SMART",
+      "tipo": "Automatizador H Smart - Sensor Agua -",
+      "nivel": "NPT 5.30",
+      "material_principal": "High Impact ABS plastic",
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.102549,
+        "volumen_m3": 0.002632,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "n/a",
+        "Type IFC Predefined Type": "UNDEFINED",
+        "Export Type to IFC As": "IfcElectricAppliance",
+        "Model": "n/a",
+        "Manufacturer": "n/a",
+        "Type Comments": "n/a",
+        "URL": "n/a",
+        "Description": "Provides enhanced signal processing, 360° x 7.5 m (24 ft) pattern, mounts to surfaces, or mounts semi-flush into a ceiling. White housing.",
+        "Classification Number": "23.85.30.14",
+        "Assembly Code": "E1010",
+        "Default Elevation": "0,00",
+        "Cost": "0,00",
+        "Whatt's Vateos": "2,00 W",
+        "Voltajes": "55,00 V",
+        "ManufacturerURL": "www.boschsecurity.com",
+        "ProductInformation": "http://resource.boschsecurity.us/documents/DS936_Series_Data_sheet_enUS_2628645131.pdf",
+        "Version": "1",
+        "Material": "High Impact ABS plastic",
+        "ModelNumber": "4.998.800.224",
+        "ArchitectsAndEngineersSpecs": "http://resource.boschsecurity.us/documents/DS936_Series_A_E_Specification_enUS_2628660619.pdf",
+        "Disclaimer": "http://resource.boschsecurity.com/information/BIM/Disclaimer.pdf",
+        "InstallationManual": "http://resource.boschsecurity.us/documents/DS936_Series_Installation_Manual_enUS_2628657547.pdf",
+        "MaterialRALColour": "n/a",
+        "PlanningTools": "n/a",
+        "RevitCategory": "SecurityDevices",
+        "Uniclass2015": "Ss_75_40_75_40:IntruderDetectionAndAlarmSystems",
+        "IfcExportAs": "IfcElectricAppliance",
+        "IfcExportType": "UNDEFINED",
+        "Product data url": "https://bimobject.com/boschsecuritysystems/product/intrusion-detectors-ceiling",
+        "Clasificacion Cargas": "Other",
+        "Potencia Aparente FASE 1": "2 VA",
+        "Amperajes": "0 VA",
+        "Height": "0,11",
+        "Width": "0,06",
+        "Depth": "0,04",
+        "BodyMaterial": "Xtech_Bosch_ABS_White"
+      },
+      "parametros_instancia": {
+        "Mark": "103"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3149583,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300f0f",
+      "categoria": "DataDevices",
+      "familia": "Sensor de Movimiento HOME SMART",
+      "tipo": "Automatizador H Smart - Sensor Agua -",
+      "nivel": "NPT 5.30",
+      "material_principal": "High Impact ABS plastic",
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.102549,
+        "volumen_m3": 0.002632,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "n/a",
+        "Type IFC Predefined Type": "UNDEFINED",
+        "Export Type to IFC As": "IfcElectricAppliance",
+        "Model": "n/a",
+        "Manufacturer": "n/a",
+        "Type Comments": "n/a",
+        "URL": "n/a",
+        "Description": "Provides enhanced signal processing, 360° x 7.5 m (24 ft) pattern, mounts to surfaces, or mounts semi-flush into a ceiling. White housing.",
+        "Classification Number": "23.85.30.14",
+        "Assembly Code": "E1010",
+        "Default Elevation": "0,00",
+        "Cost": "0,00",
+        "Whatt's Vateos": "2,00 W",
+        "Voltajes": "55,00 V",
+        "ManufacturerURL": "www.boschsecurity.com",
+        "ProductInformation": "http://resource.boschsecurity.us/documents/DS936_Series_Data_sheet_enUS_2628645131.pdf",
+        "Version": "1",
+        "Material": "High Impact ABS plastic",
+        "ModelNumber": "4.998.800.224",
+        "ArchitectsAndEngineersSpecs": "http://resource.boschsecurity.us/documents/DS936_Series_A_E_Specification_enUS_2628660619.pdf",
+        "Disclaimer": "http://resource.boschsecurity.com/information/BIM/Disclaimer.pdf",
+        "InstallationManual": "http://resource.boschsecurity.us/documents/DS936_Series_Installation_Manual_enUS_2628657547.pdf",
+        "MaterialRALColour": "n/a",
+        "PlanningTools": "n/a",
+        "RevitCategory": "SecurityDevices",
+        "Uniclass2015": "Ss_75_40_75_40:IntruderDetectionAndAlarmSystems",
+        "IfcExportAs": "IfcElectricAppliance",
+        "IfcExportType": "UNDEFINED",
+        "Product data url": "https://bimobject.com/boschsecuritysystems/product/intrusion-detectors-ceiling",
+        "Clasificacion Cargas": "Other",
+        "Potencia Aparente FASE 1": "2 VA",
+        "Amperajes": "0 VA",
+        "Height": "0,11",
+        "Width": "0,06",
+        "Depth": "0,04",
+        "BodyMaterial": "Xtech_Bosch_ABS_White"
+      },
+      "parametros_instancia": {
+        "Mark": "105"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3150018,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-003010c2",
+      "categoria": "DataDevices",
+      "familia": "Sensor de Movimiento HOME SMART",
+      "tipo": "Automatizador H Smart - Sensor Agua -",
+      "nivel": "NPT 5.30",
+      "material_principal": "High Impact ABS plastic",
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.102549,
+        "volumen_m3": 0.002632,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "n/a",
+        "Type IFC Predefined Type": "UNDEFINED",
+        "Export Type to IFC As": "IfcElectricAppliance",
+        "Model": "n/a",
+        "Manufacturer": "n/a",
+        "Type Comments": "n/a",
+        "URL": "n/a",
+        "Description": "Provides enhanced signal processing, 360° x 7.5 m (24 ft) pattern, mounts to surfaces, or mounts semi-flush into a ceiling. White housing.",
+        "Classification Number": "23.85.30.14",
+        "Assembly Code": "E1010",
+        "Default Elevation": "0,00",
+        "Cost": "0,00",
+        "Whatt's Vateos": "2,00 W",
+        "Voltajes": "55,00 V",
+        "ManufacturerURL": "www.boschsecurity.com",
+        "ProductInformation": "http://resource.boschsecurity.us/documents/DS936_Series_Data_sheet_enUS_2628645131.pdf",
+        "Version": "1",
+        "Material": "High Impact ABS plastic",
+        "ModelNumber": "4.998.800.224",
+        "ArchitectsAndEngineersSpecs": "http://resource.boschsecurity.us/documents/DS936_Series_A_E_Specification_enUS_2628660619.pdf",
+        "Disclaimer": "http://resource.boschsecurity.com/information/BIM/Disclaimer.pdf",
+        "InstallationManual": "http://resource.boschsecurity.us/documents/DS936_Series_Installation_Manual_enUS_2628657547.pdf",
+        "MaterialRALColour": "n/a",
+        "PlanningTools": "n/a",
+        "RevitCategory": "SecurityDevices",
+        "Uniclass2015": "Ss_75_40_75_40:IntruderDetectionAndAlarmSystems",
+        "IfcExportAs": "IfcElectricAppliance",
+        "IfcExportType": "UNDEFINED",
+        "Product data url": "https://bimobject.com/boschsecuritysystems/product/intrusion-detectors-ceiling",
+        "Clasificacion Cargas": "Other",
+        "Potencia Aparente FASE 1": "2 VA",
+        "Amperajes": "0 VA",
+        "Height": "0,11",
+        "Width": "0,06",
+        "Depth": "0,04",
+        "BodyMaterial": "Xtech_Bosch_ABS_White"
+      },
+      "parametros_instancia": {
+        "Mark": "106"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3150396,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-0030123c",
+      "categoria": "DataDevices",
+      "familia": "Sensor de Movimiento HOME SMART",
+      "tipo": "Automatizador H Smart - Sensor Agua -",
+      "nivel": "NPT 5.30",
+      "material_principal": "High Impact ABS plastic",
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.102549,
+        "volumen_m3": 0.002632,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "n/a",
+        "Type IFC Predefined Type": "UNDEFINED",
+        "Export Type to IFC As": "IfcElectricAppliance",
+        "Model": "n/a",
+        "Manufacturer": "n/a",
+        "Type Comments": "n/a",
+        "URL": "n/a",
+        "Description": "Provides enhanced signal processing, 360° x 7.5 m (24 ft) pattern, mounts to surfaces, or mounts semi-flush into a ceiling. White housing.",
+        "Classification Number": "23.85.30.14",
+        "Assembly Code": "E1010",
+        "Default Elevation": "0,00",
+        "Cost": "0,00",
+        "Whatt's Vateos": "2,00 W",
+        "Voltajes": "55,00 V",
+        "ManufacturerURL": "www.boschsecurity.com",
+        "ProductInformation": "http://resource.boschsecurity.us/documents/DS936_Series_Data_sheet_enUS_2628645131.pdf",
+        "Version": "1",
+        "Material": "High Impact ABS plastic",
+        "ModelNumber": "4.998.800.224",
+        "ArchitectsAndEngineersSpecs": "http://resource.boschsecurity.us/documents/DS936_Series_A_E_Specification_enUS_2628660619.pdf",
+        "Disclaimer": "http://resource.boschsecurity.com/information/BIM/Disclaimer.pdf",
+        "InstallationManual": "http://resource.boschsecurity.us/documents/DS936_Series_Installation_Manual_enUS_2628657547.pdf",
+        "MaterialRALColour": "n/a",
+        "PlanningTools": "n/a",
+        "RevitCategory": "SecurityDevices",
+        "Uniclass2015": "Ss_75_40_75_40:IntruderDetectionAndAlarmSystems",
+        "IfcExportAs": "IfcElectricAppliance",
+        "IfcExportType": "UNDEFINED",
+        "Product data url": "https://bimobject.com/boschsecuritysystems/product/intrusion-detectors-ceiling",
+        "Clasificacion Cargas": "Other",
+        "Potencia Aparente FASE 1": "2 VA",
+        "Amperajes": "0 VA",
+        "Height": "0,11",
+        "Width": "0,06",
+        "Depth": "0,04",
+        "BodyMaterial": "Xtech_Bosch_ABS_White"
+      },
+      "parametros_instancia": {
+        "Mark": "108"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3150831,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-003013ef",
+      "categoria": "DataDevices",
+      "familia": "Sensor de Movimiento HOME SMART",
+      "tipo": "Automatizador H Smart - Sensor Agua -",
+      "nivel": "NPT 5.30",
+      "material_principal": "High Impact ABS plastic",
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.102549,
+        "volumen_m3": 0.002632,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Keynote": "n/a",
+        "Type IFC Predefined Type": "UNDEFINED",
+        "Export Type to IFC As": "IfcElectricAppliance",
+        "Model": "n/a",
+        "Manufacturer": "n/a",
+        "Type Comments": "n/a",
+        "URL": "n/a",
+        "Description": "Provides enhanced signal processing, 360° x 7.5 m (24 ft) pattern, mounts to surfaces, or mounts semi-flush into a ceiling. White housing.",
+        "Classification Number": "23.85.30.14",
+        "Assembly Code": "E1010",
+        "Default Elevation": "0,00",
+        "Cost": "0,00",
+        "Whatt's Vateos": "2,00 W",
+        "Voltajes": "55,00 V",
+        "ManufacturerURL": "www.boschsecurity.com",
+        "ProductInformation": "http://resource.boschsecurity.us/documents/DS936_Series_Data_sheet_enUS_2628645131.pdf",
+        "Version": "1",
+        "Material": "High Impact ABS plastic",
+        "ModelNumber": "4.998.800.224",
+        "ArchitectsAndEngineersSpecs": "http://resource.boschsecurity.us/documents/DS936_Series_A_E_Specification_enUS_2628660619.pdf",
+        "Disclaimer": "http://resource.boschsecurity.com/information/BIM/Disclaimer.pdf",
+        "InstallationManual": "http://resource.boschsecurity.us/documents/DS936_Series_Installation_Manual_enUS_2628657547.pdf",
+        "MaterialRALColour": "n/a",
+        "PlanningTools": "n/a",
+        "RevitCategory": "SecurityDevices",
+        "Uniclass2015": "Ss_75_40_75_40:IntruderDetectionAndAlarmSystems",
+        "IfcExportAs": "IfcElectricAppliance",
+        "IfcExportType": "UNDEFINED",
+        "Product data url": "https://bimobject.com/boschsecuritysystems/product/intrusion-detectors-ceiling",
+        "Clasificacion Cargas": "Other",
+        "Potencia Aparente FASE 1": "2 VA",
+        "Amperajes": "0 VA",
+        "Height": "0,11",
+        "Width": "0,06",
+        "Depth": "0,04",
+        "BodyMaterial": "Xtech_Bosch_ABS_White"
+      },
+      "parametros_instancia": {
+        "Mark": "109"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3155622,
+      "unique_id": "bc086d7f-bdb5-42e5-b5d7-f26597d172b6-003026a6",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "153"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3155646,
+      "unique_id": "bc086d7f-bdb5-42e5-b5d7-f26597d172b6-003026be",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "154"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3155658,
+      "unique_id": "bc086d7f-bdb5-42e5-b5d7-f26597d172b6-003026ca",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "155"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3155682,
+      "unique_id": "bc086d7f-bdb5-42e5-b5d7-f26597d172b6-003026e2",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "156"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3155736,
+      "unique_id": "bc086d7f-bdb5-42e5-b5d7-f26597d172b6-00302718",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "157"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3155769,
+      "unique_id": "bc086d7f-bdb5-42e5-b5d7-f26597d172b6-00302739",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "158"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3155781,
+      "unique_id": "bc086d7f-bdb5-42e5-b5d7-f26597d172b6-00302745",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "159"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3155798,
+      "unique_id": "bc086d7f-bdb5-42e5-b5d7-f26597d172b6-00302756",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "160"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3155948,
+      "unique_id": "96e0169e-76a5-41bb-b04e-36a1a269d7cc-003027ec",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "161"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3156250,
+      "unique_id": "96e0169e-76a5-41bb-b04e-36a1a269d7cc-0030291a",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "162"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3156314,
+      "unique_id": "96e0169e-76a5-41bb-b04e-36a1a269d7cc-0030295a",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "163"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3156317,
+      "unique_id": "96e0169e-76a5-41bb-b04e-36a1a269d7cc-0030295d",
+      "categoria": "DataDevices",
+      "familia": "Automatizador H Smart -Luminarias-",
+      "tipo": "Automatizador H Smart -Luminarias-",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 0.007361,
+        "volumen_m3": 4.5e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Default Elevation": "0,00",
+        "Whatt's Vateos": "5,00 W",
+        "Voltajes": "40,00 V",
+        "Clasificacion Cargas": "Otro",
+        "Potencia Aparente FASE 1": "5 VA",
+        "Amperajes": "0 VA"
+      },
+      "parametros_instancia": {
+        "Mark": "164"
+      }
+    }
+  ]
+}

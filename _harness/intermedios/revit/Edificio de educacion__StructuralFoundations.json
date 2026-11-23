@@ -1,0 +1,791 @@
+{
+  "modelo": "Edificio de educacion",
+  "ruta_modelo": "../Archivos revit/Estructura_2027/00_ Edificio de educacion/Edificio de educacion.rvt",
+  "categoria": "StructuralFoundations",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/12_extraer_estructura.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 30,
+  "elementos": [
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 510195,
+      "unique_id": "ecdba472-7504-4198-b5ed-b6929a938d59-0007c8f3",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 510262,
+      "unique_id": "ecdba472-7504-4198-b5ed-b6929a938d59-0007c936",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 510349,
+      "unique_id": "ecdba472-7504-4198-b5ed-b6929a938d59-0007c98d",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 510424,
+      "unique_id": "ecdba472-7504-4198-b5ed-b6929a938d59-0007c9d8",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 510475,
+      "unique_id": "ecdba472-7504-4198-b5ed-b6929a938d59-0007ca0b",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 510534,
+      "unique_id": "ecdba472-7504-4198-b5ed-b6929a938d59-0007ca46",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 510589,
+      "unique_id": "ecdba472-7504-4198-b5ed-b6929a938d59-0007ca7d",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 510758,
+      "unique_id": "ecdba472-7504-4198-b5ed-b6929a938d59-0007cb26",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 510793,
+      "unique_id": "ecdba472-7504-4198-b5ed-b6929a938d59-0007cb49",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 510852,
+      "unique_id": "ecdba472-7504-4198-b5ed-b6929a938d59-0007cb84",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 510901,
+      "unique_id": "ecdba472-7504-4198-b5ed-b6929a938d59-0007cbb5",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 510986,
+      "unique_id": "ecdba472-7504-4198-b5ed-b6929a938d59-0007cc0a",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 511023,
+      "unique_id": "ecdba472-7504-4198-b5ed-b6929a938d59-0007cc2f",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 511056,
+      "unique_id": "ecdba472-7504-4198-b5ed-b6929a938d59-0007cc50",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 513031,
+      "unique_id": "1a22e5b0-64b1-4adc-9b29-64943f825459-0007d407",
+      "categoria": "StructuralFoundations",
+      "familia": "Wall Foundation",
+      "tipo": "Cimentación de muro",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.4,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Do Not Break At Inserts": "No",
+        "Default End Extension Length": "0.00",
+        "Structural Usage": "Retaining",
+        "Foundation Thickness": "0.30",
+        "Heel Length": "0.30",
+        "Toe Length": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 513051,
+      "unique_id": "1a22e5b0-64b1-4adc-9b29-64943f825459-0007d41b",
+      "categoria": "StructuralFoundations",
+      "familia": "Wall Foundation",
+      "tipo": "Cimentación de muro",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 3.599615,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Do Not Break At Inserts": "No",
+        "Default End Extension Length": "0.00",
+        "Structural Usage": "Retaining",
+        "Foundation Thickness": "0.30",
+        "Heel Length": "0.30",
+        "Toe Length": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 513433,
+      "unique_id": "b5a6ba01-32a8-4d62-83bd-21eac8f54fb5-0007d599",
+      "categoria": "StructuralFoundations",
+      "familia": "Wall Foundation",
+      "tipo": "Zapata - Le0xLi80xS45 cm",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 5.94,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Do Not Break At Inserts": "No",
+        "Default End Extension Length": "0.00",
+        "Structural Usage": "Retaining",
+        "Foundation Thickness": "0.45",
+        "Heel Length": "0.80",
+        "Toe Length": "0.00"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 513455,
+      "unique_id": "b5a6ba01-32a8-4d62-83bd-21eac8f54fb5-0007d5af",
+      "categoria": "StructuralFoundations",
+      "familia": "Wall Foundation",
+      "tipo": "Cimentación de muro",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 12.310766,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Do Not Break At Inserts": "No",
+        "Default End Extension Length": "0.00",
+        "Structural Usage": "Retaining",
+        "Foundation Thickness": "0.30",
+        "Heel Length": "0.30",
+        "Toe Length": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 513474,
+      "unique_id": "b5a6ba01-32a8-4d62-83bd-21eac8f54fb5-0007d5c2",
+      "categoria": "StructuralFoundations",
+      "familia": "Wall Foundation",
+      "tipo": "Cimentación de muro",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 7.9,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Do Not Break At Inserts": "No",
+        "Default End Extension Length": "0.00",
+        "Structural Usage": "Retaining",
+        "Foundation Thickness": "0.30",
+        "Heel Length": "0.30",
+        "Toe Length": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 513498,
+      "unique_id": "b5a6ba01-32a8-4d62-83bd-21eac8f54fb5-0007d5da",
+      "categoria": "StructuralFoundations",
+      "familia": "Wall Foundation",
+      "tipo": "Centrado - La80xS45 cm",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 5.91,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Do Not Break At Inserts": "No",
+        "Default End Extension Length": "0.00",
+        "Structural Usage": "Bearing",
+        "Width": "0.80",
+        "Foundation Thickness": "0.45"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 513514,
+      "unique_id": "b5a6ba01-32a8-4d62-83bd-21eac8f54fb5-0007d5ea",
+      "categoria": "StructuralFoundations",
+      "familia": "Wall Foundation",
+      "tipo": "Centrado - La80xS45 cm",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 12.749999,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Do Not Break At Inserts": "No",
+        "Default End Extension Length": "0.00",
+        "Structural Usage": "Bearing",
+        "Width": "0.80",
+        "Foundation Thickness": "0.45"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 514502,
+      "unique_id": "104c617e-b9ae-4a3a-8dc2-089095765584-0007d9c6",
+      "categoria": "StructuralFoundations",
+      "familia": "Zapata corrida",
+      "tipo": "Zapata corrida de borde",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 338.1521,
+        "volumen_m3": 42.193065,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "CM-2"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 531392,
+      "unique_id": "2d4de061-8f60-45a5-809b-c5c3251696af-00081bc0",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 531431,
+      "unique_id": "2d4de061-8f60-45a5-809b-c5c3251696af-00081be7",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 531434,
+      "unique_id": "2d4de061-8f60-45a5-809b-c5c3251696af-00081bea",
+      "categoria": "StructuralFoundations",
+      "familia": "Encepado-Rectangular",
+      "tipo": "Dado para columnas 0.40x0.40x0.60",
+      "nivel": "Nivel +5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.4,
+        "area_m2": 0.16,
+        "volumen_m3": 0.096,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Assembly Code": "D-1",
+        "Length": "0.40",
+        "Width": "0.40",
+        "Foundation Thickness": "0.60"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 540237,
+      "unique_id": "66dd2eba-cd44-4d11-9235-24e15c6f8e04-00083e4d",
+      "categoria": "StructuralFoundations",
+      "familia": "Wall Foundation",
+      "tipo": "Zapata - Le0xLi80xS45 cm",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 5.94,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Do Not Break At Inserts": "No",
+        "Default End Extension Length": "0.00",
+        "Structural Usage": "Retaining",
+        "Foundation Thickness": "0.45",
+        "Heel Length": "0.80",
+        "Toe Length": "0.00"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 540238,
+      "unique_id": "66dd2eba-cd44-4d11-9235-24e15c6f8e04-00083e4e",
+      "categoria": "StructuralFoundations",
+      "familia": "Wall Foundation",
+      "tipo": "Cimentación de muro",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 12.310766,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Do Not Break At Inserts": "No",
+        "Default End Extension Length": "0.00",
+        "Structural Usage": "Retaining",
+        "Foundation Thickness": "0.30",
+        "Heel Length": "0.30",
+        "Toe Length": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 540239,
+      "unique_id": "66dd2eba-cd44-4d11-9235-24e15c6f8e04-00083e4f",
+      "categoria": "StructuralFoundations",
+      "familia": "Wall Foundation",
+      "tipo": "Cimentación de muro",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 7.9,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Do Not Break At Inserts": "No",
+        "Default End Extension Length": "0.00",
+        "Structural Usage": "Retaining",
+        "Foundation Thickness": "0.30",
+        "Heel Length": "0.30",
+        "Toe Length": "0.30"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 540240,
+      "unique_id": "66dd2eba-cd44-4d11-9235-24e15c6f8e04-00083e50",
+      "categoria": "StructuralFoundations",
+      "familia": "Wall Foundation",
+      "tipo": "Centrado - La80xS45 cm",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 5.91,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Do Not Break At Inserts": "No",
+        "Default End Extension Length": "0.00",
+        "Structural Usage": "Bearing",
+        "Width": "0.80",
+        "Foundation Thickness": "0.45"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "element_id": 540241,
+      "unique_id": "66dd2eba-cd44-4d11-9235-24e15c6f8e04-00083e51",
+      "categoria": "StructuralFoundations",
+      "familia": "Wall Foundation",
+      "tipo": "Centrado - La80xS45 cm",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 12.749999,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Structural Material": "<By Category>",
+        "Do Not Break At Inserts": "No",
+        "Default End Extension Length": "0.00",
+        "Structural Usage": "Bearing",
+        "Width": "0.80",
+        "Foundation Thickness": "0.45"
+      },
+      "parametros_instancia": {}
+    }
+  ]
+}

@@ -1,0 +1,882 @@
+{
+  "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027",
+  "ruta_modelo": "../Archivos revit/Herrería y Cancelería_2027/TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+  "categoria": "StructuralFraming",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/15_extraer_canceleria.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 30,
+  "elementos": [
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1438292,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-0015f254",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 6.4,
+        "area_m2": null,
+        "volumen_m3": 0.035078,
+        "conteo": 1,
+        "peso_kg": 275.42233
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1442365,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-0016023d",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.3,
+        "area_m2": null,
+        "volumen_m3": 0.0131,
+        "conteo": 1,
+        "peso_kg": 102.857773
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1443477,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160695",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.203166,
+        "area_m2": null,
+        "volumen_m3": 0.013328,
+        "conteo": 1,
+        "peso_kg": 104.64972
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1443562,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-001606ea",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 1.82,
+        "area_m2": null,
+        "volumen_m3": 0.012924,
+        "conteo": 1,
+        "peso_kg": 101.474185
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1445335,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160dd7",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.22,
+        "area_m2": null,
+        "volumen_m3": 0.013999,
+        "conteo": 1,
+        "peso_kg": 109.914032
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1445544,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160ea8",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 6.4,
+        "area_m2": null,
+        "volumen_m3": 0.035078,
+        "conteo": 1,
+        "peso_kg": 275.42233
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1445545,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160ea9",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.3,
+        "area_m2": null,
+        "volumen_m3": 0.0131,
+        "conteo": 1,
+        "peso_kg": 102.857773
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1445547,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160eab",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.22,
+        "area_m2": null,
+        "volumen_m3": 0.014624,
+        "conteo": 1,
+        "peso_kg": 114.82798
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1445548,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160eac",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 1.82,
+        "area_m2": null,
+        "volumen_m3": 0.012924,
+        "conteo": 1,
+        "peso_kg": 101.474185
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1445550,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160eae",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.22,
+        "area_m2": null,
+        "volumen_m3": 0.013845,
+        "conteo": 1,
+        "peso_kg": 108.711467
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1445647,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160f0f",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 6.4,
+        "area_m2": null,
+        "volumen_m3": 0.035078,
+        "conteo": 1,
+        "peso_kg": 275.42233
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1445648,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160f10",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.3,
+        "area_m2": null,
+        "volumen_m3": 0.0131,
+        "conteo": 1,
+        "peso_kg": 102.857773
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1445650,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160f12",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.22,
+        "area_m2": null,
+        "volumen_m3": 0.014624,
+        "conteo": 1,
+        "peso_kg": 114.82798
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1445651,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160f13",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 1.82,
+        "area_m2": null,
+        "volumen_m3": 0.012924,
+        "conteo": 1,
+        "peso_kg": 101.474185
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1445653,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160f15",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.22,
+        "area_m2": null,
+        "volumen_m3": 0.013845,
+        "conteo": 1,
+        "peso_kg": 108.711467
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1445658,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160f1a",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 6.4,
+        "area_m2": null,
+        "volumen_m3": 0.035368,
+        "conteo": 1,
+        "peso_kg": 277.70623
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1445659,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160f1b",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.3,
+        "area_m2": null,
+        "volumen_m3": 0.0131,
+        "conteo": 1,
+        "peso_kg": 102.857773
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1445661,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160f1d",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.22,
+        "area_m2": null,
+        "volumen_m3": 0.014624,
+        "conteo": 1,
+        "peso_kg": 114.82798
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1445662,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160f1e",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 1.82,
+        "area_m2": null,
+        "volumen_m3": 0.012924,
+        "conteo": 1,
+        "peso_kg": 101.474185
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1445664,
+      "unique_id": "372204ad-730f-46ac-bd0b-ec15c94c109a-00160f20",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.22,
+        "area_m2": null,
+        "volumen_m3": 0.013845,
+        "conteo": 1,
+        "peso_kg": 108.711467
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1447933,
+      "unique_id": "c891c959-37d7-433f-b0c5-3c4c79ad8109-001617fd",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 6.4,
+        "area_m2": null,
+        "volumen_m3": 0.035078,
+        "conteo": 1,
+        "peso_kg": 275.42233
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1447934,
+      "unique_id": "c891c959-37d7-433f-b0c5-3c4c79ad8109-001617fe",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.3,
+        "area_m2": null,
+        "volumen_m3": 0.0131,
+        "conteo": 1,
+        "peso_kg": 102.857773
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1447936,
+      "unique_id": "c891c959-37d7-433f-b0c5-3c4c79ad8109-00161800",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.22,
+        "area_m2": null,
+        "volumen_m3": 0.014624,
+        "conteo": 1,
+        "peso_kg": 114.82798
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1447937,
+      "unique_id": "c891c959-37d7-433f-b0c5-3c4c79ad8109-00161801",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 1.82,
+        "area_m2": null,
+        "volumen_m3": 0.012924,
+        "conteo": 1,
+        "peso_kg": 101.474185
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1447939,
+      "unique_id": "c891c959-37d7-433f-b0c5-3c4c79ad8109-00161803",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.22,
+        "area_m2": null,
+        "volumen_m3": 0.013845,
+        "conteo": 1,
+        "peso_kg": 108.711467
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1447975,
+      "unique_id": "c891c959-37d7-433f-b0c5-3c4c79ad8109-00161827",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 6.4,
+        "area_m2": null,
+        "volumen_m3": 0.035078,
+        "conteo": 1,
+        "peso_kg": 275.42233
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1447976,
+      "unique_id": "c891c959-37d7-433f-b0c5-3c4c79ad8109-00161828",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.3,
+        "area_m2": null,
+        "volumen_m3": 0.0131,
+        "conteo": 1,
+        "peso_kg": 102.857773
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1447978,
+      "unique_id": "c891c959-37d7-433f-b0c5-3c4c79ad8109-0016182a",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.22,
+        "area_m2": null,
+        "volumen_m3": 0.014704,
+        "conteo": 1,
+        "peso_kg": 115.449189
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1447979,
+      "unique_id": "c891c959-37d7-433f-b0c5-3c4c79ad8109-0016182b",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 1.82,
+        "area_m2": null,
+        "volumen_m3": 0.012924,
+        "conteo": 1,
+        "peso_kg": 101.474185
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1447981,
+      "unique_id": "c891c959-37d7-433f-b0c5-3c4c79ad8109-0016182d",
+      "categoria": "StructuralFraming",
+      "familia": "Canal C",
+      "tipo": "C310X45",
+      "nivel": "Nivel - Azotea",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 2.22,
+        "area_m2": null,
+        "volumen_m3": 0.013255,
+        "conteo": 1,
+        "peso_kg": 104.076297
+      },
+      "parametros_tipo": {
+        "Section Shape": "Not Defined",
+        "W": "0.438",
+        "A": "0.01 m²",
+        "bf": "0.08",
+        "d": "0.31",
+        "tw": "0.01",
+        "x": "0.02",
+        "tf": "0.01"
+      },
+      "parametros_instancia": {}
+    }
+  ]
+}

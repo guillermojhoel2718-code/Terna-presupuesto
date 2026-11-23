@@ -1,0 +1,96 @@
+{
+  "modelo": "Proyecto acabado-DAMIAN",
+  "ruta_modelo": "../Archivos revit/Acabados_2027/theriam/Proyecto acabado-DAMIAN.rvt",
+  "categoria": "Ceilings",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/14_extraer_acabados.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 3,
+  "elementos": [
+    {
+      "modelo_origen": "Proyecto acabado-DAMIAN.rvt",
+      "vinculo": "Proyecto acabado-DAMIAN.rvt : 5 : location <Not Shared>",
+      "element_id": 253667,
+      "unique_id": "8cf3b39b-85e4-419b-b35a-14c0db4cbdbb-0003dee3",
+      "categoria": "Ceilings",
+      "familia": "Compound Ceiling",
+      "tipo": "ACT - Techos Armstrong - 24\" x 48\" -",
+      "nivel": "Nivel 3",
+      "material_principal": "ACT - Armstrong Ceilings - 24\" x 48\" - METALWORKS Mesh Torsion Spring - Woven Square Weave - Sq Lay-In 15/16\" x 1/4\" - 1Cell - 5433W24L48D01BL Tech Black",
+      "cantidades": {
+        "longitud_m": 37.020003,
+        "area_m2": 74.264418,
+        "volumen_m3": 2.227933,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Thermal Mass": "11.66 kJ/(m²·K)",
+        "Thermal Resistance (R)": "0.5263 (m²·K)/W",
+        "Thermal Transmittance (U)": "1.9000 W/(m²·K)",
+        "Thickness": "0.03",
+        "Coarse Scale Fill Color": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto acabado-DAMIAN.rvt",
+      "vinculo": "Proyecto acabado-DAMIAN.rvt : 5 : location <Not Shared>",
+      "element_id": 259170,
+      "unique_id": "f9f890cb-3053-4530-a9c4-cffa06633b5d-0003f462",
+      "categoria": "Ceilings",
+      "familia": "Compound Ceiling",
+      "tipo": "ACT - Techos Armstrong - 24\" x 48\" -",
+      "nivel": "Nivel 5",
+      "material_principal": "ACT - Armstrong Ceilings - 24\" x 48\" - METALWORKS Mesh Torsion Spring - Woven Square Weave - Sq Lay-In 15/16\" x 1/4\" - 1Cell - 5433W24L48D01BL Tech Black",
+      "cantidades": {
+        "longitud_m": 239.581541,
+        "area_m2": 535.327595,
+        "volumen_m3": 16.059828,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Thermal Mass": "11.66 kJ/(m²·K)",
+        "Thermal Resistance (R)": "0.5263 (m²·K)/W",
+        "Thermal Transmittance (U)": "1.9000 W/(m²·K)",
+        "Thickness": "0.03",
+        "Coarse Scale Fill Color": 0
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "Proyecto acabado-DAMIAN.rvt",
+      "vinculo": "Proyecto acabado-DAMIAN.rvt : 5 : location <Not Shared>",
+      "element_id": 259384,
+      "unique_id": "f9f890cb-3053-4530-a9c4-cffa06633b5d-0003f538",
+      "categoria": "Ceilings",
+      "familia": "Compound Ceiling",
+      "tipo": "ACT - Techos Armstrong - 24\" x 48\" -",
+      "nivel": "Nivel 3",
+      "material_principal": "ACT - Armstrong Ceilings - 24\" x 48\" - METALWORKS Mesh Torsion Spring - Woven Square Weave - Sq Lay-In 15/16\" x 1/4\" - 1Cell - 5433W24L48D01BL Tech Black",
+      "cantidades": {
+        "longitud_m": 249.45307,
+        "area_m2": 515.489212,
+        "volumen_m3": 15.464676,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Roughness": "3",
+        "Absorptance": "0.7",
+        "Thermal Mass": "11.66 kJ/(m²·K)",
+        "Thermal Resistance (R)": "0.5263 (m²·K)/W",
+        "Thermal Transmittance (U)": "1.9000 W/(m²·K)",
+        "Thickness": "0.03",
+        "Coarse Scale Fill Color": 0
+      },
+      "parametros_instancia": {}
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "modelo": "Proyecto electrico_corregido",
+  "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+  "categoria": "Windows",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/17_extraer_electrico.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 1,
+  "elementos": [
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147039,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-0030051f",
+      "categoria": "Windows",
+      "familia": "Deflector de ventilación simple",
+      "tipo": "0406 x 0610mm",
+      "nivel": "NPT 5.30",
+      "material_principal": "Madera - Abedul",
+      "cantidades": {
+        "longitud_m": null,
+        "area_m2": 1.139638,
+        "volumen_m3": 0.011018,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Define Thermal Properties by": "Schematic Type",
+        "Construction Type Id": "GSP4R",
+        "Analytic Construction": "1/8 en cristalera simple Pilkington",
+        "Visual Light Transmittance": "0,9",
+        "Solar Heat Gain Coefficient": "0,78",
+        "Thermal Resistance (R)": "0,2711 (m²·K)/W",
+        "Thermal Transmittance (U)": "3,6886 W/(m²·K)",
+        "Type Mark": "31",
+        "Wall Closure": "By host",
+        "Width": "0,40",
+        "Anchura de cubrejuntas - Exterior": "0,04",
+        "Anchura de cubrejuntas - Interior": "0,04",
+        "Altura de antepecho por defecto": "0,40",
+        "Proyección cubrejuntas - Ext.": "0,01",
+        "Proyección cubrejuntas - Int.": "0,01",
+        "Material exterior de cubrejuntas": "Madera - Abedul",
+        "Material interior de cubrejuntas": "Madera - Abedul",
+        "Material de ventilación": "Madera - Abedul",
+        "Material de estructura": "Madera - Abedul"
+      },
+      "parametros_instancia": {
+        "Mark": "33"
+      }
+    }
+  ]
+}

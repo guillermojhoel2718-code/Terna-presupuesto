@@ -1,0 +1,198 @@
+{
+  "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027",
+  "ruta_modelo": "../Archivos revit/Herrería y Cancelería_2027/TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+  "categoria": "Railings",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/15_extraer_canceleria.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 6,
+  "elementos": [
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 597580,
+      "unique_id": "bf8cbf51-6f2a-481c-864a-3eb43c35183b-00091e4c",
+      "categoria": "Railings",
+      "familia": "Railing",
+      "tipo": "Con cables horizontales",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 5.894705,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Use Top Rail": "Yes",
+        "Height": "0.90",
+        "Keynote": "B.3.1",
+        "Rail Connections": "Trim",
+        "Angled Joins": "Add Vertical/Horizontal Segments",
+        "Tangent Joins": "Extend Rails to Meet",
+        "Landing Height Adjustment": "0.00",
+        "Use Landing Height Adjustment": "No",
+        "Baluster Offset": "0.00",
+        "Railing Height": "0.90"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 597584,
+      "unique_id": "bf8cbf51-6f2a-481c-864a-3eb43c35183b-00091e50",
+      "categoria": "Railings",
+      "familia": "Railing",
+      "tipo": "Con cables horizontales",
+      "nivel": null,
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 12.851809,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Use Top Rail": "Yes",
+        "Height": "0.90",
+        "Keynote": "B.3.1",
+        "Rail Connections": "Trim",
+        "Angled Joins": "Add Vertical/Horizontal Segments",
+        "Tangent Joins": "Extend Rails to Meet",
+        "Landing Height Adjustment": "0.00",
+        "Use Landing Height Adjustment": "No",
+        "Baluster Offset": "0.00",
+        "Railing Height": "0.90"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 630470,
+      "unique_id": "8c8c1167-5175-42c1-80c6-5d9562c67405-00099ec6",
+      "categoria": "Railings",
+      "familia": "Railing",
+      "tipo": "Con paneles de metal",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 35.378196,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Use Top Rail": "Yes",
+        "Height": "1.10",
+        "Keynote": "B.3.2",
+        "Rail Connections": "Trim",
+        "Angled Joins": "Add Vertical/Horizontal Segments",
+        "Tangent Joins": "Extend Rails to Meet",
+        "Landing Height Adjustment": "0.00",
+        "Use Landing Height Adjustment": "No",
+        "Baluster Offset": "0.00",
+        "Railing Height": "1.10"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 630553,
+      "unique_id": "8c8c1167-5175-42c1-80c6-5d9562c67405-00099f19",
+      "categoria": "Railings",
+      "familia": "Railing",
+      "tipo": "Con paneles de metal",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 28.450001,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Use Top Rail": "Yes",
+        "Height": "1.10",
+        "Keynote": "B.3.2",
+        "Rail Connections": "Trim",
+        "Angled Joins": "Add Vertical/Horizontal Segments",
+        "Tangent Joins": "Extend Rails to Meet",
+        "Landing Height Adjustment": "0.00",
+        "Use Landing Height Adjustment": "No",
+        "Baluster Offset": "0.00",
+        "Railing Height": "1.10"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 710628,
+      "unique_id": "a97833c5-c462-432e-bb05-b2f2eca18780-000ad7e4",
+      "categoria": "Railings",
+      "familia": "Railing",
+      "tipo": "Con paneles de metal",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 15.870196,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Use Top Rail": "Yes",
+        "Height": "1.10",
+        "Keynote": "B.3.2",
+        "Rail Connections": "Trim",
+        "Angled Joins": "Add Vertical/Horizontal Segments",
+        "Tangent Joins": "Extend Rails to Meet",
+        "Landing Height Adjustment": "0.00",
+        "Use Landing Height Adjustment": "No",
+        "Baluster Offset": "0.00",
+        "Railing Height": "1.10"
+      },
+      "parametros_instancia": {}
+    },
+    {
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "element_id": 1383790,
+      "unique_id": "0495fa5f-2c7b-459d-8f42-188bd65afa66-00151d6e",
+      "categoria": "Railings",
+      "familia": "Railing",
+      "tipo": "Con paneles de metal",
+      "nivel": "Nivel - Primer Piso",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 11.383256,
+        "area_m2": null,
+        "volumen_m3": null,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {
+        "Use Top Rail": "Yes",
+        "Height": "1.10",
+        "Keynote": "B.3.2",
+        "Rail Connections": "Trim",
+        "Angled Joins": "Add Vertical/Horizontal Segments",
+        "Tangent Joins": "Extend Rails to Meet",
+        "Landing Height Adjustment": "0.00",
+        "Use Landing Height Adjustment": "No",
+        "Baluster Offset": "0.00",
+        "Railing Height": "1.10"
+      },
+      "parametros_instancia": {}
+    }
+  ]
+}

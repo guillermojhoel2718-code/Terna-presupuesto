@@ -29,7 +29,7 @@ Verificado en esta máquina el 23-11-2026.
 | `TT-ED-EDU-ARQ-MOB.rvt` | 01, 05, 13 |
 | `Instalacion Electrica_2027\Copias de seguridad\Proyecto electrico_corregido.rvt` (vinculado 23-11-2026, D-008) | 10 |
 
-- **Solo se leen los 6 vínculos.** No se abre ningún RVT fuera del federado: Instalaciones Especiales queda fuera de alcance (D-016) y la albañilería sale de ARQ-MOB (D-017).
+- **Solo se leen los 6 vínculos.** No se abre ningún RVT fuera del federado: Instalaciones Especiales queda fuera de alcance (D-016) y la albañilería sale de Estructura y Cancelería (D-019, que enmienda D-017: ARQ-MOB solo trae mobiliario).
 - Comprobar en cualquier equipo que los vínculos existan localmente: `Scripts/01_preparar_equipo.ps1`.
 
 ## 3. Cómo extraer

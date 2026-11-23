@@ -1,0 +1,150 @@
+{
+  "modelo": "Proyecto electrico_corregido",
+  "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+  "categoria": "Pipes",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/17_extraer_electrico.py",
+  "unidades": "SI (m, m2, m3, kg)",
+  "total_elementos": 6,
+  "elementos": [
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147045,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300525",
+      "categoria": "Pipes",
+      "familia": "Pipe Types",
+      "tipo": "Cañeria PVC-Tricapa · SISTEMA HIDRO FRIA · 12 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.253562,
+        "area_m2": null,
+        "volumen_m3": 2.9e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {},
+      "parametros_instancia": {
+        "System Type": "SISTEMA HIDRO FRIA",
+        "Size": "12 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147050,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-0030052a",
+      "categoria": "Pipes",
+      "familia": "Pipe Types",
+      "tipo": "Cañeria PVC-Tricapa · SISTEMA HIDRO FRIA · 12 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.899625,
+        "area_m2": null,
+        "volumen_m3": 0.000102,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {},
+      "parametros_instancia": {
+        "System Type": "SISTEMA HIDRO FRIA",
+        "Size": "12 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147060,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300534",
+      "categoria": "Pipes",
+      "familia": "Pipe Types",
+      "tipo": "Cañeria PVC-Tricapa · SISTEMA HIDRO CALIENTE · 12 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.253562,
+        "area_m2": null,
+        "volumen_m3": 2.9e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {},
+      "parametros_instancia": {
+        "System Type": "SISTEMA HIDRO CALIENTE",
+        "Size": "12 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147065,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300539",
+      "categoria": "Pipes",
+      "familia": "Pipe Types",
+      "tipo": "Cañeria PVC-Tricapa · SISTEMA HIDRO CALIENTE · 12 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.879625,
+        "area_m2": null,
+        "volumen_m3": 9.9e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {},
+      "parametros_instancia": {
+        "System Type": "SISTEMA HIDRO CALIENTE",
+        "Size": "12 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147101,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-0030055d",
+      "categoria": "Pipes",
+      "familia": "Pipe Types",
+      "tipo": "CAÑERIA METALICA · SISTEMA GAS · 20 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.250388,
+        "area_m2": null,
+        "volumen_m3": 7.9e-05,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {},
+      "parametros_instancia": {
+        "System Type": "SISTEMA GAS",
+        "Size": "20 mmø"
+      }
+    },
+    {
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "element_id": 3147106,
+      "unique_id": "1726c60c-6f20-4b64-9a97-2874be629b71-00300562",
+      "categoria": "Pipes",
+      "familia": "Pipe Types",
+      "tipo": "CAÑERIA METALICA · SISTEMA GAS · 20 mmø",
+      "nivel": "NPT 5.30",
+      "material_principal": null,
+      "cantidades": {
+        "longitud_m": 0.852925,
+        "area_m2": null,
+        "volumen_m3": 0.000268,
+        "conteo": 1,
+        "peso_kg": null
+      },
+      "parametros_tipo": {},
+      "parametros_instancia": {
+        "System Type": "SISTEMA GAS",
+        "Size": "20 mmø"
+      }
+    }
+  ]
+}
