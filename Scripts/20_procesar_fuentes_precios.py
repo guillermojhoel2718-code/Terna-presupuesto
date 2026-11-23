@@ -34,11 +34,17 @@ sys.path.insert(0, str(ROOT / "Scripts" / "schemas"))
 from common import normalizar_unidad  # noqa: E402
 
 
+def _ext_win(p: Path) -> str:
+    s = str(p)
+    return s if s.startswith("\\\\?\\") else f"\\\\?\\{s}"
+
+
 def escribir_atomico(path: Path, contenido: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text(contenido, encoding="utf-8")
-    os.replace(tmp, path)
+    with open(_ext_win(tmp), "w", encoding="utf-8") as f:
+        f.write(contenido)
+    os.replace(_ext_win(tmp), _ext_win(path))
 
 
 def con_lock_pdf(nombre_lock: str, fn):
@@ -73,12 +79,15 @@ def extraer_pdf_a_txt(pdf_path: Path, txt_path: Path) -> int:
     def _do():
         if txt_path.exists() and txt_path.stat().st_size > 0:
             return -1
+        raw_str = str(pdf_path)
+        ext_path = raw_str if raw_str.startswith("\\\\?\\") else f"\\\\?\\{raw_str}"
         paginas = []
-        with pdfplumber.open(pdf_path) as pdf:
-            for idx, page in enumerate(pdf.pages, start=1):
-                texto = page.extract_text() or ""
-                paginas.append(f"=== PAGINA {idx} ===\n{texto.strip()}")
-            num_pages = len(pdf.pages)
+        with open(ext_path, "rb") as fp:
+            with pdfplumber.open(fp) as pdf:
+                for idx, page in enumerate(pdf.pages, start=1):
+                    texto = page.extract_text() or ""
+                    paginas.append(f"=== PAGINA {idx} ===\n{texto.strip()}")
+                num_pages = len(pdf.pages)
         escribir_atomico(txt_path, "\n\n".join(paginas) + "\n")
         print(f"OK    {txt_path.relative_to(ROOT)} ({num_pages} páginas)")
         return num_pages
@@ -92,37 +101,110 @@ def buscar_pdf_por_patron(carpeta: Path, substring: str) -> Path | None:
         return None
     sub_norm = unicodedata.normalize("NFC", substring).lower()
     for p in sorted(carpeta.iterdir()):
-        if p.is_file() and p.suffix.lower() == ".pdf":
+        if p.suffix.lower() == ".pdf":
             name_norm = unicodedata.normalize("NFC", p.name).lower()
             if sub_norm in name_norm:
                 return p
     return None
 
 
+def _existe_win_largo(ruta: Path) -> bool:
+    raw = str(ruta)
+    ext = raw if raw.startswith("\\\\?\\") else f"\\\\?\\{raw}"
+    try:
+        os.stat(ext)
+        return True
+    except OSError:
+        return False
+
+
 def procesar_tabulador_cdmx() -> dict:
+    import subprocess
     ref_dir = ROOT / "Resources" / "referencias_docs"
     pdf_dir = ROOT / "_harness" / "intermedios" / "pdf"
-    pdf_path = buscar_pdf_por_patron(ref_dir, "tabulador")
-    txt_existentes = sorted(pdf_dir.glob("*tabulador*.txt")) if pdf_dir.exists() else []
+    nombre_exacto = (
+        "tabulador-general-de-precios-unitarios-del-gobierno-de-la-ciudad-de-mexico-"
+        "actualizacion-de-septiembre-2026.pdf"
+    )
+    ruta_exacta = ref_dir / nombre_exacto
     indice_path = pdf_dir / "tabulador_cdmx_indice.json"
 
+    # Ejecutar attrib con cwd=ref_dir para evitar límite MAX_PATH (261 chars > 260)
+    r_file = subprocess.run(
+        ["attrib", "+P", "-U", nombre_exacto],
+        cwd=str(ref_dir),
+        capture_output=True,
+        text=True,
+    )
+    r_list = subprocess.run(
+        ["attrib", "*.*"],
+        cwd=str(ref_dir),
+        capture_output=True,
+        text=True,
+    )
+    print(f"INFO  Longitud ruta completa: {len(str(ruta_exacta))} chars (MAX_PATH=260)")
+    print("INFO  attrib +P -U (cwd=referencias_docs):", (r_file.stdout or r_file.stderr).strip())
+    print("INFO  attrib *.* (cwd=referencias_docs):\n" + (r_list.stdout or r_list.stderr).strip())
+
+    ext_dir = f"\\\\?\\{ref_dir}"
+    entradas_ext = [e.name for e in os.scandir(ext_dir)] if os.path.exists(ext_dir) else []
+    print("INFO  scandir(\\\\?\\referencias_docs):", entradas_ext)
+
+    pdf_path: Path | None = None
+    if _existe_win_largo(ruta_exacta):
+        pdf_path = ruta_exacta
+    else:
+        for ename in entradas_ext:
+            if "tabulador" in ename.lower() and ename.lower().endswith(".pdf"):
+                pdf_path = ref_dir / ename
+                break
+
+    if pdf_path is None:
+        # Esperar hasta 40 s (4 intentos cada 10 s) por si OneDrive está sincronizando el archivo
+        for intento in range(1, 5):
+            print(f"INFO  Esperando sincronización OneDrive del tabulador CDMX (intento {intento}/4, 10s)...")
+            time.sleep(10.0)
+            subprocess.run(["attrib", "+P", "-U", nombre_exacto], cwd=str(ref_dir), capture_output=True, text=True)
+            entradas_ext = [e.name for e in os.scandir(ext_dir)] if os.path.exists(ext_dir) else []
+            if _existe_win_largo(ruta_exacta):
+                pdf_path = ruta_exacta
+                break
+            for ename in entradas_ext:
+                if "tabulador" in ename.lower() and ename.lower().endswith(".pdf"):
+                    pdf_path = ref_dir / ename
+                    break
+            if pdf_path is not None:
+                break
+
+    txt_existentes = sorted(pdf_dir.glob("*tabulador*.txt")) if pdf_dir.exists() else []
+
     if pdf_path is None and not txt_existentes:
-        print("WARN  No se encontró el PDF del tabulador CDMX 2026 en Resources/referencias_docs/ ni .txt previo en _harness/intermedios/pdf/")
+        err_msg = (
+            f"Ruta completa mide {len(str(ruta_exacta))} caracteres (> MAX_PATH=260 en Windows). "
+            f"Al ejecutar `attrib +P -U {nombre_exacto}` desde `Resources\\referencias_docs`, "
+            f"attrib devolvió: '{(r_file.stdout or r_file.stderr).strip()}'. "
+            f"Archivos en `\\\\?\\...\\Resources\\referencias_docs`: {entradas_ext}. "
+            f"OneDrive en PC-A o PC-B no ha podido sincronizar el archivo probablemente porque la ruta completa "
+            f"en PC-B excede MAX_PATH (261 chars)."
+        )
+        print(f"WARN  No apareció {nombre_exacto}. {err_msg}")
         payload = {
-            "fuente": "tabulador-general-de-precios-unitarios-septiembre-2026.pdf (no encontrado en Resources/referencias_docs/)",
+            "fuente": f"{nombre_exacto} (no sincronizado en PC-B)",
             "disponible": False,
+            "error_onedrive": err_msg,
             "fecha_extraccion": "23-11-2026",
             "total_conceptos": 0,
             "conceptos": {},
         }
         escribir_atomico(indice_path, json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
-        return {"disponible": False, "conceptos": {}}
+        return {"disponible": False, "error": err_msg, "conceptos": {}}
 
-    txt_path = txt_existentes[0] if txt_existentes else (pdf_dir / f"{pdf_path.stem}.txt")
+    txt_path = txt_existentes[0] if txt_existentes else (pdf_dir / "tabulador_cdmx_2026.txt")
     if pdf_path is not None:
         extraer_pdf_a_txt(pdf_path, txt_path)
 
-    texto = txt_path.read_text(encoding="utf-8")
+    with open(_ext_win(txt_path), "r", encoding="utf-8") as f:
+        texto = f.read()
     conceptos = {}
     pagina_actual = 1
     # Patrón general para renglones de tabulador: clave al inicio, unidad y precio al final

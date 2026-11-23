@@ -181,8 +181,9 @@ def generar_resumen_md(cat: CatalogoPrecios) -> str:
         "|---|---|---:|---|",
     ])
     for c in cat.conceptos:
+        u_txt = c.unidad.value if hasattr(c.unidad, "value") else str(c.unidad)
         if c.fuente_tipo == FuenteTipo.SUPUESTO:
-            lineas.append(f"| `{c.clave}` | `{c.unidad}` | ${c.precio_unitario:,.2f} | {c.justificacion} |")
+            lineas.append(f"| `{c.clave}` | `{u_txt}` | ${c.precio_unitario:,.2f} | {c.justificacion} |")
 
     lineas.extend([
         "",
@@ -192,10 +193,11 @@ def generar_resumen_md(cat: CatalogoPrecios) -> str:
         "|---|---:|---|---:|---|---|---|",
     ])
     for c in cat.conceptos:
+        u_txt = c.unidad.value if hasattr(c.unidad, "value") else str(c.unidad)
         rev = "Sin cant. Revit" if c.sin_cantidad_revit else ", ".join(f"{m.categoria}:{m.campo_cantidad}" for m in c.mapeo_revit)
         desc_corta = c.concepto[:110] + ("..." if len(c.concepto) > 110 else "")
         lineas.append(
-            f"| `{c.clave}` | `{c.capitulo}` | `{c.unidad}` | ${c.precio_unitario:,.2f} | `{c.fuente_tipo.value}` | `{rev}` | {desc_corta} |"
+            f"| `{c.clave}` | `{c.capitulo}` | `{u_txt}` | ${c.precio_unitario:,.2f} | `{c.fuente_tipo.value}` | `{rev}` | {desc_corta} |"
         )
     return "\n".join(lineas) + "\n"
 
@@ -245,7 +247,7 @@ def exportar_excel(cat: CatalogoPrecios, ruta_xlsx: Path) -> bool:
             c.capitulo,
             c.subcapitulo,
             c.concepto,
-            str(c.unidad),
+            c.unidad.value if hasattr(c.unidad, "value") else str(c.unidad),
             c.precio_unitario,
             "MXN",
             c.fuente_tipo.value if c.fuente_tipo else "",

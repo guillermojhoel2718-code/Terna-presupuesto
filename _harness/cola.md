@@ -41,10 +41,10 @@ Equipos (D-014): **CL-1 → PC-A**; **AG-1, AG-2, CX-1, CX-2 → PC-B**.
   > Scripts 21 y 22 de AG-2 presentes; aún no hay catalogo_v01.json.
 - [ ] T-205 | AG-2 | Precios: tabulador → catálogo → APU → SUPUESTO; actualizar `catalogo_v01.json` | depende: T-201, T-202, T-203, T-204 | estado: pendiente
 ### CX-1 · Presupuesto (preparación)
-- [ ] T-401 | CX-1 | Copiar plantilla a `Presupuesto/`, corregir defectos (SPEC_06 §3), AW11=12, Carta; verificar método de recálculo (COM/LibreOffice) | depende: — | estado: en curso
-  > Presupuesto/Presupuesto_v00_base.xlsm presente; status de CX-1 sin actualizar.
-- [ ] T-402 | CX-1 | Script `40_llenar_plantilla_presupuesto.py`: JSON → renglones/jerarquía/resumen, lectura del factor de sobrecosto; probar con datos de prueba | depende: T-401 | estado: en curso
-  > Scripts/40 y Presupuesto_v00_prueba(+_resultado).xlsm presentes; status de CX-1 sin actualizar.
+- [ ] T-401 | CX-1 | Copiar plantilla a `Presupuesto/`, corregir defectos (SPEC_06 §3), AW11=12, Carta; verificar método de recálculo (COM/LibreOffice) | depende: — | estado: aprobada
+  > 23-11-2026 CL-1: Presupuesto_v00_base.xlsm conserva hojas y macros; AW11=12, Q9 sin #REF!, nombre y 2,500 m² (D-010), papel Carta. Antes de T-403: (a) definir área de impresión en D25-00_Sobrecosto y 01_Datos Generales (SPEC_07); (b) quedan #VALUE! en A1 (Resumen), A2 (Presupuesto), BE1 (Sobrecosto), A2 y A9 (Ref_Datos), ya presentes en la plantilla original, probablemente los logos: corregirlos o vaciarlos para que no salgan en el PDF.
+- [ ] T-402 | CX-1 | Script `40_llenar_plantilla_presupuesto.py`: JSON → renglones/jerarquía/resumen, lectura del factor de sobrecosto; probar con datos de prueba | depende: T-401 | estado: aprobada
+  > 23-11-2026 CL-1: py validar.py presupuesto OK sobre Presupuesto_v00_prueba_resultado.json. Verificado en el libro recalculado: AW5=L16=2,500, AD200=3,075,750, AD210=277,042.5, AD211=33,552.93, AW215=3,419,713.24, J16=AW215/L16=1,367.885 (factor sin tecleo de porcentajes). El factor de la prueba es absurdo solo por CD sintético de 2,500 contra indirectos fijos de 12 meses. IVA pendiente: P-012.
 ### CX-2 · Calendario (estructura)
 - [ ] T-501 | CX-2 | Estructura de actividades por capítulo/frente (SPEC_02 §3), duraciones y predecesoras; inicio enero 2027 (D-012) | depende: — | estado: lista para revisión
   > CL-1: schema OK. Observación: las 12 actividades salen con ruta_critica = True (no creíble: no hay holguras calculadas). Duraciones sin respaldo en memoria (CX-2 lo declara). Aceptable solo como estructura provisional; rehacer CPM con claves definitivas.

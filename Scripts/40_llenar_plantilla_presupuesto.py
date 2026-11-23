@@ -1,4 +1,4 @@
-﻿"""Presupuesto desde un intermedio validado, conservando la plantilla XLSM.
+"""Presupuesto desde un intermedio validado, conservando la plantilla XLSM.
 
 Entrada: _harness/intermedios/presupuesto/presupuesto_vNN.json (schema presupuesto).
 Salida: Presupuesto/Presupuesto_vNN.xlsm; opcionalmente actualiza el JSON validado.
@@ -18,6 +18,7 @@ import subprocess
 import sys
 import tempfile
 from datetime import datetime
+from copy import copy
 from pathlib import Path
 from typing import Any
 
@@ -157,6 +158,12 @@ def patch_print_settings(path: Path) -> None:
             dst.writestr(info, payload)
     os.replace(tmp, path)
 
+def copy_row_style(ws: Any, source_row: int, target_row: int, max_col: int = 12) -> None:
+    for col in range(1, max_col + 1):
+        ws.cell(target_row, col)._style = copy(ws.cell(source_row, col)._style)
+        if ws.row_dimensions[source_row].height is not None:
+            ws.row_dimensions[target_row].height = ws.row_dimensions[source_row].height
+
 def write_rows(workbook_path: Path, data: dict[str, Any], factor: float) -> None:
     wb = load_workbook(workbook_path, keep_vba=True)
     ws = wb["D25-00_Presupuesto"]
@@ -180,6 +187,7 @@ def write_rows(workbook_path: Path, data: dict[str, Any], factor: float) -> None
         if not chapter_parts:
             continue
         chapter_row = row
+        copy_row_style(ws, 17, row)
         chapter_rows[cc] = row
         ws.cell(row, 1).value = cc
         ws.cell(row, 3).value = CHAPTERS[cc]
@@ -188,6 +196,7 @@ def write_rows(workbook_path: Path, data: dict[str, Any], factor: float) -> None
         row += 1
         for ss, concepts in sorted(chapter_parts.items()):
             subrow = row
+            copy_row_style(ws, 18, row)
             ws.cell(row, 1).value = f"{cc}.{ss}"
             ws.cell(row, 3).value = concepts[0]["subcapitulo"]
             ws.cell(row, 3).font = Font(bold=True)
@@ -196,6 +205,7 @@ def write_rows(workbook_path: Path, data: dict[str, Any], factor: float) -> None
             for part in concepts:
                 _, _, nnn = item_key(part)
                 r = row
+                copy_row_style(ws, 20, r)
                 item_rows.append(r)
                 detail_rows.append(r)
                 ws.cell(r, 1).value = f"{cc}.{ss}.{nnn}"
@@ -216,6 +226,7 @@ def write_rows(workbook_path: Path, data: dict[str, Any], factor: float) -> None
                 ws.cell(r, 8).number_format = '0.00%'
                 row += 1
             sub_total_row = row
+            copy_row_style(ws, 21, row)
             ws.cell(row, 1).value = f"{cc}.{ss}"
             ws.cell(row, 2).value = "Total de:"
             ws.cell(row, 3).value = f"={ws.cell(subrow, 3).coordinate}"
@@ -229,6 +240,9 @@ def write_rows(workbook_path: Path, data: dict[str, Any], factor: float) -> None
         ws.cell(chapter_row, 3).comment = Comment(
             "Fuentes: " + "; ".join(p["fuente"] for ps in chapter_parts.values() for p in ps), "CX-1")
     subtotal_row = row
+    copy_row_style(ws, 23, row)
+    copy_row_style(ws, 24, row + 1)
+    copy_row_style(ws, 24, row + 2)
     if detail_rows:
         ws["L16"] = "=SUBTOTAL(9," + ",".join(f"L{x}" for x in detail_rows) + ")"
     for r in detail_rows:
@@ -245,6 +259,8 @@ def write_rows(workbook_path: Path, data: dict[str, Any], factor: float) -> None
         ws.cell(r, 7).number_format = '$#,##0.00'
     # Resumen por capítulo, con subtotal y participaciones formuladas.
     for r in range(18, 32):
+        if r != 18:
+            copy_row_style(summary, 18, r, 7)
         for c in range(1, 8):
             summary.cell(r, c).value = None
             summary.cell(r, c).comment = None
@@ -266,7 +282,17 @@ def write_rows(workbook_path: Path, data: dict[str, Any], factor: float) -> None
     summary["D34"] = "Total"
     summary["E34"] = "=E32+E33"
     summary.print_area = "A1:G113"
+    summary.print_title_rows = "1:17"
     ws.print_area = f"A1:H{row + 2}"
+    ws.print_title_rows = "1:16"
+    project = 'Centro Comunitario de Desarrollo Integral "Casa de los Chichimecas"'
+    version = data["version"]
+    fecha = data["fecha"]
+    for sheet in (summary, ws):
+        sheet.oddHeader.center.text = project
+        sheet.oddHeader.right.text = f"Versión {version} · {fecha}"
+        sheet.oddFooter.left.text = "Responsable: CX-1"
+        sheet.oddFooter.right.text = "Página &P de &N"
     wb.calculation.fullCalcOnLoad = True
     wb.calculation.forceFullCalc = True
     wb.calculation.calcMode = "auto"
@@ -310,14 +336,15 @@ def main() -> int:
     parser.add_argument("--salida-xlsm", type=Path, required=True)
     parser.add_argument("--salida-json", type=Path, help="Destino atómico del presupuesto calculado; si se omite no cambia el JSON fuente")
     parser.add_argument("--recalcular", action="store_true", default=True, help="Recalcula hoja de sobrecosto con Excel COM (siempre requerido)")
+    parser.add_argument("--overwrite", action="store_true", help="Permite reemplazar solo un XLSM de salida de prueba/no aprobado")
     args = parser.parse_args()
     raw, model = load_model(args.json)
     if raw.get("sobrecosto", {}).get("iva_tasa") is None or not raw.get("sobrecosto", {}).get("celdas_origen", {}).get("iva_tasa"):
         raise ValueError("La tasa IVA debe venir con una celda de origen identificada, no de un porcentaje supuesto.")
     data = raw
     target = args.salida_xlsm.resolve()
-    if target.exists():
-        raise FileExistsError(f"No se sobrescribe entregable existente: {target}")
+    if target.exists() and not args.overwrite:
+        raise FileExistsError(f"No se sobrescribe entregable existente: {target}; para una salida de prueba indica --overwrite")
     target.parent.mkdir(parents=True, exist_ok=True)
     tmp = target.with_name(target.stem + ".tmp" + target.suffix)
     shutil.copy2(args.plantilla, tmp)
@@ -345,6 +372,7 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 
 
 
