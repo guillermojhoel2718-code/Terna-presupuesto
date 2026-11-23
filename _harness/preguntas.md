@@ -1,0 +1,20 @@
+# Preguntas abiertas
+
+Formato: `P-NNN | [ID] [DD-MM-AAAA] pregunta · impacto · archivo afectado · supuesto mientras tanto`
+Todos agregan al final (con lock). Solo CL-1 cierra (mueve a "Cerradas" con la respuesta y, si aplica, crea una decisión en `decisiones.md`).
+
+## Abiertas (para el usuario)
+
+- (ninguna)
+
+## Cerradas
+
+- P-007 | Instalaciones Especiales → no se toman en cuenta (D-016).
+- P-008 | Albañilería → modelo ARQ-MOB (D-017).
+
+- P-001 | Eléctrico → ya vinculado; el vigente es el de "Copias de seguridad" (D-008). Especiales y albañilería pasan a P-007 y P-008.
+- P-002 | RevitCortex → se instala en ambos equipos (D-009).
+- P-003 | Nombre "Centro Comunitario de Desarrollo Integral "Casa de los Chichimecas"", 2,500 m² aprox. (D-010).
+- P-004 | Tabulador CDMX = costo directo, sin conversión (D-011).
+- P-005 | Inicio enero 2027 (D-012).
+- P-006 | Montos de sobrecosto se dejan como vienen (D-013).

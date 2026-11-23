@@ -1,0 +1,42 @@
+# Solo código y documentación (D-015). Datos pesados viven en OneDrive.
+
+# Modelos y binarios
+*.rvt
+*.rfa
+*.dwg
+*.ifc
+*.pdf
+*.xlsx
+*.xlsm
+*.xls
+*.zip
+*.docx
+*.pptx
+
+# Carpetas de datos / entregables (se sincronizan por OneDrive, no por git)
+Modelo federado/
+Resources/
+Resultados/
+Generadores/
+Presupuesto/
+Calendario/
+Catalogo de precios/
+
+# RevitCortex: repo propio y paquete de instalación
+MCP Revit/RevitCortex/
+MCP Revit/instalador/
+
+# Harness: temporales y logs por equipo
+_harness/locks/
+_harness/logs/
+_harness/intermedios/pdf/
+_harness/intermedios/**/*.tmp
+
+# Python / sistema
+__pycache__/
+*.pyc
+.venv/
+desktop.ini
+~$*
+*.tmp
+.claude/settings.local.json
