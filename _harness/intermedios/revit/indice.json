@@ -1,0 +1,2818 @@
+{
+  "proyecto": "Centro Comunitario de Desarrollo Integral \"Casa de los Chichimecas\"",
+  "alcance": "Edificio de educación (6 vínculos del modelo federado)",
+  "modelo_federado": "Modelo federado/modelo_federado.rvt",
+  "fecha": "23-11-2026",
+  "herramienta": "pyrevit-mcp",
+  "script": "Scripts/10_inventario_revit.py",
+  "total_vinculos": 6,
+  "total_archivos": 59,
+  "vinculos": [
+    {
+      "modelo": "TT-ED-EDU-ARQ-MOB",
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "ruta_modelo": "../Archivos revit/TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "link_instance_id": 374618,
+      "estado": "Loaded",
+      "niveles": [
+        {
+          "id": 171020,
+          "nombre": "Nivel 1",
+          "elevacion_m": 0.2
+        },
+        {
+          "id": 171021,
+          "nombre": "Nivel 2",
+          "elevacion_m": 3.1
+        },
+        {
+          "id": 171022,
+          "nombre": "Nivel - Planta Baja",
+          "elevacion_m": 5.3
+        },
+        {
+          "id": 171025,
+          "nombre": "Nivel - Dala Int 01",
+          "elevacion_m": 7.6
+        },
+        {
+          "id": 171023,
+          "nombre": "Nivel - Primer Piso",
+          "elevacion_m": 8.8
+        },
+        {
+          "id": 171028,
+          "nombre": "Nivel - Dala Int 02",
+          "elevacion_m": 11.1
+        },
+        {
+          "id": 171024,
+          "nombre": "Nivel - Azotea",
+          "elevacion_m": 12.3
+        },
+        {
+          "id": 171026,
+          "nombre": "Nivel - Cubierta 01",
+          "elevacion_m": 13.8
+        },
+        {
+          "id": 171027,
+          "nombre": "Nivel - Cubierta 02",
+          "elevacion_m": 14.8
+        }
+      ],
+      "categorias_extraidas": {
+        "Furniture": 530,
+        "FurnitureSystems": 2,
+        "Casework": 40,
+        "SpecialtyEquipment": 35
+      }
+    },
+    {
+      "modelo": "Instalaciones",
+      "modelo_origen": "Instalaciones.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion IHS_2027/Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "link_instance_id": 374621,
+      "estado": "Loaded",
+      "niveles": [
+        {
+          "id": 449971,
+          "nombre": "Level 3",
+          "elevacion_m": 3.83
+        },
+        {
+          "id": 448542,
+          "nombre": "N.P.T +5.30",
+          "elevacion_m": 5.3097
+        },
+        {
+          "id": 448547,
+          "nombre": "Auxiliar dala intermedia +5.30",
+          "elevacion_m": 7.13
+        },
+        {
+          "id": 448543,
+          "nombre": "N.P.T +8.80",
+          "elevacion_m": 8.83
+        },
+        {
+          "id": 448548,
+          "nombre": "Auxiliar dala intermedia +8.80",
+          "elevacion_m": 10.63
+        },
+        {
+          "id": 448544,
+          "nombre": "PLANTA DE AZOTEA",
+          "elevacion_m": 12.33
+        },
+        {
+          "id": 448545,
+          "nombre": "Nivel +13.80",
+          "elevacion_m": 13.83
+        },
+        {
+          "id": 448546,
+          "nombre": "Nivel +14.80",
+          "elevacion_m": 14.83
+        }
+      ],
+      "categorias_extraidas": {
+        "Pipes": 344,
+        "FlexPipes": 8,
+        "PipeFittings": 313,
+        "PipeAccessories": 38,
+        "PlumbingFixtures": 17,
+        "MechanicalEquipment": 6,
+        "SpecialtyEquipment": 1
+      }
+    },
+    {
+      "modelo": "Edificio de educacion",
+      "modelo_origen": "Edificio de educacion.rvt",
+      "ruta_modelo": "../Archivos revit/Estructura_2027/00_ Edificio de educacion/Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "link_instance_id": 374624,
+      "estado": "Loaded",
+      "niveles": [
+        {
+          "id": 365984,
+          "nombre": "Nivel +5.30",
+          "elevacion_m": 5.3
+        },
+        {
+          "id": 534354,
+          "nombre": "Auxiliar dala intermedia +7.65",
+          "elevacion_m": 7.65
+        },
+        {
+          "id": 365985,
+          "nombre": "N.P.T.",
+          "elevacion_m": 8.8
+        },
+        {
+          "id": 534470,
+          "nombre": "Auxiliar dala intermedia +11.15",
+          "elevacion_m": 11.15
+        },
+        {
+          "id": 365986,
+          "nombre": "Nivel +12.30",
+          "elevacion_m": 12.3
+        },
+        {
+          "id": 365988,
+          "nombre": "Nivel +13.80",
+          "elevacion_m": 13.8
+        },
+        {
+          "id": 365989,
+          "nombre": "Nivel +14.80",
+          "elevacion_m": 14.8
+        }
+      ],
+      "categorias_extraidas": {
+        "StructuralFoundations": 30,
+        "StructuralColumns": 217,
+        "StructuralFraming": 344,
+        "Floors": 13,
+        "Walls": 123,
+        "CurtainWallPanels": 10467,
+        "CurtainWallMullions": 587,
+        "Rebar": 247,
+        "GenericModel": 3712
+      }
+    },
+    {
+      "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027",
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "ruta_modelo": "../Archivos revit/Herrería y Cancelería_2027/TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "link_instance_id": 374627,
+      "estado": "Loaded",
+      "niveles": [
+        {
+          "id": 933,
+          "nombre": "Nivel 1",
+          "elevacion_m": 0.2
+        },
+        {
+          "id": 1679,
+          "nombre": "Nivel 2",
+          "elevacion_m": 3.1
+        },
+        {
+          "id": 165615,
+          "nombre": "Nivel - Planta Baja",
+          "elevacion_m": 5.3
+        },
+        {
+          "id": 173121,
+          "nombre": "Nivel - Dala Int 01",
+          "elevacion_m": 7.6
+        },
+        {
+          "id": 165623,
+          "nombre": "Nivel - Primer Piso",
+          "elevacion_m": 8.8
+        },
+        {
+          "id": 1191141,
+          "nombre": "Nivel - Dala Int 02",
+          "elevacion_m": 11.1
+        },
+        {
+          "id": 173087,
+          "nombre": "Nivel - Azotea",
+          "elevacion_m": 12.3
+        },
+        {
+          "id": 632411,
+          "nombre": "Nivel - Cubierta 01",
+          "elevacion_m": 13.8
+        },
+        {
+          "id": 634442,
+          "nombre": "Nivel - Cubierta 02",
+          "elevacion_m": 14.8
+        }
+      ],
+      "categorias_extraidas": {
+        "Doors": 37,
+        "Windows": 133,
+        "CurtainWallPanels": 592,
+        "CurtainWallMullions": 640,
+        "Railings": 6,
+        "Stairs": 1,
+        "StructuralColumns": 6,
+        "StructuralFraming": 30,
+        "Walls": 110,
+        "Floors": 16,
+        "Furniture": 18
+      }
+    },
+    {
+      "modelo": "Proyecto acabado-DAMIAN",
+      "modelo_origen": "Proyecto acabado-DAMIAN.rvt",
+      "ruta_modelo": "../Archivos revit/Acabados_2027/theriam/Proyecto acabado-DAMIAN.rvt",
+      "vinculo": "Proyecto acabado-DAMIAN.rvt : 5 : location <Not Shared>",
+      "link_instance_id": 374630,
+      "estado": "Loaded",
+      "niveles": [
+        {
+          "id": 171092,
+          "nombre": "Nivel 3",
+          "elevacion_m": 5.3
+        },
+        {
+          "id": 171095,
+          "nombre": "Nivel 4",
+          "elevacion_m": 6.0
+        },
+        {
+          "id": 171093,
+          "nombre": "Nivel 5",
+          "elevacion_m": 8.8
+        },
+        {
+          "id": 171094,
+          "nombre": "Nivel 6",
+          "elevacion_m": 12.3
+        },
+        {
+          "id": 171096,
+          "nombre": "Nivel 7",
+          "elevacion_m": 13.8
+        },
+        {
+          "id": 171097,
+          "nombre": "Nivel 8",
+          "elevacion_m": 14.8
+        }
+      ],
+      "categorias_extraidas": {
+        "Floors": 30,
+        "Walls": 37,
+        "Ceilings": 3
+      }
+    },
+    {
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "link_instance_id": 374644,
+      "estado": "Loaded",
+      "niveles": [
+        {
+          "id": 3120167,
+          "nombre": "NPT 5.30",
+          "elevacion_m": 5.3
+        },
+        {
+          "id": 3120145,
+          "nombre": "NIVEL 6.00",
+          "elevacion_m": 6.0
+        },
+        {
+          "id": 3120168,
+          "nombre": "NPT 8.80",
+          "elevacion_m": 8.8
+        },
+        {
+          "id": 3120169,
+          "nombre": "NPT 12.30",
+          "elevacion_m": 12.3
+        },
+        {
+          "id": 3120170,
+          "nombre": "Nivel 7",
+          "elevacion_m": 13.8
+        },
+        {
+          "id": 3120171,
+          "nombre": "Nivel 8",
+          "elevacion_m": 14.8
+        }
+      ],
+      "categorias_extraidas": {
+        "Conduits": 892,
+        "ConduitFittings": 498,
+        "CableTrays": 5,
+        "CableTrayFittings": 4,
+        "LightingFixtures": 249,
+        "LightingDevices": 13,
+        "ElectricalFixtures": 121,
+        "ElectricalEquipment": 4,
+        "Wires": 348,
+        "DataDevices": 29,
+        "CommunicationDevices": 1,
+        "SecurityDevices": 9,
+        "FireAlarmDevices": 9,
+        "SpecialtyEquipment": 6,
+        "MechanicalEquipment": 1,
+        "Walls": 41,
+        "Floors": 1,
+        "Ceilings": 2,
+        "Doors": 1,
+        "Windows": 1,
+        "StructuralFraming": 1,
+        "Pipes": 6,
+        "PipeFittings": 9,
+        "PipeAccessories": 3,
+        "PlumbingFixtures": 1
+      }
+    }
+  ],
+  "archivos": [
+    {
+      "archivo": "_harness/intermedios/revit/TT-ED-EDU-ARQ-MOB__Furniture.json",
+      "modelo": "TT-ED-EDU-ARQ-MOB",
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "ruta_modelo": "../Archivos revit/TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "categoria": "Furniture",
+      "total_elementos": 530,
+      "fecha": "23-11-2026",
+      "script": "Scripts/13_extraer_arq_mob.py",
+      "tipos": {
+        "Mesa dupla cód 7408 | Mesa dupla com porta livros cód 7408.6 2 AZUL": {
+          "conteo": 32,
+          "longitud_m": 0.0,
+          "area_m2": 55.5008,
+          "volumen_m3": 0.6752,
+          "peso_kg": 0.0
+        },
+        "Mesa dupla cód 7408 | Mesa dupla com porta livros cód 7408.6 ROJO": {
+          "conteo": 32,
+          "longitud_m": 0.0,
+          "area_m2": 55.5008,
+          "volumen_m3": 0.6752,
+          "peso_kg": 0.0
+        },
+        "Mesa dupla cód 7408 | Mesa dupla com porta livros cód 7408.6 VERDE": {
+          "conteo": 32,
+          "longitud_m": 0.0,
+          "area_m2": 55.5008,
+          "volumen_m3": 0.6752,
+          "peso_kg": 0.0
+        },
+        "Furniture_Shelving-Storage_Dalform_3-Comp-Locker-LD-400x500x1700 | Default": {
+          "conteo": 99,
+          "longitud_m": 0.0,
+          "area_m2": 356.3208,
+          "volumen_m3": 34.4322,
+          "peso_kg": 0.0
+        },
+        "Steelcase - Seating - Think 465 Series - Chair | 3D Knit Back/Adjustable Arm/Caster": {
+          "conteo": 9,
+          "longitud_m": 0.0,
+          "area_m2": 20.2851,
+          "volumen_m3": 0.2016,
+          "peso_kg": 0.0
+        },
+        "Steelcase - Migration SE - Desk - Rectangular - T Leg | 29D x 58W": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 10.3672,
+          "volumen_m3": 0.2176,
+          "peso_kg": 0.0
+        },
+        "Steelcase - Migration SE - Desk - Base - Rectangular | 29D - 58W": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 14.5552,
+          "volumen_m3": 0.1064,
+          "peso_kg": 0.0
+        },
+        "WideScreenMonitor | 0.604 m x 0.17 m": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Powerstrip Plus | 0.14 m x 0.154 m": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "WEM61 | 0.406 m x 0.104 m": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Blu Dot - Hitch - Bookcase | Bookcase": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 11.5072,
+          "volumen_m3": 0.1384,
+          "peso_kg": 0.0
+        },
+        "libros | 0.221 m x 0.17 m": {
+          "conteo": 23,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Steelcase - Premium Whiteboard and Tackboard - Edge Series | Markerboard - 144'' W x 48'' H": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 40.2256,
+          "volumen_m3": 0.668,
+          "peso_kg": 0.0
+        },
+        "Mesa dupla cód 7408 | Mesa dupla com porta livros cód 7408.6 MORADO": {
+          "conteo": 32,
+          "longitud_m": 0.0,
+          "area_m2": 55.5008,
+          "volumen_m3": 0.6752,
+          "peso_kg": 0.0
+        },
+        "MO. PIZARÓN | Markerboard - 144W x 48H": {
+          "conteo": 3,
+          "longitud_m": 0.0,
+          "area_m2": 15.0846,
+          "volumen_m3": 0.2505,
+          "peso_kg": 0.0
+        },
+        "SL.4_Silla | SL.4_Silla": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 0.955,
+          "volumen_m3": 0.0122,
+          "peso_kg": 0.0
+        },
+        "Steelcase_AM_Accessory_Board_PremiumWhiteboard_MobileEasel | Mobile Easel": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 21.3444,
+          "volumen_m3": 0.2164,
+          "peso_kg": 0.0
+        },
+        "M.Mesa de trabajo | Size 300x110, Height 73": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 46.504,
+          "volumen_m3": 0.1592,
+          "peso_kg": 0.0
+        },
+        "CON_Connection_Stng_Centro_LowStool | Centro Low Stool": {
+          "conteo": 40,
+          "longitud_m": 0.0,
+          "area_m2": 12.944,
+          "volumen_m3": 0.544,
+          "peso_kg": 0.0
+        },
+        "MO. ESTANTERÍA 4 | Estante salón": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 73.5512,
+          "volumen_m3": 5.8512,
+          "peso_kg": 0.0
+        },
+        "RD_IKEA_KALLAX LACK Storage combination with shelf, 224x39x147 cm | Repisa para libros": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 6.0966,
+          "volumen_m3": 0.1871,
+          "peso_kg": 0.0
+        },
+        "1509550637968-Mug of tea | Empty": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.053,
+          "volumen_m3": 0.0001,
+          "peso_kg": 0.0
+        },
+        "Mesa de cómputo 02 | Mesa de cómputo 02": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 53.5592,
+          "volumen_m3": 0.3568,
+          "peso_kg": 0.0
+        },
+        "optimizada AD2-SOM-RL-TR | AD2-SOM-RL-TR-09": {
+          "conteo": 10,
+          "longitud_m": 0.0,
+          "area_m2": 3.09,
+          "volumen_m3": 0.011,
+          "peso_kg": 0.0
+        },
+        "Mesa de cómputo 03 | Mesa de cómputo 03": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 29.756,
+          "volumen_m3": 0.1814,
+          "peso_kg": 0.0
+        },
+        "Papelero_de_355x254mm_rectangular | Papelero": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.4735,
+          "volumen_m3": 0.0036,
+          "peso_kg": 0.0
+        },
+        "KOKUYO_Office-Chairs_LAMEX-EASE | Adjustable Armrest_GREEN": {
+          "conteo": 15,
+          "longitud_m": 0.0,
+          "area_m2": 15.448,
+          "volumen_m3": 0.2745,
+          "peso_kg": 0.0
+        },
+        "escritorio | 48W - End Leg/End Leg": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 2.3384,
+          "volumen_m3": 0.0582,
+          "peso_kg": 0.0
+        },
+        "mini mesa | Garden Easy Table 50x50": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 5.2192,
+          "volumen_m3": 0.0288,
+          "peso_kg": 0.0
+        },
+        "Planter_with_shrub_17951 | 400x400x1000h _ White": {
+          "conteo": 6,
+          "longitud_m": 0.0,
+          "area_m2": 7.5402,
+          "volumen_m3": 0.1536,
+          "peso_kg": 0.0
+        },
+        "11 | 770 x 625 x 560 mm": {
+          "conteo": 16,
+          "longitud_m": 0.0,
+          "area_m2": 9.3696,
+          "volumen_m3": 0.3536,
+          "peso_kg": 0.0
+        },
+        "KO_Priority_Wire-Manager-Fillers_99KWMF | 99KWMF": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 0.0688,
+          "volumen_m3": 0.0008,
+          "peso_kg": 0.0
+        },
+        "KO_Priority_Lateral-File-Fixed_Low-Storage_53K----22PFBLF | 53K163622PFBLF - 16\" D x 36\" W": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 12.4608,
+          "volumen_m3": 0.2064,
+          "peso_kg": 0.0
+        },
+        "KO_Priority_Cushion-Top_Low-Storage_53K----PC | 53K1636PC - 16\" D x 36\" W": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 3.3448,
+          "volumen_m3": 0.092,
+          "peso_kg": 0.0
+        },
+        "KO_Priority_End-Support_Open-Frame-Legs_Fixed-Height_53K--28SLOSP | 53K3628SLOSP - 36\" W": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 4.548,
+          "volumen_m3": 0.0464,
+          "peso_kg": 0.0
+        },
+        "KO_Priority_Privacy-Screen_Resin_53K--12PSR | 53K6012PSR - 60 W": {
+          "conteo": 4,
+          "longitud_m": 0.0,
+          "area_m2": 1.8748,
+          "volumen_m3": 0.0116,
+          "peso_kg": 0.0
+        },
+        "KO_Priority_Worksurface_Rectangular_Wire-Manager_53K----WBS-3 | 53K3672WBS 36 D x 72 W": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 15.6736,
+          "volumen_m3": 0.3928,
+          "peso_kg": 0.0
+        },
+        "KO_Priority_Bracket_Privacy-Screen_53KPSBU2P | 53KPSBU2P": {
+          "conteo": 12,
+          "longitud_m": 0.0,
+          "area_m2": 0.1164,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "KO_Priority_Support-Rail_Undersurface_53K--SRUP | 53K72SRUP - 72 W": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 2.4632,
+          "volumen_m3": 0.0056,
+          "peso_kg": 0.0
+        },
+        "KO_Priority_Privacy-Screen_Resin_53K--12PSR | 53K4812PSR - 48 W": {
+          "conteo": 4,
+          "longitud_m": 0.0,
+          "area_m2": 1.5032,
+          "volumen_m3": 0.0092,
+          "peso_kg": 0.0
+        },
+        "Estantería - 3D - Genérico - Biblioteca Moderna2 | Estantería - 3D - Genérico - Biblioteca Moderna2": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 30.7308,
+          "volumen_m3": 0.4722,
+          "peso_kg": 0.0
+        },
+        "Silla Verus Task | Gris con Burdeos": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 8.7168,
+          "volumen_m3": 0.168,
+          "peso_kg": 0.0
+        },
+        "Banqueta Relax | Gris": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 19.8766,
+          "volumen_m3": 0.7002,
+          "peso_kg": 0.0
+        },
+        "Table ronde avec chaises - 01 | Table ronde avec chaises - 01": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 8.9568,
+          "volumen_m3": 0.2094,
+          "peso_kg": 0.0
+        },
+        "12 | Manual - Dual Control 2": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 192.9926,
+          "volumen_m3": 3.9396,
+          "peso_kg": 0.0
+        },
+        "62 | 6 2": {
+          "conteo": 13,
+          "longitud_m": 0.0,
+          "area_m2": 278.6693,
+          "volumen_m3": 3.9611,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/TT-ED-EDU-ARQ-MOB__FurnitureSystems.json",
+      "modelo": "TT-ED-EDU-ARQ-MOB",
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "ruta_modelo": "../Archivos revit/TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "categoria": "FurnitureSystems",
+      "total_elementos": 2,
+      "fecha": "23-11-2026",
+      "script": "Scripts/13_extraer_arq_mob.py",
+      "tipos": {
+        "BANCADA ILHA (4) | Priority0008": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 20.2694,
+          "volumen_m3": 0.3668,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/TT-ED-EDU-ARQ-MOB__Casework.json",
+      "modelo": "TT-ED-EDU-ARQ-MOB",
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "ruta_modelo": "../Archivos revit/TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "categoria": "Casework",
+      "total_elementos": 40,
+      "fecha": "23-11-2026",
+      "script": "Scripts/13_extraer_arq_mob.py",
+      "tipos": {
+        "bott_Casework_Workbench_Cubio | 1200(W)mm x 900(D)mm x 800(H)mm": {
+          "conteo": 40,
+          "longitud_m": 0.0,
+          "area_m2": 87.78,
+          "volumen_m3": 2.916,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/TT-ED-EDU-ARQ-MOB__SpecialtyEquipment.json",
+      "modelo": "TT-ED-EDU-ARQ-MOB",
+      "modelo_origen": "TT-ED-EDU-ARQ-MOB.rvt",
+      "ruta_modelo": "../Archivos revit/TT-ED-EDU-ARQ-MOB.rvt",
+      "vinculo": "TT-ED-EDU-ARQ-MOB.rvt : 1 : location <Not Shared>",
+      "categoria": "SpecialtyEquipment",
+      "total_elementos": 35,
+      "fecha": "23-11-2026",
+      "script": "Scripts/13_extraer_arq_mob.py",
+      "tipos": {
+        "Projection_Screen-Draper_Inc.-Ropewalker | NOT A TYPE - LOAD TYPE CATALOG": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 12.1551,
+          "volumen_m3": 0.0565,
+          "peso_kg": 0.0
+        },
+        "MAC | MAC": {
+          "conteo": 16,
+          "longitud_m": 0.0,
+          "area_m2": 15.5904,
+          "volumen_m3": 0.2032,
+          "peso_kg": 0.0
+        },
+        "Apple iMac teclado y mouse | Apple iMac teclado y mouse": {
+          "conteo": 16,
+          "longitud_m": 0.0,
+          "area_m2": 1.1792,
+          "volumen_m3": 0.0048,
+          "peso_kg": 0.0
+        },
+        "Computer-Tower | Tower": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.4737,
+          "volumen_m3": 0.0465,
+          "peso_kg": 0.0
+        },
+        "Impressora | Printer": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 4.5938,
+          "volumen_m3": 0.1542,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Instalaciones__Pipes.json",
+      "modelo": "Instalaciones",
+      "modelo_origen": "Instalaciones.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion IHS_2027/Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "categoria": "Pipes",
+      "total_elementos": 344,
+      "fecha": "23-11-2026",
+      "script": "Scripts/16_extraer_ihs.py",
+      "tipos": {
+        "Pipe Types | PVC - DESAGUE · Sanitary · 101.60 mmø": {
+          "conteo": 137,
+          "longitud_m": 417.9136,
+          "area_m2": 0.0,
+          "volumen_m3": 4.287,
+          "peso_kg": 0.0
+        },
+        "Pipe Types | PVC - DESAGUE · Sanitary · 50.80 mmø": {
+          "conteo": 62,
+          "longitud_m": 42.6637,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0784,
+          "peso_kg": 0.0
+        },
+        "Pipe Types | PVC - AGUA FRÍA · Domestic_Cold_Water · 25.40 mmø": {
+          "conteo": 66,
+          "longitud_m": 123.6503,
+          "area_m2": 0.0,
+          "volumen_m3": 0.1078,
+          "peso_kg": 0.0
+        },
+        "Pipe Types | PVC - DESAGUE · Domestic_Cold_Water · 12.70 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0866,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Pipe Types | PVC - AGUA FRÍA · Domestic_Cold_Water · 12.70 mmø": {
+          "conteo": 8,
+          "longitud_m": 0.7208,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Pipe Types | PVC - DESAGUE · Other · 12.70 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0166,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Pipe Types | PVC - DESAGUE · Domestic_Cold_Water · 25.40 mmø": {
+          "conteo": 49,
+          "longitud_m": 119.2873,
+          "area_m2": 0.0,
+          "volumen_m3": 0.104,
+          "peso_kg": 0.0
+        },
+        "Pipe Types | PVC - DESAGUE · Domestic_Cold_Water · 50.80 mmø": {
+          "conteo": 18,
+          "longitud_m": 109.2436,
+          "area_m2": 0.0,
+          "volumen_m3": 0.2011,
+          "peso_kg": 0.0
+        },
+        "Pipe Types | PVC - AGUA FRÍA · Domestic_Cold_Water · 50.80 mmø": {
+          "conteo": 2,
+          "longitud_m": 86.1174,
+          "area_m2": 0.0,
+          "volumen_m3": 0.1586,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Instalaciones__FlexPipes.json",
+      "modelo": "Instalaciones",
+      "modelo_origen": "Instalaciones.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion IHS_2027/Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "categoria": "FlexPipes",
+      "total_elementos": 8,
+      "fecha": "23-11-2026",
+      "script": "Scripts/16_extraer_ihs.py",
+      "tipos": {
+        "Flex Pipe Round | Flex - Round · Domestic_Cold_Water · 9.53 mmø": {
+          "conteo": 5,
+          "longitud_m": 1.5824,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Flex Pipe Round | Flex - Round · Sanitary · 50.80 mmø": {
+          "conteo": 3,
+          "longitud_m": 1.2373,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0016,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Instalaciones__PipeFittings.json",
+      "modelo": "Instalaciones",
+      "modelo_origen": "Instalaciones.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion IHS_2027/Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "categoria": "PipeFittings",
+      "total_elementos": 313,
+      "fecha": "23-11-2026",
+      "script": "Scripts/16_extraer_ihs.py",
+      "tipos": {
+        "M_Tee Reducing Sanitary - PVC - Sch 40 - DWV | Standard · Sanitary · 50.80 mmø-50.80 mmø-50.80 mmø": {
+          "conteo": 16,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0128,
+          "peso_kg": 0.0
+        },
+        "M_Cap - PVC - Sch 40 | Standard · Sanitary · 50.80 mmø": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0004,
+          "peso_kg": 0.0
+        },
+        "M_Tee - PVC - Sch 40 | Standard · Domestic_Cold_Water · 12.70 mmø-12.70 mmø-12.70 mmø": {
+          "conteo": 13,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "M_Elbow - PVC - Sch 40 | Standard · Domestic_Cold_Water · 12.70 mmø-12.70 mmø": {
+          "conteo": 16,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "M_Tee - Welded - Generic | Standard · Domestic_Cold_Water · 12.70 mmø-12.70 mmø-12.70 mmø": {
+          "conteo": 3,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "M_Tee Reducing Sanitary - PVC - Sch 40 - DWV | Standard · Sanitary · 101.60 mmø-101.60 mmø-101.60 mmø": {
+          "conteo": 32,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.1999,
+          "peso_kg": 0.0
+        },
+        "M_Trap P - PVC - Sch 40 - DWV | Standard · Sanitary · 50.80 mmø-50.80 mmø": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.002,
+          "peso_kg": 0.0
+        },
+        "M_Coupling Reducing - PVC - Sch 40 | Standard · Domestic_Cold_Water · 15.00 mmø-12.70 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0056,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "M_Cap - PVC - Sch 40 | Standard · Domestic_Cold_Water · 25.40 mmø": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "M_Tee - PVC - Sch 40 | Standard · Domestic_Cold_Water · 25.40 mmø-25.40 mmø-25.40 mmø": {
+          "conteo": 11,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0022,
+          "peso_kg": 0.0
+        },
+        "M_Elbow - PVC - Sch 40 | Standard · Sanitary · 101.60 mmø-101.60 mmø": {
+          "conteo": 39,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.1042,
+          "peso_kg": 0.0
+        },
+        "M_Elbow - PVC - Sch 40 | Standard · Sanitary · 50.80 mmø-50.80 mmø": {
+          "conteo": 20,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0096,
+          "peso_kg": 0.0
+        },
+        "M_Tee Reducing Sanitary - PVC - Sch 40 - DWV | Standard · Sanitary · 101.60 mmø-101.60 mmø-50.80 mmø": {
+          "conteo": 9,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0283,
+          "peso_kg": 0.0
+        },
+        "M_Coupling Reducing - PVC - Sch 40 | Standard · Sanitary · 50.80 mmø-50.80 mmø": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 0.1171,
+          "volumen_m3": 0.0032,
+          "peso_kg": 0.0
+        },
+        "M_Coupling Reducing - PVC - Sch 40 | Standard · Domestic_Cold_Water · 25.40 mmø-12.70 mmø": {
+          "conteo": 57,
+          "longitud_m": 0.0,
+          "area_m2": 0.3648,
+          "volumen_m3": 0.0057,
+          "peso_kg": 0.0
+        },
+        "M_Elbow - PVC - Sch 40 | Standard · Domestic_Cold_Water · 25.40 mmø-25.40 mmø": {
+          "conteo": 27,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0027,
+          "peso_kg": 0.0
+        },
+        "M_Coupling Reducing - PVC - Sch 40 | Standard · Domestic_Cold_Water · 76.20 mmø-25.40 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0146,
+          "volumen_m3": 0.0006,
+          "peso_kg": 0.0
+        },
+        "M_Coupling Reducing - PVC - Sch 40 | Standard · Sanitary · 101.60 mmø-101.60 mmø": {
+          "conteo": 14,
+          "longitud_m": 0.0,
+          "area_m2": 0.4762,
+          "volumen_m3": 0.0322,
+          "peso_kg": 0.0
+        },
+        "M_Coupling Reducing - PVC - Sch 40 | Standard · Sanitary · 101.60 mmø-50.80 mmø": {
+          "conteo": 3,
+          "longitud_m": 0.0,
+          "area_m2": 0.0696,
+          "volumen_m3": 0.0039,
+          "peso_kg": 0.0
+        },
+        "M_Tee Reducing Sanitary - PVC - Sch 40 - DWV | Standard · Domestic_Cold_Water · 25.40 mmø-25.40 mmø-25.40 mmø": {
+          "conteo": 10,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.002,
+          "peso_kg": 0.0
+        },
+        "M_Coupling Reducing - PVC - Sch 40 | Standard · Domestic_Cold_Water · 25.40 mmø-25.40 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0078,
+          "volumen_m3": 0.0001,
+          "peso_kg": 0.0
+        },
+        "M_Coupling Reducing - PVC - Sch 40 | Standard · Domestic_Cold_Water · 50.80 mmø-12.70 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0093,
+          "volumen_m3": 0.0002,
+          "peso_kg": 0.0
+        },
+        "M_Elbow - PVC - Sch 40 | Standard · Domestic_Cold_Water · 50.80 mmø-50.80 mmø": {
+          "conteo": 12,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0059,
+          "peso_kg": 0.0
+        },
+        "M_Coupling Reducing - PVC - Sch 40 | Standard · Domestic_Cold_Water · 50.80 mmø-25.40 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.011,
+          "volumen_m3": 0.0002,
+          "peso_kg": 0.0
+        },
+        "M_Tee Reducing Sanitary - PVC - Sch 40 - DWV | Standard · Domestic_Cold_Water · 50.80 mmø-50.80 mmø-50.80 mmø": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0016,
+          "peso_kg": 0.0
+        },
+        "M_Tee Reducing Sanitary - PVC - Sch 40 - DWV | Standard · Undefined · 76.20 mmø-76.20 mmø-50.80 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0017,
+          "peso_kg": 0.0
+        },
+        "M_Coupling Reducing - PVC - Sch 40 | Standard · Domestic_Cold_Water · 50.80 mmø-50.80 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0146,
+          "volumen_m3": 0.0004,
+          "peso_kg": 0.0
+        },
+        "M_Coupling Reducing - PVC - Sch 40 | Standard · Domestic Cold Water · 50.80 mmø-25.40 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.011,
+          "volumen_m3": 0.0002,
+          "peso_kg": 0.0
+        },
+        "M_Cross - PVC - Sch 40 | Standard · Domestic_Cold_Water · 25.40 mmø-25.40 mmø-25.40 mmø-25.40 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0002,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Instalaciones__PipeAccessories.json",
+      "modelo": "Instalaciones",
+      "modelo_origen": "Instalaciones.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion IHS_2027/Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "categoria": "PipeAccessories",
+      "total_elementos": 38,
+      "fecha": "23-11-2026",
+      "script": "Scripts/16_extraer_ihs.py",
+      "tipos": {
+        "Plumbing-Valves_Bianchi-F.LLI_Valves_For_Water_425BZ | 425B0004ZN - 1/2\" · Domestic_Cold_Water · 12.70 mmø-12.70 mmø": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Valve-Compression_Angle_Stop-Uponor-LF_Brass | .5x.375 · Domestic_Cold_Water · 12.70 mmø-9.53 mmø": {
+          "conteo": 10,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Caja Registro DE VALVULAS | Caja Registro DE VALVULAS": {
+          "conteo": 4,
+          "longitud_m": 0.0,
+          "area_m2": 10.5936,
+          "volumen_m3": 0.6612,
+          "peso_kg": 0.0
+        },
+        "Caja Registro DE VALVULAS 1  | Caja Registro DE VALVULAS 1 ": {
+          "conteo": 22,
+          "longitud_m": 0.0,
+          "area_m2": 58.0954,
+          "volumen_m3": 3.6498,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Instalaciones__PlumbingFixtures.json",
+      "modelo": "Instalaciones",
+      "modelo_origen": "Instalaciones.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion IHS_2027/Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "categoria": "PlumbingFixtures",
+      "total_elementos": 17,
+      "fecha": "23-11-2026",
+      "script": "Scripts/16_extraer_ihs.py",
+      "tipos": {
+        "CAJA DE REGISTOREGISTRO 40X 60 | CAJA DE REGISTRO 1": {
+          "conteo": 6,
+          "longitud_m": 0.0,
+          "area_m2": 5.592,
+          "volumen_m3": 0.8766,
+          "peso_kg": 0.0
+        },
+        "CAJA DE REGISTOREGISTRO 40X 60  L  | CAJA DE REGISTRO 1": {
+          "conteo": 3,
+          "longitud_m": 0.0,
+          "area_m2": 2.7639,
+          "volumen_m3": 0.435,
+          "peso_kg": 0.0
+        },
+        "Biodigestor Autolimpiable | TOL-7000L": {
+          "conteo": 3,
+          "longitud_m": 0.0,
+          "area_m2": 47.568,
+          "volumen_m3": 21.9111,
+          "peso_kg": 0.0
+        },
+        "CAJA DE REGISTOREGISTRO 40 X 60 X 60 CM | CAJA DE REGISTRO 1": {
+          "conteo": 3,
+          "longitud_m": 0.0,
+          "area_m2": 2.796,
+          "volumen_m3": 0.4383,
+          "peso_kg": 0.0
+        },
+        "CAJA DE REGISTOREGISTRO T 40 X 60 X 60 CM | CAJA DE REGISTRO 1": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 1.948,
+          "volumen_m3": 0.2942,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Instalaciones__MechanicalEquipment.json",
+      "modelo": "Instalaciones",
+      "modelo_origen": "Instalaciones.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion IHS_2027/Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "categoria": "MechanicalEquipment",
+      "total_elementos": 6,
+      "fecha": "23-11-2026",
+      "script": "Scripts/16_extraer_ihs.py",
+      "tipos": {
+        "FIT 125-080-250 MANC | 125-080-250 MANC,RT216": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.5627,
+          "volumen_m3": 0.0254,
+          "peso_kg": 0.0
+        },
+        "Cisterna Rotplas | ROTOPLAS 1100 LTS": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 13.8704,
+          "volumen_m3": 5.7426,
+          "peso_kg": 0.0
+        },
+        "CISTERNA | Cisterna de almacenamiento subterráneo de concreto armado con capacidad total de 76,000 litros, dividido en dos compartimentos independientes mediante muro divisorio de concreto, Cisterna 1 para Agua Potable (20,000 L) y Cisterna 2 para Agua Pluvial (56,000 L)": {
+          "conteo": 4,
+          "longitud_m": 0.0,
+          "area_m2": 503.6416,
+          "volumen_m3": 81.9824,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Instalaciones__SpecialtyEquipment.json",
+      "modelo": "Instalaciones",
+      "modelo_origen": "Instalaciones.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion IHS_2027/Instalaciones.rvt",
+      "vinculo": "Instalaciones.rvt : 2 : location <Not Shared>",
+      "categoria": "SpecialtyEquipment",
+      "total_elementos": 1,
+      "fecha": "23-11-2026",
+      "script": "Scripts/16_extraer_ihs.py",
+      "tipos": {
+        "Sanitary_Screens-Dividers_Stern-Engineering_Urinal-Partition-RV23 | Sanitary_Screens-Dividers_Stern-Engineering_Urinal-partition": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 1.1275,
+          "volumen_m3": 0.0432,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Edificio de educacion__StructuralFoundations.json",
+      "modelo": "Edificio de educacion",
+      "modelo_origen": "Edificio de educacion.rvt",
+      "ruta_modelo": "../Archivos revit/Estructura_2027/00_ Edificio de educacion/Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "categoria": "StructuralFoundations",
+      "total_elementos": 30,
+      "fecha": "23-11-2026",
+      "script": "Scripts/12_extraer_estructura.py",
+      "tipos": {
+        "Encepado-Rectangular | Dado para columnas 0.40x0.40x0.60": {
+          "conteo": 17,
+          "longitud_m": 6.8,
+          "area_m2": 2.72,
+          "volumen_m3": 1.632,
+          "peso_kg": 0.0
+        },
+        "Wall Foundation | Cimentación de muro": {
+          "conteo": 6,
+          "longitud_m": 46.4212,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Wall Foundation | Zapata - Le0xLi80xS45 cm": {
+          "conteo": 2,
+          "longitud_m": 11.88,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Wall Foundation | Centrado - La80xS45 cm": {
+          "conteo": 4,
+          "longitud_m": 37.32,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Zapata corrida | Zapata corrida de borde": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 338.1521,
+          "volumen_m3": 42.1931,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Edificio de educacion__StructuralColumns.json",
+      "modelo": "Edificio de educacion",
+      "modelo_origen": "Edificio de educacion.rvt",
+      "ruta_modelo": "../Archivos revit/Estructura_2027/00_ Edificio de educacion/Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "categoria": "StructuralColumns",
+      "total_elementos": 217,
+      "fecha": "23-11-2026",
+      "script": "Scripts/12_extraer_estructura.py",
+      "tipos": {
+        "Pilar rectangular hormigón | Columna de 30 x 30_Para claros largos": {
+          "conteo": 31,
+          "longitud_m": 108.5,
+          "area_m2": 66.2287,
+          "volumen_m3": 9.4609,
+          "peso_kg": 0.0
+        },
+        "Pilar rectangular hormigón | Castillo de 12x15 cm_confinamiento para muros": {
+          "conteo": 102,
+          "longitud_m": 357.0,
+          "area_m2": 96.4235,
+          "volumen_m3": 6.2673,
+          "peso_kg": 0.0
+        },
+        "Pilar rectangular hormigón | Castillo de 12x20 cm_confinamiento para muros 2": {
+          "conteo": 1,
+          "longitud_m": 3.5,
+          "area_m2": 0.948,
+          "volumen_m3": 0.0607,
+          "peso_kg": 0.0
+        },
+        "Zona de castillo ahogado | Zona de varilla interna de muro": {
+          "conteo": 83,
+          "longitud_m": 290.5,
+          "area_m2": 69.2952,
+          "volumen_m3": 4.068,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Edificio de educacion__StructuralFraming.json",
+      "modelo": "Edificio de educacion",
+      "modelo_origen": "Edificio de educacion.rvt",
+      "ruta_modelo": "../Archivos revit/Estructura_2027/00_ Edificio de educacion/Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "categoria": "StructuralFraming",
+      "total_elementos": 344,
+      "fecha": "23-11-2026",
+      "script": "Scripts/12_extraer_estructura.py",
+      "tipos": {
+        "Hormigón-Viga rectangular | Dala de cerramiento de concreto de  15x25": {
+          "conteo": 101,
+          "longitud_m": 1227.835,
+          "area_m2": 456.9918,
+          "volumen_m3": 39.0622,
+          "peso_kg": 0.0
+        },
+        "Hormigón-Viga rectangular | Dala de desplante de 15x25": {
+          "conteo": 37,
+          "longitud_m": 221.5386,
+          "area_m2": 78.9463,
+          "volumen_m3": 5.6876,
+          "peso_kg": 0.0
+        },
+        "Hormigón-Viga rectangular | Trabe de concreto de 30x60": {
+          "conteo": 13,
+          "longitud_m": 118.975,
+          "area_m2": 105.6892,
+          "volumen_m3": 20.1756,
+          "peso_kg": 0.0
+        },
+        "Hormigón-Viga rectangular | Trabe de cimentacion 20x40": {
+          "conteo": 15,
+          "longitud_m": 76.4516,
+          "area_m2": 39.1993,
+          "volumen_m3": 4.7185,
+          "peso_kg": 0.0
+        },
+        "GPEVCO-EST-Viga tipo T | Vigueta pretensada de concreto 12x20": {
+          "conteo": 178,
+          "longitud_m": 924.0253,
+          "area_m2": 288.6767,
+          "volumen_m3": 14.7358,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Edificio de educacion__Floors.json",
+      "modelo": "Edificio de educacion",
+      "modelo_origen": "Edificio de educacion.rvt",
+      "ruta_modelo": "../Archivos revit/Estructura_2027/00_ Edificio de educacion/Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "categoria": "Floors",
+      "total_elementos": 13,
+      "fecha": "23-11-2026",
+      "script": "Scripts/12_extraer_estructura.py",
+      "tipos": {
+        "Floor | Suelo de vigueta y bovedilla e=0.25": {
+          "conteo": 10,
+          "longitud_m": 413.9529,
+          "area_m2": 741.6653,
+          "volumen_m3": 185.2917,
+          "peso_kg": 0.0
+        },
+        "Floor | Firme estructural e=10 cm": {
+          "conteo": 1,
+          "longitud_m": 164.3259,
+          "area_m2": 804.0946,
+          "volumen_m3": 80.4095,
+          "peso_kg": 0.0
+        },
+        "Floor | Plantilla de concreto e=5cm": {
+          "conteo": 1,
+          "longitud_m": 164.3259,
+          "area_m2": 804.1953,
+          "volumen_m3": 40.2098,
+          "peso_kg": 0.0
+        },
+        "Floor | Capa de compresion f'c= 250 kg/cm² de 5cm": {
+          "conteo": 1,
+          "longitud_m": 14.9807,
+          "area_m2": 11.4489,
+          "volumen_m3": 2.8622,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Edificio de educacion__Walls.json",
+      "modelo": "Edificio de educacion",
+      "modelo_origen": "Edificio de educacion.rvt",
+      "ruta_modelo": "../Archivos revit/Estructura_2027/00_ Edificio de educacion/Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "categoria": "Walls",
+      "total_elementos": 123,
+      "fecha": "23-11-2026",
+      "script": "Scripts/12_extraer_estructura.py",
+      "tipos": {
+        "Curtain Wall | Celosia Exterior": {
+          "conteo": 4,
+          "longitud_m": 13.2788,
+          "area_m2": 46.4763,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Curtain Wall | NOVABLOCK® (12) H": {
+          "conteo": 101,
+          "longitud_m": 918.4329,
+          "area_m2": 1337.9466,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Curtain Wall | Cubierta": {
+          "conteo": 18,
+          "longitud_m": 213.3542,
+          "area_m2": 367.0639,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Edificio de educacion__CurtainWallPanels.json",
+      "modelo": "Edificio de educacion",
+      "modelo_origen": "Edificio de educacion.rvt",
+      "ruta_modelo": "../Archivos revit/Estructura_2027/00_ Edificio de educacion/Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "categoria": "CurtainWallPanels",
+      "total_elementos": 10467,
+      "fecha": "23-11-2026",
+      "script": "Scripts/12_extraer_estructura.py",
+      "tipos": {
+        "NOVABLOCK® (12) H 1 Tercio | NOVABLOCK® (12) H 1 Tercio": {
+          "conteo": 9930,
+          "longitud_m": 0.0,
+          "area_m2": 1337.7036,
+          "volumen_m3": 238.32,
+          "peso_kg": 0.0
+        },
+        "System Panel | Vacio": {
+          "conteo": 244,
+          "longitud_m": 0.0,
+          "area_m2": 280.6391,
+          "volumen_m3": 2.8068,
+          "peso_kg": 0.0
+        },
+        "Solid Pane vaciol | Solid Pane vaciol": {
+          "conteo": 28,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Wall Panel - ornamental | Wall Panel - ornamental": {
+          "conteo": 264,
+          "longitud_m": 0.0,
+          "area_m2": 46.1985,
+          "volumen_m3": 3.1185,
+          "peso_kg": 0.0
+        },
+        "NOVABLOCK® (12) H | NOVABLOCK® (12) H": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.1439,
+          "volumen_m3": 0.0251,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Edificio de educacion__CurtainWallMullions.json",
+      "modelo": "Edificio de educacion",
+      "modelo_origen": "Edificio de educacion.rvt",
+      "ruta_modelo": "../Archivos revit/Estructura_2027/00_ Edificio de educacion/Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "categoria": "CurtainWallMullions",
+      "total_elementos": 587,
+      "fecha": "23-11-2026",
+      "script": "Scripts/12_extraer_estructura.py",
+      "tipos": {
+        "Montante rectangular | Montante rectangular - 10 x 40 cm": {
+          "conteo": 587,
+          "longitud_m": 883.5243,
+          "area_m2": 460.5421,
+          "volumen_m3": 34.7073,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Edificio de educacion__Rebar.json",
+      "modelo": "Edificio de educacion",
+      "modelo_origen": "Edificio de educacion.rvt",
+      "ruta_modelo": "../Archivos revit/Estructura_2027/00_ Edificio de educacion/Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "categoria": "Rebar",
+      "total_elementos": 247,
+      "fecha": "23-11-2026",
+      "script": "Scripts/12_extraer_estructura.py",
+      "tipos": {
+        "Rebar Bar | Varilla": {
+          "conteo": 36,
+          "longitud_m": 145.4451,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0182,
+          "peso_kg": 144.5948
+        },
+        "Rebar Bar | Estribos #3": {
+          "conteo": 120,
+          "longitud_m": 1117.3763,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0785,
+          "peso_kg": 621.5748
+        },
+        "Rebar Bar | Varilla #4": {
+          "conteo": 54,
+          "longitud_m": 2782.7116,
+          "area_m2": 0.0,
+          "volumen_m3": 0.3526,
+          "peso_kg": 2766.4532
+        },
+        "Rebar Bar | Estribos #4": {
+          "conteo": 13,
+          "longitud_m": 200.2981,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0142,
+          "peso_kg": 111.4223
+        },
+        "Rebar Bar | Varilla del #5": {
+          "conteo": 21,
+          "longitud_m": 926.1532,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0728,
+          "peso_kg": 515.2021
+        },
+        "Rebar Bar | Varilla del #2": {
+          "conteo": 3,
+          "longitud_m": 12.7888,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0006,
+          "peso_kg": 7.1142
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Edificio de educacion__GenericModel.json",
+      "modelo": "Edificio de educacion",
+      "modelo_origen": "Edificio de educacion.rvt",
+      "ruta_modelo": "../Archivos revit/Estructura_2027/00_ Edificio de educacion/Edificio de educacion.rvt",
+      "vinculo": "Edificio de educacion.rvt : 3 : location <Not Shared>",
+      "categoria": "GenericModel",
+      "total_elementos": 3712,
+      "fecha": "23-11-2026",
+      "script": "Scripts/12_extraer_estructura.py",
+      "tipos": {
+        "GPEVCO-EST-Bovedilla cemento arena | 63 x 20 x 20": {
+          "conteo": 3684,
+          "longitud_m": 0.0,
+          "area_m2": 1976.0976,
+          "volumen_m3": 50.1024,
+          "peso_kg": 0.0
+        },
+        "GPEVCO-EST-Bovedilla cemento arena_ajuste | 63 x 20 x 20": {
+          "conteo": 14,
+          "longitud_m": 0.0,
+          "area_m2": 3.4524,
+          "volumen_m3": 0.084,
+          "peso_kg": 0.0
+        },
+        "GPEVCO-EST-Bovedilla cemento arena_ajuste2 | 63 x 20 x 20": {
+          "conteo": 14,
+          "longitud_m": 0.0,
+          "area_m2": 5.9962,
+          "volumen_m3": 0.1498,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/TT_ED_EDUCACIÓN_CANCELERIA_2027__Doors.json",
+      "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027",
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "ruta_modelo": "../Archivos revit/Herrería y Cancelería_2027/TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "categoria": "Doors",
+      "total_elementos": 37,
+      "fecha": "23-11-2026",
+      "script": "Scripts/15_extraer_canceleria.py",
+      "tipos": {
+        "Puerta para Salones de Clase | Puerta Sencilla Abatible de  0.90 x 2.10 m - M9 x M21": {
+          "conteo": 11,
+          "longitud_m": 0.0,
+          "area_m2": 47.8863,
+          "volumen_m3": 0.9482,
+          "peso_kg": 0.0
+        },
+        "Puerta corrediza sin perfil.0001 | Puerta corrediza sin perfil.0001": {
+          "conteo": 6,
+          "longitud_m": 0.0,
+          "area_m2": 3.6835,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "puerta simple | puerta simple": {
+          "conteo": 12,
+          "longitud_m": 0.0,
+          "area_m2": 5.2074,
+          "volumen_m3": 0.069,
+          "peso_kg": 0.0
+        },
+        "Dbl Glass (5) | Puerta Abatible Doble - Herrería con preparación para cristal": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 26.9382,
+          "volumen_m3": 0.6017,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/TT_ED_EDUCACIÓN_CANCELERIA_2027__Windows.json",
+      "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027",
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "ruta_modelo": "../Archivos revit/Herrería y Cancelería_2027/TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "categoria": "Windows",
+      "total_elementos": 133,
+      "fecha": "23-11-2026",
+      "script": "Scripts/15_extraer_canceleria.py",
+      "tipos": {
+        "Deceuninck_Ventana_Guillotina_Americana-SL | Deceuninck_Ventana_Guillotina_Americana-SL": {
+          "conteo": 133,
+          "longitud_m": 0.0,
+          "area_m2": 381.2445,
+          "volumen_m3": 1.9152,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/TT_ED_EDUCACIÓN_CANCELERIA_2027__CurtainWallPanels.json",
+      "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027",
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "ruta_modelo": "../Archivos revit/Herrería y Cancelería_2027/TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "categoria": "CurtainWallPanels",
+      "total_elementos": 592,
+      "fecha": "23-11-2026",
+      "script": "Scripts/15_extraer_canceleria.py",
+      "tipos": {
+        "System Panel | Glazed": {
+          "conteo": 192,
+          "longitud_m": 0.0,
+          "area_m2": 192.4988,
+          "volumen_m3": 1.9247,
+          "peso_kg": 0.0
+        },
+        "Panel de sistema | Acristalado": {
+          "conteo": 34,
+          "longitud_m": 0.0,
+          "area_m2": 33.39,
+          "volumen_m3": 0.667,
+          "peso_kg": 0.0
+        },
+        "Solid Panel | Solid Panel": {
+          "conteo": 30,
+          "longitud_m": 0.0,
+          "area_m2": 40.602,
+          "volumen_m3": 1.0151,
+          "peso_kg": 0.0
+        },
+        "Wall Panel - ornamental | Wall Panel - ornamental": {
+          "conteo": 336,
+          "longitud_m": 0.0,
+          "area_m2": 46.6098,
+          "volumen_m3": 3.5016,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/TT_ED_EDUCACIÓN_CANCELERIA_2027__CurtainWallMullions.json",
+      "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027",
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "ruta_modelo": "../Archivos revit/Herrería y Cancelería_2027/TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "categoria": "CurtainWallMullions",
+      "total_elementos": 640,
+      "fecha": "23-11-2026",
+      "script": "Scripts/15_extraer_canceleria.py",
+      "tipos": {
+        "Rectangular Mullion | 50 x 150mm": {
+          "conteo": 472,
+          "longitud_m": 576.7093,
+          "area_m2": 118.4828,
+          "volumen_m3": 4.3054,
+          "peso_kg": 0.0
+        },
+        "Montante rectangular | Cuadrado 30 mm": {
+          "conteo": 168,
+          "longitud_m": 199.3599,
+          "area_m2": 12.1105,
+          "volumen_m3": 0.1798,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/TT_ED_EDUCACIÓN_CANCELERIA_2027__Railings.json",
+      "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027",
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "ruta_modelo": "../Archivos revit/Herrería y Cancelería_2027/TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "categoria": "Railings",
+      "total_elementos": 6,
+      "fecha": "23-11-2026",
+      "script": "Scripts/15_extraer_canceleria.py",
+      "tipos": {
+        "Railing | Con cables horizontales": {
+          "conteo": 2,
+          "longitud_m": 18.7465,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Railing | Con paneles de metal": {
+          "conteo": 4,
+          "longitud_m": 91.0817,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/TT_ED_EDUCACIÓN_CANCELERIA_2027__Stairs.json",
+      "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027",
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "ruta_modelo": "../Archivos revit/Herrería y Cancelería_2027/TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "categoria": "Stairs",
+      "total_elementos": 1,
+      "fecha": "23-11-2026",
+      "script": "Scripts/15_extraer_canceleria.py",
+      "tipos": {
+        "Assembled Stair | Escalera Metalica - C=17.5 H=28 cm": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/TT_ED_EDUCACIÓN_CANCELERIA_2027__StructuralColumns.json",
+      "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027",
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "ruta_modelo": "../Archivos revit/Herrería y Cancelería_2027/TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "categoria": "StructuralColumns",
+      "total_elementos": 6,
+      "fecha": "23-11-2026",
+      "script": "Scripts/15_extraer_canceleria.py",
+      "tipos": {
+        "Pilar L igual | L150x12": {
+          "conteo": 6,
+          "longitud_m": 10.92,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0321,
+          "peso_kg": 251.9628
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/TT_ED_EDUCACIÓN_CANCELERIA_2027__StructuralFraming.json",
+      "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027",
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "ruta_modelo": "../Archivos revit/Herrería y Cancelería_2027/TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "categoria": "StructuralFraming",
+      "total_elementos": 30,
+      "fecha": "23-11-2026",
+      "script": "Scripts/15_extraer_canceleria.py",
+      "tipos": {
+        "Canal C | C310X45": {
+          "conteo": 30,
+          "longitud_m": 89.7432,
+          "area_m2": 0.0,
+          "volumen_m3": 0.5358,
+          "peso_kg": 4209.0569
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/TT_ED_EDUCACIÓN_CANCELERIA_2027__Walls.json",
+      "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027",
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "ruta_modelo": "../Archivos revit/Herrería y Cancelería_2027/TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "categoria": "Walls",
+      "total_elementos": 110,
+      "fecha": "23-11-2026",
+      "script": "Scripts/15_extraer_canceleria.py",
+      "tipos": {
+        "Basic Wall | Ladrillo cara vista 15 CM": {
+          "conteo": 87,
+          "longitud_m": 735.8025,
+          "area_m2": 1040.4346,
+          "volumen_m3": 156.0651,
+          "peso_kg": 0.0
+        },
+        "Basic Wall | Madera": {
+          "conteo": 4,
+          "longitud_m": 24.04,
+          "area_m2": 20.8846,
+          "volumen_m3": 0.2089,
+          "peso_kg": 0.0
+        },
+        "Curtain Wall | T01_VENTANAS": {
+          "conteo": 8,
+          "longitud_m": 133.7494,
+          "area_m2": 224.7974,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Curtain Wall | Muro cortina_001": {
+          "conteo": 2,
+          "longitud_m": 31.9887,
+          "area_m2": 106.9108,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Curtain Wall | Muro cortina - simple": {
+          "conteo": 5,
+          "longitud_m": 18.665,
+          "area_m2": 46.6035,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Basic Wall | Muro 100 mm AAC COM": {
+          "conteo": 4,
+          "longitud_m": 18.1474,
+          "area_m2": 7.219,
+          "volumen_m3": 1.4439,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/TT_ED_EDUCACIÓN_CANCELERIA_2027__Floors.json",
+      "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027",
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "ruta_modelo": "../Archivos revit/Herrería y Cancelería_2027/TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "categoria": "Floors",
+      "total_elementos": 16,
+      "fecha": "23-11-2026",
+      "script": "Scripts/15_extraer_canceleria.py",
+      "tipos": {
+        "Floor | Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC": {
+          "conteo": 3,
+          "longitud_m": 113.1716,
+          "area_m2": 233.307,
+          "volumen_m3": 55.9938,
+          "peso_kg": 0.0
+        },
+        "Floor | Acabado - Porcelanato Esmaltado Tavola Noce Mate - 20x120": {
+          "conteo": 8,
+          "longitud_m": 296.087,
+          "area_m2": 596.4988,
+          "volumen_m3": 5.9651,
+          "peso_kg": 0.0
+        },
+        "Floor | Generic 150mm": {
+          "conteo": 4,
+          "longitud_m": 441.5139,
+          "area_m2": 1113.7323,
+          "volumen_m3": 167.0598,
+          "peso_kg": 0.0
+        },
+        "Floor | Tierra 30mm": {
+          "conteo": 1,
+          "longitud_m": 17.2458,
+          "area_m2": 6.4296,
+          "volumen_m3": 1.9289,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/TT_ED_EDUCACIÓN_CANCELERIA_2027__Furniture.json",
+      "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027",
+      "modelo_origen": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "ruta_modelo": "../Archivos revit/Herrería y Cancelería_2027/TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt",
+      "vinculo": "TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt : 4 : location <Not Shared>",
+      "categoria": "Furniture",
+      "total_elementos": 18,
+      "fecha": "23-11-2026",
+      "script": "Scripts/15_extraer_canceleria.py",
+      "tipos": {
+        "MO. PIZARÓN | Markerboard - 144W x 48H": {
+          "conteo": 3,
+          "longitud_m": 0.0,
+          "area_m2": 15.0846,
+          "volumen_m3": 0.2505,
+          "peso_kg": 0.0
+        },
+        "Steelcase - Premium Whiteboard and Tackboard - Edge Series | Markerboard - 144'' W x 48'' H": {
+          "conteo": 8,
+          "longitud_m": 0.0,
+          "area_m2": 40.2256,
+          "volumen_m3": 0.668,
+          "peso_kg": 0.0
+        },
+        "Furniture_Salvatori_Table-Dritto-Coffee-C | D900 H250 mm": {
+          "conteo": 3,
+          "longitud_m": 0.0,
+          "area_m2": 2.9688,
+          "volumen_m3": 0.477,
+          "peso_kg": 0.0
+        },
+        "Viccarbe_Colubi-Armchair | Armchair (68x68x84 cm / 26.77x26.7\"x33.07\")": {
+          "conteo": 4,
+          "longitud_m": 0.0,
+          "area_m2": 5.1776,
+          "volumen_m3": 0.5824,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto acabado-DAMIAN__Floors.json",
+      "modelo": "Proyecto acabado-DAMIAN",
+      "modelo_origen": "Proyecto acabado-DAMIAN.rvt",
+      "ruta_modelo": "../Archivos revit/Acabados_2027/theriam/Proyecto acabado-DAMIAN.rvt",
+      "vinculo": "Proyecto acabado-DAMIAN.rvt : 5 : location <Not Shared>",
+      "categoria": "Floors",
+      "total_elementos": 30,
+      "fecha": "23-11-2026",
+      "script": "Scripts/14_extraer_acabados.py",
+      "tipos": {
+        "Floor | Piso de concreto pulido autonivelante y firme de concreto f¨c=200 kg/cm2": {
+          "conteo": 8,
+          "longitud_m": 480.4904,
+          "area_m2": 805.7509,
+          "volumen_m3": 16.1151,
+          "peso_kg": 0.0
+        },
+        "Floor | Piso de concreto pulido con agregado expuesto e= 0.002": {
+          "conteo": 4,
+          "longitud_m": 172.4545,
+          "area_m2": 433.0225,
+          "volumen_m3": 5.1964,
+          "peso_kg": 0.0
+        },
+        "Floor | Piso de concreto pulido densificado e= 0.002": {
+          "conteo": 4,
+          "longitud_m": 147.84,
+          "area_m2": 295.9488,
+          "volumen_m3": 2.9594,
+          "peso_kg": 0.0
+        },
+        "Floor | piso aulas loseta ceramica e=0.02": {
+          "conteo": 1,
+          "longitud_m": 21.2,
+          "area_m2": 27.225,
+          "volumen_m3": 0.5445,
+          "peso_kg": 0.0
+        },
+        "Floor | PF_Plafon de loseta ceramica de 2cm de espesor": {
+          "conteo": 1,
+          "longitud_m": 21.2,
+          "area_m2": 27.225,
+          "volumen_m3": 0.5445,
+          "peso_kg": 0.0
+        },
+        "Floor | PF_Plafon ACT - Armstrong Ceilings - 24\" x 48\" - METALWORKS Mesh Torsion Spring - Woven Square Weave - Sq Lay-In 15/16\" x 1/4\" - 1Cell - Tech Black": {
+          "conteo": 6,
+          "longitud_m": 228.173,
+          "area_m2": 487.8944,
+          "volumen_m3": 19.5158,
+          "peso_kg": 0.0
+        },
+        "Floor | PF_Plafon ACT - Armstrong Ceilings - 14\" x 24\" - METALWORKS Mesh Torsion Spring - Woven Square Weave - Tech Black 2": {
+          "conteo": 6,
+          "longitud_m": 239.5815,
+          "area_m2": 535.3275,
+          "volumen_m3": 21.413,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto acabado-DAMIAN__Walls.json",
+      "modelo": "Proyecto acabado-DAMIAN",
+      "modelo_origen": "Proyecto acabado-DAMIAN.rvt",
+      "ruta_modelo": "../Archivos revit/Acabados_2027/theriam/Proyecto acabado-DAMIAN.rvt",
+      "vinculo": "Proyecto acabado-DAMIAN.rvt : 5 : location <Not Shared>",
+      "categoria": "Walls",
+      "total_elementos": 37,
+      "fecha": "23-11-2026",
+      "script": "Scripts/14_extraer_acabados.py",
+      "tipos": {
+        "Basic Wall | muro general EDUC": {
+          "conteo": 32,
+          "longitud_m": 459.4098,
+          "area_m2": 1601.4939,
+          "volumen_m3": 256.2388,
+          "peso_kg": 0.0
+        },
+        "Basic Wall | Muro Exterior - Interior Aparente": {
+          "conteo": 5,
+          "longitud_m": 19.49,
+          "area_m2": 67.9504,
+          "volumen_m3": 9.5131,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto acabado-DAMIAN__Ceilings.json",
+      "modelo": "Proyecto acabado-DAMIAN",
+      "modelo_origen": "Proyecto acabado-DAMIAN.rvt",
+      "ruta_modelo": "../Archivos revit/Acabados_2027/theriam/Proyecto acabado-DAMIAN.rvt",
+      "vinculo": "Proyecto acabado-DAMIAN.rvt : 5 : location <Not Shared>",
+      "categoria": "Ceilings",
+      "total_elementos": 3,
+      "fecha": "23-11-2026",
+      "script": "Scripts/14_extraer_acabados.py",
+      "tipos": {
+        "Compound Ceiling | ACT - Techos Armstrong - 24\" x 48\" -": {
+          "conteo": 3,
+          "longitud_m": 526.0546,
+          "area_m2": 1125.0812,
+          "volumen_m3": 33.7524,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__Conduits.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "Conduits",
+      "total_elementos": 892,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "Conduit with Fittings | Cable Acometida # 12 -EMT- · 19 mmø": {
+          "conteo": 450,
+          "longitud_m": 614.7646,
+          "area_m2": 0.0,
+          "volumen_m3": 0.177,
+          "peso_kg": 0.0
+        },
+        "Conduit with Fittings | Cable Acometida # 12 -EMT- · 25 mmø": {
+          "conteo": 2,
+          "longitud_m": 2.0434,
+          "area_m2": 0.0,
+          "volumen_m3": 0.001,
+          "peso_kg": 0.0
+        },
+        "Conduit with Fittings | TUBO ILUMINACION -EMT- · 13 mmø": {
+          "conteo": 66,
+          "longitud_m": 134.1404,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0195,
+          "peso_kg": 0.0
+        },
+        "Conduit with Fittings | TUBO ILUMINACION -EMT- · 19 mmø": {
+          "conteo": 374,
+          "longitud_m": 392.1517,
+          "area_m2": 0.0,
+          "volumen_m3": 0.1151,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__ConduitFittings.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "ConduitFittings",
+      "total_elementos": 498,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "Conduit Junction Box - Tee - PVC | CAJA CONDUIT CRUCES PVC · CableTrayConduit · 19 mmø-19 mmø-19 mmø-19 mmø-19 mmø-19 mmø-19 mmø-19 mmø-19 mmø-19 mmø-19 mmø-19 mmø-19 mmø-19 mmø-19 mmø": {
+          "conteo": 241,
+          "longitud_m": 0.0,
+          "area_m2": 16.3639,
+          "volumen_m3": 0.4097,
+          "peso_kg": 0.0
+        },
+        "M_Codo de tubo - Extremo liso - PVC | CODO CONDUIT PVC · CableTrayConduit · 19 mmø-19 mmø": {
+          "conteo": 220,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0427,
+          "peso_kg": 0.0
+        },
+        "Conduit Junction Box - Transition - PVC | Reduccion · CableTrayConduit · 19 mmø-13 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0626,
+          "volumen_m3": 0.0016,
+          "peso_kg": 0.0
+        },
+        "Conduit Junction Box - Transition - PVC | Reduccion · CableTrayConduit · 25 mmø-19 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0639,
+          "volumen_m3": 0.0016,
+          "peso_kg": 0.0
+        },
+        "Conduit Junction OCTAGONAL - Cross - PVC | CAJA CONDUIT OCTAGONAL PVC · CableTrayConduit · 51 mmø-25 mmø-25 mmø-25 mmø-25 mmø-13 mmø-13 mmø-13 mmø-25 mmø": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 0.1278,
+          "volumen_m3": 0.0026,
+          "peso_kg": 0.0
+        },
+        "M_Codo de tubo - Extremo liso - PVC | CODO CONDUIT PVC · CableTrayConduit · 13 mmø-13 mmø": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0002,
+          "peso_kg": 0.0
+        },
+        "Conduit Junction Box - Tee - PVC | CAJA CONDUIT CRUCES PVC · CableTrayConduit · 13 mmø-13 mmø-13 mmø-13 mmø-13 mmø-13 mmø-13 mmø-13 mmø-13 mmø-13 mmø-13 mmø-13 mmø-13 mmø-13 mmø-13 mmø": {
+          "conteo": 6,
+          "longitud_m": 0.0,
+          "area_m2": 0.4074,
+          "volumen_m3": 0.0102,
+          "peso_kg": 0.0
+        },
+        "Conduit Junction Box - Transition - PVC | Reduccion · CableTrayConduit · 19 mmø-19 mmø": {
+          "conteo": 23,
+          "longitud_m": 0.0,
+          "area_m2": 1.4536,
+          "volumen_m3": 0.0368,
+          "peso_kg": 0.0
+        },
+        "Conduit Coupling - PVC | Cupla · CableTrayConduit · 19 mmø-19 mmø": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__CableTrays.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "CableTrays",
+      "total_elementos": 5,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "Cable Tray with Fittings | Bandejas 25 x 5 Cm. 2 · 250 mmx75 mm": {
+          "conteo": 5,
+          "longitud_m": 32.5981,
+          "area_m2": 0.0,
+          "volumen_m3": 0.6112,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__CableTrayFittings.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "CableTrayFittings",
+      "total_elementos": 4,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "Ladder Horizontal Bend | Standard · CableTrayConduit · 250 mmx75 mm-250 mmx75 mm": {
+          "conteo": 3,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0344,
+          "peso_kg": 0.0
+        },
+        "Ladder Vertical Inside Bend | Standard · CableTrayConduit · 250 mmx75 mm-250 mmx75 mm": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0131,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__LightingFixtures.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "LightingFixtures",
+      "total_elementos": 249,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "LUMINARIA PARED Soporte HOME SMART | LAMPARA DE PARED": {
+          "conteo": 18,
+          "longitud_m": 0.0,
+          "area_m2": 2.5542,
+          "volumen_m3": 0.0396,
+          "peso_kg": 0.0
+        },
+        "LUMINARIA LED 2 Cuerpos HOME SMART | LUZ PANEL LED 2 cuerpos": {
+          "conteo": 220,
+          "longitud_m": 0.0,
+          "area_m2": 546.964,
+          "volumen_m3": 77.176,
+          "peso_kg": 0.0
+        },
+        "LUMINARIA SPOT ALURO HOME SMART | LUZ SPOT ALURO": {
+          "conteo": 11,
+          "longitud_m": 0.0,
+          "area_m2": 411.9049,
+          "volumen_m3": 331.8425,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__LightingDevices.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "LightingDevices",
+      "total_elementos": 13,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "INTERRUPTOR ILUMINACION gral | 4 INTERRUPTOR APLIQUE SIMPLE": {
+          "conteo": 6,
+          "longitud_m": 0.0,
+          "area_m2": 0.8364,
+          "volumen_m3": 0.0024,
+          "peso_kg": 0.0
+        },
+        "INTERRUPTOR ILUMINACION gral | 2 INTERRUPTOR DOBLE": {
+          "conteo": 7,
+          "longitud_m": 0.0,
+          "area_m2": 0.9758,
+          "volumen_m3": 0.0028,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__ElectricalFixtures.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "ElectricalFixtures",
+      "total_elementos": 121,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "TOMACORRIENTE gral | C2-T2": {
+          "conteo": 120,
+          "longitud_m": 0.0,
+          "area_m2": 9.972,
+          "volumen_m3": 0.024,
+          "peso_kg": 0.0
+        },
+        "TOMACORRIENTE gral | T2 - C7": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0831,
+          "volumen_m3": 0.0002,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__ElectricalEquipment.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "ElectricalEquipment",
+      "total_elementos": 4,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "PANEL CONTROL domiciliario bm | TABLERO INTERIOR 127 V": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 1.8935,
+          "volumen_m3": 0.0162,
+          "peso_kg": 0.0
+        },
+        "PANEL DE CONTROL M_Cuadro central de alarma de incendios | Central Contra Incendios": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.4758,
+          "volumen_m3": 0.0074,
+          "peso_kg": 0.0
+        },
+        "MODEM LAN Electronics_Controls_Crestron_DigitalMedia-4K60-HDR-Network-AV-Encoder-Decoder_Model-350-351 | NETWORKS MODEM LAN": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.2852,
+          "volumen_m3": 0.0035,
+          "peso_kg": 0.0
+        },
+        "Panel central Administrador de Sistemas electricos HOME SMART | PANEL CONTROL SMART HOUSE": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.166,
+          "volumen_m3": 0.0044,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__Wires.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "Wires",
+      "total_elementos": 348,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "Wire Types | CABLE ILUMINACION": {
+          "conteo": 232,
+          "longitud_m": 561.2613,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Wire Types | CABLE POTENCIA": {
+          "conteo": 116,
+          "longitud_m": 430.0367,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__DataDevices.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "DataDevices",
+      "total_elementos": 29,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "ROUTER LAN Device_Control-Network_Communication-AMX-NXA_WAP1000 | ROUTER LAN MODEM ADSL": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 0.216,
+          "volumen_m3": 0.0018,
+          "peso_kg": 0.0
+        },
+        "Automatizador H Smart -Luminarias- | Automatizador H Smart -Luminarias-": {
+          "conteo": 18,
+          "longitud_m": 0.0,
+          "area_m2": 0.1332,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "Sensor de Movimiento HOME SMART | Automatizador H Smart - Sensor Agua -": {
+          "conteo": 9,
+          "longitud_m": 0.0,
+          "area_m2": 0.9225,
+          "volumen_m3": 0.0234,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__CommunicationDevices.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "CommunicationDevices",
+      "total_elementos": 1,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "MONITOR Touch Screen HOME SMART | MONITOR TACTIL SMART": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.5631,
+          "volumen_m3": 0.0075,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__SecurityDevices.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "SecurityDevices",
+      "total_elementos": 9,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "CAMARA DE SEGURIDAD pared | CAMARA DE SEGURIDAD": {
+          "conteo": 9,
+          "longitud_m": 0.0,
+          "area_m2": 274.9284,
+          "volumen_m3": 282.5487,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__FireAlarmDevices.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "FireAlarmDevices",
+      "total_elementos": 9,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "SENSOR Fire-Products_Bosch_Detector_AVENAR_4000 | Sensor Humo-Calor": {
+          "conteo": 7,
+          "longitud_m": 0.0,
+          "area_m2": 0.3591,
+          "volumen_m3": 0.0021,
+          "peso_kg": 0.0
+        },
+        "ALARMA CONTRAINCENDIOS DF | Alarma Contra Inc. Manual": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 0.4524,
+          "volumen_m3": 0.0056,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__SpecialtyEquipment.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "SpecialtyEquipment",
+      "total_elementos": 6,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "- TV PLASMA Electronico | TV HD 42\"": {
+          "conteo": 6,
+          "longitud_m": 0.0,
+          "area_m2": 42.4128,
+          "volumen_m3": 1.0986,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__MechanicalEquipment.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "MechanicalEquipment",
+      "total_elementos": 1,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "CENTRAL INCENDIOS | Tipo 1": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.1392,
+          "volumen_m3": 0.0059,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__Walls.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "Walls",
+      "total_elementos": 41,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "Basic Wall | MURO 0.15": {
+          "conteo": 41,
+          "longitud_m": 480.0949,
+          "area_m2": 1669.6705,
+          "volumen_m3": 250.3112,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__Floors.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "Floors",
+      "total_elementos": 1,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "Floor | PISO DORMITORIOS": {
+          "conteo": 1,
+          "longitud_m": 30.9423,
+          "area_m2": 42.4307,
+          "volumen_m3": 8.4861,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__Ceilings.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "Ceilings",
+      "total_elementos": 2,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "Compound Ceiling | ACT - Techos Armstrong - 24\" x 48\" -": {
+          "conteo": 2,
+          "longitud_m": 489.0346,
+          "area_m2": 1018.3845,
+          "volumen_m3": 30.5516,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__Doors.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "Doors",
+      "total_elementos": 1,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "Puerta corredera simple en muro | 82.5 x 203 cm": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 3.0138,
+          "volumen_m3": 0.127,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__Windows.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "Windows",
+      "total_elementos": 1,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "Deflector de ventilación simple | 0406 x 0610mm": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 1.1396,
+          "volumen_m3": 0.011,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__StructuralFraming.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "StructuralFraming",
+      "total_elementos": 1,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "Madera | Viga detalle ingresos": {
+          "conteo": 1,
+          "longitud_m": 0.94,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0056,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__Pipes.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "Pipes",
+      "total_elementos": 6,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "Pipe Types | Cañeria PVC-Tricapa · SISTEMA HIDRO FRIA · 12 mmø": {
+          "conteo": 2,
+          "longitud_m": 1.1532,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0001,
+          "peso_kg": 0.0
+        },
+        "Pipe Types | Cañeria PVC-Tricapa · SISTEMA HIDRO CALIENTE · 12 mmø": {
+          "conteo": 2,
+          "longitud_m": 1.1332,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0001,
+          "peso_kg": 0.0
+        },
+        "Pipe Types | CAÑERIA METALICA · SISTEMA GAS · 20 mmø": {
+          "conteo": 2,
+          "longitud_m": 1.1033,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0004,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__PipeFittings.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "PipeFittings",
+      "total_elementos": 9,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "M_Codo - Genérico | CODO Fusion · SISTEMA HIDRO FRIA · 12 mmø-12 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "REDUCCION HDPE PE 100 PN6 | REDUCCION Fusion · SISTEMA HIDRO FRIA · 15 mmø-12 mmø": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 0.001,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "M_Codo - Genérico | CODO Fusion · SISTEMA HIDRO CALIENTE · 12 mmø-12 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "REDUCCION HDPE PE 100 PN6 | REDUCCION Fusion · SISTEMA HIDRO CALIENTE · 15 mmø-12 mmø": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 0.001,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "M_Codo - Genérico | CODO Fusion · SISTEMA GAS · 20 mmø-20 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "REDUCCION HDPE PE 100 PN6 | REDUCCION METALICA · SISTEMA GAS · 20 mmø-15 mmø": {
+          "conteo": 2,
+          "longitud_m": 0.0,
+          "area_m2": 0.0016,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__PipeAccessories.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "PipeAccessories",
+      "total_elementos": 3,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "M_Válvula de retención - 10-100 mm - Con rosca | Valvula control 1/2'' · SISTEMA HIDRO FRIA · 15 mmø-15 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0046,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "M_Válvula de retención - 10-100 mm - Con rosca | Valvula control 1/2'' · SISTEMA HIDRO CALIENTE · 15 mmø-15 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0046,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        },
+        "M_Válvula de retención - 10-100 mm - Con rosca | Valvula control 1/2'' · SISTEMA GAS · 15 mmø-15 mmø": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.0046,
+          "volumen_m3": 0.0,
+          "peso_kg": 0.0
+        }
+      }
+    },
+    {
+      "archivo": "_harness/intermedios/revit/Proyecto electrico_corregido__PlumbingFixtures.json",
+      "modelo": "Proyecto electrico_corregido",
+      "modelo_origen": "Proyecto electrico_corregido.rvt",
+      "ruta_modelo": "../Archivos revit/Instalacion Electrica_2027/Copias de seguridad/Proyecto electrico_corregido.rvt",
+      "vinculo": "Proyecto electrico_corregido.rvt : 6 : location <Not Shared>",
+      "categoria": "PlumbingFixtures",
+      "total_elementos": 1,
+      "fecha": "23-11-2026",
+      "script": "Scripts/17_extraer_electrico.py",
+      "tipos": {
+        "CALEFON agua caliente | CALEFON agua caliente": {
+          "conteo": 1,
+          "longitud_m": 0.0,
+          "area_m2": 0.4262,
+          "volumen_m3": 0.0418,
+          "peso_kg": 0.0
+        }
+      }
+    }
+  ],
+  "notas_hallazgos": [
+    "TT-ED-EDU-ARQ-MOB.rvt solo contiene elementos de mobiliario y equipamiento (Furniture=530, Casework=40, SpecialtyEquipment=35, FurnitureSystems=2); no tiene instancias de Walls, Floors ni Roofs.",
+    "Los muros de albañilería se encuentran modelados en Edificio de educacion.rvt (101 muros NOVABLOCK 12 H con 1,337.95 m2 y 9,931 paneles CurtainWallPanels; 4 muros Celosia Exterior con 46.48 m2) y en TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt (87 muros Ladrillo cara vista 15 CM con 1,040.43 m2, 4 muros Madera con 20.88 m2 y 4 muros Muro 100 mm AAC COM con 7.22 m2).",
+    "En Edificio de educacion.rvt existe una Plantilla de concreto e=5cm (id 560921) con área de desplante = 804.1953 m2 (y Firme estructural e=10 cm id 516170 con 804.0946 m2).",
+    "La cubierta en Edificio de educacion.rvt está modelada como Curtain Wall 'Cubierta' en Nivel +12.30 (18 elementos, 367.06 m2) con 587 montantes 'Montante rectangular - 10 x 40 cm'. En TT_ED_EDUCACIÓN_CANCELERIA_2027.rvt hay además 4 losas 'Generic 150mm' en Nivel - Azotea (1,113.73 m2), 30 perfiles de acero 'Canal C | C310X45' y 6 columnas 'Pilar L igual | L150x12'.",
+    "En Edificio de educacion.rvt, 12 instancias de WallFoundation tienen volumen y longitud 0 en Revit porque sus muros anfitriones tienen 0 m2; la cimentación activa con volumen está en 'Zapata corrida de borde' (42.19 m3, 338.15 m2) y 17 'Dado para columnas 0.40x0.40x0.60' (1.63 m3).",
+    "En Instalaciones.rvt (IHS), el sub-vínculo 'Bloque de baños_vinculo.rvt' está Unloaded; las 17 instancias de PlumbingFixtures en el vínculo corresponden a 14 cajas de registro y 3 biodigestores (no hay WC, lavabos ni mingitorios colocados directamente en Instalaciones.rvt)."
+  ]
+}

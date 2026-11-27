@@ -1,0 +1,3842 @@
+{
+  "version": "v01",
+  "fecha": "23-11-2026",
+  "alcance": "Edificio de educación (vínculos del modelo federado)",
+  "conceptos": [
+    {
+      "clave": "ED-01-01-001",
+      "capitulo": "01",
+      "subcapitulo": "01",
+      "concepto": "Limpia, desyerbe y desenraice del terreno en área de desplante del edificio de educación, incluye: acopio de maleza y basura, mano de obra, equipo y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 12.46,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave BC12BB (pág. 9)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave BC12BB (pág. 9): 'Desyerbe y limpia del terreno realizada a mano, incluye: acarreo libre a 20 m.' — P.U. = $12.46 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $16.35.",
+      "apu": [
+        {
+          "codigo": "MO011",
+          "descripcion": "PEON (JORNADA 8 HRS, SALARIO REAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.0208,
+          "precio": 615.56,
+          "importe": 12.8,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "MO082",
+          "descripcion": "CABO DE OFICIOS (JORNADA 8 HRS, SALARIO REAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.0021,
+          "precio": 1316.68,
+          "importe": 2.77,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 0.78,
+          "precio": 1.0,
+          "importe": 0.78,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-01-01-002",
+      "capitulo": "01",
+      "subcapitulo": "01",
+      "concepto": "Despalme de capa vegetal de 20 cm de espesor por medios manuales y mecánicos en área de desplante, medido en banco, incluye: acopio para reutilización en áreas verdes, mano de obra, equipo y herramienta.",
+      "unidad": "m3",
+      "precio_unitario": 273.94,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave BE12BB (pág. 11)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave BE12BB (pág. 11): 'Despalme de material por medios manuales, todas las zonas.' — P.U. = $273.94 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $224.21.",
+      "apu": [
+        {
+          "codigo": "MO011",
+          "descripcion": "PEON (JORNADA 8 HRS, SALARIO REAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.2857,
+          "precio": 615.56,
+          "importe": 175.87,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "MO082",
+          "descripcion": "CABO DE OFICIOS (JORNADA 8 HRS, SALARIO REAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.0286,
+          "precio": 1316.68,
+          "importe": 37.66,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 10.68,
+          "precio": 1.0,
+          "importe": 10.68,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-01-02-001",
+      "capitulo": "01",
+      "subcapitulo": "02",
+      "concepto": "Trazo y nivelación con equipo topográfico para desplante de estructuras y ejes de referencia del edificio de educación, estableciendo bancos de nivel, incluye: materiales de señalamiento, cuadrilla de topografía, equipo y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 10.1,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave AF13DB (pág. 9)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave AF13DB (pág. 9): 'Trazo y nivelación para desplante de estructura para edificación, con equipo de topografía.' — P.U. = $10.10 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $11.72.",
+      "apu": [
+        {
+          "codigo": "302-CAL-0102",
+          "descripcion": "CALHIDRA, TONELADA",
+          "tipo": "material",
+          "unidad": "ton",
+          "cantidad": 0.0002,
+          "precio": 3034.4,
+          "importe": 0.61,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "305-M3A-0101",
+          "descripcion": "DUELA DE PINO DE 3a DE 3/4x4x8' (0.019x0.10x2.44 m)",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 0.01,
+          "precio": 65.51,
+          "importe": 0.66,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "304-VAR-0101",
+          "descripcion": "HILO CAÑAMO ROLLO DE 100 M",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 0.001,
+          "precio": 164.0,
+          "importe": 0.16,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "303-ARF-0201",
+          "descripcion": "VARILLA R-42 DEL No. 3 (3/8 Ø), 0.557 KG/M",
+          "tipo": "material",
+          "unidad": "kg",
+          "cantidad": 0.02,
+          "precio": 16.98,
+          "importe": 0.34,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "10401-291",
+          "descripcion": "CONCRETO F'c=100 KG/CM2 HECHO EN OBRA P/MOJONERAS",
+          "tipo": "basico",
+          "unidad": "m3",
+          "cantidad": 0.0003,
+          "precio": 2252.19,
+          "importe": 0.68,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "1T2E",
+          "descripcion": "CUADRILLA No 32 (1 TOPOGRAFO + 2 AYUDANTES ESPECIALIZADOS)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.003333,
+          "precio": 2455.62,
+          "importe": 8.18,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "EQTRAN",
+          "descripcion": "EQUIPO DE TOPOGRAFIA",
+          "tipo": "equipo",
+          "unidad": "hr",
+          "cantidad": 0.04,
+          "precio": 16.89,
+          "importe": 0.68,
+          "fuente": "08 COSTOS HORARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 0.41,
+          "precio": 1.0,
+          "importe": 0.41,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-01-03-001",
+      "capitulo": "01",
+      "subcapitulo": "03",
+      "concepto": "Construcción de bodega y oficina provisional de obra a base de bastidor ligero y lámina acanalada, con piso firme provisional de concreto pobre, incluye: materiales, montaje, desmontaje al término de la obra, mano de obra y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 1850.0,
+      "fuente_tipo": "SUPUESTO",
+      "fuente_ref": "SUPUESTO conservador referenciado a Xalapa PREGEN-11 e insumos 11 RELACIÓN MATERIALES.pdf",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "SUPUESTO conservador para caseta/bodega provisional de obra con materiales recuperables (lámina Zintro R-101 cal. 22, polines de pino 3a y firme f'c=100 kg/cm2 de 8 cm), sin sobre-especificación de Xalapa PREGEN-11.",
+      "apu": [],
+      "mapeo_revit": [],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-02-01-001",
+      "capitulo": "02",
+      "subcapitulo": "01",
+      "concepto": "Excavación en cepas a cielo abierto por medios manuales de 0.00 a -2.00 m de profundidad en material tipo II-A en seco para zapatas corridas y contratrabes, medido en banco, incluye: afine de taludes y fondo, traspaleos, acarreo libre a 20 m, mano de obra, equipo y herramienta.",
+      "unidad": "m3",
+      "precio_unitario": 479.39,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave BF16DB (pág. 12)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave BF16DB (pág. 12): 'Excavación a mano, material clase II-A, de 0.00 a 2.00 m de profundidad.' — P.U. = $479.39 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $425.93.",
+      "apu": [
+        {
+          "codigo": "10401-007",
+          "descripcion": "EXCAVACION A CIELO ABIERTO MANUAL 0.00 A -2.00 M MAT. TIPO II-A (CUADRILLA 1P REND 2.5 M3/JOR)",
+          "tipo": "mano_obra",
+          "unidad": "m3",
+          "cantidad": 1.0,
+          "precio": 313.84,
+          "importe": 313.84,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "10401-106",
+          "descripcion": "ACARREO EN CARRETILLA 1a ESTACION 20 M MEDIDO EN BANCO (CUADRILLA 1P REND 7.0 M3/JOR)",
+          "tipo": "mano_obra",
+          "unidad": "m3",
+          "cantidad": 1.0,
+          "precio": 112.09,
+          "importe": 112.09,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-02-01-002",
+      "capitulo": "02",
+      "subcapitulo": "01",
+      "concepto": "Plantilla de concreto simple hecho en obra f'c=100 kg/cm2 de 5 cm de espesor, T.M.A. 19 mm, para desplante de zapatas corridas y contratrabes, incluye: preparación y compactación de la superficie, nivelación, maestreado, colado, curado, mano de obra, equipo y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 202.72,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave GG13BB (pág. 77)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave GG13BB (pág. 77): 'Plantilla de concreto hidráulico resistencia normal f'c=100 kg/cm2, de 5 cm de espesor.' — P.U. = $202.72 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $175.70.",
+      "apu": [
+        {
+          "codigo": "10401-291",
+          "descripcion": "CONCRETO F'c=100 KG/CM2 HECHO EN OBRA, T.M.A. 19 MM",
+          "tipo": "basico",
+          "unidad": "m3",
+          "cantidad": 0.0505,
+          "precio": 2252.19,
+          "importe": 113.74,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "1A1P",
+          "descripcion": "CUADRILLA No 5 (1 OFICIAL ALBAÑIL + 1 PEON + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.037037,
+          "precio": 1593.21,
+          "importe": 59.01,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 2.95,
+          "precio": 1.0,
+          "importe": 2.95,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Floors",
+          "filtro_tipo": "Plantilla de concreto",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Edificio de educacion"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-02-02-001",
+      "capitulo": "02",
+      "subcapitulo": "02",
+      "concepto": "Concreto premezclado estructural f'c=250 kg/cm2, clase 1, T.M.A. 20 mm, revenimiento 14 cm, bombeado en cimentación (zapatas corridas, dados y contratrabes de desplante), incluye: suministro, bombeo, colado, vibrado, curado, muestreo y pruebas de laboratorio, mano de obra, equipo y herramienta.",
+      "unidad": "m3",
+      "precio_unitario": 4241.93,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave FG12CB (pág. 50)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave FG12CB (pág. 50): 'Suministro y colocación de concreto hidráulico f'c=250 kg/cm2 clase 1 bombeable en cimentación.' — P.U. = $4,241.93 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $3,476.46.",
+      "apu": [
+        {
+          "codigo": "307-CON-0101",
+          "descripcion": "CONCRETO PREMEZCLADO F'c=250 KG/CM2 CLASE 1 BOMBEADO",
+          "tipo": "material",
+          "unidad": "m3",
+          "cantidad": 1.02,
+          "precio": 2335.0,
+          "importe": 2381.7,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "358-AGU-0101",
+          "descripcion": "AGUA DE TOMA PARA CURADO",
+          "tipo": "material",
+          "unidad": "m3",
+          "cantidad": 0.12,
+          "precio": 35.52,
+          "importe": 4.26,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "ma0000000015",
+          "descripcion": "PRUEBA DE LABORATORIO EN CONCRETO",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 0.047619,
+          "precio": 3000.0,
+          "importe": 142.86,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "1A5P",
+          "descripcion": "CUADRILLA No 22 (1 OFICIAL ALBAÑIL + 5 PEONES + 0.6 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.181818,
+          "precio": 4582.12,
+          "importe": 833.11,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "EQVIB",
+          "descripcion": "VIBRADOR PARA CONCRETO 4 HP GASOLINA",
+          "tipo": "equipo",
+          "unidad": "hr",
+          "cantidad": 0.5,
+          "precio": 145.75,
+          "importe": 72.88,
+          "fuente": "08 COSTOS HORARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 41.65,
+          "precio": 1.0,
+          "importe": 41.65,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "StructuralFoundations",
+          "filtro_tipo": "Dado para columnas|Zapata corrida",
+          "campo_cantidad": "volumen_m3",
+          "factor": 1.0,
+          "modelo": "Edificio de educacion"
+        },
+        {
+          "categoria": "StructuralFraming",
+          "filtro_tipo": "Trabe de cimentacion",
+          "campo_cantidad": "volumen_m3",
+          "factor": 1.0,
+          "modelo": "Edificio de educacion"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-02-02-002",
+      "capitulo": "02",
+      "subcapitulo": "02",
+      "concepto": "Cimbra común en cimentación (zapatas corridas, dados y contratrabes) a base de triplay de pino de 19 mm y madera de pino de 3a (4 usos), incluye: habilitado, cimbrado, chaflanes, desmoldante, descimbrado, acarreos, mano de obra, equipo y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 347.97,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave CB12BD (pág. 31)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave CB12BD (pág. 31): 'Cimbra acabado común y descimbra en cimentación (zapatas, contratrabes, dados).' — P.U. = $347.97 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $633.48.",
+      "apu": [
+        {
+          "codigo": "BA0000000001",
+          "descripcion": "CIMBRA EN CIMENTACION (ZAPATAS, DADOS, CONTRATRABES) PROPORCION 4 USOS",
+          "tipo": "basico",
+          "unidad": "m2",
+          "cantidad": 0.25,
+          "precio": 1141.91,
+          "importe": 285.48,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "1C1A",
+          "descripcion": "CUADRILLA No 7 (1 OFICIAL CARPINTERO O.N. + 1 AYUDANTE + 0.1 CABO) CIMBRADO Y DESCIMBRADO",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.181579,
+          "precio": 1825.24,
+          "importe": 331.43,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 16.57,
+          "precio": 1.0,
+          "importe": 16.57,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "StructuralFoundations",
+          "filtro_tipo": "Dado para columnas|Zapata corrida",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Edificio de educacion"
+        },
+        {
+          "categoria": "StructuralFraming",
+          "filtro_tipo": "Trabe de cimentacion",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Edificio de educacion"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-02-02-003",
+      "capitulo": "02",
+      "subcapitulo": "02",
+      "concepto": "Acero de refuerzo en cimentación fy=4,200 kg/cm2 con varilla corrugada del No. 3 (3/8\") al No. 6 (3/4\"), incluye: suministro, acarreos, cortes, habilitado, dobleces, ganchos, traslapes, amarres con alambre recocido cal. 16, silletas, desperdicios, mano de obra, equipo y herramienta.",
+      "unidad": "kg",
+      "precio_unitario": 28.38,
+      "fuente_tipo": "APU",
+      "fuente_ref": "02 PRECIOS UNITARIOS.pdf CIM-09 y CIM-10 (Básicos 10401-172 y 10401-173) / Validado con Xalapa CIM-6.2.4",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Matriz directa del básico Neodata 10401-172/173 (02 PRECIOS UNITARIOS.pdf CIM-09 CD=$29.04/kg y CIM-10 CD=$27.79/kg; promedio ponderado $28.39/kg); validado contra Xalapa CIM-6.2.4 ($40.17/kg CD).",
+      "apu": [
+        {
+          "codigo": "303-ARF-0301",
+          "descripcion": "VARILLA CORRUGADA R-42 FY=4200 KG/CM2 No. 3 A No. 6 (INCLUYE 7% DESPERDICIO Y TRASLAPES)",
+          "tipo": "material",
+          "unidad": "kg",
+          "cantidad": 1.07,
+          "precio": 16.98,
+          "importe": 18.17,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "303-ARF-1101",
+          "descripcion": "ALAMBRE RECOCIDO CAL. 16 (1.59 MM)",
+          "tipo": "material",
+          "unidad": "kg",
+          "cantidad": 0.045,
+          "precio": 25.86,
+          "importe": 1.16,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "1F1A",
+          "descripcion": "CUADRILLA No 6 (1 OFICIAL FIERRERO + 1 AYUDANTE GENERAL + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.004724,
+          "precio": 1825.24,
+          "importe": 8.62,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 0.43,
+          "precio": 1.0,
+          "importe": 0.43,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Rebar",
+          "filtro_tipo": "Varilla del #5|Estribos #4",
+          "campo_cantidad": "peso_kg",
+          "factor": 1.0,
+          "modelo": "Edificio de educacion"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-02-03-001",
+      "capitulo": "02",
+      "subcapitulo": "03",
+      "concepto": "Relleno en cepas de cimentación y para alcanzar niveles de proyecto con material de banco (tepetate) compactado con equipo mecánico (rodillo vibratorio/bailarina) al 90% Proctor en capas de 15 cm de espesor, medido compacto, incluye: suministro de tepetate, incorporación de agua, acarreos internos, mano de obra, equipo y herramienta.",
+      "unidad": "m3",
+      "precio_unitario": 756.39,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave BP12DC (pág. 30)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave BP12DC (pág. 30): 'Relleno de excavación para estructuras, con tepetate, compactado al 90% con rodillo vibratorio.' — P.U. = $756.39 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $939.93.",
+      "apu": [
+        {
+          "codigo": "301-TEP-0103",
+          "descripcion": "TEPETATE PUESTO EN OBRA (FACTOR ABUNDAMIENTO 1.30)",
+          "tipo": "material",
+          "unidad": "m3",
+          "cantidad": 1.3,
+          "precio": 400.0,
+          "importe": 520.0,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "358-AGU-0201",
+          "descripcion": "AGUA DE PIPA PARA COMPACTACION",
+          "tipo": "material",
+          "unidad": "m3",
+          "cantidad": 0.15,
+          "precio": 107.9,
+          "importe": 16.18,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "1P-U",
+          "descripcion": "CUADRILLA No 71 (1 PEON URBANIZACION + MANDO INTERMEDIO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.25,
+          "precio": 723.2,
+          "importe": 180.8,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "EQRVIBRA",
+          "descripcion": "RODILLO VIBRATORIO WACKER DE 1/2 TON",
+          "tipo": "equipo",
+          "unidad": "hr",
+          "cantidad": 0.67,
+          "precio": 151.97,
+          "importe": 101.82,
+          "fuente": "08 COSTOS HORARIOS.pdf"
+        },
+        {
+          "codigo": "10401-106",
+          "descripcion": "ACARREO EN CARRETILLA 1a ESTACION DE 20 M",
+          "tipo": "basico",
+          "unidad": "m3",
+          "cantidad": 1.0,
+          "precio": 112.09,
+          "importe": 112.09,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 9.04,
+          "precio": 1.0,
+          "importe": 9.04,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-02-03-002",
+      "capitulo": "02",
+      "subcapitulo": "03",
+      "concepto": "Carga manual y acarreo en camión de volteo a primer kilómetro de material sobrante producto de excavaciones, volumen medido en banco, incluye: mano de obra, camión de volteo de 7 m3, equipo y herramienta.",
+      "unidad": "m3",
+      "precio_unitario": 188.03,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave BN15BB (pág. 25)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave BN15BB (pág. 25): 'Carga manual, acarreo en camión al primer kilómetro y descarga, de material fino o granular, medido en banco.' — P.U. = $188.03 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $377.74.",
+      "apu": [
+        {
+          "codigo": "1P",
+          "descripcion": "CUADRILLA No 1 (1 PEON + 0.1 CABO) RENDIMIENTO 6.00 M3/JOR",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.166667,
+          "precio": 747.23,
+          "importe": 124.54,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "EQCAMION",
+          "descripcion": "CAMION DE VOLTEO DE 7 M3 DIESEL 160 HP",
+          "tipo": "equipo",
+          "unidad": "hr",
+          "cantidad": 0.25,
+          "precio": 987.9,
+          "importe": 246.97,
+          "fuente": "08 COSTOS HORARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 6.23,
+          "precio": 1.0,
+          "importe": 6.23,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-03-01-001",
+      "capitulo": "03",
+      "subcapitulo": "01",
+      "concepto": "Concreto premezclado estructural f'c=250 kg/cm2 en columnas, castillos y elementos verticales, clase 1, T.M.A. 20 mm, bombeado hasta nivel +8.80 m, incluye: suministro, bombeo, colado, vibrado, curado, pruebas de laboratorio, mano de obra, equipo y herramienta.",
+      "unidad": "m3",
+      "precio_unitario": 4254.17,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave FJ18BC (pág. 53)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave FJ18BC (pág. 53): 'Suministro y colocación de concreto hidráulico estructural clase 1 f'c=250 kg/cm2 bombeable en superestructura (columnas, trabes, losas).' — P.U. = $4,254.17 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $3,717.14.",
+      "apu": [
+        {
+          "codigo": "307-CON-0101",
+          "descripcion": "CONCRETO PREMEZCLADO F'c=250 KG/CM2 CLASE 1 BOMBEADO",
+          "tipo": "material",
+          "unidad": "m3",
+          "cantidad": 1.03,
+          "precio": 2335.0,
+          "importe": 2405.05,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "358-AGU-0101",
+          "descripcion": "AGUA DE TOMA PARA CURADO",
+          "tipo": "material",
+          "unidad": "m3",
+          "cantidad": 0.15,
+          "precio": 35.52,
+          "importe": 5.33,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "ma0000000015",
+          "descripcion": "PRUEBA DE LABORATORIO EN CONCRETO",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 0.047619,
+          "precio": 3000.0,
+          "importe": 142.86,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "1A5P",
+          "descripcion": "CUADRILLA No 22 (1 OFICIAL ALBAÑIL + 5 PEONES + 0.6 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.222222,
+          "precio": 4582.12,
+          "importe": 1018.25,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "EQVIB",
+          "descripcion": "VIBRADOR PARA CONCRETO 4 HP GASOLINA",
+          "tipo": "equipo",
+          "unidad": "hr",
+          "cantidad": 0.65,
+          "precio": 145.75,
+          "importe": 94.74,
+          "fuente": "08 COSTOS HORARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 50.91,
+          "precio": 1.0,
+          "importe": 50.91,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "StructuralColumns",
+          "filtro_tipo": "Pilar rectangular|Columna|Castillo|Zona de castillo",
+          "campo_cantidad": "volumen_m3",
+          "factor": 1.0,
+          "modelo": "Edificio de educacion"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-03-01-002",
+      "capitulo": "03",
+      "subcapitulo": "01",
+      "concepto": "Cimbra acabado aparente en columnas, castillos, trabes y cerramientos de concreto a base de triplay de pino de 19 mm y madera de pino de 3a, con chaflanes en esquinas, incluye: obra falsa, habilitado, cimbrado, desmoldante, descimbrado, elevaciones, mano de obra, equipo y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 454.76,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave CC14BG (pág. 32)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave CC14BG (pág. 32): 'Cimbra de madera acabado aparente y descimbra en columnas y trabes hasta 4.00 m de altura.' — P.U. = $454.76 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $588.35.",
+      "apu": [
+        {
+          "codigo": "BA0000000001",
+          "descripcion": "CIMBRA DE MADERA Y TRIPLAY 19 MM (PROPORCION POR USO EN ESTRUCTURA)",
+          "tipo": "basico",
+          "unidad": "m2",
+          "cantidad": 0.25,
+          "precio": 1141.91,
+          "importe": 285.48,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "1C1A",
+          "descripcion": "CUADRILLA No 7 (1 OFICIAL CARPINTERO O.N. + 1 AYUDANTE + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.158,
+          "precio": 1825.24,
+          "importe": 288.39,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 14.48,
+          "precio": 1.0,
+          "importe": 14.48,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "StructuralColumns",
+          "filtro_tipo": "Pilar rectangular|Columna|Castillo",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Edificio de educacion"
+        },
+        {
+          "categoria": "StructuralFraming",
+          "filtro_tipo": "Dala de cerramiento|Dala de desplante|Trabe de concreto",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Edificio de educacion"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-03-02-001",
+      "capitulo": "03",
+      "subcapitulo": "02",
+      "concepto": "Concreto premezclado estructural f'c=250 kg/cm2 en trabes, cadenas de cerramiento y dalas de confinamiento, clase 1, T.M.A. 20 mm, bombeado, incluye: suministro, bombeo, colado, vibrado, curado, pruebas de laboratorio, mano de obra, equipo y herramienta.",
+      "unidad": "m3",
+      "precio_unitario": 4254.17,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave FJ18BC (pág. 53)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave FJ18BC (pág. 53): 'Suministro y colocación de concreto hidráulico estructural clase 1 f'c=250 kg/cm2 bombeable en superestructura (trabes y cadenas).' — P.U. = $4,254.17 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $3,717.14.",
+      "apu": [
+        {
+          "codigo": "307-CON-0101",
+          "descripcion": "CONCRETO PREMEZCLADO F'c=250 KG/CM2 CLASE 1 BOMBEADO",
+          "tipo": "material",
+          "unidad": "m3",
+          "cantidad": 1.03,
+          "precio": 2335.0,
+          "importe": 2405.05,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "358-AGU-0101",
+          "descripcion": "AGUA DE TOMA PARA CURADO",
+          "tipo": "material",
+          "unidad": "m3",
+          "cantidad": 0.15,
+          "precio": 35.52,
+          "importe": 5.33,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "ma0000000015",
+          "descripcion": "PRUEBA DE LABORATORIO EN CONCRETO",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 0.047619,
+          "precio": 3000.0,
+          "importe": 142.86,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "1A5P",
+          "descripcion": "CUADRILLA No 22 (1 OFICIAL ALBAÑIL + 5 PEONES + 0.6 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.222222,
+          "precio": 4582.12,
+          "importe": 1018.25,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "EQVIB",
+          "descripcion": "VIBRADOR PARA CONCRETO 4 HP GASOLINA",
+          "tipo": "equipo",
+          "unidad": "hr",
+          "cantidad": 0.65,
+          "precio": 145.75,
+          "importe": 94.74,
+          "fuente": "08 COSTOS HORARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 50.91,
+          "precio": 1.0,
+          "importe": 50.91,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "StructuralFraming",
+          "filtro_tipo": "Dala de cerramiento|Dala de desplante|Trabe de concreto",
+          "campo_cantidad": "volumen_m3",
+          "factor": 1.0,
+          "modelo": "Edificio de educacion"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-03-02-002",
+      "capitulo": "03",
+      "subcapitulo": "02",
+      "concepto": "Acero de refuerzo en superestructura (columnas, castillos, trabes y cadenas) fy=4,200 kg/cm2 con varilla corrugada del No. 3 (3/8\") al No. 8 (1\"), incluye: suministro, acarreos, elevaciones, cortes, habilitado, ganchos, traslapes, amarres con alambre recocido cal. 16, desperdicios, mano de obra y herramienta.",
+      "unidad": "kg",
+      "precio_unitario": 30.35,
+      "fuente_tipo": "APU",
+      "fuente_ref": "02 PRECIOS UNITARIOS.pdf CIM-09..11 (Básicos 10401-172..176) / Validado con Xalapa EST-6.3.7",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Matriz de acero de refuerzo en estructura con varilla R-42 y cuadrilla 1F1A (rendimiento 190 kg/jor incluyendo elevación en PB y PA); CD = $29.85/kg ($29,850/ton), validado contra Xalapa EST-6.3.7 ($32,146.14/ton CD).",
+      "apu": [
+        {
+          "codigo": "303-ARF-0301",
+          "descripcion": "VARILLA CORRUGADA R-42 FY=4200 KG/CM2 (PROMEDIO No. 3 A No. 8, INC. 7% DESPERDICIO)",
+          "tipo": "material",
+          "unidad": "kg",
+          "cantidad": 1.07,
+          "precio": 17.85,
+          "importe": 19.1,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "303-ARF-1101",
+          "descripcion": "ALAMBRE RECOCIDO CAL. 16 (1.59 MM)",
+          "tipo": "material",
+          "unidad": "kg",
+          "cantidad": 0.045,
+          "precio": 25.86,
+          "importe": 1.16,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "1F1A",
+          "descripcion": "CUADRILLA No 6 (1 OFICIAL FIERRERO + 1 AYUDANTE GENERAL + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.005263,
+          "precio": 1825.24,
+          "importe": 9.61,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 0.48,
+          "precio": 1.0,
+          "importe": 0.48,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Rebar",
+          "filtro_tipo": "Varilla$|Estribos #3|Varilla #4|Varilla del #2",
+          "campo_cantidad": "peso_kg",
+          "factor": 1.0,
+          "modelo": "Edificio de educacion"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-03-03-001",
+      "capitulo": "03",
+      "subcapitulo": "03",
+      "concepto": "Losa prefabricada de entrepiso de vigueta pretensada de concreto y bovedilla de cemento-arena de 25 cm de peralte total, con capa de compresión de 5 cm de concreto premezclado f'c=250 kg/cm2 reforzada con malla electrosoldada 6x6/10-10, conforme a memoria arquitectónica (§8.1.3), incluye: suministro y montaje de viguetas y bovedillas, apuntalamiento provisional, frontera perimetral, colado, vibrado, curado, mano de obra y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 819.18,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave GL14BH (pág. 84)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave GL14BH (pág. 84): 'Losa con vigueta pretensada P-13 y bovedilla de concreto con capa de compresión y malla electrosoldada 66-10-10.' — P.U. = $819.18 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $1,148.50.",
+      "apu": [
+        {
+          "codigo": "VB-VIG-01",
+          "descripcion": "VIGUETA PRETENSADA DE CONCRETO P/LOSA DE 20+5 CM (A CADA 0.75 M)",
+          "tipo": "material",
+          "unidad": "m",
+          "cantidad": 1.38,
+          "precio": 185.0,
+          "importe": 255.3,
+          "fuente": "Insumos_APUCMX / Mercado regional"
+        },
+        {
+          "codigo": "VB-BOV-01",
+          "descripcion": "BOVEDILLA DE CEMENTO-ARENA 15x25x56 CM (8.5 PZAS/M2)",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 8.67,
+          "precio": 28.5,
+          "importe": 247.09,
+          "fuente": "Insumos_APUCMX / Mercado regional"
+        },
+        {
+          "codigo": "d6c4fd62",
+          "descripcion": "MALLA ELECTROSOLDADA 6X6-10/10 (INC. 8% TRASLAPE)",
+          "tipo": "material",
+          "unidad": "m2",
+          "cantidad": 1.08,
+          "precio": 41.05,
+          "importe": 44.33,
+          "fuente": "Insumos_APUCMX / Xalapa EST-6.3.12"
+        },
+        {
+          "codigo": "307-CON-0101",
+          "descripcion": "CONCRETO PREMEZCLADO F'c=250 KG/CM2 CLASE 1 P/CAPA DE COMPRESION Y NERVIOS",
+          "tipo": "material",
+          "unidad": "m3",
+          "cantidad": 0.068,
+          "precio": 2335.0,
+          "importe": 158.78,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "305-M3A-0302",
+          "descripcion": "POLIN DE PINO DE 3a DE 4x4x8' P/APUNTALAMIENTO (4 USOS)",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 0.45,
+          "precio": 206.89,
+          "importe": 93.1,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "1A5P",
+          "descripcion": "CUADRILLA No 22 (1 OFICIAL ALBAÑIL + 5 PEONES + 0.6 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.072,
+          "precio": 4582.12,
+          "importe": 329.91,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR, EQUIPO Y VIBRADO (6% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 19.99,
+          "precio": 1.0,
+          "importe": 19.99,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Floors",
+          "filtro_tipo": "vigueta y bovedilla|Capa de compresion",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Edificio de educacion"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-04-01-001",
+      "capitulo": "04",
+      "subcapitulo": "01",
+      "concepto": "Suministro, fabricación, transporte y montaje de estructura metálica principal y secundaria a base de perfiles tubulares HSS/OR y perfiles laminados IPR (columnas metálicas, cerchas/armaduras para grandes claros, correas y arriostramientos), conforme a memoria arquitectónica (§8.1.4), incluye: cortes, soldadura E-7018, limpieza de superficie, aplicación de primario anticorrosivo a base de inorgánico de zinc a 2.5 milésimas de espesor, montaje con grúa a cualquier altura, mano de obra, equipo y herramienta.",
+      "unidad": "kg",
+      "precio_unitario": 74.11,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave EB12BB (pág. 40)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave EB12BB (pág. 40): 'Suministro, fabricación, transporte y montaje de estructura metálica formada con perfiles laminados.' — P.U. = $74.11 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $41.88.",
+      "apu": [
+        {
+          "codigo": "313-HSS-0124",
+          "descripcion": "PERFIL ESTRUCTURAL HSS / LAMINADO A-36/A-500 (INC. 3% DESPERDICIO)",
+          "tipo": "material",
+          "unidad": "ton",
+          "cantidad": 0.00103,
+          "precio": 18096.54,
+          "importe": 18.64,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "313-SOL-0101",
+          "descripcion": "SOLDADURA ELECTRODO 7018 DE 5/32\" (4 MM)",
+          "tipo": "material",
+          "unidad": "kg",
+          "cantidad": 0.02,
+          "precio": 67.06,
+          "importe": 1.34,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "337-SVT-0302",
+          "descripcion": "THINNER ESTANDAR",
+          "tipo": "material",
+          "unidad": "lt",
+          "cantidad": 0.003,
+          "precio": 43.66,
+          "importe": 0.13,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "ma0000000016",
+          "descripcion": "PRIMARIO GALVADUR A BASE DE ZINC",
+          "tipo": "material",
+          "unidad": "lt",
+          "cantidad": 0.008,
+          "precio": 538.0,
+          "importe": 4.3,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "1S2E",
+          "descripcion": "CUADRILLA No 18 (1 OFICIAL SOLDADOR + 2 AYUDANTES ESPECIALIZADOS + 0.1 SOBRESTANTE)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.005,
+          "precio": 2572.48,
+          "importe": 12.86,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "EQPLAN",
+          "descripcion": "PLANTA DE SOLDAR MILLER 300 AMP",
+          "tipo": "equipo",
+          "unidad": "hr",
+          "cantidad": 0.015,
+          "precio": 16.4,
+          "importe": 0.25,
+          "fuente": "08 COSTOS HORARIOS.pdf"
+        },
+        {
+          "codigo": "EQGRUA",
+          "descripcion": "GRUA DE PATIO DE 20 TON DIESEL",
+          "tipo": "equipo",
+          "unidad": "hr",
+          "cantidad": 0.002,
+          "precio": 1854.76,
+          "importe": 3.71,
+          "fuente": "08 COSTOS HORARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 0.65,
+          "precio": 1.0,
+          "importe": 0.65,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "StructuralFraming",
+          "filtro_tipo": "Canal C|C310X45",
+          "campo_cantidad": "peso_kg",
+          "factor": 1.0,
+          "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027"
+        },
+        {
+          "categoria": "StructuralColumns",
+          "filtro_tipo": "Pilar L|L150x12",
+          "campo_cantidad": "peso_kg",
+          "factor": 1.0,
+          "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-04-01-002",
+      "capitulo": "04",
+      "subcapitulo": "01",
+      "concepto": "Suministro, fabricación y colocación de placas base y cartabones de acero A-36 de 1/2\" (12.7 mm), incluye: cortes con oxiacetileno, perforaciones, soldadura E-7018, primario anticorrosivo a base de zinc, nivelación, mano de obra, equipo y herramienta.",
+      "unidad": "kg",
+      "precio_unitario": 72.1,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave EB12CB (pág. 40)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave EB12CB (pág. 40): 'Suministro, fabricación, transporte y montaje de estructura metálica formada con placas de acero A-36.' — P.U. = $72.10 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $55.39.",
+      "apu": [
+        {
+          "codigo": "313-APL-0105",
+          "descripcion": "PLACA DE ACERO A-36 DE 1/2\" (12.7 MM) 99.6 KG/M2 (INC. 3% DESPERDICIO)",
+          "tipo": "material",
+          "unidad": "ton",
+          "cantidad": 0.00103,
+          "precio": 28500.0,
+          "importe": 29.36,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "313-SOL-0101",
+          "descripcion": "SOLDADURA ELECTRODO 7018 DE 5/32\" (4 MM)",
+          "tipo": "material",
+          "unidad": "kg",
+          "cantidad": 0.04,
+          "precio": 67.06,
+          "importe": 2.68,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "337-SVT-0302",
+          "descripcion": "THINNER ESTANDAR",
+          "tipo": "material",
+          "unidad": "lt",
+          "cantidad": 0.004,
+          "precio": 43.66,
+          "importe": 0.17,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "ma0000000016",
+          "descripcion": "PRIMARIO GALVADUR A BASE DE ZINC",
+          "tipo": "material",
+          "unidad": "lt",
+          "cantidad": 0.008,
+          "precio": 538.0,
+          "importe": 4.3,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "1S2E",
+          "descripcion": "CUADRILLA No 18 (1 OFICIAL SOLDADOR + 2 AYUDANTES ESPECIALIZADOS)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.005,
+          "precio": 2572.48,
+          "importe": 12.86,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "EQECORTE",
+          "descripcion": "EQUIPO DE CORTE OXI-ACETILENO",
+          "tipo": "equipo",
+          "unidad": "hr",
+          "cantidad": 0.0018,
+          "precio": 319.1,
+          "importe": 0.57,
+          "fuente": "08 COSTOS HORARIOS.pdf"
+        },
+        {
+          "codigo": "EQGRUA",
+          "descripcion": "GRUA DE PATIO DE 20 TON",
+          "tipo": "equipo",
+          "unidad": "hr",
+          "cantidad": 0.0025,
+          "precio": 1854.76,
+          "importe": 4.64,
+          "fuente": "08 COSTOS HORARIOS.pdf"
+        },
+        {
+          "codigo": "EQPLAN",
+          "descripcion": "PLANTA DE SOLDAR MILLER",
+          "tipo": "equipo",
+          "unidad": "hr",
+          "cantidad": 0.01,
+          "precio": 16.4,
+          "importe": 0.16,
+          "fuente": "08 COSTOS HORARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 0.65,
+          "precio": 1.0,
+          "importe": 0.65,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-04-01-003",
+      "capitulo": "04",
+      "subcapitulo": "01",
+      "concepto": "Suministro, fabricación y colocación de anclas de acero cold rolled de 1\" x 1.40 m de desarrollo total con cuerda de 10 cm, doblez de 30 cm, tuerca y arandela de presión, con relleno de nivelación grout no metálico bajo placa base, incluye: fijado, plomeado, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 404.88,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave EB14BD (pág. 40)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave EB14BD (pág. 40): 'Suministro y colocación de ancla de acero rolado en frío de 25.4 mm (1\") de diámetro.' — P.U. = $404.88 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $511.65.",
+      "apu": [
+        {
+          "codigo": "MA0000000001",
+          "descripcion": "ANCLA DE ACERO COLD ROLLED 1\"x1.40 M C/TUERCA Y ARANDELA DE PRESION",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 320.0,
+          "importe": 320.0,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "1F1A",
+          "descripcion": "CUADRILLA No 6 (1 OFICIAL FIERRERO + 1 AYUDANTE GENERAL + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.1,
+          "precio": 1825.24,
+          "importe": 182.52,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 9.13,
+          "precio": 1.0,
+          "importe": 9.13,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-04-01-004",
+      "capitulo": "04",
+      "subcapitulo": "01",
+      "concepto": "Pintura de acabado epóxico / poliuretano anticorrosivo tipo Amerlock 400 a 4 milésimas de espesor en estructura metálica expuesta, aplicada a dos manos, incluye: preparación de la superficie, materiales, solventes, andamios, mano de obra, equipo y herramienta.",
+      "unidad": "kg",
+      "precio_unitario": 18.18,
+      "fuente_tipo": "APU",
+      "fuente_ref": "02 PRECIOS UNITARIOS.pdf EST-05 (Básico 10806-008)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Matriz exacta de 02 PRECIOS UNITARIOS.pdf EST-05 (Básico 10806-008, Costo Directo = $18.18/kg).",
+      "apu": [
+        {
+          "codigo": "337-COM-1102",
+          "descripcion": "PINTURA ACABADO AMERLOCK 400 A 4 MILESIMAS DE ESPESOR",
+          "tipo": "material",
+          "unidad": "lt",
+          "cantidad": 0.015,
+          "precio": 752.89,
+          "importe": 11.29,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "337-SVT-0302",
+          "descripcion": "THINNER (LATA 19 LTS)",
+          "tipo": "material",
+          "unidad": "lt",
+          "cantidad": 0.015,
+          "precio": 43.66,
+          "importe": 0.65,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "1P1A",
+          "descripcion": "CUADRILLA No 8 (1 OFICIAL PINTOR + 1 AYUDANTE GENERAL + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.003333,
+          "precio": 1705.11,
+          "importe": 5.68,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR, ANDAMIOS Y EQUIPO DE SEGURIDAD (10% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 0.56,
+          "precio": 1.0,
+          "importe": 0.56,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-04-02-001",
+      "capitulo": "04",
+      "subcapitulo": "02",
+      "concepto": "Suministro y colocación de cubierta de panel metálico aislado tipo sándwich (doble lámina de acero galvanizado prepintado cal. 26/26 con núcleo de espuma rígida de poliuretano de 1.5\" de espesor, tipo Multytecho o equivalente) sobre estructura metálica de cubierta (§7.3 y §8.1.4 memoria arquitectónica), incluye: caballetes, tapajuntas, tornillería autorroscante con rondana de neopreno, sellador de poliuretano, izaje, mano de obra, andamios, equipo y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 1176.58,
+      "fuente_tipo": "APU",
+      "fuente_ref": "02 PRECIOS UNITARIOS.pdf LAM-01 (Básico 10503-061) actualizado a panel aislado tipo sándwich",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Basado en la matriz de cubierta metálica 02 PRECIOS UNITARIOS.pdf LAM-01 (CD = $809.59/m2 para lámina Zintro R-101 cal. 22), sustituyendo la lámina simple por panel metálico aislado tipo sándwich de 1.5\" ($865.00/m2) con los mismos accesorios de fijación, tapajuntas y cuadrilla 1H1A (CD = $1,176.38/m2).",
+      "apu": [
+        {
+          "codigo": "314-PAN-0150",
+          "descripcion": "PANEL METALICO AISLADO TIPO SANDWICH CAL. 26/26 NUCLEO POLIURETANO 1.5\" (INC. 8% TRASLAPE/DESP.)",
+          "tipo": "material",
+          "unidad": "m2",
+          "cantidad": 1.08,
+          "precio": 881.2,
+          "importe": 951.7,
+          "fuente": "Insumos_APUCMX / Ref. 11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "314-CBT-0102",
+          "descripcion": "BIRLO / PIJA AUTORROSCANTE P/TECHO C/RONDANA NEOPRENO (CIENTOS)",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 0.04,
+          "precio": 1034.0,
+          "importe": 41.36,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "314-LAM-0371",
+          "descripcion": "TAPAJUNTAS MASTER FLASH No. 1 DE 1/4 A 2\"",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 0.25,
+          "precio": 301.11,
+          "importe": 75.28,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "321-PYE-0601",
+          "descripcion": "MOLDURA / REMATE ESQUINERO GALVANIZADO PREPINTADO DE 2.44 M",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 33.19,
+          "importe": 33.19,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "1H1A",
+          "descripcion": "CUADRILLA No 9 (1 OFICIAL HERRERO + 1 AYUDANTE GENERAL + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.041667,
+          "precio": 1637.61,
+          "importe": 68.23,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR, ANDAMIOS Y EQUIPO DE SEGURIDAD (10% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 6.82,
+          "precio": 1.0,
+          "importe": 6.82,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Walls",
+          "filtro_tipo": "^Curtain Wall \\| Cubierta$",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Edificio de educacion"
+        },
+        {
+          "categoria": "Floors",
+          "filtro_tipo": "Generic 150mm",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-04-02-002",
+      "capitulo": "04",
+      "subcapitulo": "02",
+      "concepto": "Suministro y colocación de canalón pluvial de lámina de acero galvanizado prepintado cal. 22 de 60 cm de desarrollo para captación de agua pluvial en cubierta inclinada (§9.1 memoria arquitectónica), incluye: soportes de solera a cada 1.00 m, sellado de juntas con poliuretano, boquillas de bajada, mano de obra, andamios y herramienta.",
+      "unidad": "m",
+      "precio_unitario": 489.52,
+      "fuente_tipo": "APU",
+      "fuente_ref": "11 RELACIÓN MATERIALES.pdf (314-LAM-0304 + 1H1A)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Integrado con lámina Zintro cal. 22 (314-LAM-0304 $531.55/m2 × 0.65 m2/m desarrollo), soportes y sellador más cuadrilla 1H1A (rendimiento 18 m/jor); CD = $489.50/m.",
+      "apu": [
+        {
+          "codigo": "314-LAM-0304",
+          "descripcion": "LAMINA ZINTRO CAL. 22 (DESARROLLO 0.60 M + TRASLAPE)",
+          "tipo": "material",
+          "unidad": "m2",
+          "cantidad": 0.65,
+          "precio": 531.55,
+          "importe": 345.51,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "321-PYE-0601",
+          "descripcion": "SOPORTE Y FIJACION GALVANIZADA P/CANALON",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.33,
+          "precio": 33.19,
+          "importe": 44.14,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "1H1A",
+          "descripcion": "CUADRILLA No 9 (1 OFICIAL HERRERO + 1 AYUDANTE GENERAL + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.0555,
+          "precio": 1637.61,
+          "importe": 90.89,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR, ANDAMIOS Y EQUIPO DE SEGURIDAD (10% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 8.98,
+          "precio": 1.0,
+          "importe": 8.98,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Gutters",
+          "filtro_tipo": ".*",
+          "campo_cantidad": "longitud_m",
+          "factor": 1.0,
+          "modelo": "TT-ED-EDU-ARQ-MOB"
+        }
+      ],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-05-01-001",
+      "capitulo": "05",
+      "subcapitulo": "01",
+      "concepto": "Muro de mampostería de ladrillo/tabique de barro extruido aparente cara vista de 15 cm de espesor y celosía exterior de barro en fachadas y muros perimetrales (§7.3 y §8.1.2 memoria arquitectónica), asentado con mortero cemento-arena 1:4 con junta aparente boleada, incluye: suministro de materiales, acarreos, cortes, desperdicios, plomeo, andamios, limpieza, mano de obra y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 720.65,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave GC22DC (pág. 64)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave GC22DC (pág. 64): 'Muro de tabique de barro extruido aparente Novaceramic junteado con mortero cemento-arena 1:4.' — P.U. = $720.65 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $650.05.",
+      "apu": [
+        {
+          "codigo": "310-NOV-0150",
+          "descripcion": "BLOCK DE BARRO EXTRUIDO APARENTE TIPO NOVACERAMIC 15x10x20 CM (25 PZAS/M2 + 5% DESP.)",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 26.25,
+          "precio": 14.8,
+          "importe": 388.5,
+          "fuente": "Insumos_APUCMX / Mercado regional"
+        },
+        {
+          "codigo": "10401-544",
+          "descripcion": "MORTERO CEMENTO-ARENA PROPORCION 1:4 HECHO EN OBRA",
+          "tipo": "basico",
+          "unidad": "m3",
+          "cantidad": 0.025,
+          "precio": 2336.0,
+          "importe": 58.4,
+          "fuente": "Xalapa Básico 10401-544"
+        },
+        {
+          "codigo": "358-AGU-0101",
+          "descripcion": "AGUA DE TOMA",
+          "tipo": "material",
+          "unidad": "m3",
+          "cantidad": 0.02,
+          "precio": 35.52,
+          "importe": 0.71,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "1A1P",
+          "descripcion": "CUADRILLA No 5 (1 OFICIAL ALBAÑIL + 1 PEON + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.117647,
+          "precio": 1593.21,
+          "importe": 187.44,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y ANDAMIOS (8% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 15.0,
+          "precio": 1.0,
+          "importe": 15.0,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Walls",
+          "filtro_tipo": "Ladrillo cara vista 15 CM",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027"
+        },
+        {
+          "categoria": "Walls",
+          "filtro_tipo": "Celosia Exterior",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Edificio de educacion"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-05-01-002",
+      "capitulo": "05",
+      "subcapitulo": "01",
+      "concepto": "Muro de mampostería de block hueco de barro extruido NOVABLOCK (12) H y tabique/block ligero de 10 a 14 cm de espesor en aulas, talleres, administración y servicios sanitarios (§8.1.2 memoria arquitectónica), asentado con mortero cemento-arena 1:5, incluye: materiales, acarreos, andamios, mano de obra, equipo y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 707.07,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave GC16BB (pág. 60)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave GC16BB (pág. 60): 'Muro de tabique rojo recocido de 14 cm de espesor asentado con mortero cemento-arena 1:5.' — P.U. = $707.07 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $424.91.",
+      "apu": [
+        {
+          "codigo": "310-TAB-0202",
+          "descripcion": "TABIQUE ROJO RECOCIDO DE 6x13x26 CM (54 PZAS/M2 INC. DESPERDICIO, POR MILLAR)",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 0.054,
+          "precio": 4201.3,
+          "importe": 226.87,
+          "fuente": "Xalapa 310-TAB-0202"
+        },
+        {
+          "codigo": "10401-544",
+          "descripcion": "MORTERO CEMENTO-ARENA PROPORCION 1:5 HECHO EN OBRA",
+          "tipo": "basico",
+          "unidad": "m3",
+          "cantidad": 0.018,
+          "precio": 2336.0,
+          "importe": 42.05,
+          "fuente": "Xalapa Básico 10401-544"
+        },
+        {
+          "codigo": "1A1P",
+          "descripcion": "CUADRILLA No 5 (1 OFICIAL ALBAÑIL + 1 PEON + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.090909,
+          "precio": 1593.21,
+          "importe": 144.84,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y ANDAMIOS (7.7% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 11.15,
+          "precio": 1.0,
+          "importe": 11.15,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Walls",
+          "filtro_tipo": "NOVABLOCK",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Edificio de educacion"
+        },
+        {
+          "categoria": "Walls",
+          "filtro_tipo": "Muro 100 mm AAC COM",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-05-02-001",
+      "capitulo": "05",
+      "subcapitulo": "02",
+      "concepto": "Firme de concreto f'c=150 kg/cm2 de 10 cm de espesor promedio acabado común para recibir piso terminado en planta baja, reforzado con malla electrosoldada 6x6/10-10, incluye: preparación y compactación de base, cimbrado de fronteras, colado, nivelación, curado, mano de obra y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 350.35,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave GH12BE (pág. 78)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave GH12BE (pág. 78): 'Firme de concreto hidráulico resistencia normal f'c=150 kg/cm2 de 10 cm de espesor.' — P.U. = $350.35 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $481.28.",
+      "apu": [
+        {
+          "codigo": "10401-292",
+          "descripcion": "CONCRETO F'c=150 KG/CM2 HECHO EN OBRA, T.M.A. 19 MM",
+          "tipo": "basico",
+          "unidad": "m3",
+          "cantidad": 0.103,
+          "precio": 2660.76,
+          "importe": 274.06,
+          "fuente": "Xalapa Básico 10401-292"
+        },
+        {
+          "codigo": "EST-6.3.12",
+          "descripcion": "MALLA ELECTROSOLDADA 6x6/10-10 COLOCADA",
+          "tipo": "material",
+          "unidad": "m2",
+          "cantidad": 1.0,
+          "precio": 44.33,
+          "importe": 44.33,
+          "fuente": "Xalapa EST-6.3.12"
+        },
+        {
+          "codigo": "1A5P",
+          "descripcion": "CUADRILLA No 22 (1 OFICIAL ALBAÑIL + 5 PEONES + 0.6 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.033333,
+          "precio": 4582.12,
+          "importe": 152.74,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 10.15,
+          "precio": 1.0,
+          "importe": 10.15,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Floors",
+          "filtro_tipo": "Firme estructural e=10 cm",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Edificio de educacion"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-05-02-002",
+      "capitulo": "05",
+      "subcapitulo": "02",
+      "concepto": "Aplanado acabado repellado y fino sobre muros interiores y áreas húmedas con mortero cemento-arena en proporción 1:4 de 2.0 cm de espesor promedio, incluye: preparación de la superficie, materiales, acarreos, andamios, limpieza, mano de obra, equipo y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 269.23,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Xalapa ALB-6.4.3 (10702-001, CD=$269.23/m2) + 03 BÁSICOS.pdf",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Matriz validada contra Xalapa ALB-6.4.3 (Costo Directo = $269.23/m2): mortero cemento-arena 1:4 (0.024 m3/m2) y cuadrilla 1A1P (rendimiento 8.0 m2/jor) más herramienta y andamios.",
+      "apu": [
+        {
+          "codigo": "10401-544",
+          "descripcion": "MORTERO CEMENTO-ARENA PROPORCION 1:4 HECHO EN OBRA",
+          "tipo": "basico",
+          "unidad": "m3",
+          "cantidad": 0.024,
+          "precio": 2336.0,
+          "importe": 56.06,
+          "fuente": "Xalapa Básico 10401-544"
+        },
+        {
+          "codigo": "1A1P",
+          "descripcion": "CUADRILLA No 5 (1 OFICIAL ALBAÑIL + 1 PEON + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.125,
+          "precio": 1593.21,
+          "importe": 199.15,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y ANDAMIOS (7% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 14.02,
+          "precio": 1.0,
+          "importe": 14.02,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-06-01-001",
+      "capitulo": "06",
+      "subcapitulo": "01",
+      "concepto": "Acabado de piso de concreto pulido y endurecido superficialmente con endurecedor mineral y sellador acrílico transparente en aulas, talleres, biblioteca, centro digital y circulaciones interiores (§8.2.1 memoria arquitectónica), incluye: allanado mecánico con helicóptero, cortes de juntas de control con disco de diamante, sellado de juntas con poliuretano, mano de obra, equipo y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 248.6,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Insumos_APUCMX + Xalapa OBR-EXT-06 / OBR-EXT-08",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "APU integrado para el acabado pulido espejo/endurecido sobre firme de concreto (§8.2.1 memoria): endurecedor superficial ($48.50/m2), sellador acrílico, corte y sellado de juntas ($38.20/m2) y cuadrilla 1A1P con allanadora mecánica (CD = $248.60/m2); validado contra Xalapa OBR-EXT-06 ($262.18/m2).",
+      "apu": [
+        {
+          "codigo": "308-END-0101",
+          "descripcion": "ENDURECEDOR MINERAL Y SELLADOR ACRILICO P/PISO DE CONCRETO PULIDO (4 KG/M2)",
+          "tipo": "material",
+          "unidad": "kg",
+          "cantidad": 4.0,
+          "precio": 18.5,
+          "importe": 74.0,
+          "fuente": "Insumos_APUCMX"
+        },
+        {
+          "codigo": "14202-012",
+          "descripcion": "ASERRADO Y SELLADO DE JUNTAS DE CONTROL CON POLIURETANO (PROPORCION 0.50 M/M2)",
+          "tipo": "basico",
+          "unidad": "m",
+          "cantidad": 0.5,
+          "precio": 74.47,
+          "importe": 37.23,
+          "fuente": "Xalapa OBR-EXT-08"
+        },
+        {
+          "codigo": "1A1P",
+          "descripcion": "CUADRILLA No 5 (1 OFICIAL ALBAÑIL + 1 PEON + 0.1 CABO) PULIDO CON ALLANADORA",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.08,
+          "precio": 1593.21,
+          "importe": 127.46,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "ALLANADORA MECANICA Y HERRAMIENTA MENOR",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 9.91,
+          "precio": 1.0,
+          "importe": 9.91,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Floors",
+          "filtro_tipo": "concreto pulido (autonivelante|densificado)",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Proyecto acabado-DAMIAN"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-06-01-002",
+      "capitulo": "06",
+      "subcapitulo": "01",
+      "concepto": "Piso de loseta cerámica antiderrapante de 30 x 30 cm tráfico pesado en sanitarios, cocina, clínica y zonas húmedas (§8.2.1 memoria arquitectónica), asentado con adhesivo pega-azulejo y boquilla antifúngica con sellador, incluye: suministro de materiales, cortes, desperdicios, nivelación, mano de obra, equipo y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 492.96,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave GH16GB (pág. 80)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave GH16GB (pág. 80): 'Piso de loseta cerámica de 30 x 30 cm asentada con pasta adhesiva pegazulejo y lechadeado.' — P.U. = $492.96 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $432.15.",
+      "apu": [
+        {
+          "codigo": "325-CER-0301",
+          "descripcion": "LOSETA CERAMICA ANTIDERRAPANTE 30x30 CM TRAFICO PESADO (INC. 5% DESPERDICIO)",
+          "tipo": "material",
+          "unidad": "m2",
+          "cantidad": 1.05,
+          "precio": 215.0,
+          "importe": 225.75,
+          "fuente": "Insumos_APUCMX"
+        },
+        {
+          "codigo": "302-ADH-0101",
+          "descripcion": "ADHESIVO EN POLVO PEGA-LOSETA Y BOQUILLA SELLADA (SACO 20 KG)",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 0.25,
+          "precio": 154.0,
+          "importe": 38.5,
+          "fuente": "Insumos_APUCMX"
+        },
+        {
+          "codigo": "1CO1A",
+          "descripcion": "CUADRILLA No 12 (1 OFICIAL COLOCADOR + 1 AYUDANTE GENERAL + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.090909,
+          "precio": 1738.0,
+          "importe": 158.0,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y CORTADORA (6.2% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 9.9,
+          "precio": 1.0,
+          "importe": 9.9,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Floors",
+          "filtro_tipo": "piso aulas loseta ceramica",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Proyecto acabado-DAMIAN"
+        },
+        {
+          "categoria": "Floors",
+          "filtro_tipo": "Porcelanato Esmaltado",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-06-01-003",
+      "capitulo": "06",
+      "subcapitulo": "01",
+      "concepto": "Piso de concreto lavado / escobillado antiderrapante en circulaciones exteriores cubiertas, terrazas y accesos del edificio de educación (§8.2.1 memoria arquitectónica), incluye: texturizado superficial, juntas de dilatación, curado, sellador hidrofugante, mano de obra y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 442.1,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave GH14BC (pág. 79)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave GH14BC (pág. 79): 'Piso de concreto hidráulico f'c=150 kg/cm2 acabado escobillado reforzado con malla electrosoldada 66-1010.' — P.U. = $442.10 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $262.18.",
+      "apu": [
+        {
+          "codigo": "14202-009",
+          "descripcion": "ACABADO ESCOBILLADO/LAVADO, JUNTAS Y CURADO EN PISO DE CONCRETO",
+          "tipo": "basico",
+          "unidad": "m2",
+          "cantidad": 1.0,
+          "precio": 262.18,
+          "importe": 262.18,
+          "fuente": "Xalapa OBR-EXT-06"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Floors",
+          "filtro_tipo": "agregado expuesto",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Proyecto acabado-DAMIAN"
+        },
+        {
+          "categoria": "Floors",
+          "filtro_tipo": "Floor-Grnd-Susp",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-06-02-001",
+      "capitulo": "06",
+      "subcapitulo": "02",
+      "concepto": "Pintura vinil-acrílica lavable en muros interiores y plafones marca Comex Pro-1000 o equivalente a dos manos en tonos neutros de alta reflectancia lumínica (§8.2.2 memoria arquitectónica), incluye: aplicación previa de sellador vinílico 5x1, preparación de la superficie, materiales, andamios, mano de obra, equipo y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 87.1,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave LG12CB (pág. 228)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave LG12CB (pág. 228): 'Suministro y aplicación de pintura vinil acrílica en muros y plafones, previa preparación de superficie con sellador.' — P.U. = $87.10 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $122.97.",
+      "apu": [
+        {
+          "codigo": "337-VIN-0101",
+          "descripcion": "PINTURA VINIL-ACRILICA COMEX PRO-1000 Y SELLADOR 5x1 (0.28 LT/M2)",
+          "tipo": "material",
+          "unidad": "lt",
+          "cantidad": 0.28,
+          "precio": 175.0,
+          "importe": 49.0,
+          "fuente": "Xalapa ACAB-6.13.7 / Insumos_APUCMX"
+        },
+        {
+          "codigo": "1P1A",
+          "descripcion": "CUADRILLA No 8 (1 OFICIAL PINTOR + 1 AYUDANTE GENERAL + 0.1 CABO) REND 25 M2/JOR",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.04,
+          "precio": 1705.11,
+          "importe": 68.2,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR, BROCHAS Y ANDAMIOS (8.5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 5.77,
+          "precio": 1.0,
+          "importe": 5.77,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Walls",
+          "filtro_tipo": "muro general EDUC",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Proyecto acabado-DAMIAN"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-06-02-002",
+      "capitulo": "06",
+      "subcapitulo": "02",
+      "concepto": "Recubrimiento de azulejo / loseta cerámica rectificada en muros de sanitarios, cocina y áreas húmedas (§8.2.2 memoria arquitectónica), asentado con adhesivo pega-azulejo y boquilla sellada antihongos, incluye: suministro de materiales, cortes, desperdicios, remates de aluminio/PVC en esquinas, mano de obra y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 473.85,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Insumos_APUCMX + 02 PRECIOS UNITARIOS.pdf 1CO1A",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "APU integrado con azulejo cerámico para muro húmedo ($225.00/m2 + 6% desperdicio), adhesivo pega-azulejo ($42.00/m2) y cuadrilla 1CO1A (rendimiento 9.5 m2/jor en muro); CD = $473.85/m2.",
+      "apu": [
+        {
+          "codigo": "325-AZU-0201",
+          "descripcion": "AZULEJO CERAMICO ESMALTADO P/MURO HUMEDO (INC. 6% DESPERDICIO)",
+          "tipo": "material",
+          "unidad": "m2",
+          "cantidad": 1.06,
+          "precio": 225.0,
+          "importe": 238.5,
+          "fuente": "Insumos_APUCMX"
+        },
+        {
+          "codigo": "302-ADH-0101",
+          "descripcion": "ADHESIVO PEGA-AZULEJO Y BOQUILLA ANTIHONGOS (SACO 20 KG)",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 0.28,
+          "precio": 154.0,
+          "importe": 43.12,
+          "fuente": "Insumos_APUCMX"
+        },
+        {
+          "codigo": "1CO1A",
+          "descripcion": "CUADRILLA No 12 (1 OFICIAL COLOCADOR + 1 AYUDANTE GENERAL + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.105263,
+          "precio": 1738.0,
+          "importe": 182.95,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y ANDAMIOS (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 9.28,
+          "precio": 1.0,
+          "importe": 9.28,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Walls",
+          "filtro_tipo": "Muro Exterior - Interior Aparente",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Proyecto acabado-DAMIAN"
+        },
+        {
+          "categoria": "Floors",
+          "filtro_tipo": "PF_Plafon de loseta ceramica",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Proyecto acabado-DAMIAN"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-06-03-001",
+      "capitulo": "06",
+      "subcapitulo": "03",
+      "concepto": "Falso plafón modular registrable de 0.61 x 1.22 m con suspensión visible de 15/16\" marca Armstrong (línea acústica / metálica microperforada MetalWorks Mesh y Cortega conforme a §7.3 y §8.2.3 de la memoria arquitectónica) para control acústico y paso de instalaciones en aulas, biblioteca, centro digital y administración, incluye: suministro de paneles, tee principal y secundarias, ángulo perimetral, colganteo con alambre galvanizado cal. 14, nivelación láser, cortes, mano de obra y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 639.7,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave GE12HJ (pág. 73)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave GE12HJ (pág. 73): 'Suministro e instalación de plafón modular registrable acústico de 0.61 x 0.61 m con suspensión visible.' — P.U. = $639.70 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $634.42.",
+      "apu": [
+        {
+          "codigo": "321-PLA-0612",
+          "descripcion": "SISTEMA DE FALSO PLAFON MODULAR ARMSTRONG 0.61x1.22 M C/SUSPENSION VISIBLE 15/16\" Y COLGANTEO",
+          "tipo": "material",
+          "unidad": "m2",
+          "cantidad": 1.05,
+          "precio": 465.0,
+          "importe": 488.25,
+          "fuente": "Xalapa ACAB-6.13.2 / Insumos_APUCMX"
+        },
+        {
+          "codigo": "1CO1A",
+          "descripcion": "CUADRILLA No 12 (1 OFICIAL COLOCADOR + 1 AYUDANTE GENERAL + 0.1 CABO) REND 12.5 M2/JOR",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.08,
+          "precio": 1738.0,
+          "importe": 139.04,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y ANDAMIOS (5.1% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 7.13,
+          "precio": 1.0,
+          "importe": 7.13,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Ceilings",
+          "filtro_tipo": "Armstrong",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Proyecto acabado-DAMIAN"
+        },
+        {
+          "categoria": "Floors",
+          "filtro_tipo": "PF_Plafon ACT - Armstrong",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "Proyecto acabado-DAMIAN"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-06-04-001",
+      "capitulo": "06",
+      "subcapitulo": "04",
+      "concepto": "Impermeabilización prefabricada en losas y zonas húmedas a base de primario asfáltico Hidroprimer y manto prefabricado APP/SBS de 4.0 mm de espesor con refuerzo de poliéster y acabado granular terracota, aplicada por termofusión, incluye: limpieza y preparación de superficie, sellado de chaflanes y puntos críticos, traslapes de 10 cm, elevaciones, mano de obra, equipo y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 558.36,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave GS15BB (pág. 96)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave GS15BB (pág. 96): 'Suministro y colocación de sistema de impermeabilización prefabricada con Festermip APP PS 4.0 mm gravilla roja e Hidroprimer.' — P.U. = $558.36 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $493.84.",
+      "apu": [
+        {
+          "codigo": "308-IMP-0400",
+          "descripcion": "MANTO IMPERMEABILIZANTE PREFABRICADO 4 MM POLIESTER + HIDROPRIMER (INC. 12% TRASLAPE)",
+          "tipo": "material",
+          "unidad": "m2",
+          "cantidad": 1.12,
+          "precio": 335.0,
+          "importe": 375.2,
+          "fuente": "Xalapa IMP-6.5.2 / Insumos_APUCMX"
+        },
+        {
+          "codigo": "1CO1A",
+          "descripcion": "CUADRILLA No 12 (1 OFICIAL COLOCADOR + 1 AYUDANTE GENERAL + 0.1 CABO) REND 15.5 M2/JOR",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.0645,
+          "precio": 1738.0,
+          "importe": 112.1,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "GAS BUTANO, SOPLETE Y HERRAMIENTA MENOR",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 6.54,
+          "precio": 1.0,
+          "importe": 6.54,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-07-01-001",
+      "capitulo": "07",
+      "subcapitulo": "01",
+      "concepto": "Suministro y colocación de puerta abatible de 0.90 x 2.15 m para aulas, talleres y oficinas, con marco de perfil metálico/aluminio y hoja entablerada de alta resistencia o lámina cal. 18 con mirilla vertical de cristal templado (§8.2.4 memoria arquitectónica), incluye: bisagras de uso rudo, cerradura de palanca institucional, topes, sellado perimetral, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 5077.77,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave EH12BM (pág. 45)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave EH12BM (pág. 45): 'Suministro, habilitado y colocación de puerta de 1.00 x 2.10 m abatible en aluminio anodizado natural.' — P.U. = $5,077.77 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $7,635.52.",
+      "apu": [
+        {
+          "codigo": "315-PUE-0921",
+          "descripcion": "PUERTA INSTITUCIONAL ABATIBLE 0.90x2.15 M C/MARCO, BISAGRAS Y CERRADURA DE PALANCA",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 6735.0,
+          "importe": 6735.0,
+          "fuente": "Xalapa HERR-6.14.3 / Insumos_APUCMX"
+        },
+        {
+          "codigo": "1H1A",
+          "descripcion": "CUADRILLA No 9 (1 OFICIAL HERRERO + 1 AYUDANTE GENERAL + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.5,
+          "precio": 1637.61,
+          "importe": 818.8,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR, TAQUETES Y SELLADOR (10% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 81.72,
+          "precio": 1.0,
+          "importe": 81.72,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Doors",
+          "filtro_tipo": "Sencilla|simple|corrediza",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-07-01-002",
+      "capitulo": "07",
+      "subcapitulo": "01",
+      "concepto": "Suministro y colocación de puerta doble abatible de 1.80 x 2.20 m en accesos principales, talleres, biblioteca y salidas de emergencia (§8.2.4 memoria arquitectónica), fabricada con perfilería pesada de aluminio/acero y cristal templado de 9.5 mm o tablero metálico aislado, barra antipánico y cierrapuertas hidráulico, incluye: herrajes, fijación, sellado, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 16845.32,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Xalapa HERR-6.14.2 ($23,777.63/pza) + 02 PRECIOS UNITARIOS.pdf 1H1A",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "APU integrado para puerta doble institucional de acceso/emergencia con barra antipánico y cierrapuertas; CD = $16,845.32/pza, validado contra puerta de seguridad Xalapa HERR-6.14.2 ($23,777.63/pza CD).",
+      "apu": [
+        {
+          "codigo": "315-PUE-1822",
+          "descripcion": "PUERTA DOBLE ABATIBLE 1.80x2.20 M C/BARRA ANTIPANICO, CIERRAPUERTAS Y HERRAJES",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 15044.0,
+          "importe": 15044.0,
+          "fuente": "Insumos_APUCMX / Ref. Xalapa HERR-6.14.2"
+        },
+        {
+          "codigo": "1H1A",
+          "descripcion": "CUADRILLA No 9 (1 OFICIAL HERRERO + 1 AYUDANTE GENERAL + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 1.0,
+          "precio": 1637.61,
+          "importe": 1637.61,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR, ANCLAJE Y SELLADOR (10% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 163.71,
+          "precio": 1.0,
+          "importe": 163.71,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Doors",
+          "filtro_tipo": "Doble|Dbl Glass",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-07-02-001",
+      "capitulo": "07",
+      "subcapitulo": "02",
+      "concepto": "Suministro y colocación de ventana de cancelería de aluminio anodizado natural/negro línea 3\" (fijos y proyectables para ventilación cruzada conforme a §6.2 y §8.2.4 memoria arquitectónica) de 1.80 x 1.50 m promedio con cristal claro templado/laminado de 6 mm, incluye: felpas, vinilos, operadores proyectables, sellado perimetral con silicón neutro, cortes, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 3428.81,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave EH12BJ (pág. 44)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave EH12BJ (pág. 44): 'Suministro, habilitado y colocación de ventana de 1.80 x 1.20 m en aluminio anodizado natural de 3\".' — P.U. = $3,428.81 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $5,951.99.",
+      "apu": [
+        {
+          "codigo": "316-CAN-0306",
+          "descripcion": "MODULO DE VENTANA DE ALUMINIO ANODIZADO 3\" C/CRISTAL TEMPLADO 6 MM Y HERRAJES PROYECTABLES",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 5051.32,
+          "importe": 5051.32,
+          "fuente": "Insumos_APUCMX / Ref. Xalapa CAN-6.15.1"
+        },
+        {
+          "codigo": "1H1A",
+          "descripcion": "CUADRILLA No 9 (1 OFICIAL HERRERO/CANCELERO + 1 AYUDANTE GENERAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.5,
+          "precio": 1637.61,
+          "importe": 818.8,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "SILICON ESTRUCTURAL, PIJAS INOXIDABLES Y HERRAMIENTA MENOR",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 81.87,
+          "precio": 1.0,
+          "importe": 81.87,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Windows",
+          "filtro_tipo": ".*",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-07-02-002",
+      "capitulo": "07",
+      "subcapitulo": "02",
+      "concepto": "Suministro y colocación de fachada integral / muro cortina de aluminio anodizado serie 3\" con cristal laminado/templado de seguridad de 6+6 mm o 9.5 mm para iluminación natural cenital y vestíbulos (§7.3 y §8.2.4 memoria arquitectónica), incluye: mullions, transoms, anclajes a estructura metálica/concreto, empaques EPDM, sellado climático, andamios, mano de obra y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 2865.3,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Insumos_APUCMX + Xalapa CAN-6.15.1 + 02 PRECIOS UNITARIOS.pdf 1H1A",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "APU integrado con perfilería de aluminio para muro cortina ($1,320.00/m2), cristal templado de 9.5 mm ($980.00/m2), herrajes/sellador ($165.00/m2) y cuadrilla 1H1A (rendimiento 4.5 m2/jor); CD = $2,865.30/m2.",
+      "apu": [
+        {
+          "codigo": "316-MCO-0101",
+          "descripcion": "PERFILERIA DE ALUMINIO P/MURO CORTINA 3\" C/ANCLAJES Y EMPAQUES EPDM",
+          "tipo": "material",
+          "unidad": "m2",
+          "cantidad": 1.0,
+          "precio": 1320.0,
+          "importe": 1320.0,
+          "fuente": "Insumos_APUCMX"
+        },
+        {
+          "codigo": "317-CRI-0950",
+          "descripcion": "CRISTAL TEMPLADO DE SEGURIDAD 9.5 MM CLARO C/CANTOS PULIDOS",
+          "tipo": "material",
+          "unidad": "m2",
+          "cantidad": 1.05,
+          "precio": 980.0,
+          "importe": 1029.0,
+          "fuente": "Insumos_APUCMX"
+        },
+        {
+          "codigo": "316-SEL-0101",
+          "descripcion": "SELLADOR DE SILICON ESTRUCTURAL Y CINTA NORTON",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 0.85,
+          "precio": 158.0,
+          "importe": 134.3,
+          "fuente": "Insumos_APUCMX"
+        },
+        {
+          "codigo": "1H1A",
+          "descripcion": "CUADRILLA No 9 (1 OFICIAL CANCELERO + 1 AYUDANTE GENERAL + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.222222,
+          "precio": 1637.61,
+          "importe": 363.91,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y ANDAMIOS (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 18.09,
+          "precio": 1.0,
+          "importe": 18.09,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "CurtainWallPanels",
+          "filtro_tipo": "Glazed|Acristalado|Solid Panel|ornamental",
+          "campo_cantidad": "area_m2",
+          "factor": 1.0,
+          "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-07-03-001",
+      "capitulo": "07",
+      "subcapitulo": "03",
+      "concepto": "Suministro y colocación de barandal metálico de protección de 0.90 a 1.05 m de altura en pasillos de planta alta, balcones, escaleras y rampas (§6.3 y §8.2.4 memoria arquitectónica), fabricado con postes de PTR 1 1/2\" x 1 1/2\" a cada 1.00 m con placa base A-36 de 5/16\", pasamanos de tubo cédula 30 de 2\" y largueros horizontales de 1 1/4\", acabado con primario anticorrosivo y pintura de esmalte poliuretano, incluye: cortes, soldadura, anclaje, mano de obra y herramienta.",
+      "unidad": "m",
+      "precio_unitario": 1478.43,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Xalapa HERGEN-01 / HERGEN-05 (11008-011, CD=$1,478.43/m)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Matriz exacta validada contra Xalapa HERGEN-01 y HERGEN-05 (Código 11008-011: Barandal de 0.90 m de altura con postes de PTR 1 1/2\" y pasamanos de tubo céd. 30 de 2\", Costo Directo = $1,478.43/m).",
+      "apu": [
+        {
+          "codigo": "11008-011",
+          "descripcion": "PERFILES PTR 1 1/2\", TUBO CED. 30 2\" Y 1 1/4\", PLACA A-36 5/16\", SOLDADURA Y ESMALTE",
+          "tipo": "material",
+          "unidad": "m",
+          "cantidad": 1.0,
+          "precio": 1035.0,
+          "importe": 1035.0,
+          "fuente": "Xalapa HERGEN-01"
+        },
+        {
+          "codigo": "1H1A",
+          "descripcion": "CUADRILLA No 9 (1 OFICIAL HERRERO + 1 AYUDANTE GENERAL + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.25,
+          "precio": 1637.61,
+          "importe": 409.4,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "PLANTA DE SOLDAR, HERRAMIENTA MENOR Y SEGURIDAD",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 34.03,
+          "precio": 1.0,
+          "importe": 34.03,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Railings",
+          "filtro_tipo": ".*",
+          "campo_cantidad": "longitud_m",
+          "factor": 1.0,
+          "modelo": "TT_ED_EDUCACIÓN_CANCELERIA_2027"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-08-01-001",
+      "capitulo": "08",
+      "subcapitulo": "01",
+      "concepto": "Suministro y tendido de tubería hidráulica de PVC RD-13.5 / PPR termofusionable de 19 a 25 mm de diámetro para red de distribución de agua potable fría (§9.1 memoria arquitectónica), incluye: coples, cortes, soportería, pruebas hidrostáticas de hermeticidad, mano de obra y herramienta.",
+      "unidad": "m",
+      "precio_unitario": 95.36,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Xalapa INS-HID-6.6.1 (CD=$95.37/m) + Insumos_APUCMX",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Matriz validada directamente contra Xalapa INS-HID-6.6.1 (Tubo de PVC hidráulico de 25 mm RD-13.5 instalado y probado, Costo Directo = $95.37/m).",
+      "apu": [
+        {
+          "codigo": "330-PVC-0250",
+          "descripcion": "TUBO HIDRAULICO PVC RD-13.5 / PPR DE 25 MM (1\") C/CEMENTO Y LIMPIADOR",
+          "tipo": "material",
+          "unidad": "m",
+          "cantidad": 1.05,
+          "precio": 42.5,
+          "importe": 44.62,
+          "fuente": "Xalapa INS-HID-6.6.1 / Insumos_APUCMX"
+        },
+        {
+          "codigo": "1PL1A",
+          "descripcion": "CUADRILLA PLOMERIA (1 OFICIAL PLOMERO + 1 AYUDANTE GENERAL + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.028,
+          "precio": 1738.0,
+          "importe": 48.66,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y BOMBA DE PRUEBA HIDROSTATICA",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 2.08,
+          "precio": 1.0,
+          "importe": 2.08,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Pipes",
+          "filtro_tipo": "Domestic_Cold_Water · (12\\.70|25\\.40) mm",
+          "campo_cantidad": "longitud_m",
+          "factor": 1.0,
+          "modelo": "Instalaciones"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-08-01-002",
+      "capitulo": "08",
+      "subcapitulo": "01",
+      "concepto": "Suministro y tendido de tubería hidráulica de PVC RD-26 de 38 a 50 mm de diámetro para línea principal de alimentación y red de agua pluvial tratada para descarga de inodoros y riego (§6.4 y §9.1 memoria arquitectónica), incluye: fijación, pruebas hidrostáticas, mano de obra y herramienta.",
+      "unidad": "m",
+      "precio_unitario": 110.49,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Xalapa INS-ATRA-6.7.1 (CD=$110.49/m)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Matriz validada directamente contra Xalapa INS-ATRA-6.7.1 (Tubo de PVC hidráulico de 38 mm RD-26 para red de agua tratada, Costo Directo = $110.49/m).",
+      "apu": [
+        {
+          "codigo": "330-PVC-0380",
+          "descripcion": "TUBO HIDRAULICO PVC RD-26 DE 38 MM (1 1/2\") C/CEMENTO Y SOPORTERIA",
+          "tipo": "material",
+          "unidad": "m",
+          "cantidad": 1.05,
+          "precio": 53.2,
+          "importe": 55.86,
+          "fuente": "Xalapa INS-ATRA-6.7.1 / Insumos_APUCMX"
+        },
+        {
+          "codigo": "1PL1A",
+          "descripcion": "CUADRILLA PLOMERIA (1 OFICIAL PLOMERO + 1 AYUDANTE GENERAL + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.03,
+          "precio": 1738.0,
+          "importe": 52.14,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y PRUEBAS",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 2.49,
+          "precio": 1.0,
+          "importe": 2.49,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Pipes",
+          "filtro_tipo": "Domestic_Cold_Water · 50\\.80 mm",
+          "campo_cantidad": "longitud_m",
+          "factor": 1.0,
+          "modelo": "Instalaciones"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-08-01-003",
+      "capitulo": "08",
+      "subcapitulo": "01",
+      "concepto": "Suministro e instalación de conexiones hidráulicas (codos, tees, coples, reducciones y adaptadores) de PVC hidráulico / PPR de 19 a 38 mm de diámetro, incluye: materiales de unión, pruebas de presión, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 64.41,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave IG13BF (pág. 151)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave IG13BF (pág. 151): 'Codo de PVC tipo hidráulico unión cementar de 90° x 25 mm de diámetro.' — P.U. = $64.41 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $81.35.",
+      "apu": [
+        {
+          "codigo": "330-CON-0250",
+          "descripcion": "CONEXION HIDRAULICA (CODO/TEE/COPLE) PVC RD-13.5 / PPR 25-38 MM C/ADHESIVO",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 44.5,
+          "importe": 44.5,
+          "fuente": "Xalapa INS-HID-6.6.2..4"
+        },
+        {
+          "codigo": "1PL1A",
+          "descripcion": "CUADRILLA PLOMERIA (1 OFICIAL PLOMERO + 1 AYUDANTE GENERAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.02,
+          "precio": 1738.0,
+          "importe": 34.76,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR (6% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 2.09,
+          "precio": 1.0,
+          "importe": 2.09,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "PipeFittings",
+          "filtro_tipo": "Domestic[_ ]Cold[_ ]Water",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "Instalaciones"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-08-01-004",
+      "capitulo": "08",
+      "subcapitulo": "01",
+      "concepto": "Suministro e instalación de válvula de seccionamiento (compuerta / esfera / retención) de bronce roscable de 25 a 38 mm de diámetro para control de zonas hidráulicas, incluye: adaptadores, cinta teflón, pruebas, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 817.34,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave IC12CC (pág. 135)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave IC12CC (pág. 135): 'Válvula de compuerta de bronce, extremos roscados.' — P.U. = $817.34 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $842.50.",
+      "apu": [
+        {
+          "codigo": "331-VAL-0250",
+          "descripcion": "VALVULA DE COMPUERTA/ESFERA DE BRONCE ROSCABLE 25-38 MM C/CONECTORES",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 660.0,
+          "importe": 660.0,
+          "fuente": "Xalapa INS-HID-6.6.8..9"
+        },
+        {
+          "codigo": "1PL1A",
+          "descripcion": "CUADRILLA PLOMERIA (1 OFICIAL PLOMERO + 1 AYUDANTE GENERAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.1,
+          "precio": 1738.0,
+          "importe": 173.8,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 8.7,
+          "precio": 1.0,
+          "importe": 8.7,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "PipeAccessories",
+          "filtro_tipo": ".*",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "Instalaciones"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-08-02-001",
+      "capitulo": "08",
+      "subcapitulo": "02",
+      "concepto": "Suministro e instalación de equipo hidroneumático presurizador con tanque precargado de 200 L y bomba centrífuga de 1.5 HP marca Pedrollo modelo JSWM15M/200CL o equivalente (§9.1 memoria arquitectónica), incluye: manómetro, presostato, válvula check, conexiones flexibles, pruebas de arranque y paro, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 19356.18,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Insumos_APUCMX código a4ba6e38 ($16,175.00) + Xalapa INS-HID-6.6.7 ($1,356.28)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Integrado con el insumo real de precios_procesados código a4ba6e38 (EQUIPO HIDRONEUMATICO DE 200L JSWM15M/200CL PEDROLLO = $16,175.00), tren de válvulas/manómetro ($1,356.28) y cuadrilla de instalación 1PL1A (1.0 jornada = $1,738.00); CD = $19,356.18/pza.",
+      "apu": [
+        {
+          "codigo": "a4ba6e38",
+          "descripcion": "EQUIPO HIDRONEUMATICO DE 200L JSWM15M/200CL PEDROLLO",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 16175.0,
+          "importe": 16175.0,
+          "fuente": "Insumos_APUCMX (catalogo_apuc_mvp.csv)"
+        },
+        {
+          "codigo": "INS-HID-6.6.7",
+          "descripcion": "JUEGO DE MANOMETRO, VALVULA CHECK Y CONEXIONES DE DESCARGA",
+          "tipo": "material",
+          "unidad": "jgo",
+          "cantidad": 1.0,
+          "precio": 1356.28,
+          "importe": 1356.28,
+          "fuente": "Xalapa INS-HID-6.6.7"
+        },
+        {
+          "codigo": "1PL1A",
+          "descripcion": "CUADRILLA PLOMERIA (1 OFICIAL PLOMERO + 1 AYUDANTE GENERAL + 0.1 CABO)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 1.0,
+          "precio": 1738.0,
+          "importe": 1738.0,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE PRUEBA (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 86.9,
+          "precio": 1.0,
+          "importe": 86.9,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "MechanicalEquipment",
+          "filtro_tipo": "FIT 125|MANC|bomba|hidroneumatico",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "Instalaciones"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-08-03-001",
+      "capitulo": "08",
+      "subcapitulo": "03",
+      "concepto": "Suministro e instalación de sistema de captación, filtrado de primeras lluvias (separador de hojas y filtro de sedimentos/carbón activado) y almacenamiento pluvial en cisterna equipada para aprovechamiento de agua de lluvia y agua potable (§6.4 y §9.1 memoria arquitectónica), incluye: excavación, plantilla, colocación, tren de filtrado, interconexión a bajadas pluviales, mano de obra y herramienta.",
+      "unidad": "jgo",
+      "precio_unitario": 38500.0,
+      "fuente_tipo": "SUPUESTO",
+      "fuente_ref": "SUPUESTO conservador basado en cisterna equipada + filtro pluvial + excavación/plantilla",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "SUPUESTO conservador para el paquete de captación, filtrado y almacenamiento pluvial descrito en §6.4 y §9.1 de la memoria arquitectónica (cisterna equipada $26,500 + filtro separador de primeras lluvias y sedimentos $6,800 + instalación y cama de apoyo $5,200 = $38,500.00/jgo).",
+      "apu": [],
+      "mapeo_revit": [
+        {
+          "categoria": "MechanicalEquipment",
+          "filtro_tipo": "Cisterna|CISTERNA",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "Instalaciones"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-09-01-001",
+      "capitulo": "09",
+      "subcapitulo": "01",
+      "concepto": "Suministro y tendido de tubería de PVC sanitario de 50 mm (2\") de diámetro para ramales de desagüe de lavabos, tarjas, coladeras y tubos de ventilación (§9.2 memoria arquitectónica), incluye: cemento PVC, abrazaderas, cortes, pruebas de hermeticidad, mano de obra y herramienta.",
+      "unidad": "m",
+      "precio_unitario": 64.12,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave HB12BC (pág. 97)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave HB12BC (pág. 97): 'Suministro, instalación y pruebas de tubo de PVC tipo sanitario unión cementar, extremos lisos de 51 mm.' — P.U. = $64.12 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $95.71.",
+      "apu": [
+        {
+          "codigo": "332-SAN-0050",
+          "descripcion": "TUBO PVC SANITARIO NORMA DE 50 MM (2\") C/CEMENTO Y SOPORTERIA",
+          "tipo": "material",
+          "unidad": "m",
+          "cantidad": 1.05,
+          "precio": 42.8,
+          "importe": 44.94,
+          "fuente": "Xalapa INS-SAN-6.9.1"
+        },
+        {
+          "codigo": "1PL1A",
+          "descripcion": "CUADRILLA PLOMERIA (1 OFICIAL PLOMERO + 1 AYUDANTE GENERAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.028,
+          "precio": 1738.0,
+          "importe": 48.66,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y PRUEBAS",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 2.11,
+          "precio": 1.0,
+          "importe": 2.11,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Pipes",
+          "filtro_tipo": "Sanitary · 50\\.80 mm",
+          "campo_cantidad": "longitud_m",
+          "factor": 1.0,
+          "modelo": "Instalaciones"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-09-01-002",
+      "capitulo": "09",
+      "subcapitulo": "01",
+      "concepto": "Suministro y tendido de tubería de PVC sanitario de 100 mm (4\") de diámetro para colectores de aguas negras, aguas jabonosas y bajadas de aguas pluviales (B.A.P.) con separación de redes (§9.2 memoria arquitectónica), incluye: cemento PVC, soportería, cama de arena en tramos enterrados, pruebas de hermeticidad, mano de obra y herramienta.",
+      "unidad": "m",
+      "precio_unitario": 113.21,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave HB12BE (pág. 97)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave HB12BE (pág. 97): 'Suministro, instalación y pruebas de tubo de PVC tipo sanitario unión cementar, extremos lisos de 102 mm.' — P.U. = $113.21 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $151.33.",
+      "apu": [
+        {
+          "codigo": "332-SAN-0100",
+          "descripcion": "TUBO PVC SANITARIO NORMA DE 100 MM (4\") C/CEMENTO Y SOPORTERIA",
+          "tipo": "material",
+          "unidad": "m",
+          "cantidad": 1.05,
+          "precio": 82.0,
+          "importe": 86.1,
+          "fuente": "Xalapa INS-SAN-6.9.2"
+        },
+        {
+          "codigo": "1PL1A",
+          "descripcion": "CUADRILLA PLOMERIA (1 OFICIAL PLOMERO + 1 AYUDANTE GENERAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.036,
+          "precio": 1738.0,
+          "importe": 62.57,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y PRUEBAS",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 2.66,
+          "precio": 1.0,
+          "importe": 2.66,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Pipes",
+          "filtro_tipo": "Sanitary · 101\\.60 mm",
+          "campo_cantidad": "longitud_m",
+          "factor": 1.0,
+          "modelo": "Instalaciones"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-09-01-003",
+      "capitulo": "09",
+      "subcapitulo": "01",
+      "concepto": "Suministro e instalación de conexiones sanitarias de PVC para cementar (codos de 45° y 90°, yees sencillas y reducciones) de 50 a 100 mm de diámetro, incluye: limpiador, cemento PVC, pruebas de hermeticidad, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 109.51,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave HB12EE (pág. 98)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave HB12EE (pág. 98): 'Suministro, instalación y pruebas de codo de PVC tipo sanitario unión cementar de 90° x 102 mm.' — P.U. = $109.51 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $105.59.",
+      "apu": [
+        {
+          "codigo": "332-CON-0100",
+          "descripcion": "CONEXION SANITARIA PVC (CODO/YEE/COPLE) 50-100 MM C/CEMENTO",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 68.74,
+          "importe": 68.74,
+          "fuente": "Xalapa INS-SAN-6.9.4"
+        },
+        {
+          "codigo": "1PL1A",
+          "descripcion": "CUADRILLA PLOMERIA (1 OFICIAL PLOMERO + 1 AYUDANTE GENERAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.02,
+          "precio": 1738.0,
+          "importe": 34.76,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR (6% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 2.09,
+          "precio": 1.0,
+          "importe": 2.09,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "PipeFittings",
+          "filtro_tipo": "· (Sanitary|Undefined) ·",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "Instalaciones"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-09-02-001",
+      "capitulo": "09",
+      "subcapitulo": "02",
+      "concepto": "Suministro e instalación de inodoro ecológico de bajo consumo (< 4.8 L por descarga) de cerámica vitrificada color blanco con fluxómetro/válvula ahorradora y asiento elongado (§9.1 y §9.2 memoria arquitectónica), incluye: junta de cera con guía, brida sanitaria, válvula angular, manguera flexible, sellado con silicón antimicótico, pruebas, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 5254.43,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave HI13BO (pág. 114)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave HI13BO (pág. 114): 'Suministro, instalación y pruebas de inodoro ecológico WC Drakar16 de 4.80 L por descarga, marca Helvex.' — P.U. = $5,254.43 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $5,663.85.",
+      "apu": [
+        {
+          "codigo": "ACC-SAN-6.17.1",
+          "descripcion": "TAZA SANITARIA ECOLOGICA ELONGADA BLANCA BAJO CONSUMO C/BRIDA Y HERRAJES",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 4650.0,
+          "importe": 4650.0,
+          "fuente": "Xalapa ACC-SAN-6.17.1"
+        },
+        {
+          "codigo": "ACC-SAN-6.17.10",
+          "descripcion": "ASIENTO ELONGADO BLANCO USO INSTITUCIONAL",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 537.84,
+          "importe": 537.84,
+          "fuente": "Xalapa ACC-SAN-6.17.10"
+        },
+        {
+          "codigo": "1PL1A",
+          "descripcion": "CUADRILLA PLOMERIA (1 OFICIAL PLOMERO + 1 AYUDANTE GENERAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.25,
+          "precio": 1738.0,
+          "importe": 434.5,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "SELLADOR Y HERRAMIENTA MENOR",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 41.51,
+          "precio": 1.0,
+          "importe": 41.51,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "PlumbingFixtures",
+          "filtro_tipo": "wc|inodoro|sanitario|taza|mingitorio|toilet|water closet",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "Instalaciones"
+        }
+      ],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-09-02-002",
+      "capitulo": "09",
+      "subcapitulo": "02",
+      "concepto": "Suministro e instalación de lavabo institucional de cerámica vitrificada color blanco con llave ahorradora temporizada/monomando y céspol cromado con registro (§9.1 y §9.2 memoria arquitectónica), incluye: válvulas angulares de 1/2\", mangueras alimentadoras trenzadas, fijación, sellado, pruebas, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 5273.44,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Xalapa ACC-SAN-6.17.2 ($2,124.94) + ACC-SAN-6.17.13 ($1,698.50)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Integrado y validado con Xalapa ACC-SAN-6.17.2 (Lavabo blanco Helvex $2,124.94), ACC-SAN-6.17.13 (Céspol cromado con registro $1,698.50) y llave ahorradora institucional ($1,450.00); CD = $5,273.44/pza.",
+      "apu": [
+        {
+          "codigo": "ACC-SAN-6.17.2",
+          "descripcion": "LAVABO DE CERAMICA VITRIFICADA BLANCO USO INSTITUCIONAL",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 2124.94,
+          "importe": 2124.94,
+          "fuente": "Xalapa ACC-SAN-6.17.2"
+        },
+        {
+          "codigo": "ACC-SAN-6.17.13",
+          "descripcion": "CESPOL CROMADO C/REGISTRO, VALVULAS ANGULARES Y MANGUERAS",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 1698.5,
+          "importe": 1698.5,
+          "fuente": "Xalapa ACC-SAN-6.17.13"
+        },
+        {
+          "codigo": "333-LLA-0101",
+          "descripcion": "LLAVE ECONOMIZADORA TEMPORIZADA CROMADA P/LAVABO",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 1450.0,
+          "importe": 1450.0,
+          "fuente": "Insumos_APUCMX"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "PlumbingFixtures",
+          "filtro_tipo": "lavabo|ovalin|sink|lavamanos|fregadero|tarja|coladera",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "Instalaciones"
+        }
+      ],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-09-03-001",
+      "capitulo": "09",
+      "subcapitulo": "03",
+      "concepto": "Registro sanitario de 0.60 x 0.40 m de medidas interiores y 0.80 m de profundidad promedio, fabricado con muros de tabique rojo recocido asentado con mortero cemento-arena 1:5 sobre firme de 8 cm de concreto f'c=150 kg/cm2, aplanado interior pulido con media caña y tapa de concreto con marco y contramarco metálico, incluye: excavación, materiales, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 3162.5,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave HE12CC (pág. 112)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave HE12CC (pág. 112): 'Registro sanitario de 0.40 x 0.60 y 1.00 m de profundidad, medidas interiores, muros de tabique rojo recocido.' — P.U. = $3,162.50 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $3,324.44.",
+      "apu": [
+        {
+          "codigo": "10608-002",
+          "descripcion": "MATERIALES DE REGISTRO SANITARIO (TABIQUE, MARCO Y CONTRAMARCO 40x60, CIMBRA)",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 1181.67,
+          "importe": 1181.67,
+          "fuente": "Xalapa ALBGEN-02"
+        },
+        {
+          "codigo": "10401-544",
+          "descripcion": "MORTERO CEMENTO-ARENA 1:5 Y CONCRETO F'c=150 KG/CM2",
+          "tipo": "basico",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 508.96,
+          "importe": 508.96,
+          "fuente": "Xalapa ALBGEN-02"
+        },
+        {
+          "codigo": "1A1P",
+          "descripcion": "CUADRILLA ALBAÑILERIA Y EXCAVACION (1A1P + 1P)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 1.0,
+          "precio": 1556.01,
+          "importe": 1556.01,
+          "fuente": "Xalapa ALBGEN-02"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y EQUIPO DE SEGURIDAD (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 77.8,
+          "precio": 1.0,
+          "importe": 77.8,
+          "fuente": "Xalapa ALBGEN-02"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "PlumbingFixtures",
+          "filtro_tipo": "CAJA DE REGIST",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "Instalaciones"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-09-03-002",
+      "capitulo": "09",
+      "subcapitulo": "03",
+      "concepto": "Suministro e instalación de biodigestor autolimpiable anaerobio prefabricado de polietileno de alta densidad de 7,000 L de capacidad para tratamiento primario de aguas negras previo a descarga (§6.4 y §9.2 memoria arquitectónica), incluye: excavación, plantilla de concreto pobre, registro de lodos, interconexiones de entrada y salida en PVC sanitario de 100 mm, relleno compactado, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 28900.0,
+      "fuente_tipo": "SUPUESTO",
+      "fuente_ref": "SUPUESTO conservador basado en biodigestor prefabricado 7,000 L + excavación y registro de lodos",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "SUPUESTO conservador para el sistema de tratamiento primario con biodigestor anaerobio de 7,000 L especificado en §9.2 de la memoria arquitectónica (equipo biodigestor 7,000 L $21,500 + excavación, plantilla, registro de lodos e instalación $7,400 = $28,900.00/pza).",
+      "apu": [],
+      "mapeo_revit": [
+        {
+          "categoria": "PlumbingFixtures",
+          "filtro_tipo": "Biodigestor",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "Instalaciones"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-10-01-001",
+      "capitulo": "10",
+      "subcapitulo": "01",
+      "concepto": "Suministro y tendido de tubería conduit metálica galvanizada pared delgada (EMT) de 19 a 25 mm de diámetro aparente/oculta en plafón y muros con cableado conductor de cobre THW-LS/THHW cal. 12 y 10 AWG (fase, neutro y tierra física desnuda) para circuitos derivados de alumbrado y contactos (§9.3 memoria arquitectónica), incluye: conectores, coples, abrazaderas tipo uña/omega, cajas de conexión, mano de obra, andamios y herramienta.",
+      "unidad": "m",
+      "precio_unitario": 175.4,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Insumos_APUCMX + Xalapa INS-ELE-6.10.7 ($919.32/salida de 6 m = $153.22/m)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "APU integrado con tubo conduit galvanizado pared delgada 19-25 mm ($48.50/m), 3 hilos de cable THW-LS cal. 12 AWG ($18.20/m × 3.15 = $57.33/m), abrazaderas/coples ($12.40/m) y cuadrilla de electricista (rendimiento 32 m/jor); CD = $175.40/m, validado contra Xalapa INS-ELE-6.10.7 ($153.22/m en poliducto).",
+      "apu": [
+        {
+          "codigo": "340-CON-0250",
+          "descripcion": "TUBO CONDUIT GALVANIZADO PARED DELGADA 19-25 MM C/COPLES Y ABRAZADERAS",
+          "tipo": "material",
+          "unidad": "m",
+          "cantidad": 1.05,
+          "precio": 58.0,
+          "importe": 60.9,
+          "fuente": "Insumos_APUCMX"
+        },
+        {
+          "codigo": "341-CAB-0012",
+          "descripcion": "CABLE DE COBRE THW-LS 90°C 600V CAL. 12 AWG CONDUMEX (3 CONDUCTORES)",
+          "tipo": "material",
+          "unidad": "m",
+          "cantidad": 3.15,
+          "precio": 18.2,
+          "importe": 57.33,
+          "fuente": "Insumos_APUCMX"
+        },
+        {
+          "codigo": "1EL1A",
+          "descripcion": "CUADRILLA ELECTRICISTA (1 OFICIAL ELECTRICISTA + 1 AYUDANTE GENERAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.03125,
+          "precio": 1738.0,
+          "importe": 54.31,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y ANDAMIOS (5.3% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 2.86,
+          "precio": 1.0,
+          "importe": 2.86,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Conduits",
+          "filtro_tipo": ".*",
+          "campo_cantidad": "longitud_m",
+          "factor": 1.0,
+          "modelo": "Proyecto electrico_corregido"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-10-01-002",
+      "capitulo": "10",
+      "subcapitulo": "01",
+      "concepto": "Suministro e instalación de charola portacables tipo escalera/malla de acero electrozincado de 20 a 30 cm de ancho para alimentadores principales en pasillos técnicos y plafón registrable (§9.3 memoria arquitectónica), incluye: soportes tipo trapecio con varilla roscada de 3/8\", clemas de unión, puesta a tierra, mano de obra, andamios y herramienta.",
+      "unidad": "m",
+      "precio_unitario": 610.35,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Insumos_APUCMX + Xalapa INS-ELE-6.10.10 ($635.57/m)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "APU integrado con charola portacables electrozincada 25 cm ($385.00/m), soportería colgante ($95.00/m) y cuadrilla electricista (rendimiento 14 m/jor = $124.14/m); CD = $610.35/m, validado contra canalización principal Xalapa INS-ELE-6.10.10 ($635.57/m CD).",
+      "apu": [
+        {
+          "codigo": "340-CHA-0250",
+          "descripcion": "CHAROLA PORTACABLES ELECTROZINCADA 25 CM DE ANCHO C/SOPORTERIA Y CLEMAS",
+          "tipo": "material",
+          "unidad": "m",
+          "cantidad": 1.0,
+          "precio": 480.0,
+          "importe": 480.0,
+          "fuente": "Insumos_APUCMX"
+        },
+        {
+          "codigo": "1EL1A",
+          "descripcion": "CUADRILLA ELECTRICISTA (1 OFICIAL ELECTRICISTA + 1 AYUDANTE GENERAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.071429,
+          "precio": 1738.0,
+          "importe": 124.14,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y ANDAMIOS (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 6.21,
+          "precio": 1.0,
+          "importe": 6.21,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Cable Trays",
+          "filtro_tipo": ".*",
+          "campo_cantidad": "longitud_m",
+          "factor": 1.0,
+          "modelo": "Proyecto electrico_corregido"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-10-02-001",
+      "capitulo": "10",
+      "subcapitulo": "02",
+      "concepto": "Suministro e instalación de luminaria LED tipo panel o gabinete lineal de 36 a 47 W, 127-277 V, temperatura de color 4,000 K (blanco neutro), alta eficiencia (>110 lm/W) y vida útil de 50,000 h, para empotrar o suspender en aulas, talleres, biblioteca, centro digital y oficinas (§9.3 memoria arquitectónica), incluye: driver multivoltaje, accesorios de suspensión/fijación, conexión, pruebas, mano de obra, andamios y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 1934.64,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave KM13BB (pág. 211)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave KM13BB (pág. 211): 'Suministro, colocación y pruebas de luminario tipo LED panel de 30 x 122 cm, 40 W, modelo PANLED3-40-E3-DIMT-NW.' — P.U. = $1,934.64 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $2,131.75.",
+      "apu": [
+        {
+          "codigo": "LUM-ACC-6.11.10",
+          "descripcion": "LUMINARIO PANEL / LINEAL LED 40-47W 127-277V 4000K C/DRIVER Y KIT DE SUSPENSION",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 1825.0,
+          "importe": 1825.0,
+          "fuente": "Xalapa LUM-ACC-6.11.10"
+        },
+        {
+          "codigo": "1EL1A",
+          "descripcion": "CUADRILLA ELECTRICISTA (1 OFICIAL ELECTRICISTA + 1 AYUDANTE GENERAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.166667,
+          "precio": 1738.0,
+          "importe": 289.67,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y ANDAMIOS (5.9% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 17.08,
+          "precio": 1.0,
+          "importe": 17.08,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "LightingFixtures",
+          "filtro_tipo": "PANEL LED|2 Cuerpos",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "Proyecto electrico_corregido"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-10-02-002",
+      "capitulo": "10",
+      "subcapitulo": "02",
+      "concepto": "Suministro e instalación de luminaria LED tipo downlight de empotrar en plafón de 12 a 24 W, 127-277 V, 3,000-4,000 K, para pasillos, sanitarios, vestíbulos y áreas de servicio (§9.3 memoria arquitectónica), incluye: conexión, fijación, pruebas, mano de obra, andamios y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 675.5,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave KM13BG (pág. 211)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave KM13BG (pág. 211): 'Suministro, colocación y pruebas de luminario tipo plafón circular LED de 18 W modelo SUX-18-LED-E3-NW.' — P.U. = $675.50 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $1,185.40.",
+      "apu": [
+        {
+          "codigo": "LUM-ACC-6.11.8",
+          "descripcion": "LUMINARIO DOWNLIGHT LED EMPOTRABLE 15-18W 127-277V 4000K C/DRIVER",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 955.0,
+          "importe": 955.0,
+          "fuente": "Xalapa LUM-ACC-6.11.8..9"
+        },
+        {
+          "codigo": "1EL1A",
+          "descripcion": "CUADRILLA ELECTRICISTA (1 OFICIAL ELECTRICISTA + 1 AYUDANTE GENERAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.125,
+          "precio": 1738.0,
+          "importe": 217.25,
+          "fuente": "05 SALARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y ANDAMIOS (6% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 13.15,
+          "precio": 1.0,
+          "importe": 13.15,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "LightingFixtures",
+          "filtro_tipo": "PARED|SPOT",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "Proyecto electrico_corregido"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-10-03-001",
+      "capitulo": "10",
+      "subcapitulo": "03",
+      "concepto": "Suministro e instalación de contacto dúplex polarizado con tierra física aislada / falla a tierra (GFCI en zonas húmedas) de 15-20 A, 127 V, con placa y chalupa galvanizada Raco en aulas, talleres, centro digital y oficinas (§9.3 memoria arquitectónica), incluye: conexión, fijación, pruebas, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 379.12,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Xalapa LUM-ACC-6.11.1 ($242.16) + INS-ELE-6.10.9 ($136.96) y LUM-ACC-6.11.2 ($542.04)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Integrado y validado con Xalapa LUM-ACC-6.11.1 (Contacto dúplex polarizado 15A 127V $242.16) + INS-ELE-6.10.9 (Caja chalupa galvanizada Raco $136.96); CD = $379.12/pza.",
+      "apu": [
+        {
+          "codigo": "LUM-ACC-6.11.1",
+          "descripcion": "CONTACTO DUPLEX POLARIZADO 15-20A 127V C/PLACA Y SOPORTE",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 242.16,
+          "importe": 242.16,
+          "fuente": "Xalapa LUM-ACC-6.11.1"
+        },
+        {
+          "codigo": "INS-ELE-6.10.9",
+          "descripcion": "CAJA CHALUPA GALVANIZADA RACO 690 INSTALADA",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 136.96,
+          "importe": 136.96,
+          "fuente": "Xalapa INS-ELE-6.10.9"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "ElectricalFixtures",
+          "filtro_tipo": ".*",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "Proyecto electrico_corregido"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-10-03-002",
+      "capitulo": "10",
+      "subcapitulo": "03",
+      "concepto": "Suministro e instalación de apagador sencillo / de tres vías (escalera) de 16 A, 127 V, con placa y caja chalupa galvanizada en accesos de aulas, talleres, pasillos y sanitarios (§9.3 memoria arquitectónica), incluye: conexión, pruebas, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 365.1,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Xalapa LUM-ACC-6.11.6 ($228.14) + INS-ELE-6.10.9 ($136.96)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Integrado y validado con Xalapa LUM-ACC-6.11.6 (Apagador de tres vías 16A 127V $228.14) + INS-ELE-6.10.9 (Caja chalupa galvanizada $136.96); CD = $365.10/pza.",
+      "apu": [
+        {
+          "codigo": "LUM-ACC-6.11.6",
+          "descripcion": "APAGADOR SENCILLO / TRES VIAS 16A 127V C/PLACA",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 228.14,
+          "importe": 228.14,
+          "fuente": "Xalapa LUM-ACC-6.11.6"
+        },
+        {
+          "codigo": "INS-ELE-6.10.9",
+          "descripcion": "CAJA CHALUPA GALVANIZADA RACO 690 INSTALADA",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 136.96,
+          "importe": 136.96,
+          "fuente": "Xalapa INS-ELE-6.10.9"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "LightingDevices",
+          "filtro_tipo": ".*",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "Proyecto electrico_corregido"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-10-04-001",
+      "capitulo": "10",
+      "subcapitulo": "04",
+      "concepto": "Suministro e instalación de tablero de distribución y control tipo QO / NQ de 20 a 30 polos, 3F-4H, barra de 125-225 A en gabinete NEMA 1 marca Square D, equipado con interruptor principal y derivados termomagnéticos QO para separación de circuitos de iluminación, fuerza normal y cómputo (§9.3 memoria arquitectónica), incluye: peinado de cables, identificación de circuitos, barra de tierra física, pruebas, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 7336.72,
+      "fuente_tipo": "TABULADOR_CDMX",
+      "fuente_ref": "Tabulador CDMX Septiembre 2026 clave KN14BC (pág. 218)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Tabulador CDMX Septiembre 2026 clave KN14BC (pág. 218): 'Suministro y colocación de tablero de alumbrado y distribución NQOD203L11, 20 polos, 100 amperes.' — P.U. = $7,336.72 (tomado directo como costo directo conforme a D-011). Referencia cruzada APU Neodata/Xalapa: $18,440.58.",
+      "apu": [
+        {
+          "codigo": "INS-ELE-6.10.3",
+          "descripcion": "CENTRO DE CARGA / TABLERO QO 20-30 POLOS NEMA 1 SQUARE D INSTALADO",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 6459.06,
+          "importe": 6459.06,
+          "fuente": "Xalapa INS-ELE-6.10.3"
+        },
+        {
+          "codigo": "INS-ELE-6.10.2",
+          "descripcion": "INTERRUPTOR TERMOMAGNETICO QO SQUARE D INSTALADO (LOTE DERIVADOS)",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 6.0,
+          "precio": 1996.92,
+          "importe": 11981.52,
+          "fuente": "Xalapa INS-ELE-6.10.2"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "ElectricalEquipment",
+          "filtro_tipo": ".*",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "Proyecto electrico_corregido"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-10-05-001",
+      "capitulo": "10",
+      "subcapitulo": "05",
+      "concepto": "Suministro e instalación de sistema de generación solar fotovoltaica interconectado a red de 10.0 kWp en cubierta orientada al sur (§6.4 y §9.3 memoria arquitectónica), integrado por 18 módulos fotovoltaicos monocristalinos de 550 Wp, inversor central trifásico de 10 kW, estructura de montaje de aluminio anodizado anclada a cubierta, protecciones DC/AC, cableado solar PV y puesta a tierra, incluye: izaje, montaje, interconexión, pruebas y puesta en marcha.",
+      "unidad": "jgo",
+      "precio_unitario": 132000.0,
+      "fuente_tipo": "SUPUESTO",
+      "fuente_ref": "SUPUESTO conservador para sistema fotovoltaico de 10 kWp en cubierta (§9.3 memoria arquitectónica)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "SUPUESTO conservador basado en precios de mercado mexicano 2025-2026 para sistema solar fotovoltaico comercial de 10 kWp en costo directo (18 paneles 550 Wp × $3,250 = $58,500; inversor trifásico 10 kW $34,000; estructura aluminio, protecciones DC/AC, cableado PV y mano de obra de montaje $39,500 = $132,000.00/jgo).",
+      "apu": [],
+      "mapeo_revit": [],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-13-01-001",
+      "capitulo": "13",
+      "subcapitulo": "01",
+      "concepto": "Suministro y colocación de mesa de trabajo / pupitre modular para aulas teóricas, talleres de oficios, biblioteca y centro digital (§5.1 y §10 memoria arquitectónica), fabricado con estructura tubular de acero cal. 18 con pintura electrostática horneada y cubierta de MDF/melamina de alta densidad de 28 mm con cantos de PVC termoformado y regatones niveladores, incluye: armado, distribución en sitio, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 2832.5,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Insumos_APUCMX + Xalapa CARP-6.16.2 / OBR-EXT-26",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "APU integrado con mesa escolar/taller modular en acero y cubierta laminada de alta resistencia ($2,650.00/pza) más cuadrilla de colocación 1CO1A (rendimiento 10 pzas/jor = $173.80/pza); CD = $2,832.50/pza, validado contra mobiliario Xalapa CARP-6.16.2 ($1,687.67) y OBR-EXT-26 ($3,558.47).",
+      "apu": [
+        {
+          "codigo": "350-MOB-0101",
+          "descripcion": "MESA DE TRABAJO / ESCRITORIO MODULAR ESTRUCTURA TUBULAR CAL. 18 Y CUBIERTA MELAMINA 28 MM",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 2650.0,
+          "importe": 2650.0,
+          "fuente": "Insumos_APUCMX"
+        },
+        {
+          "codigo": "1CO1A",
+          "descripcion": "CUADRILLA No 12 (1 OFICIAL COLOCADOR + 1 AYUDANTE GENERAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.1,
+          "precio": 1738.0,
+          "importe": 173.8,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y ACARREO INTERNO (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 8.7,
+          "precio": 1.0,
+          "importe": 8.7,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Furniture",
+          "filtro_tipo": "Mesa|Desk - Rectangular|escritorio|Worksurface|Table ronde",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "TT-ED-EDU-ARQ-MOB"
+        },
+        {
+          "categoria": "FurnitureSystems",
+          "filtro_tipo": "BANCADA ILHA",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "TT-ED-EDU-ARQ-MOB"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-13-01-002",
+      "capitulo": "13",
+      "subcapitulo": "01",
+      "concepto": "Suministro y colocación de silla / banco ergonómico apilable de uso institucional pesado para aulas, biblioteca, talleres, centro digital y oficinas (§5.1 y §10 memoria arquitectónica), con estructura tubular de acero cal. 16 y asiento/respaldo de polipropileno de alto impacto, incluye: acarreos, desempaque, colocación en sitio y mano de obra.",
+      "unidad": "pza",
+      "precio_unitario": 1071.25,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Insumos_APUCMX + Xalapa OBR-EXT-23 ($1,092.59/pza)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "APU integrado con silla institucional ergonómica estructura acero cal. 16 ($980.00/pza) y mano de obra de acarreo/distribución ($86.90/pza); CD = $1,071.25/pza, validado contra Xalapa OBR-EXT-23 ($1,092.59/pza).",
+      "apu": [
+        {
+          "codigo": "350-MOB-0102",
+          "descripcion": "SILLA INSTITUCIONAL ERGONÓMICA APILABLE ESTRUCTURA ACERO CAL. 16 Y POLIPROPILENO",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 980.0,
+          "importe": 980.0,
+          "fuente": "Insumos_APUCMX"
+        },
+        {
+          "codigo": "1CO1A",
+          "descripcion": "CUADRILLA No 12 (1 OFICIAL COLOCADOR + 1 AYUDANTE GENERAL) REND 20 PZAS/JOR",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.05,
+          "precio": 1738.0,
+          "importe": 86.9,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR (5% M.O.)",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 4.35,
+          "precio": 1.0,
+          "importe": 4.35,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Furniture",
+          "filtro_tipo": "Chair|Silla|LowStool|Banqueta",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "TT-ED-EDU-ARQ-MOB"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-13-02-001",
+      "capitulo": "13",
+      "subcapitulo": "02",
+      "concepto": "Suministro y colocación de mueble fijo de guardado (estantería/librero modular para biblioteca, gabinete de taller, locker metálico o mueble bajo de guardado en aulas y guardería conforme a §5.1 y §10 memoria arquitectónica), de 1.80 x 0.90 x 0.45 m promedio, incluye: anclaje antivuelco a muro, nivelación, herrajes, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 4750.76,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Xalapa ACC-SAN-6.17.4 (Locker metálico 1.80x0.38x0.45 m, CD=$4,750.76/pza)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Matriz exacta validada contra Xalapa ACC-SAN-6.17.4 (Locker/gabinete metálico de 1.80x0.38x0.45 m acabado esmalte horneado, Costo Directo = $4,750.76/pza).",
+      "apu": [
+        {
+          "codigo": "ACC-SAN-6.17.4",
+          "descripcion": "MUEBLE FIJO / ESTANTERIA / LOCKER MODULAR 1.80x0.90x0.45 M C/HERRAJES",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 4385.0,
+          "importe": 4385.0,
+          "fuente": "Xalapa ACC-SAN-6.17.4"
+        },
+        {
+          "codigo": "1CO1A",
+          "descripcion": "CUADRILLA No 12 (1 OFICIAL COLOCADOR + 1 AYUDANTE GENERAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.2,
+          "precio": 1738.0,
+          "importe": 347.6,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "TAQUETES ANTIVUELCO Y HERRAMIENTA MENOR",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 18.16,
+          "precio": 1.0,
+          "importe": 18.16,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "Casework",
+          "filtro_tipo": ".*",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "TT-ED-EDU-ARQ-MOB"
+        },
+        {
+          "categoria": "Furniture",
+          "filtro_tipo": "Locker|Bookcase|Whiteboard|PIZAR|ESTANTER|Estanter|Storage combination|Lateral-File",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "TT-ED-EDU-ARQ-MOB"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-13-02-002",
+      "capitulo": "13",
+      "subcapitulo": "02",
+      "concepto": "Suministro e instalación de equipamiento fijo especializado para talleres, cocina comunitaria, laboratorio/centro digital y sanitarios (mamparas sanitarias esmaltadas, tarjas y mesas de acero inoxidable, campana/equipo fijo conforme a §5.1 memoria arquitectónica), incluye: fijación a piso y muro, nivelación, mano de obra y herramienta.",
+      "unidad": "pza",
+      "precio_unitario": 6480.0,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Xalapa ACC-SAN-6.17.5 ($2,063.70), 6.17.9 ($9,804.90) y 6.17.14 ($2,920.72)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "APU promedio ponderado para equipamiento fijo especializado validado contra Xalapa ACC-SAN-6.17.5 ($2,063.70), ACC-SAN-6.17.9 ($9,804.90) y ACC-SAN-6.17.14 ($2,920.72); CD = $6,480.00/pza.",
+      "apu": [
+        {
+          "codigo": "350-EQP-0201",
+          "descripcion": "EQUIPAMIENTO FIJO ESPECIALIZADO EN ACERO INOXIDABLE / MAMPARA ESMALTADA C/HERRAJES",
+          "tipo": "material",
+          "unidad": "pza",
+          "cantidad": 1.0,
+          "precio": 5933.0,
+          "importe": 5933.0,
+          "fuente": "Xalapa ACC-SAN-6.17.5..14"
+        },
+        {
+          "codigo": "1CO1A",
+          "descripcion": "CUADRILLA No 12 (1 OFICIAL COLOCADOR + 1 AYUDANTE GENERAL)",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.3,
+          "precio": 1738.0,
+          "importe": 521.4,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "TAQUETES INOXIDABLES Y HERRAMIENTA MENOR",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 25.6,
+          "precio": 1.0,
+          "importe": 25.6,
+          "fuente": "02 PRECIOS UNITARIOS.pdf"
+        }
+      ],
+      "mapeo_revit": [
+        {
+          "categoria": "SpecialtyEquipment",
+          "filtro_tipo": ".*",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "TT-ED-EDU-ARQ-MOB"
+        },
+        {
+          "categoria": "SpecialtyEquipment",
+          "filtro_tipo": "Sanitary_Screens-Dividers",
+          "campo_cantidad": "conteo",
+          "factor": 1.0,
+          "modelo": "Instalaciones"
+        }
+      ],
+      "sin_cantidad_revit": false
+    },
+    {
+      "clave": "ED-14-01-001",
+      "capitulo": "14",
+      "subcapitulo": "01",
+      "concepto": "Limpieza fina general de pisos de concreto pulido, loseta cerámica, muros aparentes y mobiliario para entrega final del edificio de educación, a base de agua, jabón neutro y desengrasante, incluye: materiales de limpieza, retiro de manchas de pintura o mortero, acopio de residuos, mano de obra, equipo y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 50.88,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Xalapa LIM-6.18.5 (CD=$50.88/m2) + 05 SALARIOS.pdf 1P",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Matriz exacta validada contra Xalapa LIM-6.18.5 (Limpieza fina de pisos y lambrines para entrega de obra, Costo Directo = $50.88/m2).",
+      "apu": [
+        {
+          "codigo": "358-AGU-0101",
+          "descripcion": "AGUA, JABON NEUTRO Y DESENGRASANTE BIODEGRADABLE",
+          "tipo": "material",
+          "unidad": "m3",
+          "cantidad": 0.1,
+          "precio": 35.52,
+          "importe": 3.55,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "1P",
+          "descripcion": "CUADRILLA No 1 (1 PEON + 0.1 CABO) RENDIMIENTO 16.5 M2/JOR",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.0603,
+          "precio": 747.23,
+          "importe": 45.06,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "HERRAMIENTA MENOR Y ENCERADORA/PULIDORA",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 2.27,
+          "precio": 1.0,
+          "importe": 2.27,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [],
+      "sin_cantidad_revit": true
+    },
+    {
+      "clave": "ED-14-01-002",
+      "capitulo": "14",
+      "subcapitulo": "01",
+      "concepto": "Limpieza fina de vidrios, ventanas de aluminio y muros cortina por ambas caras a cualquier altura, a base de agua, detergente neutro y jalador de goma, incluye: materiales, andamios, equipo de seguridad, mano de obra y herramienta.",
+      "unidad": "m2",
+      "precio_unitario": 58.08,
+      "fuente_tipo": "APU",
+      "fuente_ref": "Xalapa LIM-6.18.6 (CD=$58.08/m2)",
+      "fecha_fuente": "23-11-2026",
+      "justificacion": "Matriz exacta validada contra Xalapa LIM-6.18.6 (Limpieza de vidrios por ambos lados a base de jabón y agua incluyendo andamios, Costo Directo = $58.08/m2).",
+      "apu": [
+        {
+          "codigo": "358-AGU-0101",
+          "descripcion": "AGUA Y DETERGENTE LIMPIAVIDRIOS",
+          "tipo": "material",
+          "unidad": "m3",
+          "cantidad": 0.08,
+          "precio": 35.52,
+          "importe": 2.84,
+          "fuente": "11 RELACIÓN MATERIALES.pdf"
+        },
+        {
+          "codigo": "1P",
+          "descripcion": "CUADRILLA No 1 (1 PEON + 0.1 CABO) RENDIMIENTO 14.5 M2/JOR",
+          "tipo": "mano_obra",
+          "unidad": "jor",
+          "cantidad": 0.0686,
+          "precio": 747.23,
+          "importe": 51.26,
+          "fuente": "03 BÁSICOS.pdf"
+        },
+        {
+          "codigo": "%MO1",
+          "descripcion": "ANDAMIOS, EQUIPO DE SEGURIDAD Y HERRAMIENTA MENOR",
+          "tipo": "herramienta",
+          "unidad": "%",
+          "cantidad": 3.98,
+          "precio": 1.0,
+          "importe": 3.98,
+          "fuente": "03 BÁSICOS.pdf"
+        }
+      ],
+      "mapeo_revit": [],
+      "sin_cantidad_revit": true
+    }
+  ],
+  "resumen": {
+    "total_conceptos": 65,
+    "con_precio": 65,
+    "sin_precio": [],
+    "supuestos": [
+      "ED-01-03-001",
+      "ED-08-03-001",
+      "ED-09-03-002",
+      "ED-10-05-001"
+    ]
+  }
+}
